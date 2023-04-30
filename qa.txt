@@ -1,9 +1,9 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 1, warn = 1, info = 0
-IG Publisher Version: 1.3.5
-Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+err = 6, warn = 3, info = 0
+IG Publisher Version: 1.3.6
+Generated Sun Apr 30 03:45:56 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-cs-key-population-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-HIVDiagnosisExample : 0 / 0 / 1
@@ -21,7 +21,7 @@ Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Specimen-VLSpecimenExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-care-next-visit : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-care-next-visit : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnostic-report : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-episode-of-care : 0 / 0 / 1
@@ -31,7 +31,7 @@ Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-service-request-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-results : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-key-population-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-key-population-status : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-target-facility-encounter : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-transferring-facility-encounter : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 1
@@ -41,14 +41,14 @@ Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Task-HIVLabResultTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-condition : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-test-done : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-key-population-status : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-specimen-type : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-test-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-key-population-status : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-specimen-type : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-test-types : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-vl-result-code : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression : 0 / 0 / 1
- /github/workspace/input/rwanda-hiv : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression : 1 / 0 / 1
+ /github/workspace/input/rwanda-hiv : 0 / 1 / 1
 </table>
 == n/a ==
 == fsh-generated/resources/CodeSystem-cs-key-population-status.json ==
@@ -68,6 +68,7 @@ Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
 == fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
 == fsh-generated/resources/StructureDefinition-hiv-care-next-visit.json ==
+WARNING: StructureDefinition/hiv-care-next-visit: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-hiv-diagnosis.json ==
 == fsh-generated/resources/StructureDefinition-hiv-diagnostic-report.json ==
 == fsh-generated/resources/StructureDefinition-hiv-episode-of-care.json ==
@@ -78,6 +79,7 @@ Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/StructureDefinition-hiv-service-request-location.json ==
 == fsh-generated/resources/StructureDefinition-hiv-test-results.json ==
 == fsh-generated/resources/StructureDefinition-key-population-status.json ==
+WARNING: StructureDefinition/key-population-status: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/StructureDefinition-target-facility-encounter.json ==
 == fsh-generated/resources/StructureDefinition-transferring-facility-encounter.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
@@ -88,12 +90,17 @@ Generated Fri Apr 28 11:36:29 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/ValueSet-vs-condition.json ==
 == fsh-generated/resources/ValueSet-vs-hiv-test-done.json ==
 == fsh-generated/resources/ValueSet-vs-key-population-status.json ==
+ERROR: ValueSet/vs-key-population-status: ValueSet.compose[0].include[0].concept[1]: ConversionFactory received null input. Conversion advisor set to failFastOnNullInput.
 == fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed.json ==
+ERROR: ValueSet/vs-reason-for-assessment-or-test-not-performed: ValueSet.compose[0].include[0].concept[1]: ConversionFactory received null input. Conversion advisor set to failFastOnNullInput.
 == fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected.json ==
+ERROR: ValueSet/vs-reason-sample-cancelled-or-rejected: ValueSet.compose[0].include[0].concept[1]: ConversionFactory received null input. Conversion advisor set to failFastOnNullInput.
 == fsh-generated/resources/ValueSet-vs-specimen-type.json ==
+ERROR: ValueSet/vs-specimen-type: ValueSet.compose[0].include[0].concept[1]: ConversionFactory received null input. Conversion advisor set to failFastOnNullInput.
 == fsh-generated/resources/ValueSet-vs-test-types.json ==
+ERROR: ValueSet/vs-test-types: ValueSet.compose[0].include[0].concept[1]: ConversionFactory received null input. Conversion advisor set to failFastOnNullInput.
 == fsh-generated/resources/ValueSet-vs-vl-result-code.json ==
 == fsh-generated/resources/ValueSet-vs-vl-suppression.json ==
+ERROR: ValueSet/vs-vl-suppression: ValueSet.compose[0].include[0].concept[1]: ConversionFactory received null input. Conversion advisor set to failFastOnNullInput.
 == input/rwanda-hiv.xml ==
-WARNING: /github/workspace/input/rwanda-hiv: Unknown Parameters: [releaselabel, fmm-definition, excludelogbinaryformat]
-ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide: The extension http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency is not allowed to be used at this point (allowed = e:ImplementationGuide.definition; this element is [ImplementationGuide])
+WARNING: /github/workspace/input/rwanda-hiv: Unknown Parameters: []
