@@ -6,16 +6,13 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv</pre><div><p>xxxA brief description of what this IG is about</p>
 </div></div>
   </text>
-  <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-    <valueCode value="hl7.fhir.uv.tools#current"/>
-  </extension>
   <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv"/>
   <version value="0.1.0"/>
   <name value="RwandaHIV"/>
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-04-28T11:34:44+00:00"/>
+  <date value="2023-04-30T04:59:44+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -253,6 +250,9 @@
       <extension url="value">
         <valueString value="true"/>
       </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools#current"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
