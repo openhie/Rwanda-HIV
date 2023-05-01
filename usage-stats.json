@@ -157,9 +157,11 @@
       "ImplementationGuide.definition.resource"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-care-next-visit": [
+      "Bundle.entry.resource",
       "Encounter"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/key-population-status": [
+      "Bundle.entry.resource",
       "Patient"
     ]
   }
