@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-04-30T04:59:44+00:00",
+  "date" : "2023-05-01T18:23:44+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -634,6 +634,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/LabOrder"
+      },
+      "name" : "Example Bundle - LabOrder",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -652,6 +663,17 @@
       },
       "name" : "Practitioner",
       "description" : "The healthcare professional who has been assigned to a given lab task."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/EMR"
+      },
+      "name" : "Example Bundle - EMR",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"
     },
     {
       "extension" : [{
@@ -865,6 +887,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/LabResult"
+      },
+      "name" : "Example Bundle - LabResult",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -975,6 +1008,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/LabCancellation"
+      },
+      "name" : "Example Bundle - LabCancellation",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
       }],
       "reference" : {
@@ -1004,6 +1048,17 @@
       },
       "name" : "Viral Load Suppressions Status",
       "description" : "Describes a patient's current viral load status."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/LabRejection"
+      },
+      "name" : "Example Bundle - LabRejection",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
     },
     {
       "extension" : [{
