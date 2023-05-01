@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c26a342a-6f3d-4e1b-8f03-ee26e52bec16",
+  "id" : "7044061e-1f2a-4c12-b667-c4b6955947d0",
   "meta" : {
-    "lastUpdated" : "2023-05-01T08:56:42.357+00:00"
+    "lastUpdated" : "2023-05-01T09:10:15.212+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Reason for Assessment or Test Not Performed",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -39,8 +39,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:132fe5ab-06b1-45a5-aab7-5a279159bca2",
-        "timestamp" : "2023-05-01T08:57:15+00:00",
+        "identifier" : "urn:uuid:66092d5e-78cf-472a-954e-f3eee4a6b9d1",
+        "timestamp" : "2023-05-01T09:10:40+00:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -146,7 +146,7 @@
       "title" : "Specimen Type Used In Viral Load testing",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -166,8 +166,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8fc3a46a-a572-4154-a39f-63ff837cd941",
-        "timestamp" : "2023-05-01T08:57:19+00:00",
+        "identifier" : "urn:uuid:a764a929-37e0-4af4-976d-cc479143dd45",
+        "timestamp" : "2023-05-01T09:10:43+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -223,7 +223,7 @@
       "title" : "Viral Load Result Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -243,8 +243,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6080016c-2e8b-42a7-8a47-cdb3fecaa583",
-        "timestamp" : "2023-05-01T08:57:19+00:00",
+        "identifier" : "urn:uuid:f10eb54d-d19d-469a-97e9-70d6a08fae5b",
+        "timestamp" : "2023-05-01T09:10:44+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -272,7 +272,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-cs-key-population-status.html\">Key Population Status v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-472986005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/472986005\">472986005</a></td><td>http://snomed.info/sct</td><td>Sexually active with men</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-159799000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/159799000\">159799000</a></td><td>http://snomed.info/sct</td><td>Female prostitute</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-159800001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/159800001\">159800001</a></td><td>http://snomed.info/sct</td><td>Male prostitute</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-228388006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/228388006\">228388006</a></td><td>http://snomed.info/sct</td><td>Intravenous drug user</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-417284009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/417284009\">417284009</a></td><td>http://snomed.info/sct</td><td>Current drug user</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-407375002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/407375002\">407375002</a></td><td>http://snomed.info/sct</td><td>Surgically transgendered transsexual</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-rwanda-hiv-CodeSystem-cs-key-population-status-General-Population\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cs-key-population-status.html#cs-key-population-status-General-Population\">General-Population</a></td><td>http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status</td><td>General Population</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-key-population-status.html\">Key Population Status v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-rwanda-hiv-CodeSystem-cs-key-population-status-General-Population\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cs-key-population-status.html#cs-key-population-status-General-Population\">General-Population</a></td><td>http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status</td><td>General Population</td></tr></table></div>"
       },
       "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-key-population-status",
       "version" : "0.1.0",
@@ -280,7 +280,7 @@
       "title" : "Key Population Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -300,56 +300,18 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:155a5a8a-1a48-4721-b20a-7c2e5d2ecef8",
-        "timestamp" : "2023-05-01T08:57:21+00:00",
-        "total" : 7,
+        "identifier" : "urn:uuid:9d039657-0a06-4e14-88f8-1b6f01472eee",
+        "timestamp" : "2023-05-01T09:10:46+00:00",
+        "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
         },
         {
           "name" : "version",
           "valueUri" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "472986005",
-          "display" : "Sexually active with men"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "159799000",
-          "display" : "Female prostitute"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "159800001",
-          "display" : "Male prostitute"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "228388006",
-          "display" : "Intravenous drug user"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "417284009",
-          "display" : "Current drug user"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "407375002",
-          "display" : "Surgically transgendered transsexual"
-        },
-        {
           "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status",
           "code" : "General-Population",
           "display" : "General Population"
@@ -371,7 +333,7 @@
       "title" : "Reasons why a lab order was cancelled or rejected",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -391,8 +353,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:661fe8c1-ae28-48a7-8178-c4c019570e1b",
-        "timestamp" : "2023-05-01T08:57:21+00:00",
+        "identifier" : "urn:uuid:6abd091c-4758-4700-8315-5d607a4532fb",
+        "timestamp" : "2023-05-01T09:10:46+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -438,7 +400,7 @@
       "title" : "Viral Load Suppressions Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -458,8 +420,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:305c8fc1-4256-473a-85cd-28a74255d0f9",
-        "timestamp" : "2023-05-01T08:57:37+00:00",
+        "identifier" : "urn:uuid:b01d0b2e-6b7e-4f7f-baf9-127db2f3dc96",
+        "timestamp" : "2023-05-01T09:11:00+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -505,7 +467,7 @@
       "title" : "Conditions",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -525,8 +487,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cdcfcf1f-debb-473c-8df0-2c16be58ac00",
-        "timestamp" : "2023-05-01T08:57:37+00:00",
+        "identifier" : "urn:uuid:7da2e291-c547-4abd-ab0e-6979b138c032",
+        "timestamp" : "2023-05-01T09:11:00+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -562,7 +524,7 @@
       "title" : "Test Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -582,8 +544,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:df07e638-5fe1-477b-a97e-997697daff61",
-        "timestamp" : "2023-05-01T08:57:39+00:00",
+        "identifier" : "urn:uuid:0af853b6-ae07-4aa6-b994-e3451a361e01",
+        "timestamp" : "2023-05-01T09:11:02+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -624,7 +586,7 @@
       "title" : "HIV Test Done",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-01T08:56:42+00:00",
+      "date" : "2023-05-01T09:10:15+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -644,8 +606,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2aac118e-db9b-487c-b5d0-8775117b75f1",
-        "timestamp" : "2023-05-01T08:57:39+00:00",
+        "identifier" : "urn:uuid:ee1c499d-aeb7-40b6-80df-5e622debbc55",
+        "timestamp" : "2023-05-01T09:11:02+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
