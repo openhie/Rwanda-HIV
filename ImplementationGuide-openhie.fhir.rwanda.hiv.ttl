@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-01T18:23:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-02T21:23:22+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -528,6 +528,20 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/PatientPregnancyStatusExample> ;
+         fhir:reference [ fhir:v "Observation/PatientPregnancyStatusExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - PatientPregnancyStatusExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -561,6 +575,17 @@
        ] ;
        fhir:name [ fhir:v "Reason for Assessment or Test Not Performed" ] ;
        fhir:description [ fhir:v "A list of reasons associated with the service request for the lab order." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-pegnancy-staus" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Pregnancy Status" ] ;
+       fhir:description [ fhir:v "This profile is to record the pregnany status for the patient." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -939,6 +964,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change> ;
+         fhir:reference [ fhir:v "ValueSet/vs-reason-arv-regimen-change" ]
+       ] ;
+       fhir:name [ fhir:v "Reasons for ARV Regimen Change" ] ;
+       fhir:description [ fhir:v "Used by the careplan to indicate the reason why a patient had their ARV regimen changed." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -1047,6 +1083,17 @@
        ] ;
        fhir:name [ fhir:v "Conditions" ] ;
        fhir:description [ fhir:v "A list of possible HIV conditions." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant> ;
+         fhir:reference [ fhir:v "ValueSet/vs-patient-pregnant" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Pregnant" ] ;
+       fhir:description [ fhir:v "Used by the observation to indicate whether a patient is pregnant." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

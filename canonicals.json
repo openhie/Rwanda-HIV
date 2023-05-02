@@ -105,6 +105,13 @@
     "name" : "KeyPopulationStatus"
   },
   {
+    "id" : "patient-pegnancy-staus",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus",
+    "version" : "0.1.0",
+    "name" : "PatientPregnancyStatus"
+  },
+  {
     "id" : "target-facility-encounter",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",
@@ -145,6 +152,20 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-key-population-status",
     "version" : "0.1.0",
     "name" : "VSKeyPopulationSatus"
+  },
+  {
+    "id" : "vs-patient-pregnant",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant",
+    "version" : "0.1.0",
+    "name" : "VSPatientPregnant"
+  },
+  {
+    "id" : "vs-reason-arv-regimen-change",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change",
+    "version" : "0.1.0",
+    "name" : "VSReasonSForARVRegimenChange"
   },
   {
     "id" : "vs-reason-for-assessment-or-test-not-performed",
