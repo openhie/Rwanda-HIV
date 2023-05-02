@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-01T18:12:07+00:00"/>
+  <date value="2023-05-02T21:23:22+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -464,6 +464,16 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PatientPregnancyStatusExample"/>
+      </reference>
+      <name value="Example Observation - PatientPregnancyStatusExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -491,6 +501,16 @@
       </reference>
       <name value="Reason for Assessment or Test Not Performed"/>
       <description value="A list of reasons associated with the service request for the lab order."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-pegnancy-staus"/>
+      </reference>
+      <name value="Patient Pregnancy Status"/>
+      <description value="This profile is to record the pregnany status for the patient."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -794,6 +814,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-reason-arv-regimen-change"/>
+      </reference>
+      <name value="Reasons for ARV Regimen Change"/>
+      <description value="Used by the careplan to indicate the reason why a patient had their ARV regimen changed."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -881,6 +911,16 @@
       </reference>
       <name value="Conditions"/>
       <description value="A list of possible HIV conditions."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-patient-pregnant"/>
+      </reference>
+      <name value="Patient Pregnant"/>
+      <description value="Used by the observation to indicate whether a patient is pregnant."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -42,6 +42,10 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results",
         "title": "Lab Results"
+      },
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus",
+        "title": "Patient Pregnancy Status"
       }
     ],
     "Condition": [
