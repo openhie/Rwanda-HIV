@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-01T18:23:44+00:00",
+  "date" : "2023-05-03T04:38:57+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -623,6 +623,17 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PatientPregnancyStatusExample"
+      },
+      "name" : "Example Observation - PatientPregnancyStatusExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -652,6 +663,17 @@
       },
       "name" : "Reason for Assessment or Test Not Performed",
       "description" : "A list of reasons associated with the service request for the lab order."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-pegnancy-staus"
+      },
+      "name" : "Patient Pregnancy Status",
+      "description" : "This profile is to record the pregnany status for the patient."
     },
     {
       "extension" : [{
@@ -986,6 +1008,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-reason-arv-regimen-change"
+      },
+      "name" : "Reasons for ARV Regimen Change",
+      "description" : "Used by the careplan to indicate the reason why a patient had their ARV regimen changed."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -1081,6 +1114,17 @@
       },
       "name" : "Conditions",
       "description" : "A list of possible HIV conditions."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-patient-pregnant"
+      },
+      "name" : "Patient Pregnant",
+      "description" : "Used by the observation to indicate whether a patient is pregnant."
     },
     {
       "extension" : [{
