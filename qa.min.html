@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 0, warn = 3, info = 0-->
+<!-- broken links = 1, errors = 1, warn = 3, info = 0-->
 <head>
   <title>RwandaHIV : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RwandaHIV</h1>
- <p>Generated Wed May 03 04:40:30 UTC 2023, FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = <a href="http://openhie.org/fhir/rwanda-hiv">http://openhie.org/fhir/rwanda-hiv</a> (<a href="http://openhie.org/fhir/rwanda-hiv/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Wed May 03 08:37:17 UTC 2023, FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = <a href="http://openhie.org/fhir/rwanda-hiv">http://openhie.org/fhir/rwanda-hiv</a> (<a href="http://openhie.org/fhir/rwanda-hiv/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.3.7</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = openhie.fhir.rwanda.hiv, Canonical = http://openhie.org/fhir/rwanda-hiv</td></tr>
@@ -57,14 +57,17 @@
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://openhie.org/fhir/rwanda-hiv (Problem #1 with package-list.json at http://openhie.org/fhir/rwanda-hiv: openhie.org)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 0, warn = 3, info = 0, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 1, warn = 3, info = 0, broken links = 1</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_MedicationRequest-HIVCareMedicationRequestExample"><b>/github/workspace/fsh-generated/resources/MedicationRequest-HIVCareMedicationRequestExample</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-hiv-care-next-visit"><b>/github/workspace/fsh-generated/resources/StructureDefinition-hiv-care-next-visit</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -81,23 +84,26 @@
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="MedicationRequest-HIVCareMedicationRequestExample.html#l354">output/MedicationRequest-HIVCareMedicationRequestExample.html#/html/body/div/div/div/div/div/div/p/a at Line 226, column 1062</a></b></td><td><b>error</b></td><td><b>The link 'ARVTreatmentRegimenSwitchedOrSubstitutedExample' for &quot;ARVTreatmentRegimenSwitchedOrSubstitutedExample&quot; cannot be resolved</b></td>
+   </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-hiv-care-next-visit"> </a>
-<h2><a href="StructureDefinition-hiv-care-next-visit.html">fsh-generated/resources/StructureDefinition-hiv-care-next-visit.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<a name="_github_workspace_fsh-generated_resources_MedicationRequest-HIVCareMedicationRequestExample"> </a>
+<h2><a href="MedicationRequest-HIVCareMedicationRequestExample.html">fsh-generated/resources/MedicationRequest-HIVCareMedicationRequestExample.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>MedicationRequest: Validated against <i>this.</i><a href="StructureDefinition-hiv-med-req.html">HIV Care Medication Request</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.context[0]</b></td><td><b>warning</b></td><td title=""><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule: "> Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><b>MedicationRequest.basedOn[0] (l26/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ARVTreatmentRegimenSwitchedOrSubstitutedExample'</b></td>
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_StructureDefinition-key-population-status"> </a>
-<h2><a href="StructureDefinition-key-population-status.html">fsh-generated/resources/StructureDefinition-key-population-status.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-hiv-care-next-visit"> </a>
+<h2><a href="StructureDefinition-hiv-care-next-visit.html">fsh-generated/resources/StructureDefinition-hiv-care-next-visit.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -109,9 +115,22 @@
    </tr>
 </table>
 <hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-key-population-status"> </a>
+<h2><a href="StructureDefinition-key-population-status.html">fsh-generated/resources/StructureDefinition-key-population-status.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.context[0]</b></td><td><b>warning</b></td><td title=""><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule: "> Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_github_workspace_input_rwanda-hiv"> </a>
-<h2><a href="ImplementationGuide-openhie.fhir.rwanda.hiv.html">input/rwanda-hiv.xml</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(0)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"></div>
+<h2><a href="ImplementationGuide-openhie.fhir.rwanda.hiv.html">input/rwanda-hiv.xml</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"></div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
@@ -123,9 +142,17 @@
 <a name="suppressed"> </a>
 <p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
 <p><b>Not conerned about these warnings because we did not construct resources using xml becuase Sushi was used to generate the JSON FHIR resource examples</b></p><ul>
- <li>%Unable to find ImplementationGuide.definition.resource.description for the resource% <span style="color: navy">(23 uses)<span></li>
+ <li>%Unable to find ImplementationGuide.definition.resource.description for the resource% <span style="color: navy">(24 uses)<span></li>
 </ul>
 <a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Reference_REF_CantResolve"> </a>
+<h2>Reference_REF_CantResolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="MedicationRequest-HIVCareMedicationRequestExample.html">fsh-generated/resources/MedicationRequest-HIVCareMedicationRequestExample.json</a></td><td><b>Unable to resolve resource with reference 'ARVTreatmentRegimenSwitchedOrSubstitutedExample'</b></td>
+   </tr>
+</table>
 </body>
 </html>

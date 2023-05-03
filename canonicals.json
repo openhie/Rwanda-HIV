@@ -63,6 +63,13 @@
     "name" : "HIVLabTask"
   },
   {
+    "id" : "hiv-med-req",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req",
+    "version" : "0.1.0",
+    "name" : "HIVCareMedicationRequest"
+  },
+  {
     "id" : "hiv-organization",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
@@ -131,6 +138,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
+  },
+  {
+    "id" : "vs-arv-regimen",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
+    "version" : "0.1.0",
+    "name" : "VSARVRegimen"
   },
   {
     "id" : "vs-condition",
