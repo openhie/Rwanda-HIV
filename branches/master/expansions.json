@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "656d966f-5c69-4031-aa1c-693d6a48bf3b",
+  "id" : "9b6a931b-5531-4c8e-b9fb-cbb476ca25a5",
   "meta" : {
-    "lastUpdated" : "2023-05-03T04:38:57.748+00:00"
+    "lastUpdated" : "2023-05-04T06:27:52.783+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Reason for Assessment or Test Not Performed",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -39,8 +39,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dd8eead3-a3bc-4530-99f8-a71ad84d0a73",
-        "timestamp" : "2023-05-03T04:39:28+00:00",
+        "identifier" : "urn:uuid:23cdd85f-1c9e-42ae-9873-1bee9b476459",
+        "timestamp" : "2023-05-04T06:28:20+00:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -146,7 +146,7 @@
       "title" : "Specimen Type Used In Viral Load testing",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -166,8 +166,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:90a29300-0e1d-4e0e-8f12-20004cd071c4",
-        "timestamp" : "2023-05-03T04:39:34+00:00",
+        "identifier" : "urn:uuid:6c52e720-119a-439c-9c22-043c2423201f",
+        "timestamp" : "2023-05-04T06:28:24+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -233,7 +233,7 @@
       "title" : "Viral Load Result Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -253,8 +253,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ab7ad052-d387-43fc-a83d-837ac2466e99",
-        "timestamp" : "2023-05-03T04:39:34+00:00",
+        "identifier" : "urn:uuid:cd1b614f-6a5c-44e8-868e-348b21fbd174",
+        "timestamp" : "2023-05-04T06:28:24+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -290,7 +290,7 @@
       "title" : "Key Population Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -310,8 +310,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b93be362-989c-44bc-8912-0c418ed5c226",
-        "timestamp" : "2023-05-03T04:39:36+00:00",
+        "identifier" : "urn:uuid:f96cc952-73fe-41c5-b555-356053049628",
+        "timestamp" : "2023-05-04T06:28:26+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -381,7 +381,7 @@
       "title" : "Reasons why a lab order was cancelled or rejected",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -401,8 +401,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d0a4cf47-f291-40e1-9f16-722dfdd9e836",
-        "timestamp" : "2023-05-03T04:39:36+00:00",
+        "identifier" : "urn:uuid:b97c3517-7dfe-47a3-9ff1-af8222f8c75c",
+        "timestamp" : "2023-05-04T06:28:26+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -448,7 +448,7 @@
       "title" : "Reasons for ARV Regimen Change",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -468,8 +468,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:129edfed-a788-4c53-ae97-1a0c83d3751f",
-        "timestamp" : "2023-05-03T04:39:47+00:00",
+        "identifier" : "urn:uuid:cfd66b61-d4b2-47ca-876f-9b7dc37bf4f9",
+        "timestamp" : "2023-05-04T06:28:32+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -550,7 +550,7 @@
       "title" : "Viral Load Suppressions Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -570,8 +570,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5e86d76f-3aff-46ea-9637-79050a694443",
-        "timestamp" : "2023-05-03T04:39:52+00:00",
+        "identifier" : "urn:uuid:4d93480a-f3c8-4680-b169-cf53602fe86c",
+        "timestamp" : "2023-05-04T06:28:35+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -617,7 +617,7 @@
       "title" : "Conditions",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -637,8 +637,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6d6529f8-e325-494c-a926-96fe447960a2",
-        "timestamp" : "2023-05-03T04:39:52+00:00",
+        "identifier" : "urn:uuid:9e0a7feb-878d-4c84-b622-6f22359b3d24",
+        "timestamp" : "2023-05-04T06:28:35+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -674,7 +674,7 @@
       "title" : "Patient Pregnant",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -694,8 +694,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d8a2f89b-7624-4c2b-99f6-a82f9b7cf216",
-        "timestamp" : "2023-05-03T04:39:52+00:00",
+        "identifier" : "urn:uuid:da6331e4-9be8-4b22-9eb1-a49d4d9b3442",
+        "timestamp" : "2023-05-04T06:28:35+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -728,6 +728,163 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 21 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-387105006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/387105006\">387105006</a></td><td>http://snomed.info/sct</td><td>Didanosine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-387005008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/387005008\">387005008</a></td><td>http://snomed.info/sct</td><td>Abacavir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-772188001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/772188001\">772188001</a></td><td>http://snomed.info/sct</td><td>Product containing only abacavir and lamivudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-427314002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/427314002\">427314002</a></td><td>http://snomed.info/sct</td><td>Antiviral therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-878898002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/878898002\">878898002</a></td><td>http://snomed.info/sct</td><td>Product containing only atazanavir and ritonavir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-713464000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/713464000\">713464000</a></td><td>http://snomed.info/sct</td><td>Dolutegravir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-387001004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/387001004\">387001004</a></td><td>http://snomed.info/sct</td><td>Efavirenz</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-404856006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/404856006\">404856006</a></td><td>http://snomed.info/sct</td><td>Emtricitabine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-432121008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/432121008\">432121008</a></td><td>http://snomed.info/sct</td><td>Etravirine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386897000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/386897000\">386897000</a></td><td>http://snomed.info/sct</td><td>Lamivudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-776569000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/776569000\">776569000</a></td><td>http://snomed.info/sct</td><td>Product containing only lopinavir and ritonavir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386898005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/386898005\">386898005</a></td><td>http://snomed.info/sct</td><td>Nevirapine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-429707008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/429707008\">429707008</a></td><td>http://snomed.info/sct</td><td>Raltegravir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-703123005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/703123005\">703123005</a></td><td>http://snomed.info/sct</td><td>Rilpivirine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386896009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/386896009\">386896009</a></td><td>http://snomed.info/sct</td><td>Ritonavir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386895008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/386895008\">386895008</a></td><td>http://snomed.info/sct</td><td>Stavudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-422091007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/422091007\">422091007</a></td><td>http://snomed.info/sct</td><td>Tenofovir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-421203005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/421203005\">421203005</a></td><td>http://snomed.info/sct</td><td>Tenofovir disoproxil</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414090006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/414090006\">414090006</a></td><td>http://snomed.info/sct</td><td>Product containing emtricitabine and tenofovir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-387151007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/387151007\">387151007</a></td><td>http://snomed.info/sct</td><td>Zidovudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-776469003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/776469003\">776469003</a></td><td>http://snomed.info/sct</td><td>Product containing only lamivudine and zidovudine</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
+      "version" : "0.1.0",
+      "name" : "VSARVRegimen",
+      "title" : "A list of ARV regimen",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-04T06:27:52+00:00",
+      "publisher" : "Jembi Health Systems",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      }],
+      "description" : "A list of ARV regimen.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:6e63c378-f4b7-492d-9338-d9d638815a27",
+        "timestamp" : "2023-05-04T06:28:36+00:00",
+        "total" : 21,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "387105006",
+          "display" : "Didanosine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "387005008",
+          "display" : "Abacavir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "772188001",
+          "display" : "Product containing only abacavir and lamivudine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "427314002",
+          "display" : "Antiviral therapy"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "878898002",
+          "display" : "Product containing only atazanavir and ritonavir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "713464000",
+          "display" : "Dolutegravir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "387001004",
+          "display" : "Efavirenz"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "404856006",
+          "display" : "Emtricitabine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "432121008",
+          "display" : "Etravirine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "386897000",
+          "display" : "Lamivudine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "776569000",
+          "display" : "Product containing only lopinavir and ritonavir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "386898005",
+          "display" : "Nevirapine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "429707008",
+          "display" : "Raltegravir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "703123005",
+          "display" : "Rilpivirine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "386896009",
+          "display" : "Ritonavir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "386895008",
+          "display" : "Stavudine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "422091007",
+          "display" : "Tenofovir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "421203005",
+          "display" : "Tenofovir disoproxil"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "414090006",
+          "display" : "Product containing emtricitabine and tenofovir"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "387151007",
+          "display" : "Zidovudine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "776469003",
+          "display" : "Product containing only lamivudine and zidovudine"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-test-types",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -741,7 +898,7 @@
       "title" : "Test Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -761,8 +918,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f17a2964-8ba2-44bd-907b-32d98c51085d",
-        "timestamp" : "2023-05-03T04:39:54+00:00",
+        "identifier" : "urn:uuid:979b040f-7b2c-4ec4-981e-fb32f5d1f446",
+        "timestamp" : "2023-05-04T06:28:36+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -803,7 +960,7 @@
       "title" : "HIV Test Done",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-03T04:38:57+00:00",
+      "date" : "2023-05-04T06:27:52+00:00",
       "publisher" : "Jembi Health Systems",
       "contact" : [{
         "telecom" : [{
@@ -823,8 +980,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4e90777a-7a59-4717-9912-0791e5ee9b6c",
-        "timestamp" : "2023-05-03T04:39:54+00:00",
+        "identifier" : "urn:uuid:eb19b068-a00a-4cff-9aa5-0fb7c4b1981c",
+        "timestamp" : "2023-05-04T06:28:36+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",

@@ -72,6 +72,12 @@
         "title": "Lab Task"
       }
     ],
+    "MedicationRequest": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req",
+        "title": "HIV Care Medication Request"
+      }
+    ],
     "Organization": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location",
