@@ -18,7 +18,7 @@
   <name value="KeyPopulationStatus"/>
   <title value="Key HIV Population"/>
   <status value="active"/>
-  <date value="2023-05-03T08:57:52+00:00"/>
+  <date value="2023-05-04T12:38:34+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -47,7 +47,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Patient"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
