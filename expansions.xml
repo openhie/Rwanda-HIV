@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d522ac92-8e2e-4d09-9de4-dfe1774dd0b6"/>
+  <id value="5bffb77f-9a16-4fa3-8522-72ca51835e81"/>
   <meta>
-    <lastUpdated value="2023-05-05T17:19:03.623+00:00"/>
+    <lastUpdated value="2023-05-05T18:22:11.185+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -156,7 +156,7 @@
         <title value="Reason for Assessment or Test Not Performed"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -175,8 +175,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0153b3ad-8d1e-4a3f-bf56-786a3c0860e0"/>
-          <timestamp value="2023-05-05T17:19:44+00:00"/>
+          <identifier value="urn:uuid:a6f0b723-d6d5-4143-95f8-d7c2c8b8eb7f"/>
+          <timestamp value="2023-05-05T18:22:44+00:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -270,69 +270,6 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-is-patient-new"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-is-patient-new"/>
-        <version value="0.1.0"/>
-        <name value="VSIsPatientNew"/>
-        <title value="Is Patient New"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="https://www.jembi.org"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="info@jembi.org"/>
-          </telecom>
-        </contact>
-        <description value="Used by the observation to indicate whether the patient is new."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:d24007a0-4c12-496d-a65d-03b5a75f795c"/>
-          <timestamp value="2023-05-05T17:19:50+00:00"/>
-          <total value="0"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
     <resource>
       <ValueSet>
@@ -418,7 +355,7 @@
         <title value="Specimen Type Used In Viral Load testing"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -437,8 +374,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:de9204d9-88d6-422b-a802-14fb1d433e94"/>
-          <timestamp value="2023-05-05T17:19:51+00:00"/>
+          <identifier value="urn:uuid:2288f2ef-a6d5-41a8-885a-5321312fa7db"/>
+          <timestamp value="2023-05-05T18:22:50+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -529,7 +466,7 @@
         <title value="Viral Load Result Code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -548,8 +485,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2894bdec-a098-4b6a-a8d8-54da37d4c9cb"/>
-          <timestamp value="2023-05-05T17:19:51+00:00"/>
+          <identifier value="urn:uuid:fe81d4eb-fbe5-404a-bb91-4539bec990b1"/>
+          <timestamp value="2023-05-05T18:22:50+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -666,7 +603,7 @@
         <title value="Key Population Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -685,8 +622,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:14470425-987c-4364-b271-73a6d2b74d74"/>
-          <timestamp value="2023-05-05T17:19:53+00:00"/>
+          <identifier value="urn:uuid:b27d1523-ff94-4c3d-9074-d0b41262b0e3"/>
+          <timestamp value="2023-05-05T18:22:52+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -797,7 +734,7 @@
         <title value="Reasons why a lab order was cancelled or rejected"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -816,8 +753,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ff30e515-ac3e-4245-9c2b-6195ae66fa1c"/>
-          <timestamp value="2023-05-05T17:19:53+00:00"/>
+          <identifier value="urn:uuid:91d50d28-d3dd-4fc4-8e48-7a3cf3a92eab"/>
+          <timestamp value="2023-05-05T18:22:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -960,7 +897,7 @@
         <title value="Reasons for ARV Regimen Change"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -979,8 +916,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3b9b7fd9-1dc1-49dc-8d40-ec830de71594"/>
-          <timestamp value="2023-05-05T17:20:03+00:00"/>
+          <identifier value="urn:uuid:2ba6f50b-1b92-4ede-9aa1-1495237fd610"/>
+          <timestamp value="2023-05-05T18:23:06+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1102,7 +1039,7 @@
         <title value="Viral Load Suppressions Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1121,8 +1058,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ac3d1441-18cb-44a2-9c7e-691d453a1d4e"/>
-          <timestamp value="2023-05-05T17:20:07+00:00"/>
+          <identifier value="urn:uuid:3a5c90a2-626b-4795-8181-826bffb37dca"/>
+          <timestamp value="2023-05-05T18:23:11+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1193,7 +1130,7 @@
         <title value="Conditions"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1212,8 +1149,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8aa79f7c-afcf-45e4-baff-1c208cb75723"/>
-          <timestamp value="2023-05-05T17:20:07+00:00"/>
+          <identifier value="urn:uuid:f3a9850e-598b-45f4-92b6-8a92f053c75f"/>
+          <timestamp value="2023-05-05T18:23:11+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1290,7 +1227,7 @@
         <title value="Patient Pregnant"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1309,8 +1246,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:44f691cb-67ba-49cc-8421-205c1a375853"/>
-          <timestamp value="2023-05-05T17:20:07+00:00"/>
+          <identifier value="urn:uuid:b39cc2c7-a788-4f74-92b0-8f0f683a8351"/>
+          <timestamp value="2023-05-05T18:23:11+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1389,7 +1326,7 @@
         <title value="Test Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1408,8 +1345,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e8ac9fd2-1f2e-49c1-a941-5de5b16f9877"/>
-          <timestamp value="2023-05-05T17:20:08+00:00"/>
+          <identifier value="urn:uuid:fa258113-9fd3-4e91-bb57-163acb98aaa3"/>
+          <timestamp value="2023-05-05T18:23:13+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1475,7 +1412,7 @@
         <title value="HIV Test Done"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T17:19:03+00:00"/>
+        <date value="2023-05-05T18:22:11+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1494,8 +1431,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f4c55fcd-3105-4838-a22d-dd1fbd25ab59"/>
-          <timestamp value="2023-05-05T17:20:08+00:00"/>
+          <identifier value="urn:uuid:84ef194a-0b5d-4522-8392-4c7a86c13957"/>
+          <timestamp value="2023-05-05T18:23:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
