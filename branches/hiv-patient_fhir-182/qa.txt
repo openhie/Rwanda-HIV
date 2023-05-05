@@ -1,0 +1,136 @@
+﻿RwandaHIV : Validation Results
+=========================================
+
+err = 2, warn = 6, info = 1
+IG Publisher Version: 1.3.8
+Generated Fri May 05 17:20:43 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 1 / 15
+ /github/workspace/fsh-generated/resources/Bundle-LabCancellation : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Bundle-LabOrder : 0 / 0 / 11
+ /github/workspace/fsh-generated/resources/Bundle-LabRejection : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Bundle-LabResult : 0 / 0 / 11
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-key-population-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-HIVDiagnosisExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Encounter-TargetFacilityEncounterExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Encounter-TransferringFacilityEncounterExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/EpisodeOfCare-HIVEpisodeOfCareExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-DateHIVTestDoneExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-HIVPatientIsNewExample : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-HIVTestResultExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-PatientPregnancyStatusExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-PatientPregnantExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-HIVOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-HIVServiceRequestLocationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-HIVPatientExample : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Practitioner-PractitionerExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ServiceRequest-HIVServiceRequestExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Specimen-VLSpecimenExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-care-next-visit : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnostic-report : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-episode-of-care : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-is-new : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-service-request-location : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-results : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-days : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-years : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-pegnancy-staus : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-pregnant : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-target-facility-encounter : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-transferring-facility-encounter : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Task-HIVLabResultTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-condition : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-test-done : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-is-patient-new : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-key-population-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-patient-pregnant : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-specimen-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-test-types : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-result-code : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression : 0 / 0 / 1
+ /github/workspace/input/rwanda-hiv : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/Bundle-EMR.json ==
+WARNING: Bundle/EMR: Bundle.entry[0].resource/*Patient/HIVPatientExample*/.maritalStatus.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Bundle-LabCancellation.json ==
+== fsh-generated/resources/Bundle-LabOrder.json ==
+== fsh-generated/resources/Bundle-LabRejection.json ==
+== fsh-generated/resources/Bundle-LabResult.json ==
+== fsh-generated/resources/CodeSystem-cs-key-population-status.json ==
+== fsh-generated/resources/Condition-HIVDiagnosisExample.json ==
+== fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample.json ==
+== fsh-generated/resources/Encounter-TargetFacilityEncounterExample.json ==
+== fsh-generated/resources/Encounter-TransferringFacilityEncounterExample.json ==
+== fsh-generated/resources/EpisodeOfCare-HIVEpisodeOfCareExample.json ==
+== fsh-generated/resources/Observation-DateHIVTestDoneExample.json ==
+== fsh-generated/resources/Observation-HIVPatientIsNewExample.json ==
+ERROR: Observation/HIVPatientIsNewExample: Observation.code: None of the codings provided are in the value set 'Is Patient New' (http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-is-patient-new|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#452721000124101)
+ERROR: Observation/HIVPatientIsNewExample: Observation.code.coding[0]: Unable to find code 452721000124101 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 452721000124101 in http://snomed.info/sct; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server) for 'http://snomed.info/sct#452721000124101'
+== fsh-generated/resources/Observation-HIVTestResultExample.json ==
+== fsh-generated/resources/Observation-PatientPregnancyStatusExample.json ==
+== fsh-generated/resources/Observation-PatientPregnantExample.json ==
+== fsh-generated/resources/Organization-HIVOrganizationExample.json ==
+== fsh-generated/resources/Organization-HIVServiceRequestLocationExample.json ==
+== fsh-generated/resources/Patient-HIVPatientExample.json ==
+WARNING: Patient/HIVPatientExample: Patient.maritalStatus.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Practitioner-PractitionerExample.json ==
+== fsh-generated/resources/ServiceRequest-HIVServiceRequestExample.json ==
+== fsh-generated/resources/Specimen-VLSpecimenExample.json ==
+== fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
+== fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
+== fsh-generated/resources/StructureDefinition-hiv-care-next-visit.json ==
+WARNING: StructureDefinition/hiv-care-next-visit: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-hiv-diagnosis.json ==
+== fsh-generated/resources/StructureDefinition-hiv-diagnostic-report.json ==
+== fsh-generated/resources/StructureDefinition-hiv-episode-of-care.json ==
+== fsh-generated/resources/StructureDefinition-hiv-lab-task.json ==
+== fsh-generated/resources/StructureDefinition-hiv-organization.json ==
+== fsh-generated/resources/StructureDefinition-hiv-patient.json ==
+== fsh-generated/resources/StructureDefinition-hiv-patient-is-new.json ==
+== fsh-generated/resources/StructureDefinition-hiv-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-hiv-service-request-location.json ==
+== fsh-generated/resources/StructureDefinition-hiv-test-results.json ==
+== fsh-generated/resources/StructureDefinition-patient-age-days.json ==
+WARNING: StructureDefinition/patient-age-days: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-patient-age-years.json ==
+WARNING: StructureDefinition/patient-age-years: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-patient-pegnancy-staus.json ==
+== fsh-generated/resources/StructureDefinition-patient-pregnant.json ==
+== fsh-generated/resources/StructureDefinition-target-facility-encounter.json ==
+== fsh-generated/resources/StructureDefinition-transferring-facility-encounter.json ==
+== fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
+== fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample.json ==
+== fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample.json ==
+== fsh-generated/resources/Task-HIVLabOrderTaskExample.json ==
+== fsh-generated/resources/Task-HIVLabResultTaskExample.json ==
+== fsh-generated/resources/ValueSet-vs-condition.json ==
+== fsh-generated/resources/ValueSet-vs-hiv-test-done.json ==
+== fsh-generated/resources/ValueSet-vs-is-patient-new.json ==
+WARNING: ValueSet/vs-is-patient-new: ValueSet.compose[0].include[0].concept[0]: The code 452721000124101 is not valid in the system http://snomed.info/sct
+INFORMATION: ValueSet/vs-is-patient-new: ValueSet.compose[0].include[0].concept[0]: Unable to find code 452721000124101 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 452721000124101 in http://snomed.info/sct; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server)
+== fsh-generated/resources/ValueSet-vs-key-population-status.json ==
+== fsh-generated/resources/ValueSet-vs-patient-pregnant.json ==
+== fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change.json ==
+== fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed.json ==
+== fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected.json ==
+== fsh-generated/resources/ValueSet-vs-specimen-type.json ==
+== fsh-generated/resources/ValueSet-vs-test-types.json ==
+== fsh-generated/resources/ValueSet-vs-vl-result-code.json ==
+== fsh-generated/resources/ValueSet-vs-vl-suppression.json ==
+== input/rwanda-hiv.xml ==
