@@ -147,7 +147,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Street name, number, direction & P.O. Box etc.","This component contains the house number, apartment number, street name, street direction,  P.O. Box number, delivery hints, and similar address information.","","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""137 Nowhere Street""/>","","",,,,,"",,,,"Address.line",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XAD.1 + XAD.2 (note: XAD.1 and XAD.2 have different meanings for a company address than for a person address)","AD.part[parttype = AL]","./StreetAddress (newline delimitted)"
 "Organization.address.city","Organization.address.city","","Municpality
-","",0,1,"","","Y","string {[]} {[]}
+","",1,1,"","","Y","string {[]} {[]}
 ","Name of city, town etc.","The name of the city, town, suburb, village or other community or delivery center.","","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Erewhon""/>","","",,,,,"",,,,"Address.city",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XAD.3","AD.part[parttype = CTY]","./Jurisdiction"
 "Organization.address.district","Organization.address.district","","County
@@ -162,7 +162,7 @@ Territory","",1,1,"","","Y","string {[]} {[]}
 ","",0,1,"","","Y","string {[]} {[]}
 ","Postal code for area","A postal code designating a region defined by the postal service.","","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""9132""/>","","",,,,,"",,,,"Address.postalCode",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XAD.5","AD.part[parttype = ZIP]","./PostalIdentificationCode"
-"Organization.address.country","Organization.address.country","","","",0,1,"","","Y","string {[]} {[]}
+"Organization.address.country","Organization.address.country","","","",1,1,"","","Y","string {[]} {[]}
 ","Country (e.g. can be ISO 3166 2 or 3 letter code)","Country - a nation as commonly understood or generally accepted.","ISO 3166 3 letter codes can be used in place of a human readable country name.","","","","","","","","",,,,,"",,,,"Address.country",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","XAD.6","AD.part[parttype = CNT]","./Country"
 "Organization.address.period","Organization.address.period","","","",0,1,"","","Y","Period {[]} {[]}

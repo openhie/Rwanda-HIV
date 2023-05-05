@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5bffb77f-9a16-4fa3-8522-72ca51835e81"/>
+  <id value="29065881-8bc3-4617-84f2-1c5da893cf85"/>
   <meta>
-    <lastUpdated value="2023-05-05T18:22:11.185+00:00"/>
+    <lastUpdated value="2023-05-05T18:27:53.300+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -156,7 +156,7 @@
         <title value="Reason for Assessment or Test Not Performed"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -175,8 +175,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a6f0b723-d6d5-4143-95f8-d7c2c8b8eb7f"/>
-          <timestamp value="2023-05-05T18:22:44+00:00"/>
+          <identifier value="urn:uuid:e29f2f71-82f7-4a72-9ac6-84804e37d415"/>
+          <timestamp value="2023-05-05T18:28:21+00:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -355,7 +355,7 @@
         <title value="Specimen Type Used In Viral Load testing"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -374,8 +374,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2288f2ef-a6d5-41a8-885a-5321312fa7db"/>
-          <timestamp value="2023-05-05T18:22:50+00:00"/>
+          <identifier value="urn:uuid:d12dff85-fefa-4e19-b42d-83251306c5ca"/>
+          <timestamp value="2023-05-05T18:28:26+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -466,7 +466,7 @@
         <title value="Viral Load Result Code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -485,8 +485,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fe81d4eb-fbe5-404a-bb91-4539bec990b1"/>
-          <timestamp value="2023-05-05T18:22:50+00:00"/>
+          <identifier value="urn:uuid:e5ad6b70-660d-4662-a748-f9c1b601dc2b"/>
+          <timestamp value="2023-05-05T18:28:26+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -603,7 +603,7 @@
         <title value="Key Population Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -622,8 +622,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b27d1523-ff94-4c3d-9074-d0b41262b0e3"/>
-          <timestamp value="2023-05-05T18:22:52+00:00"/>
+          <identifier value="urn:uuid:be2b4c65-9e66-4bea-891e-7c9437c85a46"/>
+          <timestamp value="2023-05-05T18:28:28+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -734,7 +734,7 @@
         <title value="Reasons why a lab order was cancelled or rejected"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -753,8 +753,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:91d50d28-d3dd-4fc4-8e48-7a3cf3a92eab"/>
-          <timestamp value="2023-05-05T18:22:52+00:00"/>
+          <identifier value="urn:uuid:ad502dce-2f6f-4350-a280-3b8120df8a58"/>
+          <timestamp value="2023-05-05T18:28:28+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -897,7 +897,7 @@
         <title value="Reasons for ARV Regimen Change"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -916,8 +916,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2ba6f50b-1b92-4ede-9aa1-1495237fd610"/>
-          <timestamp value="2023-05-05T18:23:06+00:00"/>
+          <identifier value="urn:uuid:c3e5763c-cef8-4cbe-972f-a8ebdbe00183"/>
+          <timestamp value="2023-05-05T18:28:34+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1039,7 +1039,7 @@
         <title value="Viral Load Suppressions Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1058,8 +1058,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3a5c90a2-626b-4795-8181-826bffb37dca"/>
-          <timestamp value="2023-05-05T18:23:11+00:00"/>
+          <identifier value="urn:uuid:617f29ea-b40a-4f60-beb0-5c169a49db3b"/>
+          <timestamp value="2023-05-05T18:28:38+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1130,7 +1130,7 @@
         <title value="Conditions"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1149,8 +1149,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f3a9850e-598b-45f4-92b6-8a92f053c75f"/>
-          <timestamp value="2023-05-05T18:23:11+00:00"/>
+          <identifier value="urn:uuid:95994fa1-4ad7-49f2-a52f-4c802af0449f"/>
+          <timestamp value="2023-05-05T18:28:38+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1227,7 +1227,7 @@
         <title value="Patient Pregnant"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1246,8 +1246,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b39cc2c7-a788-4f74-92b0-8f0f683a8351"/>
-          <timestamp value="2023-05-05T18:23:11+00:00"/>
+          <identifier value="urn:uuid:88a5d8eb-0b7e-474a-92ad-a72f6b59bb17"/>
+          <timestamp value="2023-05-05T18:28:38+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1275,6 +1275,347 @@
             <system value="http://snomed.info/sct"/>
             <code value="250423000"/>
             <display value="Pregnancy test positive"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 21 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-387105006"> </a>  
+                  <a href="http://snomed.info/id/387105006">387105006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Didanosine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-387005008"> </a>  
+                  <a href="http://snomed.info/id/387005008">387005008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Abacavir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-772188001"> </a>  
+                  <a href="http://snomed.info/id/772188001">772188001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Product containing only abacavir and lamivudine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-427314002"> </a>  
+                  <a href="http://snomed.info/id/427314002">427314002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Antiviral therapy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-878898002"> </a>  
+                  <a href="http://snomed.info/id/878898002">878898002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Product containing only atazanavir and ritonavir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-713464000"> </a>  
+                  <a href="http://snomed.info/id/713464000">713464000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Dolutegravir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-387001004"> </a>  
+                  <a href="http://snomed.info/id/387001004">387001004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Efavirenz</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-404856006"> </a>  
+                  <a href="http://snomed.info/id/404856006">404856006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Emtricitabine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-432121008"> </a>  
+                  <a href="http://snomed.info/id/432121008">432121008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Etravirine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-386897000"> </a>  
+                  <a href="http://snomed.info/id/386897000">386897000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lamivudine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-776569000"> </a>  
+                  <a href="http://snomed.info/id/776569000">776569000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Product containing only lopinavir and ritonavir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-386898005"> </a>  
+                  <a href="http://snomed.info/id/386898005">386898005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Nevirapine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-429707008"> </a>  
+                  <a href="http://snomed.info/id/429707008">429707008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Raltegravir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-703123005"> </a>  
+                  <a href="http://snomed.info/id/703123005">703123005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Rilpivirine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-386896009"> </a>  
+                  <a href="http://snomed.info/id/386896009">386896009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ritonavir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-386895008"> </a>  
+                  <a href="http://snomed.info/id/386895008">386895008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stavudine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-422091007"> </a>  
+                  <a href="http://snomed.info/id/422091007">422091007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tenofovir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-421203005"> </a>  
+                  <a href="http://snomed.info/id/421203005">421203005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tenofovir disoproxil</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-414090006"> </a>  
+                  <a href="http://snomed.info/id/414090006">414090006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Product containing emtricitabine and tenofovir</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-387151007"> </a>  
+                  <a href="http://snomed.info/id/387151007">387151007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Zidovudine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-776469003"> </a>  
+                  <a href="http://snomed.info/id/776469003">776469003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Product containing only lamivudine and zidovudine</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen"/>
+        <version value="0.1.0"/>
+        <name value="VSARVRegimen"/>
+        <title value="A list of ARV regimen"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.jembi.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@jembi.org"/>
+          </telecom>
+        </contact>
+        <description value="A list of ARV regimen."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f3522ab1-4452-458d-87eb-ce7b7a7ba85c"/>
+          <timestamp value="2023-05-05T18:28:39+00:00"/>
+          <total value="21"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="387105006"/>
+            <display value="Didanosine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="387005008"/>
+            <display value="Abacavir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="772188001"/>
+            <display value="Product containing only abacavir and lamivudine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="427314002"/>
+            <display value="Antiviral therapy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="878898002"/>
+            <display value="Product containing only atazanavir and ritonavir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="713464000"/>
+            <display value="Dolutegravir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="387001004"/>
+            <display value="Efavirenz"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="404856006"/>
+            <display value="Emtricitabine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="432121008"/>
+            <display value="Etravirine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386897000"/>
+            <display value="Lamivudine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="776569000"/>
+            <display value="Product containing only lopinavir and ritonavir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386898005"/>
+            <display value="Nevirapine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="429707008"/>
+            <display value="Raltegravir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="703123005"/>
+            <display value="Rilpivirine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386896009"/>
+            <display value="Ritonavir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386895008"/>
+            <display value="Stavudine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="422091007"/>
+            <display value="Tenofovir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="421203005"/>
+            <display value="Tenofovir disoproxil"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414090006"/>
+            <display value="Product containing emtricitabine and tenofovir"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="387151007"/>
+            <display value="Zidovudine"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="776469003"/>
+            <display value="Product containing only lamivudine and zidovudine"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1326,7 +1667,7 @@
         <title value="Test Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1345,8 +1686,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fa258113-9fd3-4e91-bb57-163acb98aaa3"/>
-          <timestamp value="2023-05-05T18:23:13+00:00"/>
+          <identifier value="urn:uuid:862d54cb-7d99-499e-aac4-5ab8efff1aa5"/>
+          <timestamp value="2023-05-05T18:28:39+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1412,7 +1753,7 @@
         <title value="HIV Test Done"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-05T18:22:11+00:00"/>
+        <date value="2023-05-05T18:27:53+00:00"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -1431,8 +1772,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:84ef194a-0b5d-4522-8392-4c7a86c13957"/>
-          <timestamp value="2023-05-05T18:23:13+00:00"/>
+          <identifier value="urn:uuid:2c4efb33-9dad-49e1-a059-192c7839fd69"/>
+          <timestamp value="2023-05-05T18:28:39+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>

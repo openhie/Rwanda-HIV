@@ -63,6 +63,13 @@
     "name" : "HIVLabTask"
   },
   {
+    "id" : "hiv-med-req",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req",
+    "version" : "0.1.0",
+    "name" : "HIVCareMedicationRequest"
+  },
+  {
     "id" : "hiv-organization",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
@@ -75,13 +82,6 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient",
     "version" : "0.1.0",
     "name" : "HIVPatient"
-  },
-  {
-    "id" : "hiv-patient-is-new",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new",
-    "version" : "0.1.0",
-    "name" : "HIVPatientIsNew"
   },
   {
     "id" : "hiv-practitioner",
@@ -105,18 +105,11 @@
     "name" : "HIVTestResult"
   },
   {
-    "id" : "patient-age-days",
+    "id" : "key-population-status",
     "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/key-population-status",
     "version" : "0.1.0",
-    "name" : "PatientAgeInMonths"
-  },
-  {
-    "id" : "patient-age-years",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
-    "version" : "0.1.0",
-    "name" : "PatientAgeInYears"
+    "name" : "KeyPopulationStatus"
   },
   {
     "id" : "patient-pegnancy-staus",
@@ -124,13 +117,6 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus",
     "version" : "0.1.0",
     "name" : "PatientPregnancyStatus"
-  },
-  {
-    "id" : "patient-pregnant",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant",
-    "version" : "0.1.0",
-    "name" : "PatientPregnant"
   },
   {
     "id" : "target-facility-encounter",
@@ -152,6 +138,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
+  },
+  {
+    "id" : "vs-arv-regimen",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
+    "version" : "0.1.0",
+    "name" : "VSARVRegimen"
   },
   {
     "id" : "vs-condition",
