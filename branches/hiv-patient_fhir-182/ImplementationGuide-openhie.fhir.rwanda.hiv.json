@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-05T17:19:03+00:00",
+  "date" : "2023-05-05T18:22:11+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -707,17 +707,6 @@
       },
       "name" : "Diagnosis",
       "description" : "This profile represents the confirmation of HIV diagnosis."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-is-patient-new"
-      },
-      "name" : "Is Patient New",
-      "description" : "Used by the observation to indicate whether the patient is new."
     },
     {
       "extension" : [{

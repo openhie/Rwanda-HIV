@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-05T17:19:03+00:00"/>
+  <date value="2023-05-05T18:22:11+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -541,16 +541,6 @@
       </reference>
       <name value="Diagnosis"/>
       <description value="This profile represents the confirmation of HIV diagnosis."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-is-patient-new"/>
-      </reference>
-      <name value="Is Patient New"/>
-      <description value="Used by the observation to indicate whether the patient is new."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

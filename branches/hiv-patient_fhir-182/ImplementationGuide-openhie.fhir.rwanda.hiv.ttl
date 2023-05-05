@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-05T17:19:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-05T18:22:11+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -622,17 +622,6 @@
        ] ;
        fhir:name [ fhir:v "Diagnosis" ] ;
        fhir:description [ fhir:v "This profile represents the confirmation of HIV diagnosis." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-is-patient-new> ;
-         fhir:reference [ fhir:v "ValueSet/vs-is-patient-new" ]
-       ] ;
-       fhir:name [ fhir:v "Is Patient New" ] ;
-       fhir:description [ fhir:v "Used by the observation to indicate whether the patient is new." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

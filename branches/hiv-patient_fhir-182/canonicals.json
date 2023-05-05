@@ -168,13 +168,6 @@
     "name" : "VSHIVTestDone"
   },
   {
-    "id" : "vs-is-patient-new",
-    "type" : "ValueSet",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-is-patient-new",
-    "version" : "0.1.0",
-    "name" : "VSIsPatientNew"
-  },
-  {
     "id" : "vs-key-population-status",
     "type" : "ValueSet",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-key-population-status",
