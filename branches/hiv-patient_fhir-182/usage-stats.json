@@ -8,14 +8,14 @@
       "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days",
       "title": "Patient Age In Months",
       "types": [
-        "CodeableConcept"
+        "integer"
       ]
     },
     {
       "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
       "title": "Patient Age In Years",
       "types": [
-        "CodeableConcept"
+        "integer"
       ]
     }
   ],
@@ -62,6 +62,12 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
         "title": "Lab Task"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req",
+        "title": "HIV Care Medication Request"
       }
     ],
     "Organization": [
