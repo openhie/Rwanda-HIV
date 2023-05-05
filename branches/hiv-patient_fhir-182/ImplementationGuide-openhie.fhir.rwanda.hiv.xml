@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-05T19:04:40+00:00"/>
+  <date value="2023-05-05T20:15:22+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -464,16 +464,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/PatientPregnancyStatusExample"/>
-      </reference>
-      <name value="Example Observation - PatientPregnancyStatusExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -494,6 +484,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-patient-pregnant"/>
+      </reference>
+      <name value="Patient Pregnancy Status"/>
+      <description value="This profile is to record the pregnacy status for the patient."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -507,30 +507,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/patient-pegnancy-staus"/>
-      </reference>
-      <name value="Patient Pregnancy Status"/>
-      <description value="This profile is to record the pregnany status for the patient."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/hiv-practitioner"/>
       </reference>
       <name value="Practitioner"/>
       <description value="The healthcare professional who has been assigned to a given lab task."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hiv-med-req"/>
-      </reference>
-      <name value="HIV Care Medication Request"/>
-      <description value="This profile is for recording the Patient's ARV Dispensing quantity in days."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -617,30 +597,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-key-population-status"/>
-      </reference>
-      <name value="Key Population Status"/>
-      <description value="A list of key population types"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vs-reason-sample-cancelled-or-rejected"/>
       </reference>
       <name value="Reasons why a lab order was cancelled or rejected"/>
       <description value="Reasons why a lab order was cancelled or rejected."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-pregnant"/>
-      </reference>
-      <name value="Patient Pregnant"/>
-      <description value="This profile is to record the patient pregnancy test outcome."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -754,13 +714,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cs-key-population-status"/>
+        <reference value="StructureDefinition/hiv-arv-treatment"/>
       </reference>
-      <name value="Key Population Status"/>
-      <description value="A list of key population types"/>
+      <name value="ARV Treatment"/>
+      <description value="This profile is to record prescribed ARV regimen"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -781,16 +741,6 @@
       </reference>
       <name value="Example ServiceRequest - HIVServiceRequestExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationRequest"/>
-      </extension>
-      <reference>
-        <reference value="MedicationRequest/HIVCareMedicationRequestExample"/>
-      </reference>
-      <name value="Example MedicationRequest - HIVCareMedicationRequestExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -900,7 +850,7 @@
         <reference value="Observation/PatientPregnantExample"/>
       </reference>
       <name value="Example Observation - PatientPregnantExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -914,13 +864,23 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CarePlan"/>
+      </extension>
+      <reference>
+        <reference value="CarePlan/ARVTreatmentExample"/>
+      </reference>
+      <name value="Example CarePlan - ARVTreatmentExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/patient-age-days"/>
+        <reference value="StructureDefinition/art-regimen-switched-or-substituted"/>
       </reference>
-      <name value="Patient Age In Months"/>
-      <description value="Age of the patient calculated in months."/>
+      <name value="ART Regimen Switched Or Substituted"/>
+      <description value="The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -981,6 +941,26 @@
       </reference>
       <name value="Example DiagnosticReport - HIVLabResultsDiagnosticReportExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-arvtreatment-activity-type"/>
+      </reference>
+      <name value="ARV Treatment Medication Request"/>
+      <description value="Codes used to represent a medication request for ART."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-age-months"/>
+      </reference>
+      <name value="Patient Age In Months"/>
+      <description value="Age of the patient calculated in months."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
