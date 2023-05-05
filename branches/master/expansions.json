@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "29065881-8bc3-4617-84f2-1c5da893cf85",
+  "id" : "8442036b-0fbc-4a35-9b36-58f5a0894296",
   "meta" : {
-    "lastUpdated" : "2023-05-05T18:27:53.300+00:00"
+    "lastUpdated" : "2023-05-05T20:52:16.819+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Reason for Assessment or Test Not Performed",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -38,8 +38,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e29f2f71-82f7-4a72-9ac6-84804e37d415",
-        "timestamp" : "2023-05-05T18:28:21+00:00",
+        "identifier" : "urn:uuid:0af638ce-6642-44ea-be22-20bd0097793d",
+        "timestamp" : "2023-05-05T20:52:43+00:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -145,7 +145,7 @@
       "title" : "Specimen Type Used In Viral Load testing",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -164,8 +164,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d12dff85-fefa-4e19-b42d-83251306c5ca",
-        "timestamp" : "2023-05-05T18:28:26+00:00",
+        "identifier" : "urn:uuid:8ec755f6-aa09-4c6d-a0fc-43592035c587",
+        "timestamp" : "2023-05-05T20:52:46+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -231,7 +231,7 @@
       "title" : "Viral Load Result Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -250,8 +250,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e5ad6b70-660d-4662-a748-f9c1b601dc2b",
-        "timestamp" : "2023-05-05T18:28:26+00:00",
+        "identifier" : "urn:uuid:13b5757c-8d45-4764-af19-85710ba02b3a",
+        "timestamp" : "2023-05-05T20:52:46+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -274,96 +274,6 @@
     }
   },
   {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-key-population-status",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-cs-key-population-status.html\">Key Population Status v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-472986005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/472986005\">472986005</a></td><td>http://snomed.info/sct</td><td>Sexually active with men</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-159799000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/159799000\">159799000</a></td><td>http://snomed.info/sct</td><td>Female prostitute</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-159800001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/159800001\">159800001</a></td><td>http://snomed.info/sct</td><td>Male prostitute</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-228388006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/228388006\">228388006</a></td><td>http://snomed.info/sct</td><td>Intravenous drug user</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-417284009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/417284009\">417284009</a></td><td>http://snomed.info/sct</td><td>Current drug user</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-407375002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/407375002\">407375002</a></td><td>http://snomed.info/sct</td><td>Surgically transgendered transsexual</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-rwanda-hiv-CodeSystem-cs-key-population-status-General-Population\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cs-key-population-status.html#cs-key-population-status-General-Population\">General-Population</a></td><td>http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status</td><td>General Population</td></tr></table></div>"
-      },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-key-population-status",
-      "version" : "0.1.0",
-      "name" : "VSKeyPopulationSatus",
-      "title" : "Key Population Status",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.jembi.org"
-        },
-        {
-          "system" : "email",
-          "value" : "info@jembi.org"
-        }]
-      }],
-      "description" : "A list of key population types",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:be2b4c65-9e66-4bea-891e-7c9437c85a46",
-        "timestamp" : "2023-05-05T18:28:28+00:00",
-        "total" : 7,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "472986005",
-          "display" : "Sexually active with men"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "159799000",
-          "display" : "Female prostitute"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "159800001",
-          "display" : "Male prostitute"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "228388006",
-          "display" : "Intravenous drug user"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "417284009",
-          "display" : "Current drug user"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "407375002",
-          "display" : "Surgically transgendered transsexual"
-        },
-        {
-          "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-key-population-status",
-          "code" : "General-Population",
-          "display" : "General Population"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -377,7 +287,7 @@
       "title" : "Reasons why a lab order was cancelled or rejected",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -396,8 +306,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ad502dce-2f6f-4350-a280-3b8120df8a58",
-        "timestamp" : "2023-05-05T18:28:28+00:00",
+        "identifier" : "urn:uuid:9a536259-1eee-4983-a567-5fa9d45c1053",
+        "timestamp" : "2023-05-05T20:52:48+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -443,7 +353,7 @@
       "title" : "Reasons for ARV Regimen Change",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -462,8 +372,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c3e5763c-cef8-4cbe-972f-a8ebdbe00183",
-        "timestamp" : "2023-05-05T18:28:34+00:00",
+        "identifier" : "urn:uuid:fb868ad1-1607-46ca-99aa-35bbba47a3b6",
+        "timestamp" : "2023-05-05T20:52:57+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -544,7 +454,7 @@
       "title" : "Viral Load Suppressions Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -563,8 +473,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:617f29ea-b40a-4f60-beb0-5c169a49db3b",
-        "timestamp" : "2023-05-05T18:28:38+00:00",
+        "identifier" : "urn:uuid:3730008e-c241-4d00-b11a-553690bcedc5",
+        "timestamp" : "2023-05-05T20:53:00+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -610,7 +520,7 @@
       "title" : "Conditions",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -629,8 +539,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:95994fa1-4ad7-49f2-a52f-4c802af0449f",
-        "timestamp" : "2023-05-05T18:28:38+00:00",
+        "identifier" : "urn:uuid:5849ffe9-6d58-4b3f-b465-54bded2b2f23",
+        "timestamp" : "2023-05-05T20:53:00+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -666,7 +576,7 @@
       "title" : "Patient Pregnant",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -685,8 +595,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:88a5d8eb-0b7e-474a-92ad-a72f6b59bb17",
-        "timestamp" : "2023-05-05T18:28:38+00:00",
+        "identifier" : "urn:uuid:5e4a4a33-7851-4d86-bf2d-7936759ca734",
+        "timestamp" : "2023-05-05T20:53:00+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -719,6 +629,62 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.74</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-45260-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/45260-7/\">45260-7</a></td><td>http://loinc.org</td><td>HIV ART medication</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
+      "version" : "0.1.0",
+      "name" : "VSARVMedicationRequest",
+      "title" : "ARV Treatment Medication Request",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-05T20:52:16+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      }],
+      "description" : "Codes used to represent a medication request for ART.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:7319b219-39c3-47a0-b2a7-eb580839fcb2",
+        "timestamp" : "2023-05-05T20:53:00+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.74"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "45260-7",
+          "display" : "HIV ART medication"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -732,7 +698,7 @@
       "title" : "A list of ARV regimen",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -751,8 +717,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f3522ab1-4452-458d-87eb-ce7b7a7ba85c",
-        "timestamp" : "2023-05-05T18:28:39+00:00",
+        "identifier" : "urn:uuid:6946cd8f-c553-492e-84f5-ce5da65b1cf1",
+        "timestamp" : "2023-05-05T20:53:02+00:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -888,7 +854,7 @@
       "title" : "Test Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -907,8 +873,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:862d54cb-7d99-499e-aac4-5ab8efff1aa5",
-        "timestamp" : "2023-05-05T18:28:39+00:00",
+        "identifier" : "urn:uuid:9005a696-f9c2-4929-ad37-7362646a47a8",
+        "timestamp" : "2023-05-05T20:53:02+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -949,7 +915,7 @@
       "title" : "HIV Test Done",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-05T18:27:53+00:00",
+      "date" : "2023-05-05T20:52:16+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -968,8 +934,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2c4efb33-9dad-49e1-a059-192c7839fd69",
-        "timestamp" : "2023-05-05T18:28:39+00:00",
+        "identifier" : "urn:uuid:345f7f1f-2112-4e90-ab47-1b651c522434",
+        "timestamp" : "2023-05-05T20:53:02+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
