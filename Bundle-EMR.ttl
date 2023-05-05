@@ -67,7 +67,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"HIVPatientExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;HIVPatientExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-patient.html\">Patient</a></p></div><p><b>Patient Age In Months</b>: 388</p><p><b>Patient Age In Years</b>: 32</p><p><b>name</b>: Jane Maria Smith (OFFICIAL)</p><p><b>telecom</b>: <a href=\"tel:+27821234567\">+27821234567</a>, <a href=\"mailto:someone@example.com\">someone@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1990-12-12</p><p><b>managingOrganization</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "388"^^xsd:integer ]
   ] [
      fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years"^^xsd:anyURI ] ;
