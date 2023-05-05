@@ -10,7 +10,7 @@
   "name" : "HIVCareNextAppointment",
   "title" : "Next Appointment Date",
   "status" : "active",
-  "date" : "2023-05-04T12:42:53+00:00",
+  "date" : "2023-05-05T17:19:03+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -39,7 +39,7 @@
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "Encounter"
+    "expression" : "Element"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",

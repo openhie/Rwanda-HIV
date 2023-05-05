@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-04T12:42:53+00:00",
+  "date" : "2023-05-05T17:19:03+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -689,17 +689,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/hiv-med-req"
-      },
-      "name" : "HIV Care Medication Request",
-      "description" : "This profile is for recording the Patient's ARV Dispensing quantity in days."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -722,6 +711,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-is-patient-new"
+      },
+      "name" : "Is Patient New",
+      "description" : "Used by the observation to indicate whether the patient is new."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Practitioner"
       }],
       "reference" : {
@@ -729,6 +729,17 @@
       },
       "name" : "Example Practitioner - PractitionerExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-age-years"
+      },
+      "name" : "Patient Age In Years",
+      "description" : "Age of the patient calculated in years."
     },
     {
       "extension" : [{
@@ -799,6 +810,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-pregnant"
+      },
+      "name" : "Patient Pregnant",
+      "description" : "This profile is to record the patient pregnancy test outcome."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Specimen"
       }],
       "reference" : {
@@ -865,13 +887,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/key-population-status"
+        "reference" : "StructureDefinition/hiv-patient-is-new"
       },
-      "name" : "Key HIV Population",
-      "description" : "Populations who are at higher risk for HIV."
+      "name" : "HIV Patient Is New",
+      "description" : "This profile is to record whether an HIV patient is new."
     },
     {
       "extension" : [{
@@ -964,13 +986,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationRequest"
+        "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "MedicationRequest/HIVCareMedicationRequestExample"
+        "reference" : "Observation/HIVPatientIsNewExample"
       },
-      "name" : "Example MedicationRequest - HIVCareMedicationRequestExample",
-      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req"
+      "name" : "Example Observation - HIVPatientIsNewExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"
     },
     {
       "extension" : [{
@@ -1085,6 +1107,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PatientPregnantExample"
+      },
+      "name" : "Example Observation - PatientPregnantExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -1092,6 +1125,17 @@
       },
       "name" : "HIV Organization",
       "description" : "Organization providing HIV Testing Services."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-age-days"
+      },
+      "name" : "Patient Age In Months",
+      "description" : "Age of the patient calculated in months."
     },
     {
       "extension" : [{
@@ -1169,17 +1213,6 @@
       },
       "name" : "Viral Load Specimen",
       "description" : "The test sample that was collected for the initiated lab order."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-arv-regimen"
-      },
-      "name" : "A list of ARV regimen",
-      "description" : "A list of ARV regimen."
     },
     {
       "extension" : [{

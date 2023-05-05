@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-04T12:42:53+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-05T17:19:03+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -600,17 +600,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req> ;
-         fhir:reference [ fhir:v "StructureDefinition/hiv-med-req" ]
-       ] ;
-       fhir:name [ fhir:v "HIV Care Medication Request" ] ;
-       fhir:description [ fhir:v "This profile is for recording the Patient's ARV Dispensing quantity in days." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
@@ -636,6 +625,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-is-patient-new> ;
+         fhir:reference [ fhir:v "ValueSet/vs-is-patient-new" ]
+       ] ;
+       fhir:name [ fhir:v "Is Patient New" ] ;
+       fhir:description [ fhir:v "Used by the observation to indicate whether the patient is new." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Practitioner" ]
        ] ) ;
        fhir:reference [
@@ -647,6 +647,17 @@
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-age-years" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Age In Years" ] ;
+       fhir:description [ fhir:v "Age of the patient calculated in years." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -716,6 +727,17 @@
        ] ;
        fhir:name [ fhir:v "Reasons why a lab order was cancelled or rejected" ] ;
        fhir:description [ fhir:v "Reasons why a lab order was cancelled or rejected." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-pregnant" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Pregnant" ] ;
+       fhir:description [ fhir:v "This profile is to record the patient pregnancy test outcome." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -794,14 +816,14 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/key-population-status> ;
-         fhir:reference [ fhir:v "StructureDefinition/key-population-status" ]
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new> ;
+         fhir:reference [ fhir:v "StructureDefinition/hiv-patient-is-new" ]
        ] ;
-       fhir:name [ fhir:v "Key HIV Population" ] ;
-       fhir:description [ fhir:v "Populations who are at higher risk for HIV." ]
+       fhir:name [ fhir:v "HIV Patient Is New" ] ;
+       fhir:description [ fhir:v "This profile is to record whether an HIV patient is new." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -911,16 +933,16 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "MedicationRequest" ]
+         fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/MedicationRequest/HIVCareMedicationRequestExample> ;
-         fhir:reference [ fhir:v "MedicationRequest/HIVCareMedicationRequestExample" ]
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVPatientIsNewExample> ;
+         fhir:reference [ fhir:v "Observation/HIVPatientIsNewExample" ]
        ] ;
-       fhir:name [ fhir:v "Example MedicationRequest - HIVCareMedicationRequestExample" ] ;
+       fhir:name [ fhir:v "Example Observation - HIVPatientIsNewExample" ] ;
        fhir:example [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new>
        ]
      ] [
        fhir:extension ( [
@@ -1050,6 +1072,20 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/PatientPregnantExample> ;
+         fhir:reference [ fhir:v "Observation/PatientPregnantExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - PatientPregnantExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -1058,6 +1094,17 @@
        ] ;
        fhir:name [ fhir:v "HIV Organization" ] ;
        fhir:description [ fhir:v "Organization providing HIV Testing Services." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-age-days" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Age In Months" ] ;
+       fhir:description [ fhir:v "Age of the patient calculated in months." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1144,17 +1191,6 @@
        ] ;
        fhir:name [ fhir:v "Viral Load Specimen" ] ;
        fhir:description [ fhir:v "The test sample that was collected for the initiated lab order." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen> ;
-         fhir:reference [ fhir:v "ValueSet/vs-arv-regimen" ]
-       ] ;
-       fhir:name [ fhir:v "A list of ARV regimen" ] ;
-       fhir:description [ fhir:v "A list of ARV regimen." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

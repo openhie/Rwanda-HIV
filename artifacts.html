@@ -231,15 +231,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-hiv-med-req.html"
-                     title="StructureDefinition/hiv-med-req">HIV Care Medication Request</a>
-               </td>
-               <td>
-<p>This profile is for recording the Patient’s ARV Dispensing quantity in days.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-hiv-diagnosis.html"
                      title="StructureDefinition/hiv-diagnosis">Diagnosis</a>
                </td>
@@ -254,6 +245,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>The result of the lab test which determines whether the patient is infected with HIV or not.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-patient-pregnant.html"
+                     title="StructureDefinition/patient-pregnant">Patient Pregnant</a>
+               </td>
+               <td>
+<p>This profile is to record the patient pregnancy test outcome.</p>
 </td>
             </tr>
             <tr>
@@ -281,6 +281,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>This profile is used to enrol the patient into HIV care.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hiv-patient-is-new.html"
+                     title="StructureDefinition/hiv-patient-is-new">HIV Patient Is New</a>
+               </td>
+               <td>
+<p>This profile is to record whether an HIV patient is new.</p>
 </td>
             </tr>
             <tr>
@@ -360,11 +369,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-key-population-status.html"
-                     title="StructureDefinition/key-population-status">Key HIV Population</a>
+                  <a href="StructureDefinition-patient-age-years.html"
+                     title="StructureDefinition/patient-age-years">Patient Age In Years</a>
                </td>
                <td>
-<p>Populations who are at higher risk for HIV.</p>
+<p>Age of the patient calculated in years.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-patient-age-days.html"
+                     title="StructureDefinition/patient-age-days">Patient Age In Months</a>
+               </td>
+               <td>
+<p>Age of the patient calculated in months.</p>
 </td>
             </tr>
             <tr>
@@ -395,6 +413,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>A list of reasons associated with the service request for the lab order.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-is-patient-new.html"
+                     title="ValueSet/vs-is-patient-new">Is Patient New</a>
+               </td>
+               <td>
+<p>Used by the observation to indicate whether the patient is new.</p>
 </td>
             </tr>
             <tr>
@@ -465,14 +492,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Used by the observation to indicate whether a patient is pregnant.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-vs-arv-regimen.html" title="ValueSet/vs-arv-regimen">A list of ARV regimen</a>
-               </td>
-               <td>
-<p>A list of ARV regimen.</p>
 </td>
             </tr>
             <tr>
@@ -607,8 +626,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="MedicationRequest-HIVCareMedicationRequestExample.html"
-                     title="MedicationRequest/HIVCareMedicationRequestExample">Example MedicationRequest - HIVCareMedicationRequestExample</a>
+                  <a href="Observation-HIVPatientIsNewExample.html"
+                     title="Observation/HIVPatientIsNewExample">Example Observation - HIVPatientIsNewExample</a>
                </td>
             </tr>
             <tr>
@@ -637,6 +656,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="Patient-HIVPatientExample.html" title="Patient/HIVPatientExample">Example Patient - HIVPatientExample</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-PatientPregnantExample.html"
+                     title="Observation/PatientPregnantExample">Example Observation - PatientPregnantExample</a>
                </td>
             </tr>
             <tr>
@@ -690,7 +715,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 4, 2023 12:42+0000">2023-05-04</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 5, 2023 17:19+0000">2023-05-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

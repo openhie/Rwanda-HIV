@@ -12,22 +12,17 @@
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/key-population-status",
-      "title": "Key HIV Population",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days",
+      "title": "Patient Age In Months",
       "types": [
-        "CodeableConcept",
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
+      "title": "Patient Age In Years",
+      "types": [
+        "CodeableConcept"
       ]
     }
   ],
@@ -46,6 +41,10 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pegnancy-staus",
         "title": "Patient Pregnancy Status"
+      },
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant",
+        "title": "Patient Pregnant"
       }
     ],
     "Condition": [
@@ -70,12 +69,6 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
         "title": "Lab Task"
-      }
-    ],
-    "MedicationRequest": [
-      {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req",
-        "title": "HIV Care Medication Request"
       }
     ],
     "Organization": [
@@ -170,7 +163,11 @@
       "Bundle.entry.resource",
       "Encounter"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/key-population-status": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days": [
+      "Bundle.entry.resource",
+      "Patient"
+    ],
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years": [
       "Bundle.entry.resource",
       "Patient"
     ]
