@@ -28,13 +28,6 @@
     "name" : "DateHIVTestDone"
   },
   {
-    "id" : "hiv-care-next-visit",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-care-next-visit",
-    "version" : "0.1.0",
-    "name" : "HIVCareNextAppointment"
-  },
-  {
     "id" : "hiv-diagnosis",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis",
@@ -63,13 +56,6 @@
     "name" : "HIVLabTask"
   },
   {
-    "id" : "hiv-med-req",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-med-req",
-    "version" : "0.1.0",
-    "name" : "HIVCareMedicationRequest"
-  },
-  {
     "id" : "hiv-organization",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
@@ -82,6 +68,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient",
     "version" : "0.1.0",
     "name" : "HIVPatient"
+  },
+  {
+    "id" : "hiv-patient-is-new",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new",
+    "version" : "0.1.0",
+    "name" : "HIVPatientIsNew"
   },
   {
     "id" : "hiv-practitioner",
@@ -105,11 +98,18 @@
     "name" : "HIVTestResult"
   },
   {
-    "id" : "key-population-status",
+    "id" : "patient-age-days",
     "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/key-population-status",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-days",
     "version" : "0.1.0",
-    "name" : "KeyPopulationStatus"
+    "name" : "PatientAgeInMonths"
+  },
+  {
+    "id" : "patient-age-years",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
+    "version" : "0.1.0",
+    "name" : "PatientAgeInYears"
   },
   {
     "id" : "patient-pegnancy-staus",
@@ -119,6 +119,13 @@
     "name" : "PatientPregnancyStatus"
   },
   {
+    "id" : "patient-pregnant",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-pregnant",
+    "version" : "0.1.0",
+    "name" : "PatientPregnant"
+  },
+  {
     "id" : "target-facility-encounter",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",
@@ -126,25 +133,11 @@
     "name" : "TargetFacilityEncounter"
   },
   {
-    "id" : "transferring-facility-encounter",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transferring-facility-encounter",
-    "version" : "0.1.0",
-    "name" : "TransferringFacilityEncounter"
-  },
-  {
     "id" : "viral-load-specimen",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
-  },
-  {
-    "id" : "vs-arv-regimen",
-    "type" : "ValueSet",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
-    "version" : "0.1.0",
-    "name" : "VSARVRegimen"
   },
   {
     "id" : "vs-condition",
