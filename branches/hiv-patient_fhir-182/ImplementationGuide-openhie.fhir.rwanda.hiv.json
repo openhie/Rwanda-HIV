@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-05T18:22:11+00:00",
+  "date" : "2023-05-05T18:45:12+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -920,17 +920,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/TransferringFacilityEncounterExample"
-      },
-      "name" : "Example Encounter - TransferringFacilityEncounterExample",
-      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transferring-facility-encounter"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -993,17 +982,6 @@
       },
       "name" : "Example EpisodeOfCare - HIVEpisodeOfCareExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/transferring-facility-encounter"
-      },
-      "name" : "Transferring Facility Encounter",
-      "description" : "This profile represents the facility the patient is being transferred from."
     },
     {
       "extension" : [{
@@ -1235,17 +1213,6 @@
       },
       "name" : "HIV Test Done",
       "description" : "Used by the observation to indicate that a HIV test was performed."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/hiv-care-next-visit"
-      },
-      "name" : "Next Appointment Date",
-      "description" : "A date representing the patient's next scheduled appointment."
     }],
     "page" : {
       "extension" : [{

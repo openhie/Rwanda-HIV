@@ -28,13 +28,6 @@
     "name" : "DateHIVTestDone"
   },
   {
-    "id" : "hiv-care-next-visit",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-care-next-visit",
-    "version" : "0.1.0",
-    "name" : "HIVCareNextAppointment"
-  },
-  {
     "id" : "hiv-diagnosis",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis",
@@ -138,13 +131,6 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",
     "version" : "0.1.0",
     "name" : "TargetFacilityEncounter"
-  },
-  {
-    "id" : "transferring-facility-encounter",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transferring-facility-encounter",
-    "version" : "0.1.0",
-    "name" : "TransferringFacilityEncounter"
   },
   {
     "id" : "viral-load-specimen",
