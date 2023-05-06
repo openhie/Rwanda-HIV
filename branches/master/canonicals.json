@@ -1,5 +1,11 @@
 [
   {
+    "id" : "LabOrderTaskActivityExample",
+    "type" : "ActivityDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample",
+    "version" : "0.1.0"
+  },
+  {
     "id" : "openhie.fhir.rwanda.hiv",
     "type" : "ImplementationGuide",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv",
@@ -63,6 +69,13 @@
     "name" : "HIVLabTask"
   },
   {
+    "id" : "hiv-lab-task-activity",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity",
+    "version" : "0.1.0",
+    "name" : "LabOrderTaskActivity"
+  },
+  {
     "id" : "hiv-organization",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
@@ -124,6 +137,20 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
     "version" : "0.1.0",
     "name" : "PatientAgeInYears"
+  },
+  {
+    "id" : "revised-by-user-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index",
+    "version" : "0.1.0",
+    "name" : "ResultRevisedBy"
+  },
+  {
+    "id" : "sample-reordered",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered",
+    "version" : "0.1.0",
+    "name" : "SampleReordered"
   },
   {
     "id" : "target-facility-encounter",

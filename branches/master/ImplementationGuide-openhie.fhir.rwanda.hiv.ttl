@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-05T20:52:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-06T12:19:14+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -528,6 +528,17 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered> ;
+         fhir:reference [ fhir:v "StructureDefinition/sample-reordered" ]
+       ] ;
+       fhir:name [ fhir:v "Sample reordered" ] ;
+       fhir:description [ fhir:v "The sample was reordered." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -550,6 +561,17 @@
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index> ;
+         fhir:reference [ fhir:v "StructureDefinition/revised-by-user-index" ]
+       ] ;
+       fhir:name [ fhir:v "HIV Viral Load Result Revised By" ] ;
+       fhir:description [ fhir:v "The user index for the person who reviewed the viral load result." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -747,6 +769,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity> ;
+         fhir:reference [ fhir:v "StructureDefinition/hiv-lab-task-activity" ]
+       ] ;
+       fhir:name [ fhir:v "HIV Lab Order Task Activity" ] ;
+       fhir:description [ fhir:v "HIV lab order task activity." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care> ;
          fhir:reference [ fhir:v "StructureDefinition/hiv-episode-of-care" ]
        ] ;
@@ -765,6 +798,20 @@
        fhir:example [
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ActivityDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample> ;
+         fhir:reference [ fhir:v "ActivityDefinition/LabOrderTaskActivityExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example ActivityDefinition - LabOrderTaskActivityExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity>
        ]
      ] [
        fhir:extension ( [
