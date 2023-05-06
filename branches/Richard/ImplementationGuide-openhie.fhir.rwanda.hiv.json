@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-05T21:01:51+00:00",
+  "date" : "2023-05-06T12:10:27+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -623,6 +623,17 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/sample-reordered"
+      },
+      "name" : "Sample reordered",
+      "description" : "The sample was reordered."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -641,6 +652,17 @@
       },
       "name" : "Example Bundle - LabOrder",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/revised-by-user-index"
+      },
+      "name" : "HIV Viral Load Result Revised By",
+      "description" : "The user index for the person who reviewed the viral load result."
     },
     {
       "extension" : [{
@@ -824,6 +846,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/hiv-lab-task-activity"
+      },
+      "name" : "HIV Lab Order Task Activity",
+      "description" : "HIV lab order task activity."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/hiv-episode-of-care"
       },
       "name" : "Patient Enrollment Type",
@@ -839,6 +872,17 @@
       },
       "name" : "Example Task - HIVLabResultTaskExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ActivityDefinition"
+      }],
+      "reference" : {
+        "reference" : "ActivityDefinition/LabOrderTaskActivityExample"
+      },
+      "name" : "Example ActivityDefinition - LabOrderTaskActivityExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"
     },
     {
       "extension" : [{

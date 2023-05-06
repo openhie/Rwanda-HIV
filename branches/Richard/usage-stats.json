@@ -24,6 +24,20 @@
       "types": [
         "integer"
       ]
+    },
+    {
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index",
+      "title": "HIV Viral Load Result Revised By",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered",
+      "title": "Sample reordered",
+      "types": [
+        "boolean"
+      ]
     }
   ],
   "profiles": {
@@ -67,6 +81,12 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
         "title": "Lab Task"
+      }
+    ],
+    "ActivityDefinition": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity",
+        "title": "HIV Lab Order Task Activity"
       }
     ],
     "Organization": [
@@ -164,6 +184,13 @@
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years": [
       "Bundle.entry.resource",
       "Patient"
+    ],
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index": [
+      "ActivityDefinition"
+    ],
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered": [
+      "Bundle.entry.resource",
+      "Specimen"
     ]
   }
 }
