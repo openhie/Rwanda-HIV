@@ -19,13 +19,6 @@
        fhir:url [ fhir:v "Task/HIVLabOrderTaskExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "Organization/HIVServiceRequestLocationExample"^^xsd:anyURI ] ;
-     fhir:resource ( <Organization/HIVServiceRequestLocationExample> ) ;
-     fhir:request [
-       fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Organization/HIVServiceRequestLocationExample"^^xsd:anyURI ]
-     ]
-  ] [
      fhir:fullUrl [ fhir:v "ServiceRequest/HIVServiceRequestExample"^^xsd:anyURI ] ;
      fhir:resource ( <ServiceRequest/HIVServiceRequestExample> ) ;
      fhir:request [
@@ -33,11 +26,18 @@
        fhir:url [ fhir:v "ServiceRequest/HIVServiceRequestExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "Practitioner/PractitionerExample"^^xsd:anyURI ] ;
-     fhir:resource ( <Practitioner/PractitionerExample> ) ;
+     fhir:fullUrl [ fhir:v "Practitioner/RequestingPractitionerExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Practitioner/RequestingPractitionerExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Practitioner/PractitionerExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "Practitioner/RequestingPractitionerExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Practitioner/PerformingPractitionerExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Practitioner/PerformingPractitionerExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Practitioner/PerformingPractitionerExample"^^xsd:anyURI ]
      ]
   ] [
      fhir:fullUrl [ fhir:v "Specimen/VLSpecimenExample"^^xsd:anyURI ] ;
@@ -99,38 +99,6 @@
      fhir:text [ fhir:v "additional notes here" ]
   ] ) . # 
 
-<Organization/HIVServiceRequestLocationExample> a fhir:Organization ;
-  fhir:id [ fhir:v "HIVServiceRequestLocationExample"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"HIVServiceRequestLocationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;HIVServiceRequestLocationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-service-request-location.html\">Lab Order Request Location</a></p></div><p><b>identifier</b>: HIV Organization identifier: facility2</p><p><b>name</b>: Laboratory Services</p><p><b>address</b>: DISI line 1 DISI line 2 DISI line 3 DISI state 1 DISI postal code </p></div>"
-  ] ; # 
-  fhir:identifier ( [
-     fhir:type [
-       fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "XX" ] ;
-         fhir:display [ fhir:v "Organization identifier" ]
-       ] ) ;
-       fhir:text [ fhir:v "HIV Organization identifier" ]
-     ] ;
-     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/hiv-service-request-location"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "facility2" ]
-  ] ) ; # 
-  fhir:name [ fhir:v "Laboratory Services"] ; # 
-  fhir:address ( [
-     fhir:line ( [ fhir:v "DISI line 1" ] [ fhir:v "DISI line 2" ] [ fhir:v "DISI line 3" ] ) ;
-     fhir:district [ fhir:v "DISI district 1" ] ;
-     fhir:state [ fhir:v "DISI state 1" ] ;
-     fhir:postalCode [ fhir:v "DISI postal code" ]
-  ] ) . # 
-
 <ServiceRequest/HIVServiceRequestExample> a fhir:ServiceRequest ;
   fhir:id [ fhir:v "HIVServiceRequestExample"] ; # 
   fhir:meta [
@@ -141,7 +109,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"HIVServiceRequestExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;HIVServiceRequestExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-HIV-lab-order.html\">Lab Order</a></p></div><p><b>identifier</b>: HIV lab service request identifier: ORDER12345</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>code</b>: Test Type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>occurrence</b>: 2012-01-05</p><p><b>requester</b>: <a href=\"#Practitioner_PractitionerExample\">See above (Practitioner/PractitionerExample)</a></p><p><b>performer</b>: <a href=\"#Organization_HIVServiceRequestLocationExample\">See above (Organization/HIVServiceRequestLocationExample)</a></p><p><b>reasonCode</b>: Reason <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#428450006 &quot;Repeat laboratory specimen sent&quot;)</span></p><p><b>specimen</b>: <a href=\"#Specimen_VLSpecimenExample\">See above (Specimen/VLSpecimenExample)</a></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"HIVServiceRequestExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;HIVServiceRequestExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-HIV-lab-order.html\">Lab Order</a></p></div><p><b>identifier</b>: HIV lab service request identifier: ORDER12345</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>code</b>: Test Type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>occurrence</b>: 2012-01-05</p><p><b>requester</b>: <a href=\"#Practitioner_RequestingPractitionerExample\">See above (Practitioner/RequestingPractitionerExample)</a></p><p><b>performer</b>: <a href=\"#Practitioner_PerformingPractitionerExample\">See above (Practitioner/PerformingPractitionerExample)</a></p><p><b>reasonCode</b>: Reason <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#428450006 &quot;Repeat laboratory specimen sent&quot;)</span></p><p><b>specimen</b>: <a href=\"#Specimen_VLSpecimenExample\">See above (Specimen/VLSpecimenExample)</a></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:type [
@@ -176,12 +144,12 @@
   ] ; # 
   fhir:occurrence [ fhir:v "2012-01-05"^^xsd:date] ; # 
   fhir:requester [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PractitionerExample> ;
-     fhir:reference [ fhir:v "Practitioner/PractitionerExample" ]
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/RequestingPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/RequestingPractitionerExample" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVServiceRequestLocationExample> ;
-     fhir:reference [ fhir:v "Organization/HIVServiceRequestLocationExample" ]
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PerformingPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/PerformingPractitionerExample" ]
   ] ) ; # 
   fhir:reasonCode ( [
      fhir:coding ( [
@@ -206,8 +174,8 @@
      fhir:text [ fhir:v "additional notes here" ]
   ] ) . # 
 
-<Practitioner/PractitionerExample> a fhir:Practitioner ;
-  fhir:id [ fhir:v "PractitionerExample"] ; # 
+<Practitioner/RequestingPractitionerExample> a fhir:Practitioner ;
+  fhir:id [ fhir:v "RequestingPractitionerExample"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
@@ -215,9 +183,13 @@
      ] )
   ] ; # 
   fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PractitionerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PractitionerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>name</b>: James Smith </p><p><b>telecom</b>: ph: 27537652509</p></div>"
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"RequestingPractitionerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;RequestingPractitionerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>Requesting Clinician</b>: 2</p><p><b>name</b>: James Smith </p><p><b>telecom</b>: ph: 27537652509</p></div>"
   ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2"^^xsd:integer ]
+  ] ) ; # 
   fhir:name ( [
      fhir:family [ fhir:v "Smith" ] ;
      fhir:given ( [ fhir:v "James" ] )
@@ -225,6 +197,31 @@
   fhir:telecom ( [
      fhir:system [ fhir:v "phone" ] ;
      fhir:value [ fhir:v "27537652509" ]
+  ] ) . # 
+
+<Practitioner/PerformingPractitionerExample> a fhir:Practitioner ;
+  fhir:id [ fhir:v "PerformingPractitionerExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PerformingPractitionerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PerformingPractitionerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>Requesting Clinician</b>: 6</p><p><b>name</b>: Amy White </p><p><b>telecom</b>: ph: 27537687534</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "6"^^xsd:integer ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "White" ] ;
+     fhir:given ( [ fhir:v "Amy" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "27537687534" ]
   ] ) . # 
 
 <Specimen/VLSpecimenExample> a fhir:Specimen ;

@@ -27,7 +27,7 @@
     "reference" : "Encounter/TargetFacilityEncounterExample"
   },
   "performer" : [{
-    "reference" : "Practitioner/PractitionerExample"
+    "reference" : "Practitioner/PerformingPractitionerExample"
   }],
   "result" : [{
     "reference" : "Observation/HIVTestResultExample"

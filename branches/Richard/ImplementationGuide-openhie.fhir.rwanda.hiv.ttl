@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-07T12:06:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-07T12:57:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -658,20 +658,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Practitioner" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PractitionerExample> ;
-         fhir:reference [ fhir:v "Practitioner/PractitionerExample" ]
-       ] ;
-       fhir:name [ fhir:v "Example Practitioner - PractitionerExample" ] ;
-       fhir:example [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -894,17 +880,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location> ;
-         fhir:reference [ fhir:v "StructureDefinition/hiv-service-request-location" ]
-       ] ;
-       fhir:name [ fhir:v "Lab Order Request Location" ] ;
-       fhir:description [ fhir:v "What is the location of the organization responsible for conducting the examination of the individual's sample?" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
@@ -958,6 +933,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index> ;
+         fhir:reference [ fhir:v "StructureDefinition/clinician-user-index" ]
+       ] ;
+       fhir:name [ fhir:v "Requesting Clinician" ] ;
+       fhir:description [ fhir:v "The user index for the person who is requesting or performing the service request." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
@@ -982,6 +968,20 @@
        fhir:example [
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PerformingPractitionerExample> ;
+         fhir:reference [ fhir:v "Practitioner/PerformingPractitionerExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Practitioner - PerformingPractitionerExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
        ]
      ] [
        fhir:extension ( [
@@ -1044,6 +1044,20 @@
        ] ;
        fhir:name [ fhir:v "Lab Task" ] ;
        fhir:description [ fhir:v "Assists with tracking the state of the lab order and its completion status." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/RequestingPractitionerExample> ;
+         fhir:reference [ fhir:v "Practitioner/RequestingPractitionerExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Practitioner - RequestingPractitionerExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1168,20 +1182,6 @@
        fhir:example [
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Organization" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVServiceRequestLocationExample> ;
-         fhir:reference [ fhir:v "Organization/HIVServiceRequestLocationExample" ]
-       ] ;
-       fhir:name [ fhir:v "Example Organization - HIVServiceRequestLocationExample" ] ;
-       fhir:example [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location>
        ]
      ] [
        fhir:extension ( [

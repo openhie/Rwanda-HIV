@@ -12,6 +12,13 @@
       ]
     },
     {
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
+      "title": "Requesting Clinician",
+      "types": [
+        "integer"
+      ]
+    },
+    {
       "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months",
       "title": "Patient Age In Months",
       "types": [
@@ -91,8 +98,8 @@
     ],
     "Organization": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location",
-        "title": "Lab Order Request Location"
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
+        "title": "HIV Organization"
       }
     ],
     "Patient": [
@@ -176,6 +183,10 @@
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted": [
       "Bundle.entry.resource.activity.detail",
       "CarePlan.activity.detail"
+    ],
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index": [
+      "Bundle.entry.resource",
+      "Practitioner"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months": [
       "Bundle.entry.resource",
