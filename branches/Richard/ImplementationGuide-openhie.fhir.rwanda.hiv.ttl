@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-07T12:58:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-07T13:06:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -939,7 +939,7 @@
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index> ;
          fhir:reference [ fhir:v "StructureDefinition/clinician-user-index" ]
        ] ;
-       fhir:name [ fhir:v "Requesting Clinician" ] ;
+       fhir:name [ fhir:v "Clinician User Index" ] ;
        fhir:description [ fhir:v "The user index for the person who is requesting or performing the service request." ]
      ] [
        fhir:extension ( [

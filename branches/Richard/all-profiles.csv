@@ -519,7 +519,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hiv-practitioner","Practitioner.extension:ClinicianUserIndex","Practitioner.extension","ClinicianUserIndex","","",1,1,"","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index]]} {[]}
-","Requesting Clinician","The user index for the person who is requesting or performing the service request.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Clinician User Index","The user index for the person who is requesting or performing the service request.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hiv-practitioner","Practitioner.modifierExtension","Practitioner.modifierExtension","","extensions
@@ -2565,7 +2565,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Comments about the plan","General notes about the care plan not covered elsewhere.","","Used to capture information that applies to the plan as a whole that doesn't fit into discrete elements.","","","","","","","",,,,,"",,,,"CarePlan.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "clinician-user-index","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
-","Requesting Clinician","The user index for the person who is requesting or performing the service request.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+","Clinician User Index","The user index for the person who is requesting or performing the service request.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
 ",""
 "clinician-user-index","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
