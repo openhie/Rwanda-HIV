@@ -34,6 +34,13 @@
     "name" : "DateHIVTestDone"
   },
   {
+    "id" : "hiv-arv-adherence",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence",
+    "version" : "0.1.0",
+    "name" : "ARVAdherence"
+  },
+  {
     "id" : "hiv-arv-treatment",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
@@ -88,6 +95,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient",
     "version" : "0.1.0",
     "name" : "HIVPatient"
+  },
+  {
+    "id" : "hiv-patient-breastfeeding",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding",
+    "version" : "0.1.0",
+    "name" : "Breastfeeding"
   },
   {
     "id" : "hiv-patient-is-new",
@@ -165,6 +179,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
+  },
+  {
+    "id" : "vs-arv-adherence",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence",
+    "version" : "0.1.0",
+    "name" : "VSARVAdherence"
   },
   {
     "id" : "vs-arv-regimen",

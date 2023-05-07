@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-06T12:19:14+00:00"/>
+  <date value="2023-05-07T12:06:01+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -484,6 +484,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BreastfeedingExample"/>
+      </reference>
+      <name value="Example Observation - BreastfeedingExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -531,6 +541,16 @@
       </reference>
       <name value="Practitioner"/>
       <description value="The healthcare professional who has been assigned to a given lab task."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-arv-adherence"/>
+      </reference>
+      <name value="Patient's Adherence to ARV Treatment"/>
+      <description value="ARV adherence."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -611,6 +631,16 @@
       </reference>
       <name value="Example Task - HIVLabOrderTaskExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ARVAdherenceExample"/>
+      </reference>
+      <name value="Example Observation - ARVAdherenceExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -874,6 +904,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-patient-breastfeeding"/>
+      </reference>
+      <name value="Breastfeeding Patient"/>
+      <description value="Breastfeeding patient."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -1001,6 +1041,16 @@
       </reference>
       <name value="Patient Age In Months"/>
       <description value="Age of the patient calculated in months."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-arv-adherence"/>
+      </reference>
+      <name value="ARV Adherence"/>
+      <description value="ARV Adherence"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
