@@ -55,45 +55,6 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="Organization/HIVServiceRequestLocationExample"/>
-    <resource>
-      <Organization>
-        <id value="HIVServiceRequestLocationExample"/>
-        <meta>
-          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location"/>
-        </meta>
-        <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="HIVServiceRequestLocationExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;HIVServiceRequestLocationExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-service-request-location.html">Lab Order Request Location</a></p></div><p><b>identifier</b>: HIV Organization identifier: facility2</p><p><b>name</b>: Laboratory Services</p><p><b>address</b>: DISI line 1 DISI line 2 DISI line 3 DISI state 1 DISI postal code </p></div>
-        </text>
-        <identifier>
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-              <code value="XX"/>
-              <display value="Organization identifier"/>
-            </coding>
-            <text value="HIV Organization identifier"/>
-          </type>
-          <system value="http://openhie.org/fhir/rwanda-hiv/identifier/hiv-service-request-location"/>
-          <value value="facility2"/>
-        </identifier>
-        <name value="Laboratory Services"/>
-        <address>
-          <line value="DISI line 1"/>
-          <line value="DISI line 2"/>
-          <line value="DISI line 3"/>
-          <district value="DISI district 1"/>
-          <state value="DISI state 1"/>
-          <postalCode value="DISI postal code"/>
-        </address>
-      </Organization>
-    </resource>
-    <request>
-      <method value="PUT"/>
-      <url value="Organization/HIVServiceRequestLocationExample"/>
-    </request>
-  </entry>
-  <entry>
     <fullUrl value="ServiceRequest/HIVServiceRequestExample"/>
     <resource>
       <ServiceRequest>
@@ -102,7 +63,7 @@
           <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ServiceRequest</b><a name="HIVServiceRequestExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ServiceRequest &quot;HIVServiceRequestExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-HIV-lab-order.html">Lab Order</a></p></div><p><b>identifier</b>: HIV lab service request identifier: ORDER12345</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>code</b>: Test Type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>occurrence</b>: 2012-01-05</p><p><b>requester</b>: <a href="#Practitioner_PractitionerExample">See above (Practitioner/PractitionerExample)</a></p><p><b>performer</b>: <a href="#Organization_HIVServiceRequestLocationExample">See above (Organization/HIVServiceRequestLocationExample)</a></p><p><b>reasonCode</b>: Reason <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#428450006 &quot;Repeat laboratory specimen sent&quot;)</span></p><p><b>specimen</b>: <a href="#Specimen_VLSpecimenExample">See above (Specimen/VLSpecimenExample)</a></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ServiceRequest</b><a name="HIVServiceRequestExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ServiceRequest &quot;HIVServiceRequestExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-HIV-lab-order.html">Lab Order</a></p></div><p><b>identifier</b>: HIV lab service request identifier: ORDER12345</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>code</b>: Test Type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>occurrence</b>: 2012-01-05</p><p><b>requester</b>: <a href="#Practitioner_RequestingPractitionerExample">See above (Practitioner/RequestingPractitionerExample)</a></p><p><b>performer</b>: <a href="#Practitioner_PerformingPractitionerExample">See above (Practitioner/PerformingPractitionerExample)</a></p><p><b>reasonCode</b>: Reason <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#428450006 &quot;Repeat laboratory specimen sent&quot;)</span></p><p><b>specimen</b>: <a href="#Specimen_VLSpecimenExample">See above (Specimen/VLSpecimenExample)</a></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
         </text>
         <identifier>
           <type>
@@ -134,10 +95,10 @@
         </encounter>
         <occurrenceDateTime value="2012-01-05"/>
         <requester>
-          <reference value="Practitioner/PractitionerExample"/>
+          <reference value="Practitioner/RequestingPractitionerExample"/>
         </requester>
         <performer>
-          <reference value="Organization/HIVServiceRequestLocationExample"/>
+          <reference value="Practitioner/PerformingPractitionerExample"/>
         </performer>
         <reasonCode>
           <coding>
@@ -165,16 +126,19 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="Practitioner/PractitionerExample"/>
+    <fullUrl value="Practitioner/RequestingPractitionerExample"/>
     <resource>
       <Practitioner>
-        <id value="PractitionerExample"/>
+        <id value="RequestingPractitionerExample"/>
         <meta>
           <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="PractitionerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;PractitionerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-practitioner.html">Practitioner</a></p></div><p><b>name</b>: James Smith </p><p><b>telecom</b>: ph: 27537652509</p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="RequestingPractitionerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;RequestingPractitionerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-practitioner.html">Practitioner</a></p></div><p><b>Requesting Clinician</b>: 2</p><p><b>name</b>: James Smith </p><p><b>telecom</b>: ph: 27537652509</p></div>
         </text>
+        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index">
+          <valueInteger value="2"/>
+        </extension>
         <name>
           <family value="Smith"/>
           <given value="James"/>
@@ -187,7 +151,36 @@
     </resource>
     <request>
       <method value="PUT"/>
-      <url value="Practitioner/PractitionerExample"/>
+      <url value="Practitioner/RequestingPractitionerExample"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="Practitioner/PerformingPractitionerExample"/>
+    <resource>
+      <Practitioner>
+        <id value="PerformingPractitionerExample"/>
+        <meta>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="PerformingPractitionerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;PerformingPractitionerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-practitioner.html">Practitioner</a></p></div><p><b>Requesting Clinician</b>: 6</p><p><b>name</b>: Amy White </p><p><b>telecom</b>: ph: 27537687534</p></div>
+        </text>
+        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index">
+          <valueInteger value="6"/>
+        </extension>
+        <name>
+          <family value="White"/>
+          <given value="Amy"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="27537687534"/>
+        </telecom>
+      </Practitioner>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Practitioner/PerformingPractitionerExample"/>
     </request>
   </entry>
   <entry>
