@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "80d2567c-6bab-4fe9-bc02-e52bfeef413a",
+  "id" : "69ff8640-ea93-47f1-bfed-0a7626ba1abd",
   "meta" : {
-    "lastUpdated" : "2023-05-06T12:19:14.735+00:00"
+    "lastUpdated" : "2023-05-07T12:14:35.586+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Reason for Assessment or Test Not Performed",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -38,8 +38,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f57fe178-b8ae-4a0a-8538-af39f9319841",
-        "timestamp" : "2023-05-06T12:20:00+00:00",
+        "identifier" : "urn:uuid:61622336-88e0-486c-8750-247f61c66c18",
+        "timestamp" : "2023-05-07T12:15:25+00:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -145,7 +145,7 @@
       "title" : "Specimen Type Used In Viral Load testing",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -164,8 +164,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:113d4e31-34d0-4ba5-94a5-c0c8972a35fd",
-        "timestamp" : "2023-05-06T12:20:04+00:00",
+        "identifier" : "urn:uuid:7ed3438d-a70d-459b-9b8c-9bbefbdceb56",
+        "timestamp" : "2023-05-07T12:15:32+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -231,7 +231,7 @@
       "title" : "Viral Load Result Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -250,8 +250,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:43b0aa0e-09f8-4325-a490-e55f23f89ae5",
-        "timestamp" : "2023-05-06T12:20:05+00:00",
+        "identifier" : "urn:uuid:e490a0a5-02a8-415f-9511-b3dab4470a85",
+        "timestamp" : "2023-05-07T12:15:32+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -287,7 +287,7 @@
       "title" : "Reasons why a lab order was cancelled or rejected",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -306,8 +306,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7f4732ac-2040-468c-b6bb-b5f763a77af5",
-        "timestamp" : "2023-05-06T12:20:07+00:00",
+        "identifier" : "urn:uuid:8d180731-b874-4a08-b460-d26a613501b1",
+        "timestamp" : "2023-05-07T12:15:34+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -353,7 +353,7 @@
       "title" : "Reasons for ARV Regimen Change",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -372,8 +372,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d7e7f625-0f51-4488-8868-125109ab6b82",
-        "timestamp" : "2023-05-06T12:20:22+00:00",
+        "identifier" : "urn:uuid:d4769985-6d56-4afd-99e9-ecf6247e8bbb",
+        "timestamp" : "2023-05-07T12:15:50+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -454,7 +454,7 @@
       "title" : "Viral Load Suppressions Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -473,8 +473,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:912682a8-ea4f-4eb3-96d3-56b5417dceaa",
-        "timestamp" : "2023-05-06T12:20:28+00:00",
+        "identifier" : "urn:uuid:d8cbe088-c3aa-46a8-9c18-a810a0f750d8",
+        "timestamp" : "2023-05-07T12:15:56+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -520,7 +520,7 @@
       "title" : "Conditions",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -539,8 +539,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bbb18547-33d9-4211-a29c-4bdad78d5176",
-        "timestamp" : "2023-05-06T12:20:29+00:00",
+        "identifier" : "urn:uuid:75946303-87c9-4604-b2ea-c89a98310dab",
+        "timestamp" : "2023-05-07T12:15:56+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -576,7 +576,7 @@
       "title" : "Patient Pregnant",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -595,8 +595,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:95911749-b23c-4969-95db-bb7cb86f8ddf",
-        "timestamp" : "2023-05-06T12:20:29+00:00",
+        "identifier" : "urn:uuid:c8a3a7c1-cfac-4216-b1ae-3eab08040c98",
+        "timestamp" : "2023-05-07T12:15:56+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -642,7 +642,7 @@
       "title" : "ARV Treatment Medication Request",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -661,8 +661,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ce105deb-9569-469e-9098-bd964013b96d",
-        "timestamp" : "2023-05-06T12:20:29+00:00",
+        "identifier" : "urn:uuid:4599756e-c3a8-4444-945f-6927e43669f7",
+        "timestamp" : "2023-05-07T12:15:56+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -685,6 +685,72 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.74</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA6763-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA6763-2/\">LA6763-2</a></td><td>http://loinc.org</td><td>Good = 95% adherence</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA6764-0\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA6764-0/\">LA6764-0</a></td><td>http://loinc.org</td><td>Fair 85-94% adherence</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA6765-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA6765-7/\">LA6765-7</a></td><td>http://loinc.org</td><td>Poor &lt;85% adherence</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence",
+      "version" : "0.1.0",
+      "name" : "VSARVAdherence",
+      "title" : "ARV Adherence",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-07T12:14:35+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      }],
+      "description" : "ARV Adherence",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:25634cf4-64ab-4dd0-8a4d-ff84a17f68a7",
+        "timestamp" : "2023-05-07T12:15:57+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.74"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA6763-2",
+          "display" : "Good = 95% adherence"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA6764-0",
+          "display" : "Fair 85-94% adherence"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA6765-7",
+          "display" : "Poor <85% adherence"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -698,7 +764,7 @@
       "title" : "A list of ARV regimen",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -717,8 +783,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a0204876-d6cf-4b24-9633-531b8fad0ca9",
-        "timestamp" : "2023-05-06T12:20:33+00:00",
+        "identifier" : "urn:uuid:90d0ba1b-dd96-47de-8b7a-625eba75f762",
+        "timestamp" : "2023-05-07T12:15:59+00:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -854,7 +920,7 @@
       "title" : "Test Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -873,8 +939,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ea797c19-7b97-437f-8711-93897aa79870",
-        "timestamp" : "2023-05-06T12:20:33+00:00",
+        "identifier" : "urn:uuid:28e213c8-2f82-42d8-bc73-5f8852429456",
+        "timestamp" : "2023-05-07T12:15:59+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -915,7 +981,7 @@
       "title" : "HIV Test Done",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-06T12:19:14+00:00",
+      "date" : "2023-05-07T12:14:35+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -934,8 +1000,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4bfbb04e-8549-4ad1-9a9a-a1f627e20d4b",
-        "timestamp" : "2023-05-06T12:20:33+00:00",
+        "identifier" : "urn:uuid:06985b48-d10c-47f7-a8a2-e67a01a33ea9",
+        "timestamp" : "2023-05-07T12:15:59+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
