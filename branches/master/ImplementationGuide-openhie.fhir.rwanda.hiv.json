@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-07T12:14:35+00:00",
+  "date" : "2023-05-07T13:36:00+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -744,17 +744,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/PractitionerExample"
-      },
-      "name" : "Example Practitioner - PractitionerExample",
-      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -953,17 +942,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/hiv-service-request-location"
-      },
-      "name" : "Lab Order Request Location",
-      "description" : "What is the location of the organization responsible for conducting the examination of the individual's sample?"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -1008,6 +986,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/clinician-user-index"
+      },
+      "name" : "Clinician User Index",
+      "description" : "The user index for the person who is requesting or performing the service request."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
@@ -1026,6 +1015,17 @@
       },
       "name" : "Example EpisodeOfCare - HIVEpisodeOfCareExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/PerformingPractitionerExample"
+      },
+      "name" : "Example Practitioner - PerformingPractitionerExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"
     },
     {
       "extension" : [{
@@ -1081,6 +1081,17 @@
       },
       "name" : "Lab Task",
       "description" : "Assists with tracking the state of the lab order and its completion status."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/RequestingPractitionerExample"
+      },
+      "name" : "Example Practitioner - RequestingPractitionerExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"
     },
     {
       "extension" : [{
@@ -1191,17 +1202,6 @@
       },
       "name" : "Example Bundle - LabRejection",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/HIVServiceRequestLocationExample"
-      },
-      "name" : "Example Organization - HIVServiceRequestLocationExample",
-      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location"
     },
     {
       "extension" : [{

@@ -27,7 +27,7 @@
     <reference value="Encounter/TargetFacilityEncounterExample"/>
   </encounter>
   <performer>
-    <reference value="Practitioner/PractitionerExample"/>
+    <reference value="Practitioner/PerformingPractitionerExample"/>
   </performer>
   <result>
     <reference value="Observation/HIVTestResultExample"/>

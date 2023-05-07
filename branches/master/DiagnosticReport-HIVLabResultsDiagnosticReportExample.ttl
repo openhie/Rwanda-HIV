@@ -42,8 +42,8 @@
      fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PractitionerExample> ;
-     fhir:reference [ fhir:v "Practitioner/PractitionerExample" ]
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PerformingPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/PerformingPractitionerExample" ]
   ] ) ; # 
   fhir:result ( [
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultExample> ;

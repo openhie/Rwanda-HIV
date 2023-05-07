@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-07T12:14:35+00:00"/>
+  <date value="2023-05-07T13:36:00+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -574,16 +574,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/PractitionerExample"/>
-      </reference>
-      <name value="Example Practitioner - PractitionerExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -764,16 +754,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hiv-service-request-location"/>
-      </reference>
-      <name value="Lab Order Request Location"/>
-      <description value="What is the location of the organization responsible for conducting the examination of the individual's sample?"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -814,6 +794,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/clinician-user-index"/>
+      </reference>
+      <name value="Clinician User Index"/>
+      <description value="The user index for the person who is requesting or performing the service request."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -831,6 +821,16 @@
       </reference>
       <name value="Example EpisodeOfCare - HIVEpisodeOfCareExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/PerformingPractitionerExample"/>
+      </reference>
+      <name value="Example Practitioner - PerformingPractitionerExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -881,6 +881,16 @@
       </reference>
       <name value="Lab Task"/>
       <description value="Assists with tracking the state of the lab order and its completion status."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/RequestingPractitionerExample"/>
+      </reference>
+      <name value="Example Practitioner - RequestingPractitionerExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -981,16 +991,6 @@
       </reference>
       <name value="Example Bundle - LabRejection"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/HIVServiceRequestLocationExample"/>
-      </reference>
-      <name value="Example Organization - HIVServiceRequestLocationExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

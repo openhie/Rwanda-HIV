@@ -27,6 +27,13 @@
     "name" : "ARTRegimenSwitchedOrSubstituted"
   },
   {
+    "id" : "clinician-user-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
+    "version" : "0.1.0",
+    "name" : "ClinicianUserIndex"
+  },
+  {
     "id" : "date-hiv-test-done",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done",
@@ -123,13 +130,6 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
     "version" : "0.1.0",
     "name" : "HIVPractitioner"
-  },
-  {
-    "id" : "hiv-service-request-location",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-service-request-location",
-    "version" : "0.1.0",
-    "name" : "HIVServiceRequestLocation"
   },
   {
     "id" : "hiv-test-results",

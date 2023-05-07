@@ -77,7 +77,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DiagnosticReport</b><a name=\"HIVLabResultsDiagnosticReportExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DiagnosticReport &quot;HIVLabResultsDiagnosticReportExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-diagnostic-report.html\">Diagnostic Report</a></p></div><p><b>basedOn</b>: <a href=\"ServiceRequest-HIVServiceRequestExample.html\">ServiceRequest/HIVServiceRequestExample</a></p><p><b>status</b>: final</p><p><b>code</b>: Test Type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>performer</b>: <a href=\"#Practitioner_PractitionerExample\">See above (Practitioner/PractitionerExample)</a></p><p><b>result</b>: <a href=\"#Observation_HIVTestResultExample\">See above (Observation/HIVTestResultExample)</a></p><p><b>conclusion</b>: Some conclusion text</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DiagnosticReport</b><a name=\"HIVLabResultsDiagnosticReportExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DiagnosticReport &quot;HIVLabResultsDiagnosticReportExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-diagnostic-report.html\">Diagnostic Report</a></p></div><p><b>basedOn</b>: <a href=\"ServiceRequest-HIVServiceRequestExample.html\">ServiceRequest/HIVServiceRequestExample</a></p><p><b>status</b>: final</p><p><b>code</b>: Test Type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>performer</b>: <a href=\"#Practitioner_PerformingPractitionerExample\">See above (Practitioner/PerformingPractitionerExample)</a></p><p><b>result</b>: <a href=\"#Observation_HIVTestResultExample\">See above (Observation/HIVTestResultExample)</a></p><p><b>conclusion</b>: Some conclusion text</p></div>"
       },
       "basedOn" : [{
         "reference" : "ServiceRequest/HIVServiceRequestExample"
@@ -98,7 +98,7 @@
         "reference" : "Encounter/TargetFacilityEncounterExample"
       },
       "performer" : [{
-        "reference" : "Practitioner/PractitionerExample"
+        "reference" : "Practitioner/PerformingPractitionerExample"
       }],
       "result" : [{
         "reference" : "Observation/HIVTestResultExample"
@@ -111,29 +111,33 @@
     }
   },
   {
-    "fullUrl" : "Practitioner/PractitionerExample",
+    "fullUrl" : "Practitioner/PerformingPractitionerExample",
     "resource" : {
       "resourceType" : "Practitioner",
-      "id" : "PractitionerExample",
+      "id" : "PerformingPractitionerExample",
       "meta" : {
         "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
       },
       "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PractitionerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PractitionerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>name</b>: James Smith </p><p><b>telecom</b>: ph: 27537652509</p></div>"
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PerformingPractitionerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PerformingPractitionerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>Clinician User Index</b>: 6</p><p><b>name</b>: Amy White </p><p><b>telecom</b>: ph: 27537687534</p></div>"
       },
+      "extension" : [{
+        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
+        "valueInteger" : 6
+      }],
       "name" : [{
-        "family" : "Smith",
-        "given" : ["James"]
+        "family" : "White",
+        "given" : ["Amy"]
       }],
       "telecom" : [{
         "system" : "phone",
-        "value" : "27537652509"
+        "value" : "27537687534"
       }]
     },
     "request" : {
       "method" : "PUT",
-      "url" : "Practitioner/PractitionerExample"
+      "url" : "Practitioner/PerformingPractitionerExample"
     }
   },
   {
