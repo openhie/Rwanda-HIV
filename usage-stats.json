@@ -13,7 +13,7 @@
     },
     {
       "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
-      "title": "Requesting Clinician",
+      "title": "Clinician User Index",
       "types": [
         "integer"
       ]
