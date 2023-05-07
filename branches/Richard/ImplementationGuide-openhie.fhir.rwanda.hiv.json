@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-06T12:11:33+00:00",
+  "date" : "2023-05-07T12:05:50+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -645,6 +645,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BreastfeedingExample"
+      },
+      "name" : "Example Observation - BreastfeedingExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -696,6 +707,17 @@
       },
       "name" : "Practitioner",
       "description" : "The healthcare professional who has been assigned to a given lab task."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-arv-adherence"
+      },
+      "name" : "Patient's Adherence to ARV Treatment",
+      "description" : "ARV adherence."
     },
     {
       "extension" : [{
@@ -784,6 +806,17 @@
       },
       "name" : "Example Task - HIVLabOrderTaskExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ARVAdherenceExample"
+      },
+      "name" : "Example Observation - ARVAdherenceExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"
     },
     {
       "extension" : [{
@@ -1074,6 +1107,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-patient-breastfeeding"
+      },
+      "name" : "Breastfeeding Patient",
+      "description" : "Breastfeeding patient."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
       }],
       "reference" : {
@@ -1213,6 +1257,17 @@
       },
       "name" : "Patient Age In Months",
       "description" : "Age of the patient calculated in months."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-arv-adherence"
+      },
+      "name" : "ARV Adherence",
+      "description" : "ARV Adherence"
     },
     {
       "extension" : [{

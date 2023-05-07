@@ -3,7 +3,7 @@
 
 err = 0, warn = 0, info = 0
 IG Publisher Version: 1.3.8
-Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+Generated Sun May 07 12:07:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 0 / 15
@@ -16,6 +16,8 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-TargetFacilityEncounterExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/EpisodeOfCare-HIVEpisodeOfCareExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARVAdherenceExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-BreastfeedingExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-DateHIVTestDoneExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVPatientIsNewExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVTestResultExample : 0 / 0 / 1
@@ -29,6 +31,7 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-adherence : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnostic-report : 0 / 0 / 1
@@ -37,6 +40,7 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task-activity : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-is-new : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-pregnant : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 1
@@ -52,6 +56,7 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabResultTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-arv-adherence : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arvtreatment-activity-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-condition : 0 / 0 / 1
@@ -78,6 +83,8 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample.json ==
 == fsh-generated/resources/Encounter-TargetFacilityEncounterExample.json ==
 == fsh-generated/resources/EpisodeOfCare-HIVEpisodeOfCareExample.json ==
+== fsh-generated/resources/Observation-ARVAdherenceExample.json ==
+== fsh-generated/resources/Observation-BreastfeedingExample.json ==
 == fsh-generated/resources/Observation-DateHIVTestDoneExample.json ==
 == fsh-generated/resources/Observation-HIVPatientIsNewExample.json ==
 == fsh-generated/resources/Observation-HIVTestResultExample.json ==
@@ -91,6 +98,7 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
 == fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted.json ==
 == fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
+== fsh-generated/resources/StructureDefinition-hiv-arv-adherence.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-treatment.json ==
 == fsh-generated/resources/StructureDefinition-hiv-diagnosis.json ==
 == fsh-generated/resources/StructureDefinition-hiv-diagnostic-report.json ==
@@ -99,6 +107,7 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/StructureDefinition-hiv-lab-task-activity.json ==
 == fsh-generated/resources/StructureDefinition-hiv-organization.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient.json ==
+== fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-is-new.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-pregnant.json ==
 == fsh-generated/resources/StructureDefinition-hiv-practitioner.json ==
@@ -114,6 +123,7 @@ Generated Sat May 06 12:13:10 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabOrderTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabResultTaskExample.json ==
+== fsh-generated/resources/ValueSet-vs-arv-adherence.json ==
 == fsh-generated/resources/ValueSet-vs-arv-regimen.json ==
 == fsh-generated/resources/ValueSet-vs-arvtreatment-activity-type.json ==
 == fsh-generated/resources/ValueSet-vs-condition.json ==
