@@ -49,6 +49,10 @@
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PerformingPractitionerExample> ;
      fhir:reference [ fhir:v "Practitioner/PerformingPractitionerExample" ]
   ] ) ; # 
+  fhir:resultsInterpreter ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/ResultsInterpreterExample> ;
+     fhir:reference [ fhir:v "Practitioner/ResultsInterpreterExample" ]
+  ] ) ; # 
   fhir:result ( [
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultExample> ;
      fhir:reference [ fhir:v "Observation/HIVTestResultExample" ]

@@ -111,6 +111,16 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
         "title": "Lab Results"
+      },
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal",
+        "title": "Viral Load Result Absolute Decimal"
+      }
+    ],
+    "Device": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
+        "title": "Testing Platform"
       }
     ],
     "Organization": [

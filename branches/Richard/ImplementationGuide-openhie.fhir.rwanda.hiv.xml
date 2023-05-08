@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-08T18:49:00+00:00"/>
+  <date value="2023-05-08T19:06:08+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -634,6 +634,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HIVTestResultViralLoadLogExample"/>
+      </reference>
+      <name value="Example Observation - HIVTestResultViralLoadLogExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
@@ -671,6 +681,16 @@
       </reference>
       <name value="Patient Age In Years"/>
       <description value="Age of the patient calculated in years."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HIVTestResultAbsoluteDecimalExample"/>
+      </reference>
+      <name value="Example Observation - HIVTestResultAbsoluteDecimalExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -741,6 +761,16 @@
       </reference>
       <name value="Performing Organization District"/>
       <description value="The district index for the performing organization."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-test-result-absolute-decimal"/>
+      </reference>
+      <name value="Viral Load Result Absolute Decimal"/>
+      <description value="Viral load result absolute decimal"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -904,6 +934,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/TestingPlatformExample"/>
+      </reference>
+      <name value="Example Device - TestingPlatformExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Encounter"/>
       </extension>
       <reference>
@@ -911,6 +951,16 @@
       </reference>
       <name value="Example Encounter - TargetFacilityEncounterExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-log"/>
+      </reference>
+      <name value="Viral Load Log"/>
+      <description value="Viral Load Log"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -951,6 +1001,16 @@
       </reference>
       <name value="ARV Treatment"/>
       <description value="This profile is to record prescribed ARV regimen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/ResultsInterpreterExample"/>
+      </reference>
+      <name value="Example Practitioner - ResultsInterpreterExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1061,6 +1121,16 @@
       </reference>
       <name value="Performing Organization"/>
       <description value="Organization responsible for carrying out the HIV testing services."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-for-testing"/>
+      </reference>
+      <name value="Testing Platform"/>
+      <description value="The device platform used for testing."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

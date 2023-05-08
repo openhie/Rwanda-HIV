@@ -41,6 +41,13 @@
     "name" : "DateHIVTestDone"
   },
   {
+    "id" : "device-for-testing",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
+    "version" : "0.1.0",
+    "name" : "TestingPlatform"
+  },
+  {
     "id" : "funding-source",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source",
@@ -272,6 +279,13 @@
     "name" : "TestedByIndex"
   },
   {
+    "id" : "viral-load-log",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log",
+    "version" : "0.1.0",
+    "name" : "HIVTestResultViralLoadLog"
+  },
+  {
     "id" : "viral-load-repeat-test-result",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result",
@@ -298,6 +312,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
     "version" : "0.1.0",
     "name" : "HIVTestResult"
+  },
+  {
+    "id" : "viral-load-test-result-absolute-decimal",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal",
+    "version" : "0.1.0",
+    "name" : "HIVTestResultAbsoluteDecimal"
   },
   {
     "id" : "vs-arv-adherence",

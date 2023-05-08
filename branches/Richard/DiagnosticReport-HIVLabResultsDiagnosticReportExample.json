@@ -33,6 +33,9 @@
   "performer" : [{
     "reference" : "Practitioner/PerformingPractitionerExample"
   }],
+  "resultsInterpreter" : [{
+    "reference" : "Practitioner/ResultsInterpreterExample"
+  }],
   "result" : [{
     "reference" : "Observation/HIVTestResultExample"
   }],
