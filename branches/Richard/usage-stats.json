@@ -105,6 +105,10 @@
     ],
     "Observation": [
       {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result",
+        "title": "Suspend Treatment Lab Results"
+      },
+      {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
         "title": "Lab Results"
       }
@@ -140,6 +144,10 @@
       }
     ],
     "Task": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
+        "title": "Result Dispatched"
+      },
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
         "title": "Sample Dispatched to Lab Task"

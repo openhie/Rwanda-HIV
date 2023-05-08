@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-08T15:31:47+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T16:10:55+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -542,6 +542,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result> ;
+         fhir:reference [ fhir:v "StructureDefinition/viral-load-suspend-treatment-test-result" ]
+       ] ;
+       fhir:name [ fhir:v "Suspend Treatment Lab Results" ] ;
+       fhir:description [ fhir:v "Suspend treatment lab results." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter> ;
          fhir:reference [ fhir:v "StructureDefinition/target-facility-encounter" ]
        ] ;
@@ -614,6 +625,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility> ;
+         fhir:reference [ fhir:v "StructureDefinition/result-dispatched-to-facility" ]
+       ] ;
+       fhir:name [ fhir:v "Result Dispatched" ] ;
+       fhir:description [ fhir:v "Result Dispatched" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner> ;
          fhir:reference [ fhir:v "StructureDefinition/hiv-practitioner" ]
        ] ;
@@ -669,6 +691,20 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/SuspendTreatmentHIVTestResultExample> ;
+         fhir:reference [ fhir:v "Observation/SuspendTreatmentHIVTestResultExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - SuspendTreatmentHIVTestResultExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -713,6 +749,20 @@
        ] ;
        fhir:name [ fhir:v "Specimen Conservation" ] ;
        fhir:description [ fhir:v "Specimen conservation information." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Task" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Task/ResultDisptachedTaskExample> ;
+         fhir:reference [ fhir:v "Task/ResultDisptachedTaskExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Task - ResultDisptachedTaskExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -810,6 +860,20 @@
        ] ;
        fhir:name [ fhir:v "Performing Organization District" ] ;
        fhir:description [ fhir:v "The district index for the performing organization." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/RepeatHIVTestResultExample> ;
+         fhir:reference [ fhir:v "Observation/RepeatHIVTestResultExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - RepeatHIVTestResultExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1180,6 +1244,17 @@
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result> ;
+         fhir:reference [ fhir:v "StructureDefinition/viral-load-repeat-test-result" ]
+       ] ;
+       fhir:name [ fhir:v "Repeat Lab Results" ] ;
+       fhir:description [ fhir:v "Repeat lab results." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

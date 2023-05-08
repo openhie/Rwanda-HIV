@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-08T15:31:47+00:00"/>
+  <date value="2023-05-08T16:10:55+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -477,6 +477,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/viral-load-suspend-treatment-test-result"/>
+      </reference>
+      <name value="Suspend Treatment Lab Results"/>
+      <description value="Suspend treatment lab results."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/target-facility-encounter"/>
       </reference>
       <name value="Target Facility Encounter"/>
@@ -537,6 +547,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/result-dispatched-to-facility"/>
+      </reference>
+      <name value="Result Dispatched"/>
+      <description value="Result Dispatched"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/hiv-practitioner"/>
       </reference>
       <name value="Practitioner"/>
@@ -584,6 +604,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SuspendTreatmentHIVTestResultExample"/>
+      </reference>
+      <name value="Example Observation - SuspendTreatmentHIVTestResultExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -621,6 +651,16 @@
       </reference>
       <name value="Specimen Conservation"/>
       <description value="Specimen conservation information."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/ResultDisptachedTaskExample"/>
+      </reference>
+      <name value="Example Task - ResultDisptachedTaskExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -701,6 +741,16 @@
       </reference>
       <name value="Performing Organization District"/>
       <description value="The district index for the performing organization."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/RepeatHIVTestResultExample"/>
+      </reference>
+      <name value="Example Observation - RepeatHIVTestResultExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -991,6 +1041,16 @@
       </reference>
       <name value="Example Task - HIVLabOrderRejectionTaskExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-repeat-test-result"/>
+      </reference>
+      <name value="Repeat Lab Results"/>
+      <description value="Repeat lab results."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
