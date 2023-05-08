@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "979ef655-cd77-4c7f-95b0-060f228e98ca",
+  "id" : "d7d31fef-898b-48f8-832e-a05263b64b9a",
   "meta" : {
-    "lastUpdated" : "2023-05-08T20:00:55.760+00:00"
+    "lastUpdated" : "2023-05-08T21:00:30.148+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Specimen Type Used In Viral Load testing",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -38,8 +38,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a25f9895-9bd1-408f-9aa3-89163420e7ed",
-        "timestamp" : "2023-05-08T20:01:59+00:00",
+        "identifier" : "urn:uuid:6fffe08a-ba95-4f11-9834-7b41a8f9451d",
+        "timestamp" : "2023-05-08T21:01:17+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -105,7 +105,7 @@
       "title" : "Viral Load Result Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -124,8 +124,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1cba83c5-403d-45c9-8365-4f61001d9b10",
-        "timestamp" : "2023-05-08T20:01:59+00:00",
+        "identifier" : "urn:uuid:fd0a3a17-4a87-48ca-9878-a1f1df3e00ad",
+        "timestamp" : "2023-05-08T21:01:17+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -161,7 +161,7 @@
       "title" : "Reasons why a lab order was cancelled or rejected",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -180,8 +180,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d355062c-4caf-477c-9a27-d0f8f21a4462",
-        "timestamp" : "2023-05-08T20:02:03+00:00",
+        "identifier" : "urn:uuid:869b0a20-712b-4440-82f7-876b293937fb",
+        "timestamp" : "2023-05-08T21:01:19+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -234,6 +234,67 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-699237001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/699237001\">699237001</a></td><td>http://snomed.info/sct</td><td>Consent given for communication by short message service text messaging</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-398227009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/398227009\">398227009</a></td><td>http://snomed.info/sct</td><td>Inadequate consent</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications",
+      "version" : "0.1.0",
+      "name" : "VSPatientConsentForSMSNotifications",
+      "title" : "Patient Consent for SMS Notifications",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-08T21:00:30+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      }],
+      "description" : "Patient Consent for SMS Notifications",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:b9a69400-4730-47c9-90cc-3e668ee8435b",
+        "timestamp" : "2023-05-08T21:01:28+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "699237001",
+          "display" : "Consent given for communication by short message service text messaging"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "398227009",
+          "display" : "Inadequate consent"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -247,7 +308,7 @@
       "title" : "Reasons for ARV Regimen Change",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -266,8 +327,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dff95785-b340-404a-943d-752c24bfb39f",
-        "timestamp" : "2023-05-08T20:02:25+00:00",
+        "identifier" : "urn:uuid:6515c52e-effa-4542-89d8-85f3a6282bd6",
+        "timestamp" : "2023-05-08T21:01:34+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -348,7 +409,7 @@
       "title" : "Viral Load Suppressions Status",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -367,8 +428,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2751f197-1d3c-407d-a6f0-4767bc080abe",
-        "timestamp" : "2023-05-08T20:02:31+00:00",
+        "identifier" : "urn:uuid:7094d205-97f6-4b06-8554-42d7388b84ab",
+        "timestamp" : "2023-05-08T21:01:38+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -414,7 +475,7 @@
       "title" : "Conditions",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -433,8 +494,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:59b2c525-7b83-4697-800c-f6a009a20c46",
-        "timestamp" : "2023-05-08T20:02:31+00:00",
+        "identifier" : "urn:uuid:275982f9-7fcd-4578-a63a-2cf091c829da",
+        "timestamp" : "2023-05-08T21:01:38+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -470,7 +531,7 @@
       "title" : "Patient Pregnant",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -489,8 +550,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:967d92bc-5dec-4962-9bca-bc88334b94a6",
-        "timestamp" : "2023-05-08T20:02:31+00:00",
+        "identifier" : "urn:uuid:561e071f-a07f-4670-8194-bbe81ce27bfe",
+        "timestamp" : "2023-05-08T21:01:38+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -536,7 +597,7 @@
       "title" : "ARV Treatment Medication Request",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -555,8 +616,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7ad42a06-772c-43d3-9182-ede026de3499",
-        "timestamp" : "2023-05-08T20:02:31+00:00",
+        "identifier" : "urn:uuid:9a66c718-2a62-4523-a796-15a9308420c2",
+        "timestamp" : "2023-05-08T21:01:39+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -592,7 +653,7 @@
       "title" : "ARV Adherence",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -611,8 +672,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6f7bf90b-e895-4ac4-abdb-b7476168a720",
-        "timestamp" : "2023-05-08T20:02:32+00:00",
+        "identifier" : "urn:uuid:0739b171-680a-4593-baf9-bbc5f34fadf2",
+        "timestamp" : "2023-05-08T21:01:39+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -658,7 +719,7 @@
       "title" : "A list of ARV regimen",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -677,8 +738,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:77d9f7a4-4179-46f3-9228-251bc6f7af6b",
-        "timestamp" : "2023-05-08T20:02:34+00:00",
+        "identifier" : "urn:uuid:2c0477ef-6ac0-429c-bef2-58c4d340e9a9",
+        "timestamp" : "2023-05-08T21:01:40+00:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -814,7 +875,7 @@
       "title" : "Test Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -833,8 +894,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:166b3a3b-f0a5-4966-a587-340ab5a0d247",
-        "timestamp" : "2023-05-08T20:02:34+00:00",
+        "identifier" : "urn:uuid:c3b58c2b-4b49-4e6b-bfc2-80af61611152",
+        "timestamp" : "2023-05-08T21:01:41+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -875,7 +936,7 @@
       "title" : "Reason for Assessment or Test Not Performed",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -894,8 +955,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5f522325-deca-4f4f-a012-de1ba26f03c6",
-        "timestamp" : "2023-05-08T20:02:34+00:00",
+        "identifier" : "urn:uuid:c9b53ae7-6567-41a4-ab15-15880864db41",
+        "timestamp" : "2023-05-08T21:01:41+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -966,7 +1027,7 @@
       "title" : "HIV Test Done",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-08T20:00:55+00:00",
+      "date" : "2023-05-08T21:00:30+00:00",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -985,8 +1046,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fe640363-ca12-4478-983c-339093d7a459",
-        "timestamp" : "2023-05-08T20:02:34+00:00",
+        "identifier" : "urn:uuid:11b8fda7-3587-42cf-a320-aa5757b17c9c",
+        "timestamp" : "2023-05-08T21:01:41+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
