@@ -195,6 +195,13 @@
     "name" : "PerformingOrganizationProvinceIndex"
   },
   {
+    "id" : "receive-sms-messages",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+    "version" : "0.1.0",
+    "name" : "ReceiveSMSMessages"
+  },
+  {
     "id" : "requesting-organization",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization",

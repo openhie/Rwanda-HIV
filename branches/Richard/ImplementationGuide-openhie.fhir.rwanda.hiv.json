@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-08T14:07:06+00:00",
+  "date" : "2023-05-08T14:23:05+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -964,6 +964,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CommunicationRequest"
+      }],
+      "reference" : {
+        "reference" : "CommunicationRequest/ReceiveSMSMessagesExample"
+      },
+      "name" : "Example CommunicationRequest - ReceiveSMSMessagesExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -1136,6 +1147,17 @@
       },
       "name" : "Example Observation - HIVPatientIsNewExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/receive-sms-messages"
+      },
+      "name" : "Receive SMS Messages",
+      "description" : "Indication whether a patient should receive SMS messages."
     },
     {
       "extension" : [{

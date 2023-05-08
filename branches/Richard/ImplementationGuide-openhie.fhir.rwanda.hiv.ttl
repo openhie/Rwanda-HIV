@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-08T14:07:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T14:23:05+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -899,6 +899,20 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CommunicationRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/CommunicationRequest/ReceiveSMSMessagesExample> ;
+         fhir:reference [ fhir:v "CommunicationRequest/ReceiveSMSMessagesExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example CommunicationRequest - ReceiveSMSMessagesExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -1099,6 +1113,17 @@
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages> ;
+         fhir:reference [ fhir:v "StructureDefinition/receive-sms-messages" ]
+       ] ;
+       fhir:name [ fhir:v "Receive SMS Messages" ] ;
+       fhir:description [ fhir:v "Indication whether a patient should receive SMS messages." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

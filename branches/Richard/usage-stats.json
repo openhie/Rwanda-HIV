@@ -111,14 +111,6 @@
     ],
     "Organization": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner",
-        "title": "Implementing Partner Organization"
-      },
-      {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization",
-        "title": "Performing Organization"
-      },
-      {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization",
         "title": "Requesting Organization"
       }
@@ -169,6 +161,12 @@
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
         "title": "Practitioner"
+      }
+    ],
+    "CommunicationRequest": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+        "title": "Receive SMS Messages"
       }
     ],
     "SpecimenDefinition": [
