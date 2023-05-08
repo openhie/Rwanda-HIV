@@ -163,7 +163,7 @@
         "title": "Practitioner"
       }
     ],
-    "CommunicationRequest": [
+    "Consent": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
         "title": "Receive SMS Messages"

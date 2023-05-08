@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.RWANDA.HIV\Example CommunicationRequest - ReceiveSMSMessagesExample - TTL Representation - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.RWANDA.HIV\Example Consent - DoNotReceiveSMSMessagesExample - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.62"}
-    h3,h4,h5,h6{--heading-prefix:"3.62"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.56"}
+    h3,h4,h5,h6{--heading-prefix:"3.56"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -143,7 +143,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example CommunicationRequest - ReceiveSMSMessagesExample</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example Consent - DoNotReceiveSMSMessagesExample</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -169,21 +169,21 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CommunicationRequest-ReceiveSMSMessagesExample.html">Narrative Content</a>
+    <a href="Consent-DoNotReceiveSMSMessagesExample.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="CommunicationRequest-ReceiveSMSMessagesExample.xml.html">XML</a>
+      <a href="Consent-DoNotReceiveSMSMessagesExample.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="CommunicationRequest-ReceiveSMSMessagesExample.json.html">JSON</a>
+      <a href="Consent-DoNotReceiveSMSMessagesExample.json.html">JSON</a>
     </li>
   
 
@@ -202,7 +202,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Example CommunicationRequest - ReceiveSMSMessagesExample - TTL Representation</h2>
+<h2 id="root">: Example Consent - DoNotReceiveSMSMessagesExample - TTL Representation</h2>
   <table class="colsi">
     <tr>
 
@@ -217,7 +217,7 @@
   </table>
 
 
-<p><a href="CommunicationRequest-ReceiveSMSMessagesExample.ttl" no-download="true">Raw ttl</a> | <a href="CommunicationRequest-ReceiveSMSMessagesExample.ttl" download>Download</a></p>
+<p><a href="Consent-DoNotReceiveSMSMessagesExample.ttl" no-download="true">Raw ttl</a> | <a href="Consent-DoNotReceiveSMSMessagesExample.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -226,39 +226,42 @@
 
   <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix loinc: &lt;https://loinc.org/rdf/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
- a fhir:CommunicationRequest ;
+ a fhir:Consent ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;ReceiveSMSMessagesExample&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.meta">fhir:meta</a> [
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;DoNotReceiveSMSMessagesExample&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages&quot;^^xsd:anyURI ;
 <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages&gt;     ] )
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.text">fhir:text</a> [
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: CommunicationRequest&lt;/b&gt;&lt;a name=\&quot;ReceiveSMSMessagesExample\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource CommunicationRequest &amp;quot;ReceiveSMSMessagesExample&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-receive-sms-messages.html\&quot;&gt;Receive SMS Messages&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: revoked&lt;/p&gt;&lt;p&gt;&lt;b&gt;doNotPerform&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-HIVPatientExample.html\&quot;&gt;Patient/HIVPatientExample&lt;/a&gt; &amp;quot; SMITH&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Encounter-TargetFacilityEncounterExample.html\&quot;&gt;Encounter/TargetFacilityEncounterExample&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)&lt;/p&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Consent&lt;/b&gt;&lt;a name=\&quot;DoNotReceiveSMSMessagesExample\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Consent &amp;quot;DoNotReceiveSMSMessagesExample&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-receive-sms-messages.html\&quot;&gt;Receive SMS Messages&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: rejected&lt;/p&gt;&lt;p&gt;&lt;b&gt;scope&lt;/b&gt;: patient-privacy &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ([not stated]#patient-privacy)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Consent Document &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#59284-0)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\&quot;Patient-HIVPatientExample.html\&quot;&gt;Patient/HIVPatientExample&lt;/a&gt; &amp;quot; SMITH&amp;quot;&lt;/p&gt;&lt;h3&gt;Provisions&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;deny&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;revoked&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.doNotPerform">fhir:doNotPerform</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;true&quot;^^xsd:boolean] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.subject">fhir:subject</a> [
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;rejected&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.scope">fhir:scope</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;patient-privacy&quot; ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.category">fhir:category</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+a loinc:59284-0 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;59284-0&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.patient">fhir:patient</a> [
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/HIVPatientExample&quot; ]
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.encounter">fhir:encounter</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Encounter/TargetFacilityEncounterExample&quot; ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/communicationrequest.html#CommunicationRequest.note">fhir:note</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.author[x]">fhir:author</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/HIVOrganizationExample&quot; ]     ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.time">fhir:time</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2015-02-07T13:28:17-05:00&quot;^^xsd:dateTime ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;additional notes here&quot; ]
-  ] ) . # 
+  <a href="http://hl7.org/fhir/R4/consent.html#Consent.provision">fhir:provision</a> [
+<a href="http://hl7.org/fhir/R4/consent.html#Consent.provision.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deny&quot; ]
+  ] . # 
 
 </code></pre>
 
@@ -292,7 +295,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 8, 2023 14:48+0000">2023-05-08</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 8, 2023 15:19+0000">2023-05-08</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
