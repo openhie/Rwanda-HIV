@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-07T13:36:00+00:00"/>
+  <date value="2023-05-08T07:05:14+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -574,6 +574,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/specimen-preservation"/>
+      </reference>
+      <name value="Specimen Conservation"/>
+      <description value="Specimen conservation information."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -631,6 +641,16 @@
       </reference>
       <name value="Example Observation - ARVAdherenceExample"/>
       <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SpecimenDefinition"/>
+      </extension>
+      <reference>
+        <reference value="SpecimenDefinition/SpecimenConservationExample"/>
+      </reference>
+      <name value="Example SpecimenDefinition - SpecimenConservationExample"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

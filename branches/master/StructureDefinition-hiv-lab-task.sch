@@ -12,6 +12,7 @@
   <sch:pattern>
     <sch:title>f:Task</sch:title>
     <sch:rule context="f:Task">
+      <sch:assert test="count(f:instantiatesCanonical) &gt;= 1">instantiatesCanonical: minimum cardinality of 'instantiatesCanonical' is 1</sch:assert>
       <sch:assert test="count(f:executionPeriod) &gt;= 1">executionPeriod: minimum cardinality of 'executionPeriod' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
