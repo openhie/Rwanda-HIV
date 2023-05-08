@@ -1,0 +1,28 @@
+{
+  "resourceType" : "Organization",
+  "id" : "FundingOrganizationExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"FundingOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;FundingOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-funding-source.html\">Funding Organization</a></p></div><p><b>Funding Organization</b>: 1</p><p><b>identifier</b>: Funding Organization identifier:\u00a0funder1</p><p><b>name</b>: A funding organization name</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index",
+    "valueInteger" : 1
+  }],
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "XX",
+        "display" : "Organization identifier"
+      }],
+      "text" : "Funding Organization identifier"
+    },
+    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/organization-id",
+    "value" : "funder1"
+  }],
+  "name" : "A funding organization name"
+}

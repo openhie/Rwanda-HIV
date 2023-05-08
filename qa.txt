@@ -1,15 +1,15 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 0
+err = 2, warn = 0, info = 0
 IG Publisher Version: 1.3.8
-Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+Generated Mon May 08 13:46:33 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 0 / 15
  /github/workspace/fsh-generated/resources/Bundle-LabCancellation : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Bundle-LabOrder : 0 / 0 / 11
- /github/workspace/fsh-generated/resources/Bundle-LabRejection : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Bundle-LabRejection : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/Bundle-LabResult : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-HIVDiagnosisExample : 0 / 0 / 1
@@ -22,7 +22,11 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Observation-HIVPatientIsNewExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVTestResultExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-PatientPregnantExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-FundingOrganizationExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-HIVOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-ImplementingPartnerOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-PerformingOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-RequestingOrganizationExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-HIVPatientExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Practitioner-PerformingPractitionerExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Practitioner-RequestingPractitionerExample : 0 / 0 / 1
@@ -33,6 +37,8 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-clinician-user-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-funding-source-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-adherence : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis : 0 / 0 / 1
@@ -47,17 +53,27 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-pregnant : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-results : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-months : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-years : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-district-index : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-province-index : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-requesting-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-result-status-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-revised-by-user-index : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-sample-dispatched-to-lab : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sample-reordered : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-specimen-preservation : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-target-facility-encounter : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-tested-by-user-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabResultTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Task-SampleDisptachedToLabTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-adherence : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arvtreatment-activity-type : 0 / 0 / 1
@@ -65,7 +81,7 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-test-done : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-patient-pregnant : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-specimen-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-test-types : 0 / 0 / 1
@@ -79,6 +95,7 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/Bundle-LabCancellation.json ==
 == fsh-generated/resources/Bundle-LabOrder.json ==
 == fsh-generated/resources/Bundle-LabRejection.json ==
+ERROR: Bundle/LabRejection: Bundle.entry[0].resource/*Task/HIVLabOrderRejectionTaskExample*/.statusReason: None of the codings provided are in the value set 'Reasons why a lab order was cancelled or rejected' (http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#135839007)
 == fsh-generated/resources/Bundle-LabResult.json ==
 == fsh-generated/resources/CarePlan-ARVTreatmentExample.json ==
 == fsh-generated/resources/Condition-HIVDiagnosisExample.json ==
@@ -91,7 +108,11 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/Observation-HIVPatientIsNewExample.json ==
 == fsh-generated/resources/Observation-HIVTestResultExample.json ==
 == fsh-generated/resources/Observation-PatientPregnantExample.json ==
+== fsh-generated/resources/Organization-FundingOrganizationExample.json ==
 == fsh-generated/resources/Organization-HIVOrganizationExample.json ==
+== fsh-generated/resources/Organization-ImplementingPartnerOrganizationExample.json ==
+== fsh-generated/resources/Organization-PerformingOrganizationExample.json ==
+== fsh-generated/resources/Organization-RequestingOrganizationExample.json ==
 == fsh-generated/resources/Patient-HIVPatientExample.json ==
 == fsh-generated/resources/Practitioner-PerformingPractitionerExample.json ==
 == fsh-generated/resources/Practitioner-RequestingPractitionerExample.json ==
@@ -102,6 +123,8 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted.json ==
 == fsh-generated/resources/StructureDefinition-clinician-user-index.json ==
 == fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
+== fsh-generated/resources/StructureDefinition-funding-source.json ==
+== fsh-generated/resources/StructureDefinition-funding-source-index.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-adherence.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-treatment.json ==
 == fsh-generated/resources/StructureDefinition-hiv-diagnosis.json ==
@@ -116,17 +139,28 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/StructureDefinition-hiv-patient-pregnant.json ==
 == fsh-generated/resources/StructureDefinition-hiv-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-hiv-test-results.json ==
+== fsh-generated/resources/StructureDefinition-implementing-partner.json ==
+== fsh-generated/resources/StructureDefinition-implementing-partner-index.json ==
 == fsh-generated/resources/StructureDefinition-patient-age-months.json ==
 == fsh-generated/resources/StructureDefinition-patient-age-years.json ==
+== fsh-generated/resources/StructureDefinition-performing-organization.json ==
+== fsh-generated/resources/StructureDefinition-performing-organization-district-index.json ==
+== fsh-generated/resources/StructureDefinition-performing-organization-province-index.json ==
+== fsh-generated/resources/StructureDefinition-requesting-organization.json ==
+== fsh-generated/resources/StructureDefinition-result-status-index.json ==
 == fsh-generated/resources/StructureDefinition-revised-by-user-index.json ==
+== fsh-generated/resources/StructureDefinition-sample-dispatched-to-lab.json ==
 == fsh-generated/resources/StructureDefinition-sample-reordered.json ==
 == fsh-generated/resources/StructureDefinition-specimen-preservation.json ==
 == fsh-generated/resources/StructureDefinition-target-facility-encounter.json ==
+== fsh-generated/resources/StructureDefinition-tested-by-user-index.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
 == fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample.json ==
+ERROR: Task/HIVLabOrderRejectionTaskExample: Task.statusReason: None of the codings provided are in the value set 'Reasons why a lab order was cancelled or rejected' (http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected|0.1.0), and a coding from this value set is required) (codes = http://snomed.info/sct#135839007)
 == fsh-generated/resources/Task-HIVLabOrderTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabResultTaskExample.json ==
+== fsh-generated/resources/Task-SampleDisptachedToLabTaskExample.json ==
 == fsh-generated/resources/ValueSet-vs-arv-adherence.json ==
 == fsh-generated/resources/ValueSet-vs-arv-regimen.json ==
 == fsh-generated/resources/ValueSet-vs-arvtreatment-activity-type.json ==
@@ -134,7 +168,7 @@ Generated Mon May 08 07:06:31 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/ValueSet-vs-hiv-test-done.json ==
 == fsh-generated/resources/ValueSet-vs-patient-pregnant.json ==
 == fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change.json ==
-== fsh-generated/resources/ValueSet-vs-reason-for-assessment-or-test-not-performed.json ==
+== fsh-generated/resources/ValueSet-vs-reason-for-assessment.json ==
 == fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected.json ==
 == fsh-generated/resources/ValueSet-vs-specimen-type.json ==
 == fsh-generated/resources/ValueSet-vs-test-types.json ==

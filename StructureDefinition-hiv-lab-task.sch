@@ -12,8 +12,9 @@
   <sch:pattern>
     <sch:title>f:Task</sch:title>
     <sch:rule context="f:Task">
+      <sch:assert test="count(f:extension[@url = 'http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index']) &lt;= 1">extension with URL = 'http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:instantiatesCanonical) &gt;= 1">instantiatesCanonical: minimum cardinality of 'instantiatesCanonical' is 1</sch:assert>
-      <sch:assert test="count(f:executionPeriod) &gt;= 1">executionPeriod: minimum cardinality of 'executionPeriod' is 1</sch:assert>
+      <sch:assert test="count(f:lastModified) &gt;= 1">lastModified: minimum cardinality of 'lastModified' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
