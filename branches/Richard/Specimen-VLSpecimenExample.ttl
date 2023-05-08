@@ -32,7 +32,7 @@
        ] ) ;
        fhir:text [ fhir:v "App sample identifier" ]
      ] ;
-     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/app-sample-id"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/app-sample-code"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "abc123" ]
   ] [
      fhir:type [
@@ -43,7 +43,7 @@
        ] ) ;
        fhir:text [ fhir:v "Remote sample identifier" ]
      ] ;
-     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/remote-sample-id"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/remote-sample-code"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "def456" ]
   ] [
      fhir:type [
@@ -54,7 +54,7 @@
        ] ) ;
        fhir:text [ fhir:v "Sample identifier" ]
      ] ;
-     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/sample-id"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/sample-code"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "ghi789" ]
   ] ) ; # 
   fhir:type [
