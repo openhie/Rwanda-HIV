@@ -2,6 +2,7 @@
 @prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -17,7 +18,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"DoNotReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;DoNotReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: rejected</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Consent Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#59284-0)</span></p><p><b>patient</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><h3>Policies</h3><table class=\"grid\"><tr><td>-</td><td><b>Authority</b></td></tr><tr><td>*</td><td><a href=\"http://someauthorityurl.com\">http://someauthorityurl.com</a></td></tr></table><h3>Provisions</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>deny</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"DoNotReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;DoNotReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: rejected</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Consent Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#59284-0)</span></p><p><b>patient</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>policyRule</b>: Consent policy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#699237001 &quot;Consent given for communication by short message service text messaging&quot;)</span></p><h3>Provisions</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>deny</td></tr></table></div>"
   ] ; # 
   fhir:status [ fhir:v "rejected"] ; # 
   fhir:scope [
@@ -37,9 +38,15 @@
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
      fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
   ] ; # 
-  fhir:policy ( [
-     fhir:authority [ fhir:v "http://someauthorityurl.com"^^xsd:anyURI ]
-  ] ) ; # 
+  fhir:policyRule [
+     fhir:coding ( [
+       a sct:699237001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "699237001" ] ;
+       fhir:display [ fhir:v "Consent given for communication by short message service text messaging" ]
+     ] ) ;
+     fhir:text [ fhir:v "Consent policy" ]
+  ] ; # 
   fhir:provision [
      fhir:type [ fhir:v "deny" ]
   ] . # 
