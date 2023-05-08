@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-08T13:51:23+00:00",
+  "date" : "2023-05-08T14:05:33+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -714,6 +714,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/viral-load-test-result"
+      },
+      "name" : "Lab Results",
+      "description" : "The result of the lab test which determines whether the patient is infected with HIV or not."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/requesting-organization"
       },
       "name" : "Requesting Organization",
@@ -817,17 +828,6 @@
       },
       "name" : "Viral Load Result Code",
       "description" : "A code used to indicate the category for the lab result."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/hiv-test-results"
-      },
-      "name" : "Lab Results",
-      "description" : "The result of the lab test which determines whether the patient is infected with HIV or not."
     },
     {
       "extension" : [{
@@ -1429,6 +1429,17 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/result-entered-manually"
+      },
+      "name" : "Test Result Entered Manually",
+      "description" : "The test result was entered manually."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/patient-age-months"
       },
       "name" : "Patient Age In Months",
@@ -1487,7 +1498,7 @@
         "reference" : "Observation/HIVTestResultExample"
       },
       "name" : "Example Observation - HIVTestResultExample",
-      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results"
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"
     },
     {
       "extension" : [{

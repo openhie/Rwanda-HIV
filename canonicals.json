@@ -146,13 +146,6 @@
     "name" : "HIVPractitioner"
   },
   {
-    "id" : "hiv-test-results",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results",
-    "version" : "0.1.0",
-    "name" : "HIVTestResult"
-  },
-  {
     "id" : "implementing-partner",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner",
@@ -209,6 +202,13 @@
     "name" : "RequestingOrganization"
   },
   {
+    "id" : "result-entered-manually",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually",
+    "version" : "0.1.0",
+    "name" : "ResultEnteredManually"
+  },
+  {
     "id" : "result-status-index",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index",
@@ -263,6 +263,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
+  },
+  {
+    "id" : "viral-load-test-result",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
+    "version" : "0.1.0",
+    "name" : "HIVTestResult"
   },
   {
     "id" : "vs-arv-adherence",
