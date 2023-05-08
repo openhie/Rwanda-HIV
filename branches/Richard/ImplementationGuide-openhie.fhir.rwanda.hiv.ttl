@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-08T19:40:43+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T19:42:22+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1755,7 +1755,7 @@
            fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "MyIG Home Page" ] ;
+         fhir:title [ fhir:v "Rwanda HIV" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [
