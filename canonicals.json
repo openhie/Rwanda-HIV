@@ -209,6 +209,13 @@
     "name" : "RequestingOrganization"
   },
   {
+    "id" : "result-dispatched-to-facility",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
+    "version" : "0.1.0",
+    "name" : "ResultDisptachedTask"
+  },
+  {
     "id" : "result-entered-manually",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually",
@@ -265,11 +272,25 @@
     "name" : "TestedByIndex"
   },
   {
+    "id" : "viral-load-repeat-test-result",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result",
+    "version" : "0.1.0",
+    "name" : "RepeatHIVTestResult"
+  },
+  {
     "id" : "viral-load-specimen",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
+  },
+  {
+    "id" : "viral-load-suspend-treatment-test-result",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result",
+    "version" : "0.1.0",
+    "name" : "SuspendTreatmentHIVTestResult"
   },
   {
     "id" : "viral-load-test-result",

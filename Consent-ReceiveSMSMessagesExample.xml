@@ -6,11 +6,12 @@
     <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Consent</b><a name="ReceiveSMSMessagesExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Consent &quot;ReceiveSMSMessagesExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-receive-sms-messages.html">Receive SMS Messages</a></p></div><p><b>status</b>: active</p><p><b>scope</b>: patient-privacy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#patient-privacy)</span></p><p><b>category</b>: Consent Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#59284-0)</span></p><p><b>patient</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><h3>Provisions</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>permit</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Consent</b><a name="ReceiveSMSMessagesExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Consent &quot;ReceiveSMSMessagesExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-receive-sms-messages.html">Receive SMS Messages</a></p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-consentscope.html">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Consent Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#59284-0)</span></p><p><b>patient</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><h3>Policies</h3><table class="grid"><tr><td>-</td><td><b>Authority</b></td></tr><tr><td>*</td><td><a href="http://someauthorityurl.com">http://someauthorityurl.com</a></td></tr></table><h3>Provisions</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>permit</td></tr></table></div>
   </text>
   <status value="active"/>
   <scope>
     <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/consentscope"/>
       <code value="patient-privacy"/>
     </coding>
   </scope>
@@ -23,6 +24,9 @@
   <patient>
     <reference value="Patient/HIVPatientExample"/>
   </patient>
+  <policy>
+    <authority value="http://someauthorityurl.com"/>
+  </policy>
   <provision>
     <type value="permit"/>
   </provision>
