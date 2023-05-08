@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-08T19:53:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T21:00:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1191,6 +1191,17 @@
        ] ;
        fhir:name [ fhir:v "ARV Treatment" ] ;
        fhir:description [ fhir:v "This profile is to record prescribed ARV regimen" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications> ;
+         fhir:reference [ fhir:v "ValueSet/vs-patient-consent-for-sms-notifications" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Consent for SMS Notifications" ] ;
+       fhir:description [ fhir:v "Patient Consent for SMS Notifications" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
