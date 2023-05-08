@@ -41,6 +41,27 @@
     "name" : "DateHIVTestDone"
   },
   {
+    "id" : "device-for-testing",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
+    "version" : "0.1.0",
+    "name" : "TestingPlatform"
+  },
+  {
+    "id" : "funding-source",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source",
+    "version" : "0.1.0",
+    "name" : "FundingOrganization"
+  },
+  {
+    "id" : "funding-source-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index",
+    "version" : "0.1.0",
+    "name" : "FundingOrganizationIndex"
+  },
+  {
     "id" : "hiv-arv-adherence",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence",
@@ -132,11 +153,18 @@
     "name" : "HIVPractitioner"
   },
   {
-    "id" : "hiv-test-results",
+    "id" : "implementing-partner",
     "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner",
     "version" : "0.1.0",
-    "name" : "HIVTestResult"
+    "name" : "ImplementingPartnerOrganization"
+  },
+  {
+    "id" : "implementing-partner-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner-index",
+    "version" : "0.1.0",
+    "name" : "ImplementingPartnerOrganizationIndex"
   },
   {
     "id" : "patient-age-months",
@@ -153,11 +181,74 @@
     "name" : "PatientAgeInYears"
   },
   {
+    "id" : "performing-organization",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization",
+    "version" : "0.1.0",
+    "name" : "PerformingOrganization"
+  },
+  {
+    "id" : "performing-organization-district-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index",
+    "version" : "0.1.0",
+    "name" : "PerformingOrganizationDistrictIndex"
+  },
+  {
+    "id" : "performing-organization-province-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index",
+    "version" : "0.1.0",
+    "name" : "PerformingOrganizationProvinceIndex"
+  },
+  {
+    "id" : "receive-sms-messages",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+    "version" : "0.1.0",
+    "name" : "ReceiveSMSMessages"
+  },
+  {
+    "id" : "requesting-organization",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization",
+    "version" : "0.1.0",
+    "name" : "RequestingOrganization"
+  },
+  {
+    "id" : "result-dispatched-to-facility",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
+    "version" : "0.1.0",
+    "name" : "ResultDisptachedTask"
+  },
+  {
+    "id" : "result-entered-manually",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually",
+    "version" : "0.1.0",
+    "name" : "ResultEnteredManually"
+  },
+  {
+    "id" : "result-status-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index",
+    "version" : "0.1.0",
+    "name" : "ResultStatusIndex"
+  },
+  {
     "id" : "revised-by-user-index",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index",
     "version" : "0.1.0",
     "name" : "ResultRevisedBy"
+  },
+  {
+    "id" : "sample-dispatched-to-lab",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
+    "version" : "0.1.0",
+    "name" : "SampleDisptachedToLabTask"
   },
   {
     "id" : "sample-reordered",
@@ -181,11 +272,53 @@
     "name" : "TargetFacilityEncounter"
   },
   {
+    "id" : "tested-by-user-index",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index",
+    "version" : "0.1.0",
+    "name" : "TestedByIndex"
+  },
+  {
+    "id" : "viral-load-log",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log",
+    "version" : "0.1.0",
+    "name" : "HIVTestResultViralLoadLog"
+  },
+  {
+    "id" : "viral-load-repeat-test-result",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result",
+    "version" : "0.1.0",
+    "name" : "RepeatHIVTestResult"
+  },
+  {
     "id" : "viral-load-specimen",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
     "version" : "0.1.0",
     "name" : "VLSpecimen"
+  },
+  {
+    "id" : "viral-load-suspend-treatment-test-result",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result",
+    "version" : "0.1.0",
+    "name" : "SuspendTreatmentHIVTestResult"
+  },
+  {
+    "id" : "viral-load-test-result",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
+    "version" : "0.1.0",
+    "name" : "HIVTestResult"
+  },
+  {
+    "id" : "viral-load-test-result-absolute-decimal",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal",
+    "version" : "0.1.0",
+    "name" : "HIVTestResultAbsoluteDecimal"
   },
   {
     "id" : "vs-arv-adherence",
@@ -237,11 +370,11 @@
     "name" : "VSReasonSForARVRegimenChange"
   },
   {
-    "id" : "vs-reason-for-assessment-or-test-not-performed",
+    "id" : "vs-reason-for-assessment",
     "type" : "ValueSet",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment-or-test-not-performed",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
     "version" : "0.1.0",
-    "name" : "VSReasonForAssessmentOrTestNotPerformed"
+    "name" : "VSReasonForAssessment"
   },
   {
     "id" : "vs-reason-sample-cancelled-or-rejected",

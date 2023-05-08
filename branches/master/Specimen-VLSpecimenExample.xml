@@ -20,7 +20,7 @@
       </coding>
       <text value="App sample identifier"/>
     </type>
-    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/app-sample-id"/>
+    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/app-sample-code"/>
     <value value="abc123"/>
   </identifier>
   <identifier>
@@ -32,7 +32,7 @@
       </coding>
       <text value="Remote sample identifier"/>
     </type>
-    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/remote-sample-id"/>
+    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/remote-sample-code"/>
     <value value="def456"/>
   </identifier>
   <identifier>
@@ -44,7 +44,7 @@
       </coding>
       <text value="Sample identifier"/>
     </type>
-    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/sample-id"/>
+    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/sample-code"/>
     <value value="ghi789"/>
   </identifier>
   <type>

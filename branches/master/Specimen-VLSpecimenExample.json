@@ -21,7 +21,7 @@
       }],
       "text" : "App sample identifier"
     },
-    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/app-sample-id",
+    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/app-sample-code",
     "value" : "abc123"
   },
   {
@@ -33,7 +33,7 @@
       }],
       "text" : "Remote sample identifier"
     },
-    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/remote-sample-id",
+    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/remote-sample-code",
     "value" : "def456"
   },
   {
@@ -45,7 +45,7 @@
       }],
       "text" : "Sample identifier"
     },
-    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/sample-id",
+    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/sample-code",
     "value" : "ghi789"
   }],
   "type" : {
