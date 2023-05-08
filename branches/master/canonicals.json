@@ -356,6 +356,13 @@
     "name" : "VSHIVTestDone"
   },
   {
+    "id" : "vs-patient-consent-for-sms-notifications",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications",
+    "version" : "0.1.0",
+    "name" : "VSPatientConsentForSMSNotifications"
+  },
+  {
     "id" : "vs-patient-pregnant",
     "type" : "ValueSet",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant",

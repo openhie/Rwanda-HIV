@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-08T20:00:55+00:00"/>
+  <date value="2023-05-08T21:08:01+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -1001,6 +1001,16 @@
       </reference>
       <name value="ARV Treatment"/>
       <description value="This profile is to record prescribed ARV regimen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-patient-consent-for-sms-notifications"/>
+      </reference>
+      <name value="Patient Consent for SMS Notifications"/>
+      <description value="Patient Consent for SMS Notifications"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
