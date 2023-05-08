@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-08T13:51:23+00:00"/>
+  <date value="2023-05-08T14:05:33+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -547,6 +547,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/viral-load-test-result"/>
+      </reference>
+      <name value="Lab Results"/>
+      <description value="The result of the lab test which determines whether the patient is infected with HIV or not."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/requesting-organization"/>
       </reference>
       <name value="Requesting Organization"/>
@@ -641,16 +651,6 @@
       </reference>
       <name value="Viral Load Result Code"/>
       <description value="A code used to indicate the category for the lab result."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hiv-test-results"/>
-      </reference>
-      <name value="Lab Results"/>
-      <description value="The result of the lab test which determines whether the patient is infected with HIV or not."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1197,6 +1197,16 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/result-entered-manually"/>
+      </reference>
+      <name value="Test Result Entered Manually"/>
+      <description value="The test result was entered manually."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/patient-age-months"/>
       </reference>
       <name value="Patient Age In Months"/>
@@ -1250,7 +1260,7 @@
         <reference value="Observation/HIVTestResultExample"/>
       </reference>
       <name value="Example Observation - HIVTestResultExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results"/>
+      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -61,6 +61,13 @@
       ]
     },
     {
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually",
+      "title": "Test Result Entered Manually",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index",
       "title": "Result Status Index",
       "types": [
@@ -98,7 +105,7 @@
     ],
     "Observation": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
         "title": "Lab Results"
       }
     ],
@@ -263,6 +270,10 @@
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index": [
       "Organization"
+    ],
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually": [
+      "Bundle.entry.resource",
+      "Observation"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index": [
       "Bundle.entry.resource",

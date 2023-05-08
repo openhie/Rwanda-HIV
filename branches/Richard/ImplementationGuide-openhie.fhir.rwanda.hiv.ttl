@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-08T13:51:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T14:05:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -625,6 +625,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result> ;
+         fhir:reference [ fhir:v "StructureDefinition/viral-load-test-result" ]
+       ] ;
+       fhir:name [ fhir:v "Lab Results" ] ;
+       fhir:description [ fhir:v "The result of the lab test which determines whether the patient is infected with HIV or not." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization> ;
          fhir:reference [ fhir:v "StructureDefinition/requesting-organization" ]
        ] ;
@@ -735,17 +746,6 @@
        ] ;
        fhir:name [ fhir:v "Viral Load Result Code" ] ;
        fhir:description [ fhir:v "A code used to indicate the category for the lab result." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results> ;
-         fhir:reference [ fhir:v "StructureDefinition/hiv-test-results" ]
-       ] ;
-       fhir:name [ fhir:v "Lab Results" ] ;
-       fhir:description [ fhir:v "The result of the lab test which determines whether the patient is infected with HIV or not." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1430,6 +1430,17 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually> ;
+         fhir:reference [ fhir:v "StructureDefinition/result-entered-manually" ]
+       ] ;
+       fhir:name [ fhir:v "Test Result Entered Manually" ] ;
+       fhir:description [ fhir:v "The test result was entered manually." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months> ;
          fhir:reference [ fhir:v "StructureDefinition/patient-age-months" ]
        ] ;
@@ -1490,8 +1501,8 @@
        ] ;
        fhir:name [ fhir:v "Example Observation - HIVTestResultExample" ] ;
        fhir:example [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-test-results>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result>
        ]
      ] [
        fhir:extension ( [
