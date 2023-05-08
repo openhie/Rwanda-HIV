@@ -17,6 +17,7 @@
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
       <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>
       <sch:assert test="count(f:performer) &gt;= 1">performer: minimum cardinality of 'performer' is 1</sch:assert>
+      <sch:assert test="count(f:resultsInterpreter) &gt;= 1">resultsInterpreter: minimum cardinality of 'resultsInterpreter' is 1</sch:assert>
       <sch:assert test="count(f:result) &gt;= 1">result: minimum cardinality of 'result' is 1</sch:assert>
       <sch:assert test="count(f:result) &lt;= 1">result: maximum cardinality of 'result' is 1</sch:assert>
     </sch:rule>

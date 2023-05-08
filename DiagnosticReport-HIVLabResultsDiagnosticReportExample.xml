@@ -32,6 +32,9 @@
   <performer>
     <reference value="Practitioner/PerformingPractitionerExample"/>
   </performer>
+  <resultsInterpreter>
+    <reference value="Practitioner/ResultsInterpreterExample"/>
+  </resultsInterpreter>
   <result>
     <reference value="Observation/HIVTestResultExample"/>
   </result>

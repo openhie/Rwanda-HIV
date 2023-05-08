@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-08T18:49:00+00:00",
+  "date" : "2023-05-08T19:06:08+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -810,6 +810,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HIVTestResultViralLoadLogExample"
+      },
+      "name" : "Example Observation - HIVTestResultViralLoadLogExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -850,6 +861,17 @@
       },
       "name" : "Patient Age In Years",
       "description" : "Age of the patient calculated in years."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HIVTestResultAbsoluteDecimalExample"
+      },
+      "name" : "Example Observation - HIVTestResultAbsoluteDecimalExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"
     },
     {
       "extension" : [{
@@ -927,6 +949,17 @@
       },
       "name" : "Performing Organization District",
       "description" : "The district index for the performing organization."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-test-result-absolute-decimal"
+      },
+      "name" : "Viral Load Result Absolute Decimal",
+      "description" : "Viral load result absolute decimal"
     },
     {
       "extension" : [{
@@ -1107,6 +1140,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Device"
+      }],
+      "reference" : {
+        "reference" : "Device/TestingPlatformExample"
+      },
+      "name" : "Example Device - TestingPlatformExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Encounter"
       }],
       "reference" : {
@@ -1114,6 +1158,17 @@
       },
       "name" : "Example Encounter - TargetFacilityEncounterExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-log"
+      },
+      "name" : "Viral Load Log",
+      "description" : "Viral Load Log"
     },
     {
       "extension" : [{
@@ -1158,6 +1213,17 @@
       },
       "name" : "ARV Treatment",
       "description" : "This profile is to record prescribed ARV regimen"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/ResultsInterpreterExample"
+      },
+      "name" : "Example Practitioner - ResultsInterpreterExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"
     },
     {
       "extension" : [{
@@ -1279,6 +1345,17 @@
       },
       "name" : "Performing Organization",
       "description" : "Organization responsible for carrying out the HIV testing services."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/device-for-testing"
+      },
+      "name" : "Testing Platform",
+      "description" : "The device platform used for testing."
     },
     {
       "extension" : [{
