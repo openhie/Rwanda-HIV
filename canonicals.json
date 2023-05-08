@@ -167,6 +167,13 @@
     "name" : "SampleReordered"
   },
   {
+    "id" : "specimen-preservation",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
+    "version" : "0.1.0",
+    "name" : "SpecimenConservation"
+  },
+  {
     "id" : "target-facility-encounter",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",

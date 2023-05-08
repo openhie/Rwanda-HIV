@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-07T13:57:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-08T06:55:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -658,6 +658,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation> ;
+         fhir:reference [ fhir:v "StructureDefinition/specimen-preservation" ]
+       ] ;
+       fhir:name [ fhir:v "Specimen Conservation" ] ;
+       fhir:description [ fhir:v "Specimen conservation information." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -726,6 +737,20 @@
        fhir:example [
          fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"^^xsd:anyURI ;
          fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SpecimenDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample> ;
+         fhir:reference [ fhir:v "SpecimenDefinition/SpecimenConservationExample" ]
+       ] ;
+       fhir:name [ fhir:v "Example SpecimenDefinition - SpecimenConservationExample" ] ;
+       fhir:example [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation>
        ]
      ] [
        fhir:extension ( [

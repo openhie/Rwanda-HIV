@@ -114,6 +114,12 @@
         "title": "Practitioner"
       }
     ],
+    "SpecimenDefinition": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
+        "title": "Specimen Conservation"
+      }
+    ],
     "Encounter": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",

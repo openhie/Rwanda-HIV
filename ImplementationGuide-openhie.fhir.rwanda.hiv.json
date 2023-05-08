@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-07T13:57:21+00:00",
+  "date" : "2023-05-08T06:55:26+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -744,6 +744,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/specimen-preservation"
+      },
+      "name" : "Specimen Conservation",
+      "description" : "Specimen conservation information."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -806,6 +817,17 @@
       },
       "name" : "Example Observation - ARVAdherenceExample",
       "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SpecimenDefinition"
+      }],
+      "reference" : {
+        "reference" : "SpecimenDefinition/SpecimenConservationExample"
+      },
+      "name" : "Example SpecimenDefinition - SpecimenConservationExample",
+      "exampleCanonical" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"
     },
     {
       "extension" : [{
