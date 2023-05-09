@@ -11,7 +11,7 @@
   "title" : "Rwanda HIV",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-05-09T15:03:02+00:00",
+  "date" : "2023-05-09T15:34:42+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "telecom" : [{
@@ -32,7 +32,7 @@
   }],
   "packageId" : "openhie.fhir.rwanda.hiv",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["4.3.0"],
+  "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
     "id" : "hl7tx",
     "extension" : [{
@@ -1677,15 +1677,27 @@
       "description" : "Used by the observation to indicate that a HIV test was performed."
     }],
     "page" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+        "valueUrl" : "toc.html"
+      }],
       "nameUrl" : "toc.html",
       "title" : "Table of Contents",
       "generation" : "html",
       "page" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "index.html"
+        }],
         "nameUrl" : "index.html",
         "title" : "Rwanda HIV",
         "generation" : "html"
       },
       {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "changes.html"
+        }],
         "nameUrl" : "changes.html",
         "title" : "IG Change History",
         "generation" : "html"

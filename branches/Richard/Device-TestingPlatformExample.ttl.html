@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.RWANDA.HIV\Example Device - TestingPlatformExample - TTL Representation - FHIR v4.3.0</title>
+    <title>OPENHIE.FHIR.RWANDA.HIV\Example Device - TestingPlatformExample - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -100,7 +100,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul
 	xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
@@ -233,27 +233,27 @@
 # - resource -------------------------------------------------------------------
 
  a fhir:Device ;
-  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4B/device.html#Device.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#id">fhir:v</a> &quot;TestingPlatformExample&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4B/device.html#Device.meta">fhir:meta</a> [
-    ( <a href="http://hl7.org/fhir/R4B/resource.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">fhir:v</a> &quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing&gt;     ] )
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/device.html#Device.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;TestingPlatformExample&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing&gt;     ] )
   ] ; # 
-  <a href="http://hl7.org/fhir/R4B/device.html#Device.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+  <a href="http://hl7.org/fhir/R4/device.html#Device.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
 fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Device&lt;/b&gt;&lt;a name=\&quot;TestingPlatformExample\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Device &amp;quot;TestingPlatformExample&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-device-for-testing.html\&quot;&gt;Testing Platform&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;DeviceNames&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;My testing platform&lt;/td&gt;&lt;td&gt;manufacturer-name&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)&lt;/p&gt;&lt;/div&gt;&quot;
   ] ; # 
-  <a href="http://hl7.org/fhir/R4B/device.html#Device.deviceName">fhir:deviceName</a> ( [
-<a href="http://hl7.org/fhir/R4B/device.html#Device.deviceName.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;My testing platform&quot; ] ;
-<a href="http://hl7.org/fhir/R4B/device.html#Device.deviceName.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;manufacturer-name&quot; ]
+  <a href="http://hl7.org/fhir/R4/device.html#Device.deviceName">fhir:deviceName</a> ( [
+<a href="http://hl7.org/fhir/R4/device.html#Device.deviceName.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;My testing platform&quot; ] ;
+<a href="http://hl7.org/fhir/R4/device.html#Device.deviceName.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;manufacturer-name&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4B/device.html#Device.note">fhir:note</a> ( [
-<a href="http://hl7.org/fhir/R4B/datatypes.html#Annotation#Annotation.author[x]">fhir:author</a> [
-<a href="http://hl7.org/fhir/R4B/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Organization/HIVOrganizationExample&quot; ]     ] ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#Annotation#Annotation.time">fhir:time</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:v</a> &quot;2015-02-07T13:28:17-05:00&quot;^^xsd:dateTime ] ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#Annotation#Annotation.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">fhir:v</a> &quot;Some comments&quot; ]
+  <a href="http://hl7.org/fhir/R4/device.html#Device.note">fhir:note</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.author[x]">fhir:author</a> [
+<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/HIVOrganizationExample&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.time">fhir:time</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2015-02-07T13:28:17-05:00&quot;^^xsd:dateTime ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Some comments&quot; ]
   ] ) . # 
 
 </code></pre>
@@ -288,14 +288,14 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R5/">FHIR 4.3.0</a>. Generated <span title="Tue, May 9, 2023 15:03+0000">2023-05-09</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 9, 2023 15:34+0000">2023-05-09</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
                  <a style="color: #81BEF7" target="_blank" href="http://openhie.org/fhir/rwanda-hiv/history.html">Version History</a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 
 
