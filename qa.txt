@@ -1,10 +1,10 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 61, warn = 1, info = 0
+err = 1, warn = 0, info = 0
 IG Publisher Version: 1.3.8
-Generated Tue May 09 15:05:45 UTC 2023. FHIR version 4.3.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
- Build Errors : 5 / 0 / 0
+Generated Tue May 09 15:38:37 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+ Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Bundle-LabCancellation : 0 / 0 / 3
@@ -38,34 +38,34 @@ Generated Tue May 09 15:05:45 UTC 2023. FHIR version 4.3.0 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Practitioner-ResultsInterpreterExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ServiceRequest-HIVServiceRequestExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Specimen-VLSpecimenExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 4 / 0 / 1
+ /github/workspace/fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-clinician-user-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-for-testing : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 4 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-funding-source-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-adherence : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 4 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnostic-report : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task : 4 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task-activity : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 4 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-is-new : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-pregnant : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 6 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner : 4 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-months : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-years : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization : 8 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-district-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-province-index : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-receive-sms-messages : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-requesting-organization : 4 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-receive-sms-messages : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-requesting-organization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-result-dispatched-to-facility : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-result-entered-manually : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-result-status-index : 0 / 0 / 1
@@ -75,12 +75,12 @@ Generated Tue May 09 15:05:45 UTC 2023. FHIR version 4.3.0 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-specimen-preservation : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-target-facility-encounter : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-tested-by-user-index : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-log : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-log : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 12 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-suspend-treatment-test-result : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderTaskExample : 0 / 0 / 1
@@ -104,11 +104,6 @@ Generated Tue May 09 15:05:45 UTC 2023. FHIR version 4.3.0 for openhie.fhir.rwan
  /github/workspace/input/rwanda-hiv : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/StructureDefinition-hiv-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 871, column 108: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-hiv-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 461, column 1710: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-hiv-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 491, column 226: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-hiv-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 763, column 1710: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-hiv-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 793, column 226: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
 == fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample.json ==
 == fsh-generated/resources/Bundle-EMR.json ==
 == fsh-generated/resources/Bundle-LabCancellation.json ==
@@ -143,79 +138,34 @@ ERROR: /github/workspace/output/StructureDefinition-hiv-practitioner.html#/html/
 == fsh-generated/resources/ServiceRequest-HIVServiceRequestExample.json ==
 == fsh-generated/resources/Specimen-VLSpecimenExample.json ==
 == fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample.json ==
-ERROR: SpecimenDefinition/SpecimenConservationExample: SpecimenDefinition.typeTested[0].handling[0].maxDuration: Rule drt-1: 'There SHALL be a code if there is a value and it SHALL be an expression of time.  If system is present, it SHALL be UCUM.' Failed
 == fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
-ERROR: StructureDefinition/HIV-lab-order: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/HIV-lab-order: StructureDefinition.snapshot.element[13].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/HIV-lab-order: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/HIV-lab-order: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted.json ==
 == fsh-generated/resources/StructureDefinition-clinician-user-index.json ==
 == fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
 == fsh-generated/resources/StructureDefinition-device-for-testing.json ==
 == fsh-generated/resources/StructureDefinition-funding-source.json ==
-ERROR: StructureDefinition/funding-source: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/funding-source: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/funding-source: StructureDefinition.snapshot.element[15].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/funding-source: StructureDefinition.snapshot.element[15].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-funding-source-index.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-adherence.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-treatment.json ==
-ERROR: StructureDefinition/hiv-arv-treatment: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-arv-treatment: StructureDefinition.snapshot.element[13].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/hiv-arv-treatment: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-arv-treatment: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-hiv-diagnostic-report.json ==
 == fsh-generated/resources/StructureDefinition-hiv-lab-task.json ==
-ERROR: StructureDefinition/hiv-lab-task: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-lab-task: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/hiv-lab-task: StructureDefinition.snapshot.element[15].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-lab-task: StructureDefinition.snapshot.element[15].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-hiv-lab-task-activity.json ==
 == fsh-generated/resources/StructureDefinition-hiv-organization.json ==
-ERROR: StructureDefinition/hiv-organization: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-organization: StructureDefinition.snapshot.element[13].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/hiv-organization: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-organization: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-hiv-patient.json ==
-ERROR: StructureDefinition/hiv-patient: StructureDefinition.snapshot.element[16].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-patient: StructureDefinition.snapshot.element[16].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-is-new.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-pregnant.json ==
 == fsh-generated/resources/StructureDefinition-hiv-practitioner.json ==
-ERROR: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[15].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[15].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[25].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[25].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[30].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[30].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-WARNING: StructureDefinition/hiv-practitioner: StructureDefinition.snapshot.element[42].binding: The valueSet reference http://terminology.hl7.org/ValueSet/v2-2.7-0360 on element Practitioner.qualification.code could not be resolved
 == fsh-generated/resources/StructureDefinition-implementing-partner.json ==
-ERROR: StructureDefinition/implementing-partner: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/implementing-partner: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/implementing-partner: StructureDefinition.snapshot.element[15].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/implementing-partner: StructureDefinition.snapshot.element[15].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-implementing-partner-index.json ==
 == fsh-generated/resources/StructureDefinition-patient-age-months.json ==
 == fsh-generated/resources/StructureDefinition-patient-age-years.json ==
 == fsh-generated/resources/StructureDefinition-performing-organization.json ==
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[15].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[15].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[16].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[16].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[40].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[40].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[41].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[41].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-performing-organization-district-index.json ==
 == fsh-generated/resources/StructureDefinition-performing-organization-province-index.json ==
 == fsh-generated/resources/StructureDefinition-receive-sms-messages.json ==
+ERROR: StructureDefinition/receive-sms-messages: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 == fsh-generated/resources/StructureDefinition-requesting-organization.json ==
-ERROR: StructureDefinition/requesting-organization: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/requesting-organization: StructureDefinition.snapshot.element[13].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/requesting-organization: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/requesting-organization: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-result-dispatched-to-facility.json ==
 == fsh-generated/resources/StructureDefinition-result-entered-manually.json ==
 == fsh-generated/resources/StructureDefinition-result-status-index.json ==
@@ -226,27 +176,11 @@ ERROR: StructureDefinition/requesting-organization: StructureDefinition.snapshot
 == fsh-generated/resources/StructureDefinition-target-facility-encounter.json ==
 == fsh-generated/resources/StructureDefinition-tested-by-user-index.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-log.json ==
-ERROR: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[31].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[31].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[14].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[14].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[15].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[15].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[34].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[34].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[35].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[35].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[54].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[54].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[55].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[55].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/StructureDefinition-viral-load-suspend-treatment-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal.json ==
-ERROR: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[31].binding.extension[0]: The extension http://hl7.org/fhir/build/StructureDefinition/binding-definition is unknown, and not allowed here
-ERROR: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[31].binding.extension[0].url: URL value 'http://hl7.org/fhir/build/StructureDefinition/binding-definition' does not resolve
 == fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabOrderTaskExample.json ==
