@@ -76,25 +76,11 @@
     "name" : "ARVTreatment"
   },
   {
-    "id" : "hiv-diagnosis",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis",
-    "version" : "0.1.0",
-    "name" : "HIVDiagnosis"
-  },
-  {
     "id" : "hiv-diagnostic-report",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
     "version" : "0.1.0",
     "name" : "HIVDiagnosticReport"
-  },
-  {
-    "id" : "hiv-episode-of-care",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care",
-    "version" : "0.1.0",
-    "name" : "HIVEpisodeOfCare"
   },
   {
     "id" : "hiv-lab-task",

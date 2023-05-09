@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Rwanda HIV"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-08T21:01:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-09T15:00:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -38,7 +38,7 @@
   ] ) ; # 
   fhir:packageId [ fhir:v "openhie.fhir.rwanda.hiv"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
-  fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
+  fhir:fhirVersion ( [ fhir:v "4.3.0"] ) ; # 
   fhir:dependsOn ( [
      fhir:id [ fhir:v "hl7tx" ] ;
      fhir:extension ( [
@@ -716,17 +716,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis> ;
-         fhir:reference [ fhir:v "StructureDefinition/hiv-diagnosis" ]
-       ] ;
-       fhir:name [ fhir:v "Diagnosis" ] ;
-       fhir:description [ fhir:v "This profile represents the confirmation of HIV diagnosis." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
@@ -1041,17 +1030,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care> ;
-         fhir:reference [ fhir:v "StructureDefinition/hiv-episode-of-care" ]
-       ] ;
-       fhir:name [ fhir:v "Patient Enrollment Type" ] ;
-       fhir:description [ fhir:v "This profile is used to enrol the patient into HIV care." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Task" ]
        ] ) ;
        fhir:reference [
@@ -1230,20 +1208,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Condition" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/Condition/HIVDiagnosisExample> ;
-         fhir:reference [ fhir:v "Condition/HIVDiagnosisExample" ]
-       ] ;
-       fhir:name [ fhir:v "Example Condition - HIVDiagnosisExample" ] ;
-       fhir:example [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
@@ -1291,20 +1255,6 @@
        ] ;
        fhir:name [ fhir:v "Receive SMS Messages" ] ;
        fhir:description [ fhir:v "Indication whether a patient should receive SMS messages." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "EpisodeOfCare" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/EpisodeOfCare/HIVEpisodeOfCareExample> ;
-         fhir:reference [ fhir:v "EpisodeOfCare/HIVEpisodeOfCareExample" ]
-       ] ;
-       fhir:name [ fhir:v "Example EpisodeOfCare - HIVEpisodeOfCareExample" ] ;
-       fhir:example [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care>
-       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1753,26 +1703,14 @@
        fhir:description [ fhir:v "Used by the observation to indicate that a HIV test was performed." ]
      ] ) ;
      fhir:page [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "toc.html"^^xsd:anyURI ]
-       ] ) ;
        fhir:name [ fhir:v "toc.html"^^xsd:anyURI ] ;
        fhir:title [ fhir:v "Table of Contents" ] ;
        fhir:generation [ fhir:v "html" ] ;
        fhir:page ( [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
-         ] ) ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Rwanda HIV" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "changes.html"^^xsd:anyURI ]
-         ] ) ;
          fhir:name [ fhir:v "changes.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "IG Change History" ] ;
          fhir:generation [ fhir:v "html" ]
