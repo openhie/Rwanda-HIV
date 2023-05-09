@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.RWANDA.HIV\Example Patient - HIVPatientExample - XML Representation - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.RWANDA.HIV\Example Patient - HIVPatientExample - XML Representation - FHIR v4.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.93"}
-    h3,h4,h5,h6{--heading-prefix:"3.93"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.89"}
+    h3,h4,h5,h6{--heading-prefix:"3.89"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -100,7 +100,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul
 	xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
@@ -226,42 +226,42 @@
 
   <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
 
-&lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;HIVPatientExample&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient&quot;/&gt;
+&lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;HIVPatientExample&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/resource.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient&quot;/&gt;
   &lt;/meta&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;&lt;b&gt;Jane Maria Smith (OFFICIAL)&lt;/b&gt; female, DoB: 1990-12-12&lt;/p&gt;&lt;hr/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Ways to contact the Patient&quot;&gt;Contact Details:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;tel:+27821234567&quot;&gt;+27821234567&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;mailto:someone@example.com&quot;&gt;someone@example.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Patient Links&quot;&gt;Links:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;Managing Organization: &lt;a href=&quot;Organization-HIVOrganizationExample.html&quot;&gt;Organization/HIVOrganizationExample&lt;/a&gt; &amp;quot;HIV Test Services Health Facility&amp;quot;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Age of the patient calculated in months.&quot;&gt;&lt;a href=&quot;StructureDefinition-patient-age-months.html&quot;&gt;Patient Age In Months:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;388&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Age of the patient calculated in years.&quot;&gt;&lt;a href=&quot;StructureDefinition-patient-age-years.html&quot;&gt;Patient Age In Years:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;32&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;388&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">url</a>=&quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueInteger</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#integer">value</a>=&quot;388&quot;/&gt;
   &lt;/extension&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;32&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">url</a>=&quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueInteger</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#integer">value</a>=&quot;32&quot;/&gt;
   &lt;/extension&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Smith&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Jane&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Maria&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Smith&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Jane&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Maria&quot;/&gt;
   &lt;/name&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;+27821234567&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;+27821234567&quot;/&gt;
   &lt;/telecom&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;someone@example.com&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;someone@example.com&quot;/&gt;
   &lt;/telecom&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;female&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;1990-12-12&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.managingOrganization">managingOrganization</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/HIVOrganizationExample&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;female&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#date">value</a>=&quot;1990-12-12&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.managingOrganization">managingOrganization</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Organization/HIVOrganizationExample&quot;/&gt;
   &lt;/managingOrganization&gt;
 &lt;/Patient&gt;</code></pre>
 
@@ -294,14 +294,14 @@
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 9, 2023 07:17+0000">2023-05-09</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R5/">FHIR 4.3.0</a>. Generated <span title="Tue, May 9, 2023 15:00+0000">2023-05-09</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
                  <a style="color: #81BEF7" target="_blank" href="http://openhie.org/fhir/rwanda-hiv/history.html">Version History</a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 
 

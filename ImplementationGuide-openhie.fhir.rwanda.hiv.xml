@@ -12,7 +12,7 @@
   <title value="Rwanda HIV"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-05-09T07:17:44+00:00"/>
+  <date value="2023-05-09T15:00:51+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <telecom>
@@ -33,7 +33,7 @@
   </jurisdiction>
   <packageId value="openhie.fhir.rwanda.hiv"/>
   <license value="CC0-1.0"/>
-  <fhirVersion value="4.0.1"/>
+  <fhirVersion value="4.3.0"/>
   <dependsOn id="hl7tx">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
       <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
@@ -624,16 +624,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hiv-diagnosis"/>
-      </reference>
-      <name value="Diagnosis"/>
-      <description value="This profile represents the confirmation of HIV diagnosis."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -884,16 +874,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hiv-episode-of-care"/>
-      </reference>
-      <name value="Patient Enrollment Type"/>
-      <description value="This profile is used to enrol the patient into HIV care."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Task"/>
       </extension>
       <reference>
@@ -1034,16 +1014,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/HIVDiagnosisExample"/>
-      </reference>
-      <name value="Example Condition - HIVDiagnosisExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ServiceRequest"/>
       </extension>
       <reference>
@@ -1081,16 +1051,6 @@
       </reference>
       <name value="Receive SMS Messages"/>
       <description value="Indication whether a patient should receive SMS messages."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="EpisodeOfCare"/>
-      </extension>
-      <reference>
-        <reference value="EpisodeOfCare/HIVEpisodeOfCareExample"/>
-      </reference>
-      <name value="Example EpisodeOfCare - HIVEpisodeOfCareExample"/>
-      <exampleCanonical value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1463,24 +1423,15 @@
       <description value="Used by the observation to indicate that a HIV test was performed."/>
     </resource>
     <page>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-        <valueUrl value="toc.html"/>
-      </extension>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="index.html"/>
-        </extension>
         <nameUrl value="index.html"/>
         <title value="Rwanda HIV"/>
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="changes.html"/>
-        </extension>
         <nameUrl value="changes.html"/>
         <title value="IG Change History"/>
         <generation value="html"/>
