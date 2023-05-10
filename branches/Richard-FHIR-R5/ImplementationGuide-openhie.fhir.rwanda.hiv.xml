@@ -260,6 +260,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/art-regimen-switched-or-substituted"/>
+      </reference>
+      <name value="ART Regimen Switched Or Substituted"/>
+      <description value="The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/hiv-arv-adherence"/>
       </reference>
       <name value="Patient's Adherence to ARV Treatment"/>
@@ -612,17 +623,6 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/art-regimen-switched-or-substituted"/>
-      </reference>
-      <name value="ART Regimen Switched Or Substituted"/>
-      <description value="The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/clinician-user-index"/>
       </reference>
       <name value="Clinician User Index"/>
@@ -925,6 +925,18 @@
       <name value="Viral Load Suppressions Status"/>
       <description value="Describes a patient's current viral load status."/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ARTRegimenSwitchedOrSubstitutedExample"/>
+      </reference>
+      <name value="ART Regimen Switched Or Substituted"/>
+      <description value="The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

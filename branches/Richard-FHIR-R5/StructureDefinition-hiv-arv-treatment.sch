@@ -55,15 +55,4 @@
       <sch:assert test="count(f:plannedActivityReference) &gt;= 1">plannedActivityReference: minimum cardinality of 'plannedActivityReference' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:CarePlan/f:activity/f:plannedActivityReference</sch:title>
-    <sch:rule context="f:CarePlan/f:activity/f:plannedActivityReference">
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted']) &lt;= 1">extension with URL = 'http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:reference) &lt;= 1">reference: maximum cardinality of 'reference' is 1</sch:assert>
-      <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
-      <sch:assert test="count(f:identifier) &lt;= 1">identifier: maximum cardinality of 'identifier' is 1</sch:assert>
-      <sch:assert test="count(f:display) &lt;= 1">display: maximum cardinality of 'display' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
 </sch:schema>
