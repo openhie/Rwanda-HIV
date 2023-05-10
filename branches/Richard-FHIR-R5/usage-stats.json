@@ -1,7 +1,7 @@
 {
   "package": "openhie.fhir.rwanda.hiv",
   "version": "0.1.0",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "5.0.0",
   "jurisdiction": "001",
   "extensions": [
     {
@@ -117,6 +117,12 @@
         "title": "Viral Load Result Absolute Decimal"
       }
     ],
+    "MedicationRequest": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+        "title": "ARV Regimen Medication Request"
+      }
+    ],
     "Device": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
@@ -135,22 +141,10 @@
         "title": "ARV Treatment"
       }
     ],
-    "Condition": [
-      {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis",
-        "title": "Diagnosis"
-      }
-    ],
     "DiagnosticReport": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
         "title": "Diagnostic Report"
-      }
-    ],
-    "EpisodeOfCare": [
-      {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care",
-        "title": "Patient Enrollment Type"
       }
     ],
     "Task": [
@@ -219,9 +213,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
@@ -240,15 +231,20 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements": [
+      "StructureDefinition"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/binding-definition": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
@@ -256,12 +252,15 @@
     "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
       "ImplementationGuide.dependsOn"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted": [
-      "Bundle.entry.resource.activity.detail",
-      "CarePlan.activity.detail"
+      "Bundle.entry.resource.activity.plannedActivityReference",
+      "CarePlan.activity.plannedActivityReference"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index": [
       "Bundle.entry.resource",

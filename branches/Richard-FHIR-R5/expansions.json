@@ -1,26 +1,27 @@
 {
   "resourceType" : "Bundle",
-  "id" : "2e31adcd-bd7e-4f95-b41c-2b07dcd353ca",
+  "id" : "20bde963-d4b7-43f3-97bb-e013bbe29bdd",
   "meta" : {
-    "lastUpdated" : "2023-05-09T07:17:44.199+00:00"
+    "lastUpdated" : "2023-05-10T08:50:20.473+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type",
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-119361006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/119361006\">119361006</a></td><td>http://snomed.info/sct</td><td>Plasma specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-440500007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/440500007\">440500007</a></td><td>http://snomed.info/sct</td><td>Dried blood spot specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-441620008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/441620008\">441620008</a></td><td>http://snomed.info/sct</td><td>Oral fluid specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258580003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/258580003\">258580003</a></td><td>http://snomed.info/sct</td><td>Whole blood specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-119364003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/119364003\">119364003</a></td><td>http://snomed.info/sct</td><td>Serum specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122555007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122555007\">122555007</a></td><td>http://snomed.info/sct</td><td>Venous blood specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122554006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122554006\">122554006</a></td><td>http://snomed.info/sct</td><td>Capillary blood specimen</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77386006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/77386006\">77386006</a></td><td>http://snomed.info/sct</td><td>Pregnancy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-428450006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/428450006\">428450006</a></td><td>http://snomed.info/sct</td><td>Repeat laboratory specimen sent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-171111007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/171111007\">171111007</a></td><td>http://snomed.info/sct</td><td>Screened - no result yet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-266721009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/266721009\">266721009</a></td><td>http://snomed.info/sct</td><td>Absent response to treatment</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-170564007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/170564007\">170564007</a></td><td>http://snomed.info/sct</td><td>Chronic disease - treatment changed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-413712001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/413712001\">413712001</a></td><td>http://snomed.info/sct</td><td>Breastfeeding (mother)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-315124004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/315124004\">315124004</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus viral load</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-2528003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2528003\">2528003</a></td><td>http://snomed.info/sct</td><td>Viremia</td></tr></table></div>"
       },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type",
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
       "version" : "0.1.0",
-      "name" : "VSSpecimenType",
-      "title" : "Specimen Type Used In Viral Load testing",
+      "name" : "VSReasonForAssessment",
+      "title" : "Reason for Assessment or Test Not Performed",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -29,18 +30,27 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
-      "description" : "A list of specimen types.",
+      "description" : "A list of reasons associated with the service request for the lab order.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:144b85dc-0aaa-4324-9d97-3aa1c3518480",
-        "timestamp" : "2023-05-09T07:18:34+00:00",
-        "total" : 7,
+        "identifier" : "urn:uuid:2d90867d-fbde-4c66-9162-f0d8a82c1fd5",
+        "timestamp" : "2023-05-10T08:51:25+00:00",
+        "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -55,38 +65,43 @@
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "119361006",
-          "display" : "Plasma specimen"
+          "code" : "77386006",
+          "display" : "Pregnancy"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "440500007",
-          "display" : "Dried blood spot specimen"
+          "code" : "428450006",
+          "display" : "Repeat laboratory specimen sent"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "441620008",
-          "display" : "Oral fluid specimen"
+          "code" : "171111007",
+          "display" : "Screened - no result yet"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "258580003",
-          "display" : "Whole blood specimen"
+          "code" : "266721009",
+          "display" : "Absent response to treatment"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "119364003",
-          "display" : "Serum specimen"
+          "code" : "170564007",
+          "display" : "Chronic disease - treatment changed"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "122555007",
-          "display" : "Venous blood specimen"
+          "code" : "413712001",
+          "display" : "Breastfeeding (mother)"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "122554006",
-          "display" : "Capillary blood specimen"
+          "code" : "315124004",
+          "display" : "Human immunodeficiency virus viral load"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "2528003",
+          "display" : "Viremia"
         }]
       }
     }
@@ -105,8 +120,9 @@
       "title" : "Viral Load Result Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -115,17 +131,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "A code used to indicate the category for the lab result.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a31231f2-7752-40e6-9fc9-6bdabb603397",
-        "timestamp" : "2023-05-09T07:18:34+00:00",
+        "identifier" : "urn:uuid:8e288564-155a-4c0b-ba34-ed3c4e2f2559",
+        "timestamp" : "2023-05-10T08:51:28+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -161,8 +186,9 @@
       "title" : "Reasons why a lab order was cancelled or rejected",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -171,17 +197,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "Reasons why a lab order was cancelled or rejected.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f46dbef7-ed37-41c0-8614-20b744263258",
-        "timestamp" : "2023-05-09T07:18:37+00:00",
+        "identifier" : "urn:uuid:a57edab0-953a-4e38-bfef-b9c9a4098579",
+        "timestamp" : "2023-05-10T08:51:36+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -234,6 +269,82 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250426008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/250426008\">250426008</a></td><td>http://snomed.info/sct</td><td>Pregnancy test equivocal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250425007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/250425007\">250425007</a></td><td>http://snomed.info/sct</td><td>Pregnancy test negative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250423000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/250423000\">250423000</a></td><td>http://snomed.info/sct</td><td>Pregnancy test positive</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant",
+      "version" : "0.1.0",
+      "name" : "VSPatientPregnant",
+      "title" : "Patient Pregnant",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-10T08:50:20+00:00",
+      "contact" : [{
+        "name" : "Jembi Health Systems",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Used by the observation to indicate whether a patient is pregnant.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:cf2d3b67-119a-4f6b-9047-e6229f229ee7",
+        "timestamp" : "2023-05-10T08:51:38+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "250426008",
+          "display" : "Pregnancy test equivocal"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "250425007",
+          "display" : "Pregnancy test negative"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "250423000",
+          "display" : "Pregnancy test positive"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -247,8 +358,9 @@
       "title" : "Patient Consent for SMS Notifications",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -257,17 +369,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "Patient Consent for SMS Notifications",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:defd2c94-f4f1-4dd2-85e3-34f571a1281c",
-        "timestamp" : "2023-05-09T07:18:45+00:00",
+        "identifier" : "urn:uuid:15366ebf-12fa-40b7-afe3-a53a895d189f",
+        "timestamp" : "2023-05-10T08:51:39+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -295,6 +416,82 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-245780008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/245780008\">245780008</a></td><td>http://snomed.info/sct</td><td>Suppressed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-19032002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/19032002\">19032002</a></td><td>http://snomed.info/sct</td><td>Uncontrolled</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-261665006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>http://snomed.info/sct</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression",
+      "version" : "0.1.0",
+      "name" : "VSVLSuppression",
+      "title" : "Viral Load Suppressions Status",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-10T08:50:20+00:00",
+      "contact" : [{
+        "name" : "Jembi Health Systems",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Describes a patient's current viral load status.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:86bf0d4e-884b-4e6a-8fc1-6fa16fc645f9",
+        "timestamp" : "2023-05-10T08:51:39+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "245780008",
+          "display" : "Suppressed"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "19032002",
+          "display" : "Uncontrolled"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "261665006",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -304,12 +501,13 @@
       },
       "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change",
       "version" : "0.1.0",
-      "name" : "VSReasonSForARVRegimenChange",
+      "name" : "VSReasonsForARVRegimenChange",
       "title" : "Reasons for ARV Regimen Change",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -318,17 +516,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "Used by the careplan to indicate the reason why a patient had their ARV regimen changed.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9bf1ffbb-e1ed-4111-9c44-61555fff7dac",
-        "timestamp" : "2023-05-09T07:18:51+00:00",
+        "identifier" : "urn:uuid:c599fd0b-45d2-4a21-99d5-9b9ad15604dd",
+        "timestamp" : "2023-05-10T08:51:39+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -396,21 +603,22 @@
     }
   },
   {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression",
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-245780008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/245780008\">245780008</a></td><td>http://snomed.info/sct</td><td>Suppressed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-19032002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/19032002\">19032002</a></td><td>http://snomed.info/sct</td><td>Uncontrolled</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-261665006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>http://snomed.info/sct</td><td>Unknown</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-182838006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/182838006\">182838006</a></td><td>http://snomed.info/sct</td><td>Change of medication</td></tr></table></div>"
       },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression",
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change",
       "version" : "0.1.0",
-      "name" : "VSVLSuppression",
-      "title" : "Viral Load Suppressions Status",
+      "name" : "VSARVRegimenChange",
+      "title" : "ARV Regimen Change",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -419,83 +627,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
-      }],
-      "description" : "Describes a patient's current viral load status.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:35ec8c42-b114-4ee1-a56a-1ae5ee32175e",
-        "timestamp" : "2023-05-09T07:18:55+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "245780008",
-          "display" : "Suppressed"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "19032002",
-          "display" : "Uncontrolled"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "261665006",
-          "display" : "Unknown"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-86406008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/86406008\">86406008</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus infection</td></tr></table></div>"
       },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition",
-      "version" : "0.1.0",
-      "name" : "VSCondition",
-      "title" : "Conditions",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
-      "contact" : [{
+      {
+        "name" : "Richard Langford",
         "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.jembi.org"
-        },
-        {
           "system" : "email",
-          "value" : "info@jembi.org"
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
         }]
       }],
-      "description" : "A list of possible HIV conditions.",
+      "description" : "ARV regimen change.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f02cf801-508e-4959-b77e-d8fca72886b9",
-        "timestamp" : "2023-05-09T07:18:56+00:00",
+        "identifier" : "urn:uuid:ba7f1691-e2fe-4a6f-8378-d1892e46d82a",
+        "timestamp" : "2023-05-10T08:51:41+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -511,130 +662,8 @@
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "86406008",
-          "display" : "Human immunodeficiency virus infection"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250426008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/250426008\">250426008</a></td><td>http://snomed.info/sct</td><td>Pregnancy test equivocal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250425007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/250425007\">250425007</a></td><td>http://snomed.info/sct</td><td>Pregnancy test negative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250423000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/250423000\">250423000</a></td><td>http://snomed.info/sct</td><td>Pregnancy test positive</td></tr></table></div>"
-      },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant",
-      "version" : "0.1.0",
-      "name" : "VSPatientPregnant",
-      "title" : "Patient Pregnant",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.jembi.org"
-        },
-        {
-          "system" : "email",
-          "value" : "info@jembi.org"
-        }]
-      }],
-      "description" : "Used by the observation to indicate whether a patient is pregnant.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:03030417-7e36-4745-861a-9462775cd2ab",
-        "timestamp" : "2023-05-09T07:18:56+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "250426008",
-          "display" : "Pregnancy test equivocal"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "250425007",
-          "display" : "Pregnancy test negative"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "250423000",
-          "display" : "Pregnancy test positive"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.74</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-45260-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/45260-7/\">45260-7</a></td><td>http://loinc.org</td><td>HIV ART medication</td></tr></table></div>"
-      },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
-      "version" : "0.1.0",
-      "name" : "VSARVMedicationRequest",
-      "title" : "ARV Treatment Medication Request",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.jembi.org"
-        },
-        {
-          "system" : "email",
-          "value" : "info@jembi.org"
-        }]
-      }],
-      "description" : "Codes used to represent a medication request for ART.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:84b9d8fc-141d-4a8d-9fe4-e2938f5722b7",
-        "timestamp" : "2023-05-09T07:18:56+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://loinc.org|2.74"
-        }],
-        "contains" : [{
-          "system" : "http://loinc.org",
-          "code" : "45260-7",
-          "display" : "HIV ART medication"
+          "code" : "182838006",
+          "display" : "Change of medication"
         }]
       }
     }
@@ -653,8 +682,9 @@
       "title" : "ARV Adherence",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -663,17 +693,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "ARV Adherence",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5e533b1d-3b8d-4f36-852d-7ae7a7dab221",
-        "timestamp" : "2023-05-09T07:18:56+00:00",
+        "identifier" : "urn:uuid:4b71a201-91ec-4a47-8492-6b476ccaea81",
+        "timestamp" : "2023-05-10T08:51:41+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -706,6 +745,138 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-315124004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/315124004\">315124004</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus viral load</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done",
+      "version" : "0.1.0",
+      "name" : "VSHIVTestDone",
+      "title" : "HIV Test Done",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-10T08:50:20+00:00",
+      "contact" : [{
+        "name" : "Jembi Health Systems",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Used by the observation to indicate that a HIV test was performed.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:13ce4cc2-879f-4d09-a02f-7d4c849dfeb4",
+        "timestamp" : "2023-05-10T08:51:49+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "315124004",
+          "display" : "Human immunodeficiency virus viral load"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.74</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-45260-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/45260-7/\">45260-7</a></td><td>http://loinc.org</td><td>HIV ART medication</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
+      "version" : "0.1.0",
+      "name" : "VSARVMedicationRequest",
+      "title" : "ARV Treatment Medication Request",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-10T08:50:20+00:00",
+      "contact" : [{
+        "name" : "Jembi Health Systems",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Codes used to represent a medication request for ART.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:5d85270b-bf03-47ef-a210-b73298f9c1ca",
+        "timestamp" : "2023-05-10T08:51:49+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.74"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "45260-7",
+          "display" : "HIV ART medication"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -719,8 +890,9 @@
       "title" : "A list of ARV regimen",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -729,17 +901,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "A list of ARV regimen.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d7d2b077-2e42-4f10-b582-85387ee28688",
-        "timestamp" : "2023-05-09T07:18:58+00:00",
+        "identifier" : "urn:uuid:f4acdd64-2373-4044-8165-ab0b85da33e8",
+        "timestamp" : "2023-05-10T08:51:53+00:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -862,6 +1043,72 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-86406008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/86406008\">86406008</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus infection</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition",
+      "version" : "0.1.0",
+      "name" : "VSCondition",
+      "title" : "Conditions",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-05-10T08:50:20+00:00",
+      "contact" : [{
+        "name" : "Jembi Health Systems",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.jembi.org"
+        },
+        {
+          "system" : "email",
+          "value" : "info@jembi.org"
+        }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
+      }],
+      "description" : "A list of possible HIV conditions.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:de7a7177-b4bd-456a-b74c-39dae123bb27",
+        "timestamp" : "2023-05-10T08:51:53+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "86406008",
+          "display" : "Human immunodeficiency virus infection"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-test-types",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -875,8 +1122,9 @@
       "title" : "Test Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -885,17 +1133,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
       "description" : "A list of HIV test types",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b7b614e3-4055-42b0-9003-7a43806887c5",
-        "timestamp" : "2023-05-09T07:18:58+00:00",
+        "identifier" : "urn:uuid:96575c95-0f26-4232-baac-416cfaf0a0c5",
+        "timestamp" : "2023-05-10T08:51:59+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -923,21 +1180,22 @@
     }
   },
   {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77386006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/77386006\">77386006</a></td><td>http://snomed.info/sct</td><td>Pregnancy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-428450006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/428450006\">428450006</a></td><td>http://snomed.info/sct</td><td>Repeat laboratory specimen sent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-171111007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/171111007\">171111007</a></td><td>http://snomed.info/sct</td><td>Screened - no result yet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-266721009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/266721009\">266721009</a></td><td>http://snomed.info/sct</td><td>Absent response to treatment</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-170564007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/170564007\">170564007</a></td><td>http://snomed.info/sct</td><td>Chronic disease - treatment changed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-413712001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/413712001\">413712001</a></td><td>http://snomed.info/sct</td><td>Breastfeeding (mother)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-315124004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/315124004\">315124004</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus viral load</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-2528003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2528003\">2528003</a></td><td>http://snomed.info/sct</td><td>Viremia</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-119361006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/119361006\">119361006</a></td><td>http://snomed.info/sct</td><td>Plasma specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-440500007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/440500007\">440500007</a></td><td>http://snomed.info/sct</td><td>Dried blood spot specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-441620008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/441620008\">441620008</a></td><td>http://snomed.info/sct</td><td>Oral fluid specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258580003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/258580003\">258580003</a></td><td>http://snomed.info/sct</td><td>Whole blood specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-119364003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/119364003\">119364003</a></td><td>http://snomed.info/sct</td><td>Serum specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122555007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122555007\">122555007</a></td><td>http://snomed.info/sct</td><td>Venous blood specimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122554006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122554006\">122554006</a></td><td>http://snomed.info/sct</td><td>Capillary blood specimen</td></tr></table></div>"
       },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type",
       "version" : "0.1.0",
-      "name" : "VSReasonForAssessment",
-      "title" : "Reason for Assessment or Test Not Performed",
+      "name" : "VSSpecimenType",
+      "title" : "Specimen Type Used In Viral Load testing",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -946,18 +1204,27 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
-      "description" : "A list of reasons associated with the service request for the lab order.",
+      "description" : "A list of specimen types.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:980769a5-a20a-4e02-951e-9a9ef6b5d870",
-        "timestamp" : "2023-05-09T07:18:58+00:00",
-        "total" : 8,
+        "identifier" : "urn:uuid:d3dfe075-cc7f-434b-b843-ef9f228abbbb",
+        "timestamp" : "2023-05-10T08:52:04+00:00",
+        "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -972,63 +1239,59 @@
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "77386006",
-          "display" : "Pregnancy"
+          "code" : "119361006",
+          "display" : "Plasma specimen"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "428450006",
-          "display" : "Repeat laboratory specimen sent"
+          "code" : "440500007",
+          "display" : "Dried blood spot specimen"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "171111007",
-          "display" : "Screened - no result yet"
+          "code" : "441620008",
+          "display" : "Oral fluid specimen"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "266721009",
-          "display" : "Absent response to treatment"
+          "code" : "258580003",
+          "display" : "Whole blood specimen"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "170564007",
-          "display" : "Chronic disease - treatment changed"
+          "code" : "119364003",
+          "display" : "Serum specimen"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "413712001",
-          "display" : "Breastfeeding (mother)"
+          "code" : "122555007",
+          "display" : "Venous blood specimen"
         },
         {
           "system" : "http://snomed.info/sct",
-          "code" : "315124004",
-          "display" : "Human immunodeficiency virus viral load"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "2528003",
-          "display" : "Viremia"
+          "code" : "122554006",
+          "display" : "Capillary blood specimen"
         }]
       }
     }
   },
   {
-    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done",
+    "fullUrl" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-315124004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/315124004\">315124004</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus viral load</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2023</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-165813002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/165813002\">165813002</a></td><td>http://snomed.info/sct</td><td>Human immunodeficiency virus antibody test</td></tr></table></div>"
       },
-      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done",
+      "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing",
       "version" : "0.1.0",
-      "name" : "VSHIVTestDone",
-      "title" : "HIV Test Done",
+      "name" : "ReasonForHIVTestingCode",
+      "title" : "Reason for HIV Testing Code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-05-09T07:17:44+00:00",
+      "date" : "2023-05-10T08:50:20+00:00",
       "contact" : [{
+        "name" : "Jembi Health Systems",
         "telecom" : [{
           "system" : "url",
           "value" : "https://www.jembi.org"
@@ -1037,17 +1300,26 @@
           "system" : "email",
           "value" : "info@jembi.org"
         }]
+      },
+      {
+        "name" : "Richard Langford",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "richard.langford@jembi.org",
+          "use" : "work"
+        }]
       }],
-      "description" : "Used by the observation to indicate that a HIV test was performed.",
+      "description" : "A code used to indicate that a HIV test was done.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
+          "code" : "001",
+          "display" : "World"
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:471d3b60-1226-42a7-83fe-ecb992b7a3fa",
-        "timestamp" : "2023-05-09T07:18:58+00:00",
+        "identifier" : "urn:uuid:036b57df-3215-4845-b69b-727f4e7b94e5",
+        "timestamp" : "2023-05-10T08:52:06+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1063,8 +1335,8 @@
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "315124004",
-          "display" : "Human immunodeficiency virus viral load"
+          "code" : "165813002",
+          "display" : "Human immunodeficiency virus antibody test"
         }]
       }
     }

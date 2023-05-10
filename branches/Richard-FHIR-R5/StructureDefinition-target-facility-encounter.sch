@@ -12,9 +12,10 @@
   <sch:pattern>
     <sch:title>f:Encounter</sch:title>
     <sch:rule context="f:Encounter">
+      <sch:assert test="count(f:class) &gt;= 1">class: minimum cardinality of 'class' is 1</sch:assert>
+      <sch:assert test="count(f:class) &lt;= 1">class: maximum cardinality of 'class' is 1</sch:assert>
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
-      <sch:assert test="count(f:episodeOfCare) &gt;= 1">episodeOfCare: minimum cardinality of 'episodeOfCare' is 1</sch:assert>
-      <sch:assert test="count(f:period) &gt;= 1">period: minimum cardinality of 'period' is 1</sch:assert>
+      <sch:assert test="count(f:actualPeriod) &gt;= 1">actualPeriod: minimum cardinality of 'actualPeriod' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

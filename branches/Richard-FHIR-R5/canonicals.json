@@ -1,16 +1,16 @@
 [
   {
+    "id" : "openhie.fhir.rwanda.hiv",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.org/fhir/rwanda-hiv",
+    "version" : "0.1.0",
+    "name" : "RwandaHIV"
+  },
+  {
     "id" : "LabOrderTaskActivityExample",
     "type" : "ActivityDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample",
     "version" : "0.1.0"
-  },
-  {
-    "id" : "openhie.fhir.rwanda.hiv",
-    "type" : "ImplementationGuide",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv",
-    "version" : "0.1.0",
-    "name" : "RwandaHIV"
   },
   {
     "id" : "HIV-lab-order",
@@ -25,6 +25,20 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
     "version" : "0.1.0",
     "name" : "ARTRegimenSwitchedOrSubstituted"
+  },
+  {
+    "id" : "arv-regimen-change",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change",
+    "version" : "0.1.0",
+    "name" : "ARVRegimenChange"
+  },
+  {
+    "id" : "arv-regimen-medication-request",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+    "version" : "0.1.0",
+    "name" : "ARVRegimenMedicationRequest"
   },
   {
     "id" : "clinician-user-index",
@@ -76,25 +90,11 @@
     "name" : "ARVTreatment"
   },
   {
-    "id" : "hiv-diagnosis",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis",
-    "version" : "0.1.0",
-    "name" : "HIVDiagnosis"
-  },
-  {
     "id" : "hiv-diagnostic-report",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
     "version" : "0.1.0",
     "name" : "HIVDiagnosticReport"
-  },
-  {
-    "id" : "hiv-episode-of-care",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care",
-    "version" : "0.1.0",
-    "name" : "HIVEpisodeOfCare"
   },
   {
     "id" : "hiv-lab-task",
@@ -200,6 +200,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index",
     "version" : "0.1.0",
     "name" : "PerformingOrganizationProvinceIndex"
+  },
+  {
+    "id" : "reason-for-hiv-testing",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing",
+    "version" : "0.1.0",
+    "name" : "ReasonForHIVTesting"
   },
   {
     "id" : "receive-sms-messages",
@@ -335,6 +342,13 @@
     "name" : "VSARVRegimen"
   },
   {
+    "id" : "vs-arv-regimen-change",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change",
+    "version" : "0.1.0",
+    "name" : "VSARVRegimenChange"
+  },
+  {
     "id" : "vs-arvtreatment-activity-type",
     "type" : "ValueSet",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
@@ -374,7 +388,7 @@
     "type" : "ValueSet",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change",
     "version" : "0.1.0",
-    "name" : "VSReasonSForARVRegimenChange"
+    "name" : "VSReasonsForARVRegimenChange"
   },
   {
     "id" : "vs-reason-for-assessment",
@@ -382,6 +396,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
     "version" : "0.1.0",
     "name" : "VSReasonForAssessment"
+  },
+  {
+    "id" : "vs-reason-for-hiv-testing",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing",
+    "version" : "0.1.0",
+    "name" : "ReasonForHIVTestingCode"
   },
   {
     "id" : "vs-reason-sample-cancelled-or-rejected",

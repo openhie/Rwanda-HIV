@@ -1,25 +1,26 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 1, warn = 0, info = 0
+err = 5, warn = 19, info = 0
 IG Publisher Version: 1.3.8
-Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
- Build Errors : 0 / 0 / 0
+Generated Wed May 10 08:53:05 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+ Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 0 / 15
+ /github/workspace/fsh-generated/resources/Bundle-EMR : 1 / 0 / 11
  /github/workspace/fsh-generated/resources/Bundle-LabCancellation : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Bundle-LabOrder : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Bundle-LabRejection : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Bundle-LabResult : 0 / 0 / 11
- /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-HIVDiagnosisExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentExample : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Consent-DoNotReceiveSMSMessagesExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Consent-ReceiveSMSMessagesExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Device-TestingPlatformExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-TargetFacilityEncounterExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/EpisodeOfCare-HIVEpisodeOfCareExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-ARVAdherenceExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARVRegimenChangeExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-BreastfeedingExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-DateHIVTestDoneExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVPatientIsNewExample : 0 / 0 / 1
@@ -27,6 +28,7 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Observation-HIVTestResultExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVTestResultViralLoadLogExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-PatientPregnantExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ReasonForHIVTestingExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-RepeatHIVTestResultExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-SuspendTreatmentHIVTestResultExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-FundingOrganizationExample : 0 / 0 / 1
@@ -41,35 +43,36 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/ServiceRequest-HIVServiceRequestExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Specimen-VLSpecimenExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-arv-regimen-change : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-arv-regimen-medication-request : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-clinician-user-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-for-testing : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-funding-source-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-adherence : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnostic-report : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-episode-of-care : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task-activity : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-is-new : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-pregnant : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-months : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-years : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-district-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-province-index : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-receive-sms-messages : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-requesting-organization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-reason-for-hiv-testing : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-receive-sms-messages : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-requesting-organization : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-result-dispatched-to-facility : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-result-entered-manually : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-result-status-index : 0 / 0 / 1
@@ -81,7 +84,7 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-tested-by-user-index : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-log : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-suspend-treatment-test-result : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal : 0 / 0 / 1
@@ -93,6 +96,7 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Task-SampleDisptachedToLabTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-adherence : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen-change : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arvtreatment-activity-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-condition : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-test-done : 0 / 0 / 1
@@ -100,29 +104,36 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/ValueSet-vs-patient-pregnant : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-hiv-testing : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-specimen-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-test-types : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-vl-result-code : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression : 0 / 0 / 1
- /github/workspace/input/rwanda-hiv : 0 / 0 / 1
 </table>
 == n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 == fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample.json ==
 == fsh-generated/resources/Bundle-EMR.json ==
+ERROR: Bundle/EMR: Bundle.entry[4].resource/*CarePlan/ARVTreatmentExample*/.activity[0].plannedActivityReference: The extension http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted is not allowed to be used at this point (allowed = e:CarePlan.activity.detail; this element is [Bundle.entry.resource/*CarePlan/ARVTreatmentExample*/.activity.plannedActivityReference, BackboneElement.resource.activity.plannedActivityReference, CarePlan.activity.plannedActivityReference, BackboneElement.plannedActivityReference, Reference])
 == fsh-generated/resources/Bundle-LabCancellation.json ==
 == fsh-generated/resources/Bundle-LabOrder.json ==
 == fsh-generated/resources/Bundle-LabRejection.json ==
 == fsh-generated/resources/Bundle-LabResult.json ==
 == fsh-generated/resources/CarePlan-ARVTreatmentExample.json ==
-== fsh-generated/resources/Condition-HIVDiagnosisExample.json ==
+ERROR: CarePlan/ARVTreatmentExample: CarePlan.activity[0].plannedActivityReference: The extension http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted is not allowed to be used at this point (allowed = e:CarePlan.activity.detail; this element is [CarePlan.activity.plannedActivityReference, BackboneElement.plannedActivityReference, Reference])
 == fsh-generated/resources/Consent-DoNotReceiveSMSMessagesExample.json ==
 == fsh-generated/resources/Consent-ReceiveSMSMessagesExample.json ==
 == fsh-generated/resources/Device-TestingPlatformExample.json ==
 == fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample.json ==
 == fsh-generated/resources/Encounter-TargetFacilityEncounterExample.json ==
-== fsh-generated/resources/EpisodeOfCare-HIVEpisodeOfCareExample.json ==
+== fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json ==
+ERROR: ImplementationGuide.where(url = 'http://openhie.org/fhir/rwanda-hiv'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json - the canonical URL (http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv) does not match the URL (http://openhie.org/fhir/rwanda-hiv)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: openhie.fhir.rwanda.hiv/http://openhie.org/fhir/rwanda-hiv
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv: URL Mismatch http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv vs http://openhie.org/fhir/rwanda-hiv
+== fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestExample.json ==
 == fsh-generated/resources/Observation-ARVAdherenceExample.json ==
+== fsh-generated/resources/Observation-ARVRegimenChangeExample.json ==
 == fsh-generated/resources/Observation-BreastfeedingExample.json ==
 == fsh-generated/resources/Observation-DateHIVTestDoneExample.json ==
 == fsh-generated/resources/Observation-HIVPatientIsNewExample.json ==
@@ -130,6 +141,7 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/Observation-HIVTestResultExample.json ==
 == fsh-generated/resources/Observation-HIVTestResultViralLoadLogExample.json ==
 == fsh-generated/resources/Observation-PatientPregnantExample.json ==
+== fsh-generated/resources/Observation-ReasonForHIVTestingExample.json ==
 == fsh-generated/resources/Observation-RepeatHIVTestResultExample.json ==
 == fsh-generated/resources/Observation-SuspendTreatmentHIVTestResultExample.json ==
 == fsh-generated/resources/Organization-FundingOrganizationExample.json ==
@@ -145,35 +157,51 @@ Generated Tue May 09 07:19:54 UTC 2023. FHIR version 4.0.1 for openhie.fhir.rwan
 == fsh-generated/resources/Specimen-VLSpecimenExample.json ==
 == fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample.json ==
 == fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
+WARNING: StructureDefinition/HIV-lab-order: StructureDefinition.snapshot.element[9]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/HIV-lab-order: StructureDefinition.differential.element[1]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted.json ==
+== fsh-generated/resources/StructureDefinition-arv-regimen-change.json ==
+== fsh-generated/resources/StructureDefinition-arv-regimen-medication-request.json ==
 == fsh-generated/resources/StructureDefinition-clinician-user-index.json ==
 == fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
 == fsh-generated/resources/StructureDefinition-device-for-testing.json ==
 == fsh-generated/resources/StructureDefinition-funding-source.json ==
+WARNING: StructureDefinition/funding-source: StructureDefinition.snapshot.element[10]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/funding-source: StructureDefinition.differential.element[3]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-funding-source-index.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-adherence.json ==
 == fsh-generated/resources/StructureDefinition-hiv-arv-treatment.json ==
-== fsh-generated/resources/StructureDefinition-hiv-diagnosis.json ==
+WARNING: StructureDefinition/hiv-arv-treatment: StructureDefinition.snapshot.element[9]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/hiv-arv-treatment: StructureDefinition.differential.element[1]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-hiv-diagnostic-report.json ==
-== fsh-generated/resources/StructureDefinition-hiv-episode-of-care.json ==
 == fsh-generated/resources/StructureDefinition-hiv-lab-task.json ==
+WARNING: StructureDefinition/hiv-lab-task: StructureDefinition.snapshot.element[10]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/hiv-lab-task: StructureDefinition.differential.element[3]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-hiv-lab-task-activity.json ==
 == fsh-generated/resources/StructureDefinition-hiv-organization.json ==
+WARNING: StructureDefinition/hiv-organization: StructureDefinition.snapshot.element[9]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/hiv-organization: StructureDefinition.differential.element[1]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-hiv-patient.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-is-new.json ==
 == fsh-generated/resources/StructureDefinition-hiv-patient-pregnant.json ==
 == fsh-generated/resources/StructureDefinition-hiv-practitioner.json ==
 == fsh-generated/resources/StructureDefinition-implementing-partner.json ==
+WARNING: StructureDefinition/implementing-partner: StructureDefinition.snapshot.element[10]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/implementing-partner: StructureDefinition.differential.element[3]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-implementing-partner-index.json ==
 == fsh-generated/resources/StructureDefinition-patient-age-months.json ==
 == fsh-generated/resources/StructureDefinition-patient-age-years.json ==
 == fsh-generated/resources/StructureDefinition-performing-organization.json ==
+WARNING: StructureDefinition/performing-organization: StructureDefinition.snapshot.element[11]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/performing-organization: StructureDefinition.differential.element[4]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-performing-organization-district-index.json ==
 == fsh-generated/resources/StructureDefinition-performing-organization-province-index.json ==
+== fsh-generated/resources/StructureDefinition-reason-for-hiv-testing.json ==
 == fsh-generated/resources/StructureDefinition-receive-sms-messages.json ==
-ERROR: StructureDefinition/receive-sms-messages: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 == fsh-generated/resources/StructureDefinition-requesting-organization.json ==
+WARNING: StructureDefinition/requesting-organization: StructureDefinition.snapshot.element[9]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/requesting-organization: StructureDefinition.differential.element[1]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-result-dispatched-to-facility.json ==
 == fsh-generated/resources/StructureDefinition-result-entered-manually.json ==
 == fsh-generated/resources/StructureDefinition-result-status-index.json ==
@@ -186,6 +214,8 @@ ERROR: StructureDefinition/receive-sms-messages: StructureDefinition.snapshot.el
 == fsh-generated/resources/StructureDefinition-viral-load-log.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
+WARNING: StructureDefinition/viral-load-specimen: StructureDefinition.snapshot.element[10]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
+WARNING: StructureDefinition/viral-load-specimen: StructureDefinition.differential.element[3]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed
 == fsh-generated/resources/StructureDefinition-viral-load-suspend-treatment-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal.json ==
@@ -197,6 +227,7 @@ ERROR: StructureDefinition/receive-sms-messages: StructureDefinition.snapshot.el
 == fsh-generated/resources/Task-SampleDisptachedToLabTaskExample.json ==
 == fsh-generated/resources/ValueSet-vs-arv-adherence.json ==
 == fsh-generated/resources/ValueSet-vs-arv-regimen.json ==
+== fsh-generated/resources/ValueSet-vs-arv-regimen-change.json ==
 == fsh-generated/resources/ValueSet-vs-arvtreatment-activity-type.json ==
 == fsh-generated/resources/ValueSet-vs-condition.json ==
 == fsh-generated/resources/ValueSet-vs-hiv-test-done.json ==
@@ -204,9 +235,9 @@ ERROR: StructureDefinition/receive-sms-messages: StructureDefinition.snapshot.el
 == fsh-generated/resources/ValueSet-vs-patient-pregnant.json ==
 == fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change.json ==
 == fsh-generated/resources/ValueSet-vs-reason-for-assessment.json ==
+== fsh-generated/resources/ValueSet-vs-reason-for-hiv-testing.json ==
 == fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected.json ==
 == fsh-generated/resources/ValueSet-vs-specimen-type.json ==
 == fsh-generated/resources/ValueSet-vs-test-types.json ==
 == fsh-generated/resources/ValueSet-vs-vl-result-code.json ==
 == fsh-generated/resources/ValueSet-vs-vl-suppression.json ==
-== input/rwanda-hiv.xml ==
