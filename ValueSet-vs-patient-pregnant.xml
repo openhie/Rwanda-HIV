@@ -11,9 +11,10 @@
   <title value="Patient Pregnant"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-05-09T15:35:55+00:00"/>
+  <date value="2023-05-10T08:50:38+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
+    <name value="Jembi Health Systems"/>
     <telecom>
       <system value="url"/>
       <value value="https://www.jembi.org"/>
@@ -23,11 +24,20 @@
       <value value="info@jembi.org"/>
     </telecom>
   </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
   <description value="Used by the observation to indicate whether a patient is pregnant."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
+      <display value="World"/>
     </coding>
   </jurisdiction>
   <compose>

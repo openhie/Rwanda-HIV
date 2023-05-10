@@ -6,12 +6,9 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Device</b><a name=\"TestingPlatformExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Device &quot;TestingPlatformExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-device-for-testing.html\">Testing Platform</a></p></div><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>My testing platform</td><td>manufacturer-name</td></tr></table><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Device</b><a name=\"TestingPlatformExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Device &quot;TestingPlatformExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-device-for-testing.html\">Testing Platform</a></p></div><p><b>manufacturer</b>: My testing platform</p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
   },
-  "deviceName" : [{
-    "name" : "My testing platform",
-    "type" : "manufacturer-name"
-  }],
+  "manufacturer" : "My testing platform",
   "note" : [{
     "authorReference" : {
       "reference" : "Organization/HIVOrganizationExample"

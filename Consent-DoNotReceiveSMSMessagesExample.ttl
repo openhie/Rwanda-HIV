@@ -18,15 +18,9 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"DoNotReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;DoNotReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: rejected</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Consent Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#59284-0)</span></p><p><b>patient</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>policyRule</b>: Consent policy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398227009 &quot;Inadequate consent&quot;)</span></p><h3>Provisions</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>deny</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"DoNotReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;DoNotReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: inactive</p><p><b>category</b>: Consent Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#59284-0)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>regulatoryBasis</b>: Consent policy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398227009 &quot;Inadequate consent&quot;)</span></p><p><b>decision</b>: deny</p></div>"
   ] ; # 
-  fhir:status [ fhir:v "rejected"] ; # 
-  fhir:scope [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/consentscope"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "patient-privacy" ]
-     ] )
-  ] ; # 
+  fhir:status [ fhir:v "inactive"] ; # 
   fhir:category ( [
      fhir:coding ( [
        a loinc:59284-0 ;
@@ -34,11 +28,11 @@
        fhir:code [ fhir:v "59284-0" ]
      ] )
   ] ) ; # 
-  fhir:patient [
+  fhir:subject [
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
      fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
   ] ; # 
-  fhir:policyRule [
+  fhir:regulatoryBasis ( [
      fhir:coding ( [
        a sct:398227009 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
@@ -46,10 +40,8 @@
        fhir:display [ fhir:v "Inadequate consent" ]
      ] ) ;
      fhir:text [ fhir:v "Consent policy" ]
-  ] ; # 
-  fhir:provision [
-     fhir:type [ fhir:v "deny" ]
-  ] . # 
+  ] ) ; # 
+  fhir:decision [ fhir:v "deny"] . # 
 
 # -------------------------------------------------------------------------------------
 

@@ -1,11 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f4ef03e9-78b9-4bfd-9c35-401538205b13"/>
+  <id value="64a099ed-fd3d-4b78-845c-f4c89c8ada80"/>
   <meta>
-    <lastUpdated value="2023-05-09T15:35:55.972+00:00"/>
+    <lastUpdated value="2023-05-10T08:50:38.623+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-182838006"> </a>  
+                  <a href="http://snomed.info/id/182838006">182838006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Change of medication</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
+        <version value="0.1.0"/>
+        <name value="VSARVRegimenChange"/>
+        <title value="ARV Regimen Change"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
+        <contact>
+          <name value="Jembi Health Systems"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.jembi.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@jembi.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="ARV regimen change."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:146b7f25-3212-418e-b9bd-3a69ee227cf7"/>
+          <timestamp value="2023-05-10T08:52:00+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="182838006"/>
+            <display value="Change of medication"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-165813002"> </a>  
+                  <a href="http://snomed.info/id/165813002">165813002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Human immunodeficiency virus antibody test</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
+        <version value="0.1.0"/>
+        <name value="ReasonForHIVTestingCode"/>
+        <title value="Reason for HIV Testing Code"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
+        <contact>
+          <name value="Jembi Health Systems"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.jembi.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@jembi.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="A code used to indicate that a HIV test was done."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:82eb7e48-9a16-4f18-af50-a83c95b7ed9b"/>
+          <timestamp value="2023-05-10T08:52:04+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="165813002"/>
+            <display value="Human immunodeficiency virus antibody test"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
     <resource>
@@ -92,8 +274,9 @@
         <title value="Specimen Type Used In Viral Load testing"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -103,16 +286,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="A list of specimen types."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1e024987-e05d-4d49-8259-0bddf661f323"/>
-          <timestamp value="2023-05-09T15:37:12+00:00"/>
+          <identifier value="urn:uuid:d24e5f09-cf01-42eb-9671-e8ceade008f9"/>
+          <timestamp value="2023-05-10T08:52:04+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -203,8 +395,9 @@
         <title value="Viral Load Result Code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -214,16 +407,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="A code used to indicate the category for the lab result."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0f6c55f4-fb1f-46a6-9e81-f3f9c312f9e3"/>
-          <timestamp value="2023-05-09T15:37:12+00:00"/>
+          <identifier value="urn:uuid:67adadac-a5bf-40a2-bbbe-7cbc832196ff"/>
+          <timestamp value="2023-05-10T08:52:04+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -332,8 +534,9 @@
         <title value="Reasons why a lab order was cancelled or rejected"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -343,16 +546,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Reasons why a lab order was cancelled or rejected."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f0bca912-7b3a-4a1e-8ff7-278b2bfa3ebe"/>
-          <timestamp value="2023-05-09T15:37:16+00:00"/>
+          <identifier value="urn:uuid:09f259b6-0109-4098-9b48-b27f5b784535"/>
+          <timestamp value="2023-05-10T08:52:09+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -451,8 +663,9 @@
         <title value="Patient Consent for SMS Notifications"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -462,16 +675,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Patient Consent for SMS Notifications"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:39f36855-d016-4553-9e87-18de04914797"/>
-          <timestamp value="2023-05-09T15:37:26+00:00"/>
+          <identifier value="urn:uuid:d84abc55-562f-49f7-8419-3ead565b66d6"/>
+          <timestamp value="2023-05-10T08:52:18+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -605,12 +827,13 @@
         </text>
         <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
         <version value="0.1.0"/>
-        <name value="VSReasonSForARVRegimenChange"/>
+        <name value="VSReasonsForARVRegimenChange"/>
         <title value="Reasons for ARV Regimen Change"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -620,16 +843,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Used by the careplan to indicate the reason why a patient had their ARV regimen changed."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6ef0f52e-32f3-40f5-bdf9-678869d81259"/>
-          <timestamp value="2023-05-09T15:37:34+00:00"/>
+          <identifier value="urn:uuid:cdad2300-36dd-461c-811c-2d9871364fb9"/>
+          <timestamp value="2023-05-10T08:52:25+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -751,8 +983,9 @@
         <title value="Viral Load Suppressions Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -762,16 +995,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Describes a patient's current viral load status."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dea195be-1a2f-4b78-9e95-379129355d91"/>
-          <timestamp value="2023-05-09T15:37:39+00:00"/>
+          <identifier value="urn:uuid:9d3133dd-77a8-4256-bd99-966cef4de7bb"/>
+          <timestamp value="2023-05-10T08:52:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -842,8 +1084,9 @@
         <title value="Conditions"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -853,16 +1096,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="A list of possible HIV conditions."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2f269a7c-ce2e-4ef8-97af-be8f9734c055"/>
-          <timestamp value="2023-05-09T15:37:39+00:00"/>
+          <identifier value="urn:uuid:6eee418c-7b6d-4828-a3ce-1809c86fe145"/>
+          <timestamp value="2023-05-10T08:52:32+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -939,8 +1191,9 @@
         <title value="Patient Pregnant"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -950,16 +1203,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Used by the observation to indicate whether a patient is pregnant."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:83862750-a8a3-4dc3-904e-b4118f117c48"/>
-          <timestamp value="2023-05-09T15:37:39+00:00"/>
+          <identifier value="urn:uuid:7736ca59-e67c-4688-80c4-abef40e8e93c"/>
+          <timestamp value="2023-05-10T08:52:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1030,8 +1292,9 @@
         <title value="ARV Treatment Medication Request"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -1041,16 +1304,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Codes used to represent a medication request for ART."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:61f53042-ec6a-4e5f-ab9a-220c634b2cdb"/>
-          <timestamp value="2023-05-09T15:37:39+00:00"/>
+          <identifier value="urn:uuid:780746fd-df8e-4544-90ab-d8e1dc27e888"/>
+          <timestamp value="2023-05-10T08:52:32+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1127,8 +1399,9 @@
         <title value="ARV Adherence"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -1138,16 +1411,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="ARV Adherence"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:678f2991-5976-4f0b-b996-cdd2e71b5d3f"/>
-          <timestamp value="2023-05-09T15:37:40+00:00"/>
+          <identifier value="urn:uuid:b1842edb-8b98-4b58-9343-aa1a7a01f28c"/>
+          <timestamp value="2023-05-10T08:52:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1378,8 +1660,9 @@
         <title value="A list of ARV regimen"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -1389,16 +1672,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="A list of ARV regimen."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:33e64d29-b125-42b6-ad42-616e59d91e08"/>
-          <timestamp value="2023-05-09T15:37:42+00:00"/>
+          <identifier value="urn:uuid:57c6d938-abb8-40ca-b925-de354746f452"/>
+          <timestamp value="2023-05-10T08:52:34+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1567,8 +1859,9 @@
         <title value="Test Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -1578,16 +1871,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="A list of HIV test types"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3c3e7245-d064-441d-ac15-d8d953d8e38f"/>
-          <timestamp value="2023-05-09T15:37:42+00:00"/>
+          <identifier value="urn:uuid:cba63856-55a7-4921-a00b-3f0b11dfcced"/>
+          <timestamp value="2023-05-10T08:52:35+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1709,8 +2011,9 @@
         <title value="Reason for Assessment or Test Not Performed"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -1720,16 +2023,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="A list of reasons associated with the service request for the lab order."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:35fe00b5-6190-456d-a3a6-c79dacc77ac0"/>
-          <timestamp value="2023-05-09T15:37:43+00:00"/>
+          <identifier value="urn:uuid:b4e366c8-0f9d-445b-89dd-57adb88fd486"/>
+          <timestamp value="2023-05-10T08:52:35+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1825,8 +2137,9 @@
         <title value="HIV Test Done"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-09T15:35:55+00:00"/>
+        <date value="2023-05-10T08:50:38+00:00"/>
         <contact>
+          <name value="Jembi Health Systems"/>
           <telecom>
             <system value="url"/>
             <value value="https://www.jembi.org"/>
@@ -1836,16 +2149,25 @@
             <value value="info@jembi.org"/>
           </telecom>
         </contact>
+        <contact>
+          <name value="Richard Langford"/>
+          <telecom>
+            <system value="email"/>
+            <value value="richard.langford@jembi.org"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
         <description value="Used by the observation to indicate that a HIV test was performed."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
             <code value="001"/>
+            <display value="World"/>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9ca7fc0c-0ac3-4443-91bd-5fc4361d7874"/>
-          <timestamp value="2023-05-09T15:37:43+00:00"/>
+          <identifier value="urn:uuid:115ac77a-606a-4f99-a3b5-045e187ca560"/>
+          <timestamp value="2023-05-10T08:52:35+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>

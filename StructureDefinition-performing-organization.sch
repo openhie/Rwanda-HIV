@@ -52,8 +52,19 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Organization/f:address</sch:title>
-    <sch:rule context="f:Organization/f:address">
+    <sch:title>f:Organization/f:contact</sch:title>
+    <sch:rule context="f:Organization/f:contact">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:purpose) &lt;= 1">purpose: maximum cardinality of 'purpose' is 1</sch:assert>
+      <sch:assert test="count(f:address) &gt;= 1">address: minimum cardinality of 'address' is 1</sch:assert>
+      <sch:assert test="count(f:address) &lt;= 1">address: maximum cardinality of 'address' is 1</sch:assert>
+      <sch:assert test="count(f:organization) &lt;= 1">organization: maximum cardinality of 'organization' is 1</sch:assert>
+      <sch:assert test="count(f:period) &lt;= 1">period: maximum cardinality of 'period' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Organization/f:contact/f:address</sch:title>
+    <sch:rule context="f:Organization/f:contact/f:address">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:use) &lt;= 1">use: maximum cardinality of 'use' is 1</sch:assert>
       <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
