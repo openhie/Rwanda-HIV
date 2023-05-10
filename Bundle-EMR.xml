@@ -212,9 +212,6 @@
         </period>
         <activity>
           <plannedActivityReference>
-            <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted">
-              <valueBoolean value="false"/>
-            </extension>
             <reference value="MedicationRequest/ARVRegimenMedicationRequestExample"/>
           </plannedActivityReference>
         </activity>

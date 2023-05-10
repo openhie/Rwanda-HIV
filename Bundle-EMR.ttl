@@ -254,10 +254,6 @@
   fhir:activity ( [
      fhir:plannedActivityReference [
        fhir:link <http://openhie.org/fhir/rwanda-hiv/MedicationRequest/ARVRegimenMedicationRequestExample> ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "false"^^xsd:boolean ]
-       ] ) ;
        fhir:reference [ fhir:v "MedicationRequest/ARVRegimenMedicationRequestExample" ]
      ]
   ] ) ; # 

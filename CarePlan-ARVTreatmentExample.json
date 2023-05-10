@@ -34,10 +34,6 @@
   },
   "activity" : [{
     "plannedActivityReference" : {
-      "extension" : [{
-        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
-        "valueBoolean" : false
-      }],
       "reference" : "MedicationRequest/ARVRegimenMedicationRequestExample"
     }
   }],

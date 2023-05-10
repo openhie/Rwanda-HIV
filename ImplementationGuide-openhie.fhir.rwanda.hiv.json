@@ -337,6 +337,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/art-regimen-switched-or-substituted"
+      },
+      "name" : "ART Regimen Switched Or Substituted",
+      "description" : "The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/hiv-arv-adherence"
       },
       "name" : "Patient's Adherence to ARV Treatment",
@@ -721,18 +733,6 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/art-regimen-switched-or-substituted"
-      },
-      "name" : "ART Regimen Switched Or Substituted",
-      "description" : "The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/clinician-user-index"
       },
       "name" : "Clinician User Index",
@@ -1062,6 +1062,19 @@
       "name" : "Viral Load Suppressions Status",
       "description" : "Describes a patient's current viral load status.",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ARTRegimenSwitchedOrSubstitutedExample"
+      },
+      "name" : "ART Regimen Switched Or Substituted",
+      "description" : "The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"]
     },
     {
       "extension" : [{
