@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "ARVRegimenChangeExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/arv-regimen-change"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"]
   },
   "text" : {
     "status" : "generated",

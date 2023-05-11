@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "HIVTestResultAbsoluteDecimalExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result-absolute-decimal"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"]
   },
   "text" : {
     "status" : "generated",

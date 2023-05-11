@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:ActivityDefinition</sch:title>
     <sch:rule context="f:ActivityDefinition">
-      <sch:assert test="count(f:extension[@url = 'http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/revised-by-user-index']) &lt;= 1">extension with URL = 'http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/revised-by-user-index': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index']) &lt;= 1">extension with URL = 'http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
       <sch:assert test="count(f:specimenRequirement) &gt;= 1">specimenRequirement: minimum cardinality of 'specimenRequirement' is 1</sch:assert>
     </sch:rule>

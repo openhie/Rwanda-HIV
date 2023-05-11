@@ -5,84 +5,84 @@
   "jurisdiction": "001",
   "extensions": [
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/clinician-user-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
       "title": "Clinician User Index",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/funding-source-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index",
       "title": "Funding Organization",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/implementing-partner-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner-index",
       "title": "Implementing Partner Organization",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-months",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months",
       "title": "Patient Age In Months",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-years",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
       "title": "Patient Age In Years",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/performing-organization-district-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index",
       "title": "Performing Organization District",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/performing-organization-province-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index",
       "title": "Performing Organization Province",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-entered-manually",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually",
       "title": "Test Result Entered Manually",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-status-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index",
       "title": "Result Status Index",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/revised-by-user-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index",
       "title": "HIV Viral Load Result Revised By",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/sample-reordered",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered",
       "title": "Sample reordered",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/tested-by-user-index",
+      "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index",
       "title": "HIV Viral Load Result Tested By",
       "types": [
         "integer"
@@ -92,103 +92,103 @@
   "profiles": {
     "ServiceRequest": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/HIV-lab-order",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order",
         "title": "Lab Order"
       }
     ],
     "Observation": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-suspend-treatment-test-result",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result",
         "title": "Suspend Treatment Lab Results"
       },
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
         "title": "Lab Results"
       },
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result-absolute-decimal",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal",
         "title": "Viral Load Result Absolute Decimal"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/arv-regimen-medication-request",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
         "title": "ARV Regimen Medication Request"
       }
     ],
     "Device": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/device-for-testing",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
         "title": "Testing Platform"
       }
     ],
     "Organization": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/requesting-organization",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization",
         "title": "Requesting Organization"
       }
     ],
     "CarePlan": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
         "title": "ARV Treatment"
       }
     ],
     "DiagnosticReport": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-diagnostic-report",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
         "title": "Diagnostic Report"
       }
     ],
     "Task": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-dispatched-to-facility",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
         "title": "Result Dispatched"
       },
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/sample-dispatched-to-lab",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
         "title": "Sample Dispatched to Lab Task"
       }
     ],
     "ActivityDefinition": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task-activity",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity",
         "title": "HIV Lab Order Task Activity"
       }
     ],
     "Patient": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient",
         "title": "Patient"
       }
     ],
     "Practitioner": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
         "title": "Practitioner"
       }
     ],
     "Consent": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/receive-sms-messages",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
         "title": "Receive SMS Messages"
       }
     ],
     "SpecimenDefinition": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/specimen-preservation",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
         "title": "Specimen Conservation"
       }
     ],
     "Encounter": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/target-facility-encounter",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",
         "title": "Target Facility Encounter"
       }
     ],
     "Specimen": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-specimen",
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
         "title": "Viral Load Specimen"
       }
     ]
@@ -251,46 +251,46 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/clinician-user-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index": [
       "Bundle.entry.resource",
       "Practitioner"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/funding-source-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index": [
       "Organization"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/implementing-partner-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner-index": [
       "Organization"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-months": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months": [
       "Bundle.entry.resource",
       "Patient"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-years": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years": [
       "Bundle.entry.resource",
       "Patient"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/performing-organization-district-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index": [
       "Organization"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/performing-organization-province-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index": [
       "Organization"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-entered-manually": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually": [
       "Bundle.entry.resource",
       "Observation"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-status-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index": [
       "Bundle.entry.resource",
       "Task"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/revised-by-user-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index": [
       "ActivityDefinition"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/sample-reordered": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered": [
       "Bundle.entry.resource",
       "Specimen"
     ],
-    "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/tested-by-user-index": [
+    "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index": [
       "Bundle.entry.resource",
       "DiagnosticReport"
     ]
