@@ -20,6 +20,13 @@
     "name" : "HIVServiceRequest"
   },
   {
+    "id" : "art-initiated",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated",
+    "version" : "0.1.0",
+    "name" : "ARTInitiated"
+  },
+  {
     "id" : "art-regimen-switched-or-substituted",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
@@ -46,13 +53,6 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
     "version" : "0.1.0",
     "name" : "ClinicianUserIndex"
-  },
-  {
-    "id" : "date-hiv-test-done",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done",
-    "version" : "0.1.0",
-    "name" : "DateHIVTestDone"
   },
   {
     "id" : "device-for-testing",
@@ -284,6 +284,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index",
     "version" : "0.1.0",
     "name" : "TestedByIndex"
+  },
+  {
+    "id" : "transport-location",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+    "version" : "0.1.0",
+    "name" : "TransportLocation"
   },
   {
     "id" : "viral-load-log",

@@ -1,29 +1,32 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 3, warn = 1, info = 0
+err = 5, warn = 2, info = 0
 IG Publisher Version: 1.3.9
-Generated Thu May 11 12:24:10 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+Generated Thu May 11 15:28:35 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Bundle-LabCancellation : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Bundle-LabOrder : 0 / 0 / 11
+ /github/workspace/fsh-generated/resources/Bundle-LabOrder : 2 / 1 / 66
  /github/workspace/fsh-generated/resources/Bundle-LabRejection : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Bundle-LabResult : 0 / 0 / 11
- /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentInitiatedExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentRegimenChangedExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Consent-DoNotReceiveSMSMessagesExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Consent-ReceiveSMSMessagesExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Device-TestingPlatformExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-TargetFacilityEncounterExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv : 3 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-TransportCurrentLocationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-TransportRequestedLocationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestInitiatedARTExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestRegimenChangedExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARTInitiatedExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-ARTRegimenSwitchedOrSubstitutedExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-ARVAdherenceExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-ARVRegimenChangeExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-BreastfeedingExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Observation-DateHIVTestDoneExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVPatientIsNewExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVTestResultAbsoluteDecimalExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-HIVTestResultExample : 0 / 0 / 1
@@ -45,11 +48,11 @@ Generated Thu May 11 12:24:10 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Specimen-VLSpecimenExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-art-initiated : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-arv-regimen-change : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-arv-regimen-medication-request : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-clinician-user-index : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-date-hiv-test-done : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-for-testing : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-funding-source-index : 0 / 0 / 1
@@ -83,6 +86,7 @@ Generated Thu May 11 12:24:10 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/StructureDefinition-specimen-preservation : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-target-facility-encounter : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-tested-by-user-index : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-transport-location : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-log : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 1
@@ -93,8 +97,8 @@ Generated Thu May 11 12:24:10 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabOrderTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Task-HIVLabResultTaskExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Task-ResultDisptachedTaskExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Task-SampleDisptachedToLabTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Transport-ResultDisptachedTaskExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Transport-SampleDisptachedToLabTaskExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-adherence : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen-change : 0 / 0 / 1
@@ -115,12 +119,15 @@ Generated Thu May 11 12:24:10 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwan
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 == fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample.json ==
-== fsh-generated/resources/Bundle-EMR.json ==
 == fsh-generated/resources/Bundle-LabCancellation.json ==
 == fsh-generated/resources/Bundle-LabOrder.json ==
+ERROR: Bundle/LabOrder: Bundle.entry[0].resource/*StructureDefinition/hiv-patient*/.mapping[2].uri: URL value 'http://hl7.org/fhir/interface' does not resolve
+ERROR: Bundle/LabOrder: Bundle.entry[0].resource/*StructureDefinition/hiv-patient*/.snapshot.element[16].binding.extension[0]: The Extension 'http://hl7.org/fhir/tools/StructureDefinition/binding-definition' definition allows for the types [markdown] but found type string
+WARNING: Bundle/LabOrder: Bundle.entry[17].resource/*ActivityDefinition/LabOrderTaskActivityExample*/.url: Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed
 == fsh-generated/resources/Bundle-LabRejection.json ==
 == fsh-generated/resources/Bundle-LabResult.json ==
-== fsh-generated/resources/CarePlan-ARVTreatmentExample.json ==
+== fsh-generated/resources/CarePlan-ARVTreatmentInitiatedExample.json ==
+== fsh-generated/resources/CarePlan-ARVTreatmentRegimenChangedExample.json ==
 == fsh-generated/resources/Consent-DoNotReceiveSMSMessagesExample.json ==
 == fsh-generated/resources/Consent-ReceiveSMSMessagesExample.json ==
 == fsh-generated/resources/Device-TestingPlatformExample.json ==
@@ -130,12 +137,15 @@ WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide 
 ERROR: ImplementationGuide.where(url = 'http://openhie.org/fhir/rwanda-hiv'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json - the canonical URL (http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv) does not match the URL (http://openhie.org/fhir/rwanda-hiv)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: openhie.fhir.rwanda.hiv/http://openhie.org/fhir/rwanda-hiv
 ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv: URL Mismatch http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv vs http://openhie.org/fhir/rwanda-hiv
-== fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestExample.json ==
+== fsh-generated/resources/Location-TransportCurrentLocationExample.json ==
+== fsh-generated/resources/Location-TransportRequestedLocationExample.json ==
+== fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestInitiatedARTExample.json ==
+== fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestRegimenChangedExample.json ==
+== fsh-generated/resources/Observation-ARTInitiatedExample.json ==
 == fsh-generated/resources/Observation-ARTRegimenSwitchedOrSubstitutedExample.json ==
 == fsh-generated/resources/Observation-ARVAdherenceExample.json ==
 == fsh-generated/resources/Observation-ARVRegimenChangeExample.json ==
 == fsh-generated/resources/Observation-BreastfeedingExample.json ==
-== fsh-generated/resources/Observation-DateHIVTestDoneExample.json ==
 == fsh-generated/resources/Observation-HIVPatientIsNewExample.json ==
 == fsh-generated/resources/Observation-HIVTestResultAbsoluteDecimalExample.json ==
 == fsh-generated/resources/Observation-HIVTestResultExample.json ==
@@ -157,11 +167,11 @@ ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhi
 == fsh-generated/resources/Specimen-VLSpecimenExample.json ==
 == fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample.json ==
 == fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
+== fsh-generated/resources/StructureDefinition-art-initiated.json ==
 == fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted.json ==
 == fsh-generated/resources/StructureDefinition-arv-regimen-change.json ==
 == fsh-generated/resources/StructureDefinition-arv-regimen-medication-request.json ==
 == fsh-generated/resources/StructureDefinition-clinician-user-index.json ==
-== fsh-generated/resources/StructureDefinition-date-hiv-test-done.json ==
 == fsh-generated/resources/StructureDefinition-device-for-testing.json ==
 == fsh-generated/resources/StructureDefinition-funding-source.json ==
 == fsh-generated/resources/StructureDefinition-funding-source-index.json ==
@@ -195,6 +205,7 @@ ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhi
 == fsh-generated/resources/StructureDefinition-specimen-preservation.json ==
 == fsh-generated/resources/StructureDefinition-target-facility-encounter.json ==
 == fsh-generated/resources/StructureDefinition-tested-by-user-index.json ==
+== fsh-generated/resources/StructureDefinition-transport-location.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-log.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result.json ==
 == fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
@@ -205,8 +216,8 @@ ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhi
 == fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabOrderTaskExample.json ==
 == fsh-generated/resources/Task-HIVLabResultTaskExample.json ==
-== fsh-generated/resources/Task-ResultDisptachedTaskExample.json ==
-== fsh-generated/resources/Task-SampleDisptachedToLabTaskExample.json ==
+== fsh-generated/resources/Transport-ResultDisptachedTaskExample.json ==
+== fsh-generated/resources/Transport-SampleDisptachedToLabTaskExample.json ==
 == fsh-generated/resources/ValueSet-vs-arv-adherence.json ==
 == fsh-generated/resources/ValueSet-vs-arv-regimen.json ==
 == fsh-generated/resources/ValueSet-vs-arv-regimen-change.json ==

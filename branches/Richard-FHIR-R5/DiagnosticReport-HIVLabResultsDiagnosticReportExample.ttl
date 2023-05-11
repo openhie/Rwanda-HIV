@@ -57,6 +57,15 @@
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultExample> ;
      fhir:reference [ fhir:v "Observation/HIVTestResultExample" ]
   ] ) ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "additional notes here" ]
+  ] ) ; # 
   fhir:conclusion [ fhir:v "Some conclusion text"] . # 
 
 # -------------------------------------------------------------------------------------

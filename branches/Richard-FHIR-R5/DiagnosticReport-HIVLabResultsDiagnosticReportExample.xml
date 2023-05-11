@@ -39,5 +39,12 @@
   <result>
     <reference value="Observation/HIVTestResultExample"/>
   </result>
+  <note>
+    <authorReference>
+      <reference value="Organization/HIVOrganizationExample"/>
+    </authorReference>
+    <time value="2015-02-07T13:28:17-05:00"/>
+    <text value="additional notes here"/>
+  </note>
   <conclusion value="Some conclusion text"/>
 </DiagnosticReport>
