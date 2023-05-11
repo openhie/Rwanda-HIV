@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.91"}
-    h3,h4,h5,h6{--heading-prefix:"3.91"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.92"}
+    h3,h4,h5,h6{--heading-prefix:"3.92"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -224,7 +224,7 @@
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+  <pre class="rdf" style="white-space: pre; overflow: hidden">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix loinc: &lt;https://loinc.org/rdf/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
@@ -268,6 +268,12 @@
 <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.request">fhir:request</a> [
 <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.request.method">fhir:method</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;PUT&quot; ] ;
 <a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.request.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;Observation/HIVTestResultExample&quot;^^xsd:anyURI ]     ]
+  ] [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;ActivityDefinition/LabOrderTaskActivityExample&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition">fhir:resource</a> &lt;ActivityDefinition/LabOrderTaskActivityExample&gt; ) ;
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.request">fhir:request</a> [
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.request.method">fhir:method</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;PUT&quot; ] ;
+<a href="http://hl7.org/fhir/R5/bundle.html#Bundle.entry.request.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;ActivityDefinition/LabOrderTaskActivityExample&quot;^^xsd:anyURI ]     ]
   ] ) . # 
 
 &lt;Task/HIVLabResultTaskExample&gt; <a href="http://hl7.org/fhir/R5/task.html">a</a> fhir:Task ;
@@ -523,7 +529,40 @@ a sct:19032002 ;
 <a href="http://hl7.org/fhir/R5/datatypes.html#Annotation#Annotation.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">fhir:v</a> &quot;Viral load not suppressed&quot; ]
   ] ) . # 
 
-</code></pre>
+&lt;ActivityDefinition/LabOrderTaskActivityExample&gt; <a href="http://hl7.org/fhir/R5/activitydefinition.html">a</a> fhir:ActivityDefinition ;
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;LabOrderTaskActivityExample&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: ActivityDefinition&lt;/b&gt;&lt;a name=\&quot;LabOrderTaskActivityExample\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource ActivityDefinition &amp;quot;LabOrderTaskActivityExample&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-hiv-lab-task-activity.html\&quot;&gt;HIV Lab Order Task Activity&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;HIV Viral Load Result Revised By&lt;/b&gt;: 2&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2023-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;approvalDate&lt;/b&gt;: 2023-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;lastReviewDate&lt;/b&gt;: 2023-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;editor&lt;/b&gt;: Someone: &lt;/p&gt;&lt;p&gt;&lt;b&gt;reviewer&lt;/b&gt;: Someone: &lt;/p&gt;&lt;p&gt;&lt;b&gt;endorser&lt;/b&gt;: Someone: &lt;/p&gt;&lt;p&gt;&lt;b&gt;specimenRequirement&lt;/b&gt;: &lt;a href=\&quot;http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample\&quot;&gt;http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.extension">fhir:extension</a> ( [
+<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#integer">fhir:v</a> &quot;2&quot;^^xsd:integer ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2023-01-01&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.approvalDate">fhir:approvalDate</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#date">fhir:v</a> &quot;2023-01-01&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.lastReviewDate">fhir:lastReviewDate</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#date">fhir:v</a> &quot;2023-01-01&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.editor">fhir:editor</a> ( [
+<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Someone&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.reviewer">fhir:reviewer</a> ( [
+<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Someone&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.endorser">fhir:endorser</a> ( [
+<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Someone&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R5/activitydefinition.html#ActivityDefinition.specimenRequirement">fhir:specimenRequirement</a> ( [
+<a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample&gt;
+  ] ) . # 
+
+</pre>
 
 
 
@@ -555,7 +594,7 @@ a sct:19032002 ;
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, May 11, 2023 18:54+0000">2023-05-11</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, May 11, 2023 19:41+0000">2023-05-11</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
