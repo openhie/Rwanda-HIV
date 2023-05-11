@@ -51,8 +51,8 @@
   fhir:id [ fhir:v "HIVPatientExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient>
      ] )
   ] ; # 
   fhir:text [
@@ -60,10 +60,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"HIVPatientExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;HIVPatientExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-patient.html\">Patient</a></p></div><p><b>Patient Age In Months</b>: 388</p><p><b>Patient Age In Years</b>: 32</p><p><b>name</b>: Jane Maria Smith (OFFICIAL)</p><p><b>telecom</b>: <a href=\"tel:+27821234567\">+27821234567</a>, <a href=\"mailto:someone@example.com\">someone@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1990-12-12</p><p><b>managingOrganization</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-months"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "388"^^xsd:integer ]
   ] [
-     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-years"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "32"^^xsd:integer ]
   ] ) ; # 
   fhir:name ( [
@@ -89,8 +89,8 @@
   fhir:id [ fhir:v "TargetFacilityEncounterExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/target-facility-encounter"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/target-facility-encounter>
      ] )
   ] ; # 
   fhir:text [
@@ -117,8 +117,8 @@
   fhir:id [ fhir:v "DateHIVTestDoneExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done>
      ] )
   ] ; # 
   fhir:text [
@@ -158,8 +158,8 @@
   fhir:id [ fhir:v "HIVTestResultExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result>
      ] )
   ] ; # 
   fhir:text [
@@ -167,7 +167,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVTestResultExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVTestResultExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-test-result.html\">Lab Results</a></p></div><p><b>Test Result Entered Manually</b>: false</p><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"#Encounter_TargetFacilityEncounterExample\">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 1001</p><p><b>interpretation</b>: Viral Load Suppression Status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#19032002 &quot;Uncontrolled&quot;)</span></p><p><b>note</b>: Viral load not suppressed (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-entered-manually"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "false"^^xsd:boolean ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -217,8 +217,8 @@
   fhir:id [ fhir:v "ARVTreatmentExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment>
      ] )
   ] ; # 
   fhir:text [

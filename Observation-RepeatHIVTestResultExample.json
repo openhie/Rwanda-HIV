@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "RepeatHIVTestResultExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-repeat-test-result"]
   },
   "text" : {
     "status" : "generated",

@@ -2,7 +2,7 @@
   "resourceType" : "Encounter",
   "id" : "TargetFacilityEncounterExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/target-facility-encounter"]
   },
   "text" : {
     "status" : "generated",
