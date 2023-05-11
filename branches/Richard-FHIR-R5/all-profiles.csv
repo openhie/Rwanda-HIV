@@ -34,7 +34,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hiv-arv-treatment","CarePlan.identifier","CarePlan.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","External Ids for this plan","Business identifiers assigned to this care plan by the performer or other systems which remain constant as the resource is updated and propagates from server to server.","This is a business identifier, not a resource identifier (see [discussion](http://hl7.org/fhir/R5/resource.html#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number.","Allows identification of the care plan as it is known by various participating systems and in a way that remains consistent across servers.","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","CarePlan.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Slice based on the type of identifier.",,"open","CarePlan.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "hiv-arv-treatment","CarePlan.identifier:PLAC","CarePlan.identifier","PLAC","","",1,1,"","","Y","Identifier {[]} {[]}
 ","External Ids for this plan","Business identifiers assigned to this care plan by the performer or other systems which remain constant as the resource is updated and propagates from server to server.","This is a business identifier, not a resource identifier (see [discussion](http://hl7.org/fhir/R5/resource.html#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number.","Allows identification of the care plan as it is known by various participating systems and in a way that remains consistent across servers.","","","","","","","",,,,,"",,,,"CarePlan.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -447,7 +447,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "HIV-lab-order","ServiceRequest.identifier","ServiceRequest.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","Identifiers assigned to this order","Identifiers assigned to this order instance by the orderer and/or the receiver and/or order fulfiller.","The identifier.type element is used to distinguish between the identifiers assigned by the orderer (known as the 'Placer' in HL7 V2) and the producer of the observations in response to the order (known as the 'Filler' in HL7 V2).  For further discussion and examples see the resource notes section below.","","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","ServiceRequest.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Slice based on the type of identifier.",,"open","ServiceRequest.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "HIV-lab-order","ServiceRequest.identifier:PLAC","ServiceRequest.identifier","PLAC","","",0,1,"","","Y","Identifier {[]} {[]}
 ","Identifiers assigned to this order","Identifiers assigned to this order instance by the orderer and/or the receiver and/or order fulfiller.","The identifier.type element is used to distinguish between the identifiers assigned by the orderer (known as the 'Placer' in HL7 V2) and the producer of the observations in response to the order (known as the 'Filler' in HL7 V2).  For further discussion and examples see the resource notes section below.","","","","","","","","",,,,,"",,,,"ServiceRequest.identifier",0,*,"",""
@@ -752,7 +752,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hiv-organization","Organization.identifier","Organization.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","Identifies this organization  across multiple systems","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Organization.identifier",0,*,"org-1
+","Slice based on the type of identifier.",,"open","Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "hiv-organization","Organization.identifier:XX","Organization.identifier","XX","","",1,1,"","","Y","Identifier {[]} {[]}
@@ -1207,7 +1207,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hiv-lab-task","Task.identifier","Task.identifier","","","",1,*,"","","","Identifier {[]} {[]}
 ","Task Instance Identifier","The business identifier for this task.","","","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Task.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Slice based on the type of identifier.",,"open","Task.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "hiv-lab-task","Task.identifier:FILL","Task.identifier","FILL","","",1,1,"","","","Identifier {[]} {[]}
 ","Task Instance Identifier","The business identifier for this task.","","","","","","","","","",,,,,"",,,,"Task.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -2390,7 +2390,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "requesting-organization","Organization.identifier","Organization.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","Identifies this organization  across multiple systems","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Organization.identifier",0,*,"org-1
+","Slice based on the type of identifier.",,"open","Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "requesting-organization","Organization.identifier:OrgID","Organization.identifier","OrgID","","",1,1,"","","Y","Identifier {[]} {[]}
@@ -2561,7 +2561,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "funding-source","Organization.identifier","Organization.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","Identifies this organization  across multiple systems","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Organization.identifier",0,*,"org-1
+","Slice based on the type of identifier.",,"open","Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "funding-source","Organization.identifier:OrgID","Organization.identifier","OrgID","","",0,1,"Y","","Y","Identifier {[]} {[]}
@@ -4317,7 +4317,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "performing-organization","Organization.identifier","Organization.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","Identifies this organization  across multiple systems","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Organization.identifier",0,*,"org-1
+","Slice based on the type of identifier.",,"open","Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "performing-organization","Organization.identifier:OrgID","Organization.identifier","OrgID","","",1,1,"","","Y","Identifier {[]} {[]}
@@ -5930,7 +5930,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "viral-load-specimen","Specimen.identifier","Specimen.identifier","","","",3,*,"","","Y","Identifier {[]} {[]}
 ","External Identifier","Id for specimen.","","","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Specimen.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Slice based on the type of identifier.",,"open","Specimen.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "viral-load-specimen","Specimen.identifier:appSampleCode","Specimen.identifier","appSampleCode","","",1,1,"","","Y","Identifier {[]} {[]}
 ","External Identifier","Id for specimen.","","","","","","","","","",,,,,"",,,,"Specimen.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -6642,7 +6642,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "implementing-partner","Organization.identifier","Organization.identifier","","","",1,*,"","","Y","Identifier {[]} {[]}
 ","Identifies this organization  across multiple systems","Identifier for the organization that is used to identify the organization across multiple disparate systems.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Organization.identifier",0,*,"org-1
+","Slice based on the type of identifier.",,"open","Organization.identifier",0,*,"org-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "implementing-partner","Organization.identifier:OrgID","Organization.identifier","OrgID","","",0,1,"Y","","Y","Identifier {[]} {[]}
