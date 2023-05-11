@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "HIVPatientIsNewExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-is-new"]
   },
   "text" : {
     "status" : "generated",

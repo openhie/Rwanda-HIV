@@ -2,7 +2,7 @@
   "resourceType" : "Device",
   "id" : "TestingPlatformExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/device-for-testing"]
   },
   "text" : {
     "status" : "generated",

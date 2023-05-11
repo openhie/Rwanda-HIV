@@ -2,7 +2,7 @@
   "resourceType" : "Organization",
   "id" : "HIVOrganizationExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-organization"]
   },
   "text" : {
     "status" : "generated",

@@ -9,12 +9,12 @@
       <Task>
         <id value="HIVLabOrderTaskExample"/>
         <meta>
-          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"/>
         </meta>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Task</b><a name="HIVLabOrderTaskExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Task &quot;HIVLabOrderTaskExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-lab-task.html">Lab Task</a></p></div><p><b>Result Status Index</b>: 1</p><p><b>identifier</b>: Filler Identifier: ORDER12345</p><p><b>instantiatesCanonical</b>: <a href="ActivityDefinition-LabOrderTaskActivityExample.html">ActivityDefinition[http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample|0.1.0]</a></p><p><b>basedOn</b>: <a href="#ServiceRequest_HIVServiceRequestExample">See above (ServiceRequest/HIVServiceRequestExample)</a></p><p><b>status</b>: requested</p><p><b>intent</b>: order</p><p><b>executionPeriod</b>: 2022-07-28 --&gt; (ongoing)</p><p><b>lastModified</b>: 2022-07-28</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Task</b><a name="HIVLabOrderTaskExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Task &quot;HIVLabOrderTaskExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-lab-task.html">Lab Task</a></p></div><p><b>Result Status Index</b>: 1</p><p><b>identifier</b>: Filler Identifier: ORDER12345</p><p><b>instantiatesCanonical</b>: <a href="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ActivityDefinition/LabOrderTaskActivityExample">http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ActivityDefinition/LabOrderTaskActivityExample</a></p><p><b>basedOn</b>: <a href="#ServiceRequest_HIVServiceRequestExample">See above (ServiceRequest/HIVServiceRequestExample)</a></p><p><b>status</b>: requested</p><p><b>intent</b>: order</p><p><b>executionPeriod</b>: 2022-07-28 --&gt; (ongoing)</p><p><b>lastModified</b>: 2022-07-28</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
         </text>
-        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index">
+        <extension url="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-status-index">
           <valueInteger value="1"/>
         </extension>
         <identifier>
@@ -28,7 +28,7 @@
           <system value="http://openhie.org/fhir/rwanda-hiv/lab-integration/order-number"/>
           <value value="ORDER12345"/>
         </identifier>
-        <instantiatesCanonical value="http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample"/>
+        <instantiatesCanonical value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ActivityDefinition/LabOrderTaskActivityExample"/>
         <basedOn>
           <reference value="ServiceRequest/HIVServiceRequestExample"/>
         </basedOn>
@@ -58,7 +58,7 @@
       <ServiceRequest>
         <id value="HIVServiceRequestExample"/>
         <meta>
-          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/HIV-lab-order"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ServiceRequest</b><a name="HIVServiceRequestExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ServiceRequest &quot;HIVServiceRequestExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-HIV-lab-order.html">Lab Order</a></p></div><p><b>identifier</b>: HIV lab service request identifier: ORDER12345</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Test Type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></td></tr></table><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>occurrence</b>: 2012-01-05</p><p><b>requester</b>: <a href="#Practitioner_RequestingPractitionerExample">See above (Practitioner/RequestingPractitionerExample)</a></p><p><b>performer</b>: <a href="#Practitioner_PerformingPractitionerExample">See above (Practitioner/PerformingPractitionerExample)</a></p><h3>Reasons</h3><table class="grid"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a href="Observation-ReasonForHIVTestingExample.html">Observation/ReasonForHIVTestingExample</a></td></tr></table><p><b>specimen</b>: <a href="#Specimen_VLSpecimenExample">See above (Specimen/VLSpecimenExample)</a></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
@@ -128,12 +128,12 @@
       <Practitioner>
         <id value="RequestingPractitionerExample"/>
         <meta>
-          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"/>
         </meta>
         <text>
           <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="RequestingPractitionerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;RequestingPractitionerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-practitioner.html">Practitioner</a></p></div><p><b>Clinician User Index</b>: 2</p><p><b>name</b>: James Smith </p><p><b>telecom</b>: ph: 27537652509</p></div>
         </text>
-        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index">
+        <extension url="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/clinician-user-index">
           <valueInteger value="2"/>
         </extension>
         <name>
@@ -157,12 +157,12 @@
       <Practitioner>
         <id value="PerformingPractitionerExample"/>
         <meta>
-          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"/>
         </meta>
         <text>
           <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="PerformingPractitionerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;PerformingPractitionerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-practitioner.html">Practitioner</a></p></div><p><b>Clinician User Index</b>: 6</p><p><b>name</b>: Amy White </p><p><b>telecom</b>: ph: 27537687534</p></div>
         </text>
-        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index">
+        <extension url="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/clinician-user-index">
           <valueInteger value="6"/>
         </extension>
         <name>
@@ -186,12 +186,12 @@
       <Specimen>
         <id value="VLSpecimenExample"/>
         <meta>
-          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"/>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-specimen"/>
         </meta>
         <text>
           <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Specimen</b><a name="VLSpecimenExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Specimen &quot;VLSpecimenExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-viral-load-specimen.html">Viral Load Specimen</a></p></div><p><b>Sample reordered</b>: false</p><p><b>identifier</b>: App sample identifier: abc123, Remote sample identifier: def456, Sample identifier: ghi789</p><p><b>type</b>: Specimen Type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#119361006 &quot;Plasma specimen (specimen)&quot;)</span></p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>receivedTime</b>: 2022-07-28</p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>Collected[x]</b></td></tr><tr><td>*</td><td>2022-07-28</td></tr></table><h3>Processings</h3><table class="grid"><tr><td>-</td><td><b>Time[x]</b></td></tr><tr><td>*</td><td>2022-07-28</td></tr></table><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
         </text>
-        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered">
+        <extension url="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/sample-reordered">
           <valueBoolean value="false"/>
         </extension>
         <identifier>

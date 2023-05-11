@@ -10,8 +10,8 @@
   fhir:id [ fhir:v "ARVTreatmentExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment>
      ] )
   ] ; # 
   fhir:text [

@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "DateHIVTestDoneExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done>
      ] )
   ] ; # 
   fhir:text [

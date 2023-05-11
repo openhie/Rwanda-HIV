@@ -935,8 +935,7 @@
       </reference>
       <name value="ART Regimen Switched Or Substituted"/>
       <description value="The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/art-regimen-switched-or-substituted"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -947,8 +946,7 @@
       </reference>
       <name value="Patient's Adherence to ARV Treatment"/>
       <description value="ARV adherence."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-adherence"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -959,8 +957,7 @@
       </reference>
       <name value="ARV Regimen Change"/>
       <description value="ARV regimen change."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/arv-regimen-change"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -971,8 +968,7 @@
       </reference>
       <name value="ARV Regimen Medication Request"/>
       <description value="ARV Regimen Medication Request"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/arv-regimen-medication-request"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -983,8 +979,7 @@
       </reference>
       <name value="ARV CarePlan example"/>
       <description value="ARV CarePlan example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -995,8 +990,7 @@
       </reference>
       <name value="Breastfeeding Patient"/>
       <description value="Breastfeeding patient."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-breastfeeding"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1007,8 +1001,7 @@
       </reference>
       <name value="Date HIV Test Done example"/>
       <description value="Date HIV Test Done example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1019,8 +1012,7 @@
       </reference>
       <name value="Do Not Receive SMS Messages"/>
       <description value="Indication that a patient does not consent to receiving SMS messages."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/receive-sms-messages"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1042,8 +1034,7 @@
       </reference>
       <name value="Funding Organization"/>
       <description value="Funding organization."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/funding-source"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1054,8 +1045,7 @@
       </reference>
       <name value="HIV Lab Order Cancellation  example"/>
       <description value="HIV Lab Order Cancellation Task example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1066,8 +1056,7 @@
       </reference>
       <name value="HIV Lab Order Rejection  example"/>
       <description value="HIV Lab Order Rejection Task example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1078,8 +1067,7 @@
       </reference>
       <name value="Lab Order example"/>
       <description value="Lab Order example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1090,8 +1078,7 @@
       </reference>
       <name value="Lab Result Task example"/>
       <description value="Lab Result Task example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1102,8 +1089,7 @@
       </reference>
       <name value="HIV Lab Results Diagnostic Report example"/>
       <description value="HIV Lab Results Diagnostic Report example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-diagnostic-report"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1114,8 +1100,7 @@
       </reference>
       <name value="HIV Organization Example"/>
       <description value="Organization example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1126,8 +1111,7 @@
       </reference>
       <name value="Patient example"/>
       <description value="Patient example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1138,8 +1122,7 @@
       </reference>
       <name value="Patient Is New example"/>
       <description value="Patient Is New example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-is-new"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1150,8 +1133,7 @@
       </reference>
       <name value="HIV Lab Order example"/>
       <description value="HIV Lab Order example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/HIV-lab-order"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1162,8 +1144,7 @@
       </reference>
       <name value="Viral Load Result Absolute Decimal"/>
       <description value="Viral load result absolute decimal"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result-absolute-decimal"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1174,8 +1155,7 @@
       </reference>
       <name value="Viral Load Suppression example"/>
       <description value="Viral Load Suppression example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1186,8 +1166,7 @@
       </reference>
       <name value="Viral Load Log"/>
       <description value="Viral Load Log"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-log"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1198,8 +1177,7 @@
       </reference>
       <name value="Implementing Partner Organization"/>
       <description value="Implementing partner organization."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/implementing-partner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1232,8 +1210,7 @@
       </reference>
       <name value="HIV Lab Order Task Activity"/>
       <description value="HIV lab order task activity."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task-activity"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1266,8 +1243,7 @@
       </reference>
       <name value="Patient Pregnant example"/>
       <description value="Patient Pregnant example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-pregnant"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1278,8 +1254,7 @@
       </reference>
       <name value="Performing Organization"/>
       <description value="Organization responsible for carrying out the HIV testing services."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/performing-organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1290,8 +1265,7 @@
       </reference>
       <name value="Practitioner example"/>
       <description value="Practitioner example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1302,8 +1276,7 @@
       </reference>
       <name value="Reason for HIV testing"/>
       <description value="The reason for HIV testing."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/reason-for-hiv-testing"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1314,8 +1287,7 @@
       </reference>
       <name value="Receive SMS Messages"/>
       <description value="Indication that a patient does consent to receiving SMS messages."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/receive-sms-messages"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1326,8 +1298,7 @@
       </reference>
       <name value="Repeat Viral Load Suppression example"/>
       <description value="Repeat Viral Load Suppression example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-repeat-test-result"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1338,8 +1309,7 @@
       </reference>
       <name value="Requesting Organization"/>
       <description value="Organization requesting for HIV testing services."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/requesting-organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1350,8 +1320,7 @@
       </reference>
       <name value="Practitioner example"/>
       <description value="Practitioner example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1362,8 +1331,7 @@
       </reference>
       <name value="Result Dispatched"/>
       <description value="Result Dispatched"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-dispatched-to-facility"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1374,8 +1342,7 @@
       </reference>
       <name value="Results Interpreter example"/>
       <description value="Results interpreter example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1386,8 +1353,7 @@
       </reference>
       <name value="Sample Dispatched to Lab Task"/>
       <description value="Sample dispatched to lab task."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/sample-dispatched-to-lab"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1398,8 +1364,7 @@
       </reference>
       <name value="Specimen Conservation"/>
       <description value="Specimen conservation information."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/specimen-preservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1410,8 +1375,7 @@
       </reference>
       <name value="Suspend Treatment Lab Results"/>
       <description value="Suspend treatment lab results."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-suspend-treatment-test-result"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1422,8 +1386,7 @@
       </reference>
       <name value="Target Facility Encounter example"/>
       <description value="Target Facility Encounter example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/target-facility-encounter"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1434,8 +1397,7 @@
       </reference>
       <name value="Testing Platform"/>
       <description value="The device platform used for testing."/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/device-for-testing"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1446,8 +1408,7 @@
       </reference>
       <name value="Viral Load Specimen example"/>
       <description value="Viral Load Specimen example"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"/>
-      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-specimen"/>
     </resource>
     <page>
       <sourceUrl value="toc.html"/>

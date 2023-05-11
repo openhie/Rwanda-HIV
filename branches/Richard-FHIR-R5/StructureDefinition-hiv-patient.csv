@@ -26,10 +26,10 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension:PAM","Patient.extension","PAM","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months]]} {[]}
+"Patient.extension:PAM","Patient.extension","PAM","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-months]]} {[]}
 ","Patient Age In Months","Age of the patient calculated in months.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension:PAY","Patient.extension","PAY","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years]]} {[]}
+"Patient.extension:PAY","Patient.extension","PAY","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-years]]} {[]}
 ","Patient Age In Years","Age of the patient calculated in years.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.modifierExtension","Patient.modifierExtension","","extensions

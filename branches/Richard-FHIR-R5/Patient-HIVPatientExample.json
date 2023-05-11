@@ -2,18 +2,18 @@
   "resourceType" : "Patient",
   "id" : "HIVPatientExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient"]
   },
   "text" : {
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Jane Maria Smith (OFFICIAL)</b> female, DoB: 1990-12-12</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"tel:+27821234567\">+27821234567</a></li><li><a href=\"mailto:someone@example.com\">someone@example.com</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age of the patient calculated in months.\"><a href=\"StructureDefinition-patient-age-months.html\">Patient Age In Months:</a></td><td colspan=\"3\"><ul><li>388</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Age of the patient calculated in years.\"><a href=\"StructureDefinition-patient-age-years.html\">Patient Age In Years:</a></td><td colspan=\"3\"><ul><li>32</li></ul></td></tr></table></div>"
   },
   "extension" : [{
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-months",
     "valueInteger" : 388
   },
   {
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/patient-age-years",
     "valueInteger" : 32
   }],
   "name" : [{
