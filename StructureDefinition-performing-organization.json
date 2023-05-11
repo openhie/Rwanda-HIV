@@ -10,7 +10,7 @@
   "name" : "PerformingOrganization",
   "title" : "Performing Organization",
   "status" : "active",
-  "date" : "2023-05-11T09:17:12+00:00",
+  "date" : "2023-05-11T10:17:25+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "name" : "Jembi Health Systems",
@@ -506,6 +506,7 @@
           "path" : "system"
         }],
         "description" : "Slice based on the type of identifier.",
+        "ordered" : false,
         "rules" : "openAtEnd"
       },
       "short" : "Identifies this organization  across multiple systems",
@@ -2825,6 +2826,7 @@
           "path" : "system"
         }],
         "description" : "Slice based on the type of identifier.",
+        "ordered" : false,
         "rules" : "openAtEnd"
       },
       "min" : 1

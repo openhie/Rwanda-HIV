@@ -29,7 +29,7 @@
   <name value="PerformingOrganization"/>
   <title value="Performing Organization"/>
   <status value="active"/>
-  <date value="2023-05-11T09:17:12+00:00"/>
+  <date value="2023-05-11T10:17:25+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <name value="Jembi Health Systems"/>
@@ -508,6 +508,7 @@
           <path value="system"/>
         </discriminator>
         <description value="Slice based on the type of identifier."/>
+        <ordered value="false"/>
         <rules value="openAtEnd"/>
       </slicing>
       <short value="Identifies this organization  across multiple systems"/>
@@ -2741,6 +2742,7 @@
           <path value="system"/>
         </discriminator>
         <description value="Slice based on the type of identifier."/>
+        <ordered value="false"/>
         <rules value="openAtEnd"/>
       </slicing>
       <min value="1"/>
