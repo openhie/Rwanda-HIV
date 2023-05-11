@@ -1,16 +1,16 @@
 [
   {
-    "id" : "openhie.fhir.rwanda.hiv",
-    "type" : "ImplementationGuide",
-    "url" : "http://openhie.org/fhir/rwanda-hiv",
-    "version" : "0.1.0",
-    "name" : "RwandaHIV"
-  },
-  {
     "id" : "LabOrderTaskActivityExample",
     "type" : "ActivityDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample",
     "version" : "0.1.0"
+  },
+  {
+    "id" : "openhie.fhir.rwanda.hiv",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv",
+    "version" : "0.1.0",
+    "name" : "RwandaHIV"
   },
   {
     "id" : "HIV-lab-order",

@@ -10,9 +10,9 @@
   fhir:id [ fhir:v "openhie.fhir.rwanda.hiv"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv</pre><div><p>A FHIR Implementation Guide - Rwanda HIV</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv</pre><div><p>A FHIR Implementation Guide - Rwanda HIV</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "RwandaHIV"] ; # 
   fhir:title [ fhir:v "HL7 FHIR Implementation Guide: Rwanda HIV"] ; # 
@@ -160,7 +160,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "history.html" ]
+         fhir:value [ fhir:v "http://openhie.org/fhir/rwanda-hiv/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -2026,7 +2026,7 @@
          fhir:system [ fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "path-history" ]
        ] ;
-       fhir:value [ fhir:v "history.html" ]
+       fhir:value [ fhir:v "http://openhie.org/fhir/rwanda-hiv/history.html" ]
      ] [
        fhir:code [
          fhir:system [ fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ] ;
