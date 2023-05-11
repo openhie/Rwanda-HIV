@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HIVServiceRequest"] ; # 
   fhir:title [ fhir:v "Lab Order"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-11T09:17:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T10:17:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Jembi Health Systems" ] ;
@@ -463,7 +463,8 @@
            fhir:type [ fhir:v "value" ] ;
            fhir:path [ fhir:v "system" ]
          ] ) ;
-         fhir:description [ fhir:v "Slice based on the type of identifier" ] ;
+         fhir:description [ fhir:v "Slice based on the type of identifier." ] ;
+         fhir:ordered [ fhir:v "false"^^xsd:boolean ] ;
          fhir:rules [ fhir:v "openAtEnd" ]
        ] ;
        fhir:short [ fhir:v "Identifiers assigned to this order" ] ;
@@ -3815,7 +3816,8 @@
            fhir:type [ fhir:v "value" ] ;
            fhir:path [ fhir:v "system" ]
          ] ) ;
-         fhir:description [ fhir:v "Slice based on the type of identifier" ] ;
+         fhir:description [ fhir:v "Slice based on the type of identifier." ] ;
+         fhir:ordered [ fhir:v "false"^^xsd:boolean ] ;
          fhir:rules [ fhir:v "openAtEnd" ]
        ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ]
