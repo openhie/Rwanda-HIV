@@ -10,8 +10,8 @@
   fhir:id [ fhir:v "FundingOrganizationExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/funding-source"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/funding-source>
      ] )
   ] ; # 
   fhir:text [
@@ -19,7 +19,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"FundingOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;FundingOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-funding-source.html\">Funding Organization</a></p></div><p><b>Funding Organization</b>: 1</p><p><b>identifier</b>: Funding Organization identifier: funder1</p><p><b>name</b>: A funding organization name</p></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/funding-source-index"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "1"^^xsd:integer ]
   ] ) ; # 
   fhir:identifier ( [

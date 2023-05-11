@@ -12,8 +12,8 @@
   fhir:id [ fhir:v "ReceiveSMSMessagesExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages>
      ] )
   ] ; # 
   fhir:text [

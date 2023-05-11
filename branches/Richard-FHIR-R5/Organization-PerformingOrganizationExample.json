@@ -2,18 +2,18 @@
   "resourceType" : "Organization",
   "id" : "PerformingOrganizationExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/performing-organization"]
   },
   "text" : {
     "status" : "extensions",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"PerformingOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;PerformingOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-performing-organization.html\">Performing Organization</a></p></div><p><b>Performing Organization Province</b>: 4</p><p><b>Performing Organization District</b>: 9</p><p><b>identifier</b>: Performing Organization identifier:\u00a0laboratory1</p><p><b>name</b>: A Laboratory name</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>A province name </td></tr></table></div>"
   },
   "extension" : [{
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/performing-organization-province-index",
     "valueInteger" : 4
   },
   {
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/performing-organization-district-index",
     "valueInteger" : 9
   }],
   "identifier" : [{

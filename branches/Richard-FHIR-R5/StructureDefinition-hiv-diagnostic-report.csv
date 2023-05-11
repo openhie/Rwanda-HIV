@@ -26,7 +26,7 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DiagnosticReport.extension:TestedByIndex","DiagnosticReport.extension","TestedByIndex","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index]]} {[]}
+"DiagnosticReport.extension:TestedByIndex","DiagnosticReport.extension","TestedByIndex","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/tested-by-user-index]]} {[]}
 ","HIV Viral Load Result Tested By","The user index for the person who tested the viral load specimen.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.modifierExtension","DiagnosticReport.modifierExtension","","extensions
@@ -52,7 +52,7 @@ Sub-departmentServiceDiscipline","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","FiveWs.class","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","","","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-test-types","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","","","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-test-types","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.what[x]","OBR-4 (HL7 V2 doesn't provide an easy way to indicate both the ordered test and the performed panel)","code"
 "DiagnosticReport.code.id","DiagnosticReport.code.id","","","",0,1,"","","","id {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1

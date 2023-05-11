@@ -2,7 +2,7 @@
   "resourceType" : "Transport",
   "id" : "ResultDisptachedTaskExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/result-dispatched-to-facility"]
   },
   "text" : {
     "status" : "generated",

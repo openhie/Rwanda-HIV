@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "ARVRegimenMedicationRequestInitiatedARTExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-medication-request"]
   },
   "text" : {
     "status" : "generated",

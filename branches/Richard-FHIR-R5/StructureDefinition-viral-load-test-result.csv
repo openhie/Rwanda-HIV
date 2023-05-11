@@ -26,7 +26,7 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension:ResultEnteredManually","Observation.extension","ResultEnteredManually","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually]]} {[]}
+"Observation.extension:ResultEnteredManually","Observation.extension","ResultEnteredManually","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/result-entered-manually]]} {[]}
 ","Test Result Entered Manually","The test result was entered manually.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Observation.modifierExtension","Observation.modifierExtension","","extensions
@@ -83,7 +83,7 @@ Reflex | Repeat | Re-run.","","","","","","","","","",,"required","The type of T
 ","FiveWs.class",".outboundRelationship[typeCode=""COMP].target[classCode=""LIST"", moodCode=""EVN""].code"
 "Observation.code","Observation.code","","Name
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code","",,,,"Observation.code",1,1,"obs-7
+","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-vl-result-code","",,,,"Observation.code",1,1,"obs-7
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.what[x]","< 363787002 |Observable entity| OR < 386053000 |Evaluation procedure|","OBX-3","code","116680003 |Is a|"
 "Observation.code.id","Observation.code.id","","","",0,1,"","","","id {[]} {[]}
@@ -158,7 +158,7 @@ The alternate way is to use the value element for actual observations and use th
 ","N/A","value.nullFlavor"
 "Observation.interpretation","Observation.interpretation","","Abnormal Flag
 ","",1,1,"","","","CodeableConcept {[]} {[]}
-","High, low, normal, etc","A categorical assessment of an observation value.  For example, high, low, normal.","Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result.","For some results, particularly numeric results, an interpretation is necessary to fully understand the significance of a result.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression","",,,,"Observation.interpretation",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","High, low, normal, etc","A categorical assessment of an observation value.  For example, high, low, normal.","Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result.","For some results, particularly numeric results, an interpretation is necessary to fully understand the significance of a result.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-vl-suppression","",,,,"Observation.interpretation",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 260245000 |Findings values|","OBX-8","interpretationCode","363713009 |Has interpretation|"
 "Observation.interpretation.id","Observation.interpretation.id","","","",0,1,"","","","id {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
