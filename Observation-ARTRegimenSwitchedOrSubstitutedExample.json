@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "ARTRegimenSwitchedOrSubstitutedExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/art-regimen-switched-or-substituted"]
   },
   "text" : {
     "status" : "generated",

@@ -8,14 +8,14 @@
       "resourceType" : "Task",
       "id" : "HIVLabResultTaskExample",
       "meta" : {
-        "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
+        "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task"]
       },
       "text" : {
         "status" : "extensions",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Task</b><a name=\"HIVLabResultTaskExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Task &quot;HIVLabResultTaskExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-lab-task.html\">Lab Task</a></p></div><p><b>Result Status Index</b>: 4</p><p><b>identifier</b>: Lab order number:\u00a0ORDER12345</p><p><b>instantiatesCanonical</b>: <a href=\"ActivityDefinition-LabOrderTaskActivityExample.html\">ActivityDefinition[http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample|0.1.0]</a></p><p><b>basedOn</b>: <a href=\"ServiceRequest-HIVServiceRequestExample.html\">ServiceRequest/HIVServiceRequestExample</a></p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>executionPeriod</b>: ?? --&gt; 2022-07-30</p><p><b>lastModified</b>: 2022-07-30</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><h3>Outputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></td><td><a href=\"#DiagnosticReport_HIVLabResultsDiagnosticReportExample\">See above (DiagnosticReport/HIVLabResultsDiagnosticReportExample)</a></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Task</b><a name=\"HIVLabResultTaskExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Task &quot;HIVLabResultTaskExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-lab-task.html\">Lab Task</a></p></div><p><b>Result Status Index</b>: 4</p><p><b>identifier</b>: Lab order number:\u00a0ORDER12345</p><p><b>instantiatesCanonical</b>: <a href=\"http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ActivityDefinition/LabOrderTaskActivityExample\">http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ActivityDefinition/LabOrderTaskActivityExample</a></p><p><b>basedOn</b>: <a href=\"ServiceRequest-HIVServiceRequestExample.html\">ServiceRequest/HIVServiceRequestExample</a></p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>executionPeriod</b>: ?? --&gt; 2022-07-30</p><p><b>lastModified</b>: 2022-07-30</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><h3>Outputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></td><td><a href=\"#DiagnosticReport_HIVLabResultsDiagnosticReportExample\">See above (DiagnosticReport/HIVLabResultsDiagnosticReportExample)</a></td></tr></table></div>"
       },
       "extension" : [{
-        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index",
+        "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/result-status-index",
         "valueInteger" : 4
       }],
       "identifier" : [{
@@ -30,7 +30,7 @@
         "system" : "http://openhie.org/fhir/rwanda-hiv/lab-integration/order-number",
         "value" : "ORDER12345"
       }],
-      "instantiatesCanonical" : "http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample",
+      "instantiatesCanonical" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ActivityDefinition/LabOrderTaskActivityExample",
       "basedOn" : [{
         "reference" : "ServiceRequest/HIVServiceRequestExample"
       }],
@@ -72,14 +72,14 @@
       "resourceType" : "DiagnosticReport",
       "id" : "HIVLabResultsDiagnosticReportExample",
       "meta" : {
-        "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"]
+        "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-diagnostic-report"]
       },
       "text" : {
         "status" : "extensions",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DiagnosticReport</b><a name=\"HIVLabResultsDiagnosticReportExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DiagnosticReport &quot;HIVLabResultsDiagnosticReportExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-diagnostic-report.html\">Diagnostic Report</a></p></div><p><b>HIV Viral Load Result Tested By</b>: 7</p><p><b>basedOn</b>: <a href=\"ServiceRequest-HIVServiceRequestExample.html\">ServiceRequest/HIVServiceRequestExample</a></p><p><b>status</b>: final</p><p><b>code</b>: Test Type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#25836-8 &quot;HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>performer</b>: <a href=\"#Practitioner_PerformingPractitionerExample\">See above (Practitioner/PerformingPractitionerExample)</a></p><p><b>resultsInterpreter</b>: <a href=\"Practitioner-ResultsInterpreterExample.html\">Practitioner/ResultsInterpreterExample</a> &quot; SMITH&quot;</p><p><b>result</b>: <a href=\"#Observation_HIVTestResultExample\">See above (Observation/HIVTestResultExample)</a></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><p><b>conclusion</b>: Some conclusion text</p></div>"
       },
       "extension" : [{
-        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index",
+        "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/tested-by-user-index",
         "valueInteger" : 7
       }],
       "basedOn" : [{
@@ -129,14 +129,14 @@
       "resourceType" : "Practitioner",
       "id" : "PerformingPractitionerExample",
       "meta" : {
-        "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
+        "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner"]
       },
       "text" : {
         "status" : "extensions",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PerformingPractitionerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PerformingPractitionerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>Clinician User Index</b>: 6</p><p><b>name</b>: Amy White </p><p><b>telecom</b>: ph: 27537687534</p></div>"
       },
       "extension" : [{
-        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
+        "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/clinician-user-index",
         "valueInteger" : 6
       }],
       "name" : [{
@@ -159,14 +159,14 @@
       "resourceType" : "Specimen",
       "id" : "VLSpecimenExample",
       "meta" : {
-        "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"]
+        "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-specimen"]
       },
       "text" : {
         "status" : "extensions",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Specimen</b><a name=\"VLSpecimenExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Specimen &quot;VLSpecimenExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-specimen.html\">Viral Load Specimen</a></p></div><p><b>Sample reordered</b>: false</p><p><b>identifier</b>: App sample identifier:\u00a0abc123, Remote sample identifier:\u00a0def456, Sample identifier:\u00a0ghi789</p><p><b>type</b>: Specimen Type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#119361006 &quot;Plasma specimen (specimen)&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>receivedTime</b>: 2022-07-28</p><h3>Collections</h3><table class=\"grid\"><tr><td>-</td><td><b>Collected[x]</b></td></tr><tr><td>*</td><td>2022-07-28</td></tr></table><h3>Processings</h3><table class=\"grid\"><tr><td>-</td><td><b>Time[x]</b></td></tr><tr><td>*</td><td>2022-07-28</td></tr></table><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
       },
       "extension" : [{
-        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered",
+        "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/sample-reordered",
         "valueBoolean" : false
       }],
       "identifier" : [{
@@ -242,14 +242,14 @@
       "resourceType" : "Observation",
       "id" : "HIVTestResultExample",
       "meta" : {
-        "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"]
+        "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-test-result"]
       },
       "text" : {
         "status" : "extensions",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVTestResultExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVTestResultExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-test-result.html\">Lab Results</a></p></div><p><b>Test Result Entered Manually</b>: false</p><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 1001</p><p><b>interpretation</b>: Viral Load Suppression Status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#19032002 &quot;Uncontrolled&quot;)</span></p><p><b>note</b>: Viral load not suppressed (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
       },
       "extension" : [{
-        "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually",
+        "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/result-entered-manually",
         "valueBoolean" : false
       }],
       "status" : "final",

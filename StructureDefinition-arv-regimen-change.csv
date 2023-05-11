@@ -80,7 +80,7 @@ Reflex | Repeat | Re-run.","","","","","","","","","",,"required","The type of T
 ","FiveWs.class",".outboundRelationship[typeCode=""COMP].target[classCode=""LIST"", moodCode=""EVN""].code"
 "Observation.code","Observation.code","","Name
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change","",,,,"Observation.code",1,1,"obs-7
+","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-arv-regimen-change","",,,,"Observation.code",1,1,"obs-7
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.what[x]","< 363787002 |Observable entity| OR < 386053000 |Evaluation procedure|","OBX-3","code","116680003 |Is a|"
 "Observation.code.id","Observation.code.id","","","",0,1,"","","","id {[]} {[]}
@@ -144,7 +144,7 @@ obs-6","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 -  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
 -  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
 - The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .
-- For additional guidance, see the [Notes section](http://hl7.org/fhir/R5/observation.html#notes) below.","An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change","",,,,"Observation.value[x]",0,1,"obs-7
+- For additional guidance, see the [Notes section](http://hl7.org/fhir/R5/observation.html#notes) below.","An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.","","","","","","","",,"required","","http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-reason-arv-regimen-change","",,,,"Observation.value[x]",0,1,"obs-7
 obs-6","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 441742003 |Evaluation finding|","OBX-2, OBX-5, OBX-6","value","363714003 |Interprets|"
 "Observation.value[x]:valueCodeableConcept.id","Observation.value[x].id","","","",0,1,"","","","id {[]} {[]}
