@@ -3138,14 +3138,11 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
         </meta>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ActivityDefinition</b><a name="LabOrderTaskActivityExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ActivityDefinition &quot;LabOrderTaskActivityExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-lab-task-activity.html">HIV Lab Order Task Activity</a></p></div><p><b>HIV Viral Load Result Revised By</b>: 2</p><p><b>url</b>: <code/></p><p><b>status</b>: active</p><p><b>date</b>: 2023-01-01</p><p><b>approvalDate</b>: 2023-01-01</p><p><b>lastReviewDate</b>: 2023-01-01</p><p><b>editor</b>: Someone: </p><p><b>reviewer</b>: Someone: </p><p><b>endorser</b>: Someone: </p><p><b>specimenRequirement</b>: <a href="http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample">http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample</a></p></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ActivityDefinition</b><a name="LabOrderTaskActivityExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ActivityDefinition &quot;LabOrderTaskActivityExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-lab-task-activity.html">HIV Lab Order Task Activity</a></p></div><p><b>HIV Viral Load Result Revised By</b>: 2</p><p><b>status</b>: active</p><p><b>date</b>: 2023-01-01</p><p><b>approvalDate</b>: 2023-01-01</p><p><b>lastReviewDate</b>: 2023-01-01</p><p><b>editor</b>: Someone: </p><p><b>reviewer</b>: Someone: </p><p><b>endorser</b>: Someone: </p><p><b>specimenRequirement</b>: <a href="http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample">http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample</a></p></div>
         </text>
         <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index">
           <valueInteger value="2"/>
         </extension>
-        <url>
-          <value value="http://openhie.org/fhir/rwanda-hiv/hiv-lab-task-activity-defintion"/>
-        </url>
         <status value="active"/>
         <date value="2023-01-01"/>
         <approvalDate value="2023-01-01"/>
