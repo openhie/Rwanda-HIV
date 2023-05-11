@@ -1049,8 +1049,11 @@
        fhir:name [ fhir:v "ART Initiated" ] ;
        fhir:description [ fhir:v "ART initiated." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/art-initiated"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/art-initiated>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated>
        ] )
      ] [
        fhir:extension ( [
@@ -1064,8 +1067,11 @@
        fhir:name [ fhir:v "ART Regimen Switched Or Substituted" ] ;
        fhir:description [ fhir:v "The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/art-regimen-switched-or-substituted"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/art-regimen-switched-or-substituted>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted>
        ] )
      ] [
        fhir:extension ( [
@@ -1079,8 +1085,11 @@
        fhir:name [ fhir:v "Patient's Adherence to ARV Treatment" ] ;
        fhir:description [ fhir:v "ARV adherence." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-arv-adherence"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-arv-adherence>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence>
        ] )
      ] [
        fhir:extension ( [
@@ -1094,8 +1103,11 @@
        fhir:name [ fhir:v "ARV Regimen Change" ] ;
        fhir:description [ fhir:v "ARV regimen change." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-change"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-change>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change>
        ] )
      ] [
        fhir:extension ( [
@@ -1109,8 +1121,11 @@
        fhir:name [ fhir:v "ARV Regimen Medication Request: Initiated ART" ] ;
        fhir:description [ fhir:v "ARV Regimen Medication Request: Initiated ART" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-medication-request>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request>
        ] )
      ] [
        fhir:extension ( [
@@ -1124,8 +1139,11 @@
        fhir:name [ fhir:v "ARV Regimen Medication Request: Regimen Changed" ] ;
        fhir:description [ fhir:v "ARV Regimen Medication Request: Regimen Changed." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/arv-regimen-medication-request>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request>
        ] )
      ] [
        fhir:extension ( [
@@ -1139,8 +1157,11 @@
        fhir:name [ fhir:v "ARV CarePlan example: ART Initiated" ] ;
        fhir:description [ fhir:v "ARV CarePlan example: ART initiated." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-arv-treatment>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment>
        ] )
      ] [
        fhir:extension ( [
@@ -1154,8 +1175,11 @@
        fhir:name [ fhir:v "ARV CarePlan example: Regimen Changed" ] ;
        fhir:description [ fhir:v "ARV CarePlan example: regimen changed." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-arv-treatment>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment>
        ] )
      ] [
        fhir:extension ( [
@@ -1169,8 +1193,11 @@
        fhir:name [ fhir:v "Breastfeeding Patient" ] ;
        fhir:description [ fhir:v "Breastfeeding patient." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-breastfeeding"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-breastfeeding>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding>
        ] )
      ] [
        fhir:extension ( [
@@ -1184,8 +1211,11 @@
        fhir:name [ fhir:v "Do Not Receive SMS Messages" ] ;
        fhir:description [ fhir:v "Indication that a patient does not consent to receiving SMS messages." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
        ] )
      ] [
        fhir:extension ( [
@@ -1199,8 +1229,11 @@
        fhir:name [ fhir:v "Funding Organization" ] ;
        fhir:description [ fhir:v "Funding organization." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/funding-source"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/funding-source>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source>
        ] )
      ] [
        fhir:extension ( [
@@ -1214,8 +1247,11 @@
        fhir:name [ fhir:v "HIV Lab Order Cancellation  example" ] ;
        fhir:description [ fhir:v "HIV Lab Order Cancellation Task example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
        ] )
      ] [
        fhir:extension ( [
@@ -1229,8 +1265,11 @@
        fhir:name [ fhir:v "HIV Lab Order Rejection  example" ] ;
        fhir:description [ fhir:v "HIV Lab Order Rejection Task example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
        ] )
      ] [
        fhir:extension ( [
@@ -1244,8 +1283,11 @@
        fhir:name [ fhir:v "Lab Order example" ] ;
        fhir:description [ fhir:v "Lab Order example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
        ] )
      ] [
        fhir:extension ( [
@@ -1259,8 +1301,11 @@
        fhir:name [ fhir:v "Lab Result Task example" ] ;
        fhir:description [ fhir:v "Lab Result Task example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task>
        ] )
      ] [
        fhir:extension ( [
@@ -1274,8 +1319,11 @@
        fhir:name [ fhir:v "HIV Lab Results Diagnostic Report example" ] ;
        fhir:description [ fhir:v "HIV Lab Results Diagnostic Report example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-diagnostic-report"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-diagnostic-report>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report>
        ] )
      ] [
        fhir:extension ( [
@@ -1289,8 +1337,11 @@
        fhir:name [ fhir:v "HIV Organization Example" ] ;
        fhir:description [ fhir:v "Organization example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-organization"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-organization>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization>
        ] )
      ] [
        fhir:extension ( [
@@ -1304,8 +1355,11 @@
        fhir:name [ fhir:v "Patient example" ] ;
        fhir:description [ fhir:v "Patient example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient>
        ] )
      ] [
        fhir:extension ( [
@@ -1319,8 +1373,11 @@
        fhir:name [ fhir:v "Patient Is New example" ] ;
        fhir:description [ fhir:v "Patient Is New example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-is-new"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-is-new>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new>
        ] )
      ] [
        fhir:extension ( [
@@ -1334,8 +1391,11 @@
        fhir:name [ fhir:v "HIV Lab Order example" ] ;
        fhir:description [ fhir:v "HIV Lab Order example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/HIV-lab-order"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/HIV-lab-order>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order>
        ] )
      ] [
        fhir:extension ( [
@@ -1349,8 +1409,11 @@
        fhir:name [ fhir:v "Viral Load Result Absolute Decimal" ] ;
        fhir:description [ fhir:v "Viral load result absolute decimal" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-test-result-absolute-decimal"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-test-result-absolute-decimal>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal>
        ] )
      ] [
        fhir:extension ( [
@@ -1364,8 +1427,11 @@
        fhir:name [ fhir:v "Viral Load Suppression example" ] ;
        fhir:description [ fhir:v "Viral Load Suppression example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-test-result>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result>
        ] )
      ] [
        fhir:extension ( [
@@ -1379,8 +1445,11 @@
        fhir:name [ fhir:v "Viral Load Log" ] ;
        fhir:description [ fhir:v "Viral Load Log" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-log"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-log>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log>
        ] )
      ] [
        fhir:extension ( [
@@ -1394,8 +1463,11 @@
        fhir:name [ fhir:v "Implementing Partner Organization" ] ;
        fhir:description [ fhir:v "Implementing partner organization." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/implementing-partner"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/implementing-partner>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner>
        ] )
      ] [
        fhir:extension ( [
@@ -1433,8 +1505,11 @@
        fhir:name [ fhir:v "HIV Lab Order Task Activity" ] ;
        fhir:description [ fhir:v "HIV lab order task activity." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task-activity"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-lab-task-activity>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity>
        ] )
      ] [
        fhir:extension ( [
@@ -1472,8 +1547,11 @@
        fhir:name [ fhir:v "Patient Pregnant example" ] ;
        fhir:description [ fhir:v "Patient Pregnant example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-pregnant"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-pregnant>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant>
        ] )
      ] [
        fhir:extension ( [
@@ -1487,8 +1565,11 @@
        fhir:name [ fhir:v "Performing Organization" ] ;
        fhir:description [ fhir:v "Organization responsible for carrying out the HIV testing services." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/performing-organization"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/performing-organization>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization>
        ] )
      ] [
        fhir:extension ( [
@@ -1502,8 +1583,11 @@
        fhir:name [ fhir:v "Practitioner example" ] ;
        fhir:description [ fhir:v "Practitioner example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
        ] )
      ] [
        fhir:extension ( [
@@ -1517,8 +1601,11 @@
        fhir:name [ fhir:v "Reason for HIV testing" ] ;
        fhir:description [ fhir:v "The reason for HIV testing." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/reason-for-hiv-testing"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/reason-for-hiv-testing>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing>
        ] )
      ] [
        fhir:extension ( [
@@ -1532,8 +1619,11 @@
        fhir:name [ fhir:v "Receive SMS Messages" ] ;
        fhir:description [ fhir:v "Indication that a patient does consent to receiving SMS messages." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
        ] )
      ] [
        fhir:extension ( [
@@ -1547,8 +1637,11 @@
        fhir:name [ fhir:v "Repeat Viral Load Suppression example" ] ;
        fhir:description [ fhir:v "Repeat Viral Load Suppression example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-repeat-test-result>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result>
        ] )
      ] [
        fhir:extension ( [
@@ -1562,8 +1655,11 @@
        fhir:name [ fhir:v "Requesting Organization" ] ;
        fhir:description [ fhir:v "Organization requesting for HIV testing services." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/requesting-organization"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/requesting-organization>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization>
        ] )
      ] [
        fhir:extension ( [
@@ -1577,8 +1673,11 @@
        fhir:name [ fhir:v "Practitioner example" ] ;
        fhir:description [ fhir:v "Practitioner example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
        ] )
      ] [
        fhir:extension ( [
@@ -1592,8 +1691,11 @@
        fhir:name [ fhir:v "Result Dispatched" ] ;
        fhir:description [ fhir:v "Result Dispatched" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/result-dispatched-to-facility"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/result-dispatched-to-facility>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility>
        ] )
      ] [
        fhir:extension ( [
@@ -1607,8 +1709,11 @@
        fhir:name [ fhir:v "Results Interpreter example" ] ;
        fhir:description [ fhir:v "Results interpreter example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-practitioner>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
        ] )
      ] [
        fhir:extension ( [
@@ -1622,8 +1727,11 @@
        fhir:name [ fhir:v "Sample Dispatched to Lab Task" ] ;
        fhir:description [ fhir:v "Sample dispatched to lab task." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/sample-dispatched-to-lab"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/sample-dispatched-to-lab>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab>
        ] )
      ] [
        fhir:extension ( [
@@ -1637,8 +1745,11 @@
        fhir:name [ fhir:v "Specimen Conservation" ] ;
        fhir:description [ fhir:v "Specimen conservation information." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/specimen-preservation"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/specimen-preservation>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation>
        ] )
      ] [
        fhir:extension ( [
@@ -1652,8 +1763,11 @@
        fhir:name [ fhir:v "Suspend Treatment Lab Results" ] ;
        fhir:description [ fhir:v "Suspend treatment lab results." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-suspend-treatment-test-result"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-suspend-treatment-test-result>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result>
        ] )
      ] [
        fhir:extension ( [
@@ -1667,8 +1781,11 @@
        fhir:name [ fhir:v "Target Facility Encounter example" ] ;
        fhir:description [ fhir:v "Target Facility Encounter example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/target-facility-encounter"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/target-facility-encounter>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter>
        ] )
      ] [
        fhir:extension ( [
@@ -1682,8 +1799,11 @@
        fhir:name [ fhir:v "Testing Platform" ] ;
        fhir:description [ fhir:v "The device platform used for testing." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/device-for-testing"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/device-for-testing>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing>
        ] )
      ] [
        fhir:extension ( [
@@ -1697,8 +1817,11 @@
        fhir:name [ fhir:v "Transport Current Location" ] ;
        fhir:description [ fhir:v "Transport current location." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/transport-location>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location>
        ] )
      ] [
        fhir:extension ( [
@@ -1712,8 +1835,11 @@
        fhir:name [ fhir:v "Transport Requested Location" ] ;
        fhir:description [ fhir:v "Transport requested location." ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/transport-location>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location>
        ] )
      ] [
        fhir:extension ( [
@@ -1727,8 +1853,11 @@
        fhir:name [ fhir:v "Viral Load Specimen example" ] ;
        fhir:description [ fhir:v "Viral Load Specimen example" ] ;
        fhir:profile ( [
-         fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-specimen"^^xsd:anyURI ;
-         fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-specimen>
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen>
+       ] [
+         fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"^^xsd:anyURI ;
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen>
        ] )
      ] ) ;
      fhir:page [

@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "BreastfeedingExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-breastfeeding"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/hiv-patient-breastfeeding>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding>
      ] )
   ] ; # 
   fhir:text [

@@ -2,7 +2,7 @@
   "resourceType" : "Transport",
   "id" : "SampleDisptachedToLabTaskExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/sample-dispatched-to-lab"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"]
   },
   "text" : {
     "status" : "generated",

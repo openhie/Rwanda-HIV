@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "HIVServiceRequestExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/HIV-lab-order"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/HIV-lab-order>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order>
      ] )
   ] ; # 
   fhir:text [

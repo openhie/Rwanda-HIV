@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "ReasonForHIVTestingExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/reason-for-hiv-testing"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"]
   },
   "text" : {
     "status" : "generated",

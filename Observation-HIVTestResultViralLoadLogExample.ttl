@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "HIVTestResultViralLoadLogExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-log"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/viral-load-log>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log>
      ] )
   ] ; # 
   fhir:text [
