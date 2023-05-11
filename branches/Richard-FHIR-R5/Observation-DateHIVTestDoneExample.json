@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "DateHIVTestDoneExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"]
   },
   "text" : {
     "status" : "generated",

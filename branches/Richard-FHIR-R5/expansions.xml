@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1697a7ce-2e76-407a-b62e-cee969eb0be5"/>
+  <id value="76547528-3ca2-4810-8349-da0fb8fb0537"/>
   <meta>
-    <lastUpdated value="2023-05-11T12:03:20.622+00:00"/>
+    <lastUpdated value="2023-05-11T12:08:48.367+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-for-assessment"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
     <resource>
       <ValueSet>
         <text>
@@ -94,13 +94,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-for-assessment"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
         <version value="0.1.0"/>
         <name value="VSReasonForAssessment"/>
         <title value="Reason for Assessment or Test Not Performed"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -109,8 +109,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0de8af5f-2753-4466-9bfe-12e09284af80"/>
-          <timestamp value="2023-05-11T12:04:15+00:00"/>
+          <identifier value="urn:uuid:5cbeeea2-89c4-4eb3-9d0e-1962c2c5aa79"/>
+          <timestamp value="2023-05-11T12:09:39+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -169,7 +169,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-vl-result-code"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code"/>
     <resource>
       <ValueSet>
         <text>
@@ -200,13 +200,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-vl-result-code"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code"/>
         <version value="0.1.0"/>
         <name value="VSVLResultCode"/>
         <title value="Viral Load Result Code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -215,8 +215,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f7c928ee-1406-4a1d-b7a9-989725784bce"/>
-          <timestamp value="2023-05-11T12:04:19+00:00"/>
+          <identifier value="urn:uuid:c7e45f0c-c4c2-4a43-afff-a6923c9976c7"/>
+          <timestamp value="2023-05-11T12:09:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -240,7 +240,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-sample-cancelled-or-rejected"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected"/>
     <resource>
       <ValueSet>
         <text>
@@ -319,13 +319,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-sample-cancelled-or-rejected"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected"/>
         <version value="0.1.0"/>
         <name value="VSReasonForSampleCancellationOrRejection"/>
         <title value="Reasons why a lab order was cancelled or rejected"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -334,8 +334,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:525af03e-e133-4762-a9e2-be8409f4938c"/>
-          <timestamp value="2023-05-11T12:04:28+00:00"/>
+          <identifier value="urn:uuid:2db07cc0-1aa5-4688-bb2c-d31b39717ca2"/>
+          <timestamp value="2023-05-11T12:09:48+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -389,7 +389,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-patient-pregnant"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant"/>
     <resource>
       <ValueSet>
         <text>
@@ -436,13 +436,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-patient-pregnant"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant"/>
         <version value="0.1.0"/>
         <name value="VSPatientPregnant"/>
         <title value="Patient Pregnant"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -451,8 +451,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cc950b6a-2113-46fb-a4c8-a2bd015395b4"/>
-          <timestamp value="2023-05-11T12:04:30+00:00"/>
+          <identifier value="urn:uuid:bf9d99be-2769-405b-afa7-9ee180424356"/>
+          <timestamp value="2023-05-11T12:09:49+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -486,7 +486,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-patient-consent-for-sms-notifications"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
     <resource>
       <ValueSet>
         <text>
@@ -525,13 +525,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-patient-consent-for-sms-notifications"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
         <version value="0.1.0"/>
         <name value="VSPatientConsentForSMSNotifications"/>
         <title value="Patient Consent for SMS Notifications"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -540,8 +540,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:938e977b-12e8-4cdc-aa1b-e704c19e411a"/>
-          <timestamp value="2023-05-11T12:04:31+00:00"/>
+          <identifier value="urn:uuid:f96264b5-53a7-4ee5-9654-3480b8b48528"/>
+          <timestamp value="2023-05-11T12:09:50+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -570,7 +570,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-vl-suppression"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression"/>
     <resource>
       <ValueSet>
         <text>
@@ -617,13 +617,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-vl-suppression"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression"/>
         <version value="0.1.0"/>
         <name value="VSVLSuppression"/>
         <title value="Viral Load Suppressions Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -632,8 +632,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:45db45b4-09ff-4f81-b6ed-0a38b108be5c"/>
-          <timestamp value="2023-05-11T12:04:32+00:00"/>
+          <identifier value="urn:uuid:0943b81a-c4a0-45d9-b03c-a2c12d7ee1c5"/>
+          <timestamp value="2023-05-11T12:09:50+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -667,7 +667,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-arv-regimen-change"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
     <resource>
       <ValueSet>
         <text>
@@ -770,13 +770,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-arv-regimen-change"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
         <version value="0.1.0"/>
         <name value="VSReasonsForARVRegimenChange"/>
         <title value="Reasons for ARV Regimen Change"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -785,8 +785,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:03921575-0dc6-4bbb-82d8-3d873f6ff61a"/>
-          <timestamp value="2023-05-11T12:04:32+00:00"/>
+          <identifier value="urn:uuid:5c4b713d-fcb0-4bf6-9c5e-869bca2d22d3"/>
+          <timestamp value="2023-05-11T12:09:50+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -855,7 +855,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arv-regimen-change"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
     <resource>
       <ValueSet>
         <text>
@@ -886,13 +886,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arv-regimen-change"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
         <version value="0.1.0"/>
         <name value="VSARVRegimenChange"/>
         <title value="ARV Regimen Change"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -901,8 +901,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fac52fc9-908d-477c-a886-2da1177a16bf"/>
-          <timestamp value="2023-05-11T12:04:34+00:00"/>
+          <identifier value="urn:uuid:42cc7c73-030e-467b-abf4-6d5738215806"/>
+          <timestamp value="2023-05-11T12:09:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -926,7 +926,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arv-adherence"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence"/>
     <resource>
       <ValueSet>
         <text>
@@ -973,13 +973,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arv-adherence"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence"/>
         <version value="0.1.0"/>
         <name value="VSARVAdherence"/>
         <title value="ARV Adherence"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -988,8 +988,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e2fe083e-8c5a-4e40-896c-62b3320e43e0"/>
-          <timestamp value="2023-05-11T12:04:34+00:00"/>
+          <identifier value="urn:uuid:05c1fa38-10fd-49e9-bdda-018aeea15327"/>
+          <timestamp value="2023-05-11T12:09:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1023,7 +1023,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-hiv-test-done"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done"/>
     <resource>
       <ValueSet>
         <text>
@@ -1054,13 +1054,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-hiv-test-done"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done"/>
         <version value="0.1.0"/>
         <name value="VSHIVTestDone"/>
         <title value="HIV Test Done"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1069,8 +1069,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3d471146-ab8d-4ccd-9c15-a76395b6da31"/>
-          <timestamp value="2023-05-11T12:04:41+00:00"/>
+          <identifier value="urn:uuid:e2dc7edf-65b8-4083-8dbc-b17f054cd1a7"/>
+          <timestamp value="2023-05-11T12:09:59+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1094,7 +1094,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arvtreatment-activity-type"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type"/>
     <resource>
       <ValueSet>
         <text>
@@ -1125,13 +1125,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arvtreatment-activity-type"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type"/>
         <version value="0.1.0"/>
         <name value="VSARVMedicationRequest"/>
         <title value="ARV Treatment Medication Request"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1140,8 +1140,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d8208b46-92f4-4cc9-bee6-e4cb47b295ad"/>
-          <timestamp value="2023-05-11T12:04:41+00:00"/>
+          <identifier value="urn:uuid:3444bf11-a4f0-4c5f-b15b-164ada6d8029"/>
+          <timestamp value="2023-05-11T12:09:59+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1165,7 +1165,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arv-regimen"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen"/>
     <resource>
       <ValueSet>
         <text>
@@ -1356,13 +1356,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-arv-regimen"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen"/>
         <version value="0.1.0"/>
         <name value="VSARVRegimen"/>
         <title value="A list of ARV regimen"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1371,8 +1371,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:09a39a04-5d82-4203-9e64-3aeafbd9c320"/>
-          <timestamp value="2023-05-11T12:04:45+00:00"/>
+          <identifier value="urn:uuid:a7ca6527-8936-4f06-aca2-c44f861c8036"/>
+          <timestamp value="2023-05-11T12:10:03+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1496,7 +1496,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-condition"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition"/>
     <resource>
       <ValueSet>
         <text>
@@ -1527,13 +1527,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-condition"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition"/>
         <version value="0.1.0"/>
         <name value="VSCondition"/>
         <title value="Conditions"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1542,8 +1542,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e4d300c1-2ab7-43b5-a2cc-beefc9c420eb"/>
-          <timestamp value="2023-05-11T12:04:45+00:00"/>
+          <identifier value="urn:uuid:4ce5cd86-0973-4ab8-8af9-06c5f67e7d19"/>
+          <timestamp value="2023-05-11T12:10:03+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1567,7 +1567,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-test-types"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-test-types"/>
     <resource>
       <ValueSet>
         <text>
@@ -1606,13 +1606,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-test-types"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-test-types"/>
         <version value="0.1.0"/>
         <name value="VSTestTypes"/>
         <title value="Test Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1621,8 +1621,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:074b4d6e-171f-4a46-94ce-2375d842acc6"/>
-          <timestamp value="2023-05-11T12:04:51+00:00"/>
+          <identifier value="urn:uuid:2ccb50c8-e21f-45be-adbc-9442584e7f21"/>
+          <timestamp value="2023-05-11T12:10:09+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1651,7 +1651,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
     <resource>
       <ValueSet>
         <text>
@@ -1730,13 +1730,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
         <version value="0.1.0"/>
         <name value="VSSpecimenType"/>
         <title value="Specimen Type Used In Viral Load testing"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1745,8 +1745,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d86942cd-8c92-4b96-bf99-fa3c13f091d7"/>
-          <timestamp value="2023-05-11T12:04:56+00:00"/>
+          <identifier value="urn:uuid:f04dd8f6-0bb2-4e30-a79c-301dc3e8467d"/>
+          <timestamp value="2023-05-11T12:10:14+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1800,7 +1800,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-for-hiv-testing"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
     <resource>
       <ValueSet>
         <text>
@@ -1831,13 +1831,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-reason-for-hiv-testing"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
         <version value="0.1.0"/>
         <name value="ReasonForHIVTestingCode"/>
         <title value="Reason for HIV Testing Code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-11T12:03:20+00:00"/>
+        <date value="2023-05-11T12:08:48+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1846,8 +1846,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b7ab8e6c-7d11-460a-8049-01492c8a505f"/>
-          <timestamp value="2023-05-11T12:04:57+00:00"/>
+          <identifier value="urn:uuid:2f909221-d7a6-41ec-ad76-fc18a8a04319"/>
+          <timestamp value="2023-05-11T12:10:15+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>

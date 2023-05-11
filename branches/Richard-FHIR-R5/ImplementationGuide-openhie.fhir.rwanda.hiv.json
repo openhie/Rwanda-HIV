@@ -1073,7 +1073,8 @@
       },
       "name" : "ART Regimen Switched Or Substituted",
       "description" : "The ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/art-regimen-switched-or-substituted"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"]
     },
     {
       "extension" : [{
@@ -1085,7 +1086,8 @@
       },
       "name" : "Patient's Adherence to ARV Treatment",
       "description" : "ARV adherence.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-adherence"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"]
     },
     {
       "extension" : [{
@@ -1097,7 +1099,8 @@
       },
       "name" : "ARV Regimen Change",
       "description" : "ARV regimen change.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/arv-regimen-change"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"]
     },
     {
       "extension" : [{
@@ -1109,7 +1112,8 @@
       },
       "name" : "ARV Regimen Medication Request",
       "description" : "ARV Regimen Medication Request",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/arv-regimen-medication-request"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"]
     },
     {
       "extension" : [{
@@ -1121,7 +1125,8 @@
       },
       "name" : "ARV CarePlan example",
       "description" : "ARV CarePlan example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"]
     },
     {
       "extension" : [{
@@ -1133,7 +1138,8 @@
       },
       "name" : "Breastfeeding Patient",
       "description" : "Breastfeeding patient.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-breastfeeding"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"]
     },
     {
       "extension" : [{
@@ -1145,7 +1151,8 @@
       },
       "name" : "Date HIV Test Done example",
       "description" : "Date HIV Test Done example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/date-hiv-test-done"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"]
     },
     {
       "extension" : [{
@@ -1157,7 +1164,8 @@
       },
       "name" : "Do Not Receive SMS Messages",
       "description" : "Indication that a patient does not consent to receiving SMS messages.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/receive-sms-messages"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
     },
     {
       "extension" : [{
@@ -1181,7 +1189,8 @@
       },
       "name" : "Funding Organization",
       "description" : "Funding organization.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/funding-source"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"]
     },
     {
       "extension" : [{
@@ -1193,7 +1202,8 @@
       },
       "name" : "HIV Lab Order Cancellation  example",
       "description" : "HIV Lab Order Cancellation Task example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
     },
     {
       "extension" : [{
@@ -1205,7 +1215,8 @@
       },
       "name" : "HIV Lab Order Rejection  example",
       "description" : "HIV Lab Order Rejection Task example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
     },
     {
       "extension" : [{
@@ -1217,7 +1228,8 @@
       },
       "name" : "Lab Order example",
       "description" : "Lab Order example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
     },
     {
       "extension" : [{
@@ -1229,7 +1241,8 @@
       },
       "name" : "Lab Result Task example",
       "description" : "Lab Result Task example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
     },
     {
       "extension" : [{
@@ -1241,7 +1254,8 @@
       },
       "name" : "HIV Lab Results Diagnostic Report example",
       "description" : "HIV Lab Results Diagnostic Report example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-diagnostic-report"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"]
     },
     {
       "extension" : [{
@@ -1253,7 +1267,8 @@
       },
       "name" : "HIV Organization Example",
       "description" : "Organization example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-organization"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"]
     },
     {
       "extension" : [{
@@ -1265,7 +1280,8 @@
       },
       "name" : "Patient example",
       "description" : "Patient example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"]
     },
     {
       "extension" : [{
@@ -1277,7 +1293,8 @@
       },
       "name" : "Patient Is New example",
       "description" : "Patient Is New example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-is-new"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"]
     },
     {
       "extension" : [{
@@ -1289,7 +1306,8 @@
       },
       "name" : "HIV Lab Order example",
       "description" : "HIV Lab Order example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/HIV-lab-order"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"]
     },
     {
       "extension" : [{
@@ -1301,7 +1319,8 @@
       },
       "name" : "Viral Load Result Absolute Decimal",
       "description" : "Viral load result absolute decimal",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result-absolute-decimal"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"]
     },
     {
       "extension" : [{
@@ -1313,7 +1332,8 @@
       },
       "name" : "Viral Load Suppression example",
       "description" : "Viral Load Suppression example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-test-result"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"]
     },
     {
       "extension" : [{
@@ -1325,7 +1345,8 @@
       },
       "name" : "Viral Load Log",
       "description" : "Viral Load Log",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-log"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"]
     },
     {
       "extension" : [{
@@ -1337,7 +1358,8 @@
       },
       "name" : "Implementing Partner Organization",
       "description" : "Implementing partner organization.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/implementing-partner"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"]
     },
     {
       "extension" : [{
@@ -1373,7 +1395,8 @@
       },
       "name" : "HIV Lab Order Task Activity",
       "description" : "HIV lab order task activity.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-lab-task-activity"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"]
     },
     {
       "extension" : [{
@@ -1409,7 +1432,8 @@
       },
       "name" : "Patient Pregnant example",
       "description" : "Patient Pregnant example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-patient-pregnant"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"]
     },
     {
       "extension" : [{
@@ -1421,7 +1445,8 @@
       },
       "name" : "Performing Organization",
       "description" : "Organization responsible for carrying out the HIV testing services.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/performing-organization"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"]
     },
     {
       "extension" : [{
@@ -1433,7 +1458,8 @@
       },
       "name" : "Practitioner example",
       "description" : "Practitioner example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
     },
     {
       "extension" : [{
@@ -1445,7 +1471,8 @@
       },
       "name" : "Reason for HIV testing",
       "description" : "The reason for HIV testing.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/reason-for-hiv-testing"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"]
     },
     {
       "extension" : [{
@@ -1457,7 +1484,8 @@
       },
       "name" : "Receive SMS Messages",
       "description" : "Indication that a patient does consent to receiving SMS messages.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/receive-sms-messages"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
     },
     {
       "extension" : [{
@@ -1469,7 +1497,8 @@
       },
       "name" : "Repeat Viral Load Suppression example",
       "description" : "Repeat Viral Load Suppression example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-repeat-test-result"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"]
     },
     {
       "extension" : [{
@@ -1481,7 +1510,8 @@
       },
       "name" : "Requesting Organization",
       "description" : "Organization requesting for HIV testing services.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/requesting-organization"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"]
     },
     {
       "extension" : [{
@@ -1493,7 +1523,8 @@
       },
       "name" : "Practitioner example",
       "description" : "Practitioner example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
     },
     {
       "extension" : [{
@@ -1505,7 +1536,8 @@
       },
       "name" : "Result Dispatched",
       "description" : "Result Dispatched",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/result-dispatched-to-facility"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"]
     },
     {
       "extension" : [{
@@ -1517,7 +1549,8 @@
       },
       "name" : "Results Interpreter example",
       "description" : "Results interpreter example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-practitioner"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
     },
     {
       "extension" : [{
@@ -1529,7 +1562,8 @@
       },
       "name" : "Sample Dispatched to Lab Task",
       "description" : "Sample dispatched to lab task.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/sample-dispatched-to-lab"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"]
     },
     {
       "extension" : [{
@@ -1541,7 +1575,8 @@
       },
       "name" : "Specimen Conservation",
       "description" : "Specimen conservation information.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/specimen-preservation"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"]
     },
     {
       "extension" : [{
@@ -1553,7 +1588,8 @@
       },
       "name" : "Suspend Treatment Lab Results",
       "description" : "Suspend treatment lab results.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-suspend-treatment-test-result"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"]
     },
     {
       "extension" : [{
@@ -1565,7 +1601,8 @@
       },
       "name" : "Target Facility Encounter example",
       "description" : "Target Facility Encounter example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/target-facility-encounter"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"]
     },
     {
       "extension" : [{
@@ -1577,7 +1614,8 @@
       },
       "name" : "Testing Platform",
       "description" : "The device platform used for testing.",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/device-for-testing"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"]
     },
     {
       "extension" : [{
@@ -1589,7 +1627,8 @@
       },
       "name" : "Viral Load Specimen example",
       "description" : "Viral Load Specimen example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-specimen"]
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"]
     }],
     "page" : {
       "sourceUrl" : "toc.html",

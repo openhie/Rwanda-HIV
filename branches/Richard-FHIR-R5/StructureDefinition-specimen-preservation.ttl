@@ -16,12 +16,12 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "http://hl7.org/fhir/StructureDefinition/MetadataResource"^^xsd:anyURI ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/specimen-preservation"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SpecimenConservation"] ; # 
   fhir:title [ fhir:v "Specimen Conservation"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-11T12:03:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T12:08:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Jembi Health Systems" ] ;
@@ -1520,8 +1520,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type"^^xsd:anyURI ;
-           fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type>
+           fhir:v "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"^^xsd:anyURI ;
+           fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type>
          ]
        ] ;
        fhir:mapping ( [
@@ -2805,8 +2805,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type"^^xsd:anyURI ;
-           fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type>
+           fhir:v "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"^^xsd:anyURI ;
+           fhir:link <http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type>
          ]
        ]
      ] [

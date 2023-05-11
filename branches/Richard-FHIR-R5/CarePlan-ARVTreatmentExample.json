@@ -2,7 +2,7 @@
   "resourceType" : "CarePlan",
   "id" : "ARVTreatmentExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/hiv-arv-treatment"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"]
   },
   "text" : {
     "status" : "generated",

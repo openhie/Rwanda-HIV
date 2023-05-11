@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "RepeatHIVTestResultExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/viral-load-repeat-test-result>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result>
      ] )
   ] ; # 
   fhir:text [

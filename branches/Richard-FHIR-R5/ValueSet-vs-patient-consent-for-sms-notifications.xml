@@ -5,13 +5,13 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/699237001">699237001</a></td><td>Consent given for communication by short message service text messaging</td></tr><tr><td><a href="http://snomed.info/id/398227009">398227009</a></td><td>Inadequate consent</td></tr></table></li></ul></div>
   </text>
-  <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-patient-consent-for-sms-notifications"/>
+  <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
   <version value="0.1.0"/>
   <name value="VSPatientConsentForSMSNotifications"/>
   <title value="Patient Consent for SMS Notifications"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-05-11T12:03:20+00:00"/>
+  <date value="2023-05-11T12:08:48+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <name value="Jembi Health Systems"/>

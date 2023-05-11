@@ -17,12 +17,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-implements">
     <valueUri value="http://hl7.org/fhir/StructureDefinition/MetadataResource"/>
   </extension>
-  <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/StructureDefinition/specimen-preservation"/>
+  <url value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"/>
   <version value="0.1.0"/>
   <name value="SpecimenConservation"/>
   <title value="Specimen Conservation"/>
   <status value="active"/>
-  <date value="2023-05-11T12:03:20+00:00"/>
+  <date value="2023-05-11T12:08:48+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <name value="Jembi Health Systems"/>
@@ -1371,7 +1371,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type"/>
+        <valueSet value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -2511,7 +2511,7 @@
       <min value="1"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv.json/ValueSet/vs-specimen-type"/>
+        <valueSet value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
       </binding>
     </element>
     <element id="SpecimenDefinition.typeTested.handling">
