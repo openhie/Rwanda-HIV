@@ -39,5 +39,12 @@
   "result" : [{
     "reference" : "Observation/HIVTestResultExample"
   }],
+  "note" : [{
+    "authorReference" : {
+      "reference" : "Organization/HIVOrganizationExample"
+    },
+    "time" : "2015-02-07T13:28:17-05:00",
+    "text" : "additional notes here"
+  }],
   "conclusion" : "Some conclusion text"
 }

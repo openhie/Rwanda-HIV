@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 3, warn = 1, info = 0-->
+<!-- broken links = 0, errors = 5, warn = 2, info = 0-->
 <head>
   <title>RwandaHIV : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RwandaHIV</h1>
- <p>Generated Thu May 11 12:24:10 UTC 2023, FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = <a href="http://openhie.org/fhir/rwanda-hiv">http://openhie.org/fhir/rwanda-hiv</a> (<a href="http://openhie.org/fhir/rwanda-hiv/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Thu May 11 15:29:10 UTC 2023, FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = <a href="http://openhie.org/fhir/rwanda-hiv">http://openhie.org/fhir/rwanda-hiv</a> (<a href="http://openhie.org/fhir/rwanda-hiv/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.3.9</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = openhie.fhir.rwanda.hiv, Canonical = http://openhie.org/fhir/rwanda-hiv</td></tr>
@@ -59,7 +59,7 @@
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://openhie.org/fhir/rwanda-hiv (Problem #1 with package-list.json at http://openhie.org/fhir/rwanda-hiv: openhie.org)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 3, warn = 1, info = 0, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 5, warn = 2, info = 0, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -67,6 +67,9 @@
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Bundle-LabOrder"><b>/github/workspace/fsh-generated/resources/Bundle-LabOrder</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_ImplementationGuide-openhie.fhir.rwanda.hiv"><b>/github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -82,9 +85,28 @@
    </tr>
 </table>
 <hr/>
+<a name="_github_workspace_fsh-generated_resources_Bundle-LabOrder"> </a>
+<h2><a href="Bundle-LabOrder.html">fsh-generated/resources/Bundle-LabOrder.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(66)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Bundle: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></li><li>Bundle.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/structuredefinition.html">StructureDefinition</a></li><li>Bundle.entry[1].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/task.html">Task</a> and <i>this.</i><a href="StructureDefinition-hiv-lab-task.html">Lab Task</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-HIV-lab-order.html">Lab Order</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-hiv-practitioner.html">Practitioner</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-hiv-practitioner.html">Practitioner</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/specimen.html">Specimen</a> and <i>this.</i><a href="StructureDefinition-viral-load-specimen.html">Viral Load Specimen</a> (per meta)</li><li>Bundle.entry[6].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-requesting-organization.html">Requesting Organization</a> (per meta)</li><li>Bundle.entry[7].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-performing-organization.html">Performing Organization</a> (per meta)</li><li>Bundle.entry[8].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-hiv-patient-pregnant.html">Patient Pregnancy Status</a> (per meta)</li><li>Bundle.entry[9].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-hiv-patient-is-new.html">HIV Patient Is New</a> (per meta)</li><li>Bundle.entry[10].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-hiv-patient-breastfeeding.html">Breastfeeding Patient</a> (per meta)</li><li>Bundle.entry[11].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/careplan.html">CarePlan</a> and <i>this.</i><a href="StructureDefinition-hiv-arv-treatment.html">ARV Treatment</a> (per meta)</li><li>Bundle.entry[12].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-reason-for-hiv-testing.html">Reason for HIV testing</a> (per meta)</li><li>Bundle.entry[13].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/medicationrequest.html">MedicationRequest</a> and <i>this.</i><a href="StructureDefinition-arv-regimen-medication-request.html">ARV Regimen Medication Request</a> (per meta)</li><li>Bundle.entry[14].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-art-regimen-switched-or-substituted.html">ART Regimen Switched Or Substituted</a> (per meta)</li><li>Bundle.entry[15].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-viral-load-test-result.html">Lab Results</a> (per meta)</li><li>Bundle.entry[16].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/specimendefinition.html">SpecimenDefinition</a> and <i>this.</i><a href="StructureDefinition-specimen-preservation.html">Specimen Conservation</a> (per meta)</li><li>Bundle.entry[17].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/activitydefinition.html">ActivityDefinition</a> and <i>this.</i><a href="StructureDefinition-hiv-lab-task-activity.html">HIV Lab Order Task Activity</a> (per meta)</li><li>Bundle.entry[18].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/consent.html">Consent</a> and <i>this.</i><a href="StructureDefinition-receive-sms-messages.html">Receive SMS Messages</a> (per meta)</li><li>Bundle.entry[19].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-hiv-arv-adherence.html">Patient's Adherence to ARV Treatment</a> (per meta)</li><li>Bundle.entry[20].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-viral-load-repeat-test-result.html">Repeat Lab Results</a> (per meta)</li><li>Bundle.entry[21].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-viral-load-suspend-treatment-test-result.html">Suspend Treatment Lab Results</a> (per meta)</li><li>Bundle.entry[22].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/diagnosticreport.html">DiagnosticReport</a> and <i>this.</i><a href="StructureDefinition-hiv-diagnostic-report.html">Diagnostic Report</a> (per meta)</li><li>Bundle.entry[23].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-hiv-practitioner.html">Practitioner</a> (per meta)</li><li>Bundle.entry[24].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/device.html">Device</a> and <i>this.</i><a href="StructureDefinition-device-for-testing.html">Testing Platform</a> (per meta)</li><li>Bundle.entry[25].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/transport.html">Transport</a> and <i>this.</i><a href="StructureDefinition-sample-dispatched-to-lab.html">Sample Dispatched to Lab Task</a> (per meta)</li><li>Bundle.entry[26].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/transport.html">Transport</a> and <i>this.</i><a href="StructureDefinition-result-dispatched-to-facility.html">Result Dispatched</a> (per meta)</li><li>Bundle.entry[27].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-viral-load-test-result-absolute-decimal.html">Viral Load Result Absolute Decimal</a> (per meta)</li><li>Bundle.entry[28].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-viral-load-log.html">Viral Load Log</a> (per meta)</li><li>Bundle.entry[29].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-funding-source.html">Funding Organization</a> (per meta)</li><li>Bundle.entry[30].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-implementing-partner.html">Implementing Partner Organization</a> (per meta)</li><li>Bundle.entry[31].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/location.html">Location</a> and <i>this.</i><a href="StructureDefinition-transport-location.html">Transport Location</a> (per meta)</li><li>Bundle.entry[32].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R5/location.html">Location</a> and <i>this.</i><a href="StructureDefinition-transport-location.html">Transport Location</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource/*StructureDefinition/hiv-patient*/.mapping[2].uri (l31/c51)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/interface' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource/*StructureDefinition/hiv-patient*/.snapshot.element[16].binding.extension[0] (l863/c20)</b></td><td><b>error</b></td><td title="Extension_EXT_Type"><b>The Extension 'http://hl7.org/fhir/tools/StructureDefinition/binding-definition' definition allows for the types [markdown] but found type string</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[17].resource/*ActivityDefinition/LabOrderTaskActivityExample*/.url (l3773/c10)</b></td><td><b>warning</b></td><td title="Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed"><b>Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_github_workspace_fsh-generated_resources_ImplementationGuide-openhie.fhir.rwanda.hiv"> </a>
-<h2><a href="ImplementationGuide-openhie.fhir.rwanda.hiv.html">fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(0)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi1"></div>
+<h2><a href="ImplementationGuide-openhie.fhir.rwanda.hiv.html">fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"></div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
@@ -107,6 +129,14 @@
 <a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
+<a name="Extension_EXT_Type"> </a>
+<h2>Extension_EXT_Type</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-LabOrder.html">fsh-generated/resources/Bundle-LabOrder.json</a></td><td><b>The Extension 'http://hl7.org/fhir/tools/StructureDefinition/binding-definition' definition allows for the types [markdown] but found type string</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="RESOURCE_CANONICAL_MISMATCH"> </a>
 <h2>RESOURCE_CANONICAL_MISMATCH</h2>
  <table class="grid">
@@ -120,6 +150,14 @@
  <table class="grid">
    <tr style="background-color: #ffeeee">
      <td><a href="ImplementationGuide-openhie.fhir.rwanda.hiv.html">fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json</a></td><td><b>Resource id/url mismatch: openhie.fhir.rwanda.hiv/http://openhie.org/fhir/rwanda-hiv</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_URL_Resolve"> </a>
+<h2>Type_Specific_Checks_DT_URL_Resolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-LabOrder.html">fsh-generated/resources/Bundle-LabOrder.json</a></td><td><b>URL value 'http://hl7.org/fhir/interface' does not resolve</b></td>
    </tr>
 </table>
 </body>

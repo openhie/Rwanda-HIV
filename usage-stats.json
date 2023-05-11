@@ -142,12 +142,8 @@
     ],
     "Task": [
       {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
-        "title": "Result Dispatched"
-      },
-      {
-        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
-        "title": "Sample Dispatched to Lab Task"
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+        "title": "Lab Task"
       }
     ],
     "ActivityDefinition": [
@@ -174,6 +170,16 @@
         "title": "Receive SMS Messages"
       }
     ],
+    "Transport": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
+        "title": "Result Dispatched"
+      },
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
+        "title": "Sample Dispatched to Lab Task"
+      }
+    ],
     "SpecimenDefinition": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
@@ -186,6 +192,12 @@
         "title": "Target Facility Encounter"
       }
     ],
+    "Location": [
+      {
+        "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+        "title": "Transport Location"
+      }
+    ],
     "Specimen": [
       {
         "url": "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
@@ -195,15 +207,19 @@
   },
   "usage": {
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "Bundle.entry.resource.snapshot.element.constraint",
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "Bundle.entry.resource.snapshot.element.constraint",
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "Bundle.entry.resource.snapshot.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "Bundle.entry.resource.snapshot.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
@@ -216,12 +232,15 @@
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "Bundle.entry.resource.snapshot.element",
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "Bundle.entry.resource.snapshot.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "Bundle.entry.resource.snapshot.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements": [
@@ -234,6 +253,7 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/binding-definition": [
+      "Bundle.entry.resource.snapshot.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
@@ -256,23 +276,25 @@
       "Practitioner"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index": [
+      "Bundle.entry.resource",
       "Organization"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner-index": [
+      "Bundle.entry.resource",
       "Organization"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months": [
-      "Bundle.entry.resource",
       "Patient"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years": [
-      "Bundle.entry.resource",
       "Patient"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index": [
+      "Bundle.entry.resource",
       "Organization"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index": [
+      "Bundle.entry.resource",
       "Organization"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually": [
@@ -284,7 +306,8 @@
       "Task"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index": [
-      "ActivityDefinition"
+      "ActivityDefinition",
+      "Bundle.entry.resource"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-reordered": [
       "Bundle.entry.resource",

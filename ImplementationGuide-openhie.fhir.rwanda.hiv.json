@@ -337,6 +337,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/art-initiated"
+      },
+      "name" : "ART Initiated",
+      "description" : "ART initiated.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/art-regimen-switched-or-substituted"
       },
       "name" : "ART Regimen Switched Or Substituted",
@@ -401,18 +413,6 @@
       },
       "name" : "Breastfeeding Patient",
       "description" : "Breastfeeding patient.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/date-hiv-test-done"
-      },
-      "name" : "Date HIV Test Done",
-      "description" : "This profile is to record the date when HIV test was done for a patient.",
       "isExample" : false
     },
     {
@@ -713,6 +713,18 @@
       },
       "name" : "Testing Platform",
       "description" : "The device platform used for testing.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/transport-location"
+      },
+      "name" : "Transport Location",
+      "description" : "Transport location.",
       "isExample" : false
     },
     {
@@ -1069,6 +1081,19 @@
         "valueString" : "Observation"
       }],
       "reference" : {
+        "reference" : "Observation/ARTInitiatedExample"
+      },
+      "name" : "ART Initiated",
+      "description" : "ART initiated.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
         "reference" : "Observation/ARTRegimenSwitchedOrSubstitutedExample"
       },
       "name" : "ART Regimen Switched Or Substituted",
@@ -1108,10 +1133,23 @@
         "valueString" : "MedicationRequest"
       }],
       "reference" : {
-        "reference" : "MedicationRequest/ARVRegimenMedicationRequestExample"
+        "reference" : "MedicationRequest/ARVRegimenMedicationRequestInitiatedARTExample"
       },
-      "name" : "ARV Regimen Medication Request",
-      "description" : "ARV Regimen Medication Request",
+      "name" : "ARV Regimen Medication Request: Initiated ART",
+      "description" : "ARV Regimen Medication Request: Initiated ART",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationRequest"
+      }],
+      "reference" : {
+        "reference" : "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"
+      },
+      "name" : "ARV Regimen Medication Request: Regimen Changed",
+      "description" : "ARV Regimen Medication Request: Regimen Changed.",
       "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
       "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"]
     },
@@ -1121,10 +1159,23 @@
         "valueString" : "CarePlan"
       }],
       "reference" : {
-        "reference" : "CarePlan/ARVTreatmentExample"
+        "reference" : "CarePlan/ARVTreatmentInitiatedExample"
       },
-      "name" : "ARV CarePlan example",
-      "description" : "ARV CarePlan example",
+      "name" : "ARV CarePlan example: ART Initiated",
+      "description" : "ARV CarePlan example: ART initiated.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CarePlan"
+      }],
+      "reference" : {
+        "reference" : "CarePlan/ARVTreatmentRegimenChangedExample"
+      },
+      "name" : "ARV CarePlan example: Regimen Changed",
+      "description" : "ARV CarePlan example: regimen changed.",
       "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
       "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"]
     },
@@ -1144,19 +1195,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/DateHIVTestDoneExample"
-      },
-      "name" : "Date HIV Test Done example",
-      "description" : "Date HIV Test Done example",
-      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done",
-      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Consent"
       }],
       "reference" : {
@@ -1166,18 +1204,6 @@
       "description" : "Indication that a patient does not consent to receiving SMS messages.",
       "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
       "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/EMR"
-      },
-      "name" : "HIV Submit EMR Bundle Example",
-      "description" : "HIV Submit EMR Bundle Example",
-      "isExample" : true
     },
     {
       "extension" : [{
@@ -1529,10 +1555,10 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Task"
+        "valueString" : "Transport"
       }],
       "reference" : {
-        "reference" : "Task/ResultDisptachedTaskExample"
+        "reference" : "Transport/ResultDisptachedTaskExample"
       },
       "name" : "Result Dispatched",
       "description" : "Result Dispatched",
@@ -1555,10 +1581,10 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Task"
+        "valueString" : "Transport"
       }],
       "reference" : {
-        "reference" : "Task/SampleDisptachedToLabTaskExample"
+        "reference" : "Transport/SampleDisptachedToLabTaskExample"
       },
       "name" : "Sample Dispatched to Lab Task",
       "description" : "Sample dispatched to lab task.",
@@ -1616,6 +1642,32 @@
       "description" : "The device platform used for testing.",
       "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
       "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/TransportCurrentLocationExample"
+      },
+      "name" : "Transport Current Location",
+      "description" : "Transport current location.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/TransportRequestedLocationExample"
+      },
+      "name" : "Transport Requested Location",
+      "description" : "Transport requested location.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"]
     },
     {
       "extension" : [{

@@ -22,11 +22,11 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, nor can they have their own independent transaction scope. This is allowed to be a Parameters resource if and only if it is referenced by a resource that provides context/meaning.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"dom-2
 dom-4dom-3dom-5","","N/A"
-"DiagnosticReport.extension","DiagnosticReport.extension","","","",1,*,"","","","Extension {[]} {[]}
+"DiagnosticReport.extension","DiagnosticReport.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DiagnosticReport.extension:TestedByIndex","DiagnosticReport.extension","TestedByIndex","","",1,1,"","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index]]} {[]}
+"DiagnosticReport.extension:TestedByIndex","DiagnosticReport.extension","TestedByIndex","","",0,1,"Y","","","Extension {[CanonicalType[http://openhie.org/fhir/rwanda-hiv/StructureDefinition/tested-by-user-index]]} {[]}
 ","HIV Viral Load Result Tested By","The user index for the person who tested the viral load specimen.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.modifierExtension","DiagnosticReport.modifierExtension","","extensions
@@ -85,7 +85,7 @@ Date IssuedDate Verified","",0,1,"","","Y","instant {[]} {[]}
 ","DateTime this version was made","The date and time that this version of the report was made available to providers, typically after the report was reviewed and verified.","May be different from the update time of the resource itself, because that is the status of the record (potentially a secondary copy), not the actual release time of the report.","Clinicians need to be able to check the date that the report was released.","","","","","","","",,,,,"",,,,"DiagnosticReport.issued",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.recorded","OBR-22","participation[typeCode=VRF or AUT].time"
 "DiagnosticReport.performer","DiagnosticReport.performer","","Laboratory
-ServicePractitionerDepartmentCompanyAuthorized byDirector","",1,*,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization], CanonicalType[http://hl7.org/fhir/StructureDefinition/CareTeam]]}
+ServicePractitionerDepartmentCompanyAuthorized byDirector","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization], CanonicalType[http://hl7.org/fhir/StructureDefinition/CareTeam]]}
 ","Responsible Diagnostic Service","The diagnostic service that is responsible for issuing the report.","This is not necessarily the source of the atomic data items or the entity that interpreted the results. It is the entity that takes responsibility for the clinical report.","Need to know whom to contact if there are queries about the results. Also may need to track the source of reports for secondary data analysis.","","","","","","","",,,,,"",,,,"DiagnosticReport.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer.actor","FiveWs.actor","PRT-8 (where this PRT-4-Participation = ""PO"")",".participation[typeCode=PRF]"
 "DiagnosticReport.resultsInterpreter","DiagnosticReport.resultsInterpreter","","Analyzed by
@@ -96,11 +96,11 @@ Reported by","",1,*,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhi
 ","Specimens this report is based on","Details about the specimens on which this diagnostic report is based.","If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per observation or group.","Need to be able to report information about the collected specimens on which the report is based.","","","","","","","",,,,,"",,,,"DiagnosticReport.specimen",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","SPM","participation[typeCode=SBJ]"
 "DiagnosticReport.result","DiagnosticReport.result","","Data
-Atomic ValueResultAtomic resultDataTestAnalyteBatteryOrganizer","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Observation]]}
+Atomic ValueResultAtomic resultDataTestAnalyteBatteryOrganizer","",0,1,"Y","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Observation]]}
 ","Observations","[Observations](http://hl7.org/fhir/R5/observation.html)  that are part of this diagnostic report.","Observations can contain observations.","Need to support individual results, or  groups of results, where the result grouping is arbitrary, but meaningful.","","","","","","","",,,,,"",,,,"DiagnosticReport.result",0,*,"dgr-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBXs","outboundRelationship[typeCode=COMP].target"
-"DiagnosticReport.note","DiagnosticReport.note","","","",0,*,"","","","Annotation {[]} {[]}
+"DiagnosticReport.note","DiagnosticReport.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Comments about the diagnostic report","Comments about the diagnostic report.","May include general statements about the diagnostic report, or statements about significant, unexpected or unreliable results values contained within the diagnostic report, or information about its source when relevant to its interpretation.","Need to be able to provide free text additional information.","","","","","","","",,,,,"",,,,"DiagnosticReport.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","unknown"
 "DiagnosticReport.study","DiagnosticReport.study","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/GenomicStudy], CanonicalType[http://hl7.org/fhir/StructureDefinition/ImagingStudy]]}
