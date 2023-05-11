@@ -20,6 +20,13 @@
     "name" : "HIVServiceRequest"
   },
   {
+    "id" : "art-initiated",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated",
+    "version" : "0.1.0",
+    "name" : "ARTInitiated"
+  },
+  {
     "id" : "art-regimen-switched-or-substituted",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
@@ -27,18 +34,25 @@
     "name" : "ARTRegimenSwitchedOrSubstituted"
   },
   {
+    "id" : "arv-regimen-change",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change",
+    "version" : "0.1.0",
+    "name" : "ARVRegimenChange"
+  },
+  {
+    "id" : "arv-regimen-medication-request",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+    "version" : "0.1.0",
+    "name" : "ARVRegimenMedicationRequest"
+  },
+  {
     "id" : "clinician-user-index",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index",
     "version" : "0.1.0",
     "name" : "ClinicianUserIndex"
-  },
-  {
-    "id" : "date-hiv-test-done",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done",
-    "version" : "0.1.0",
-    "name" : "DateHIVTestDone"
   },
   {
     "id" : "device-for-testing",
@@ -76,25 +90,11 @@
     "name" : "ARVTreatment"
   },
   {
-    "id" : "hiv-diagnosis",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis",
-    "version" : "0.1.0",
-    "name" : "HIVDiagnosis"
-  },
-  {
     "id" : "hiv-diagnostic-report",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
     "version" : "0.1.0",
     "name" : "HIVDiagnosticReport"
-  },
-  {
-    "id" : "hiv-episode-of-care",
-    "type" : "StructureDefinition",
-    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care",
-    "version" : "0.1.0",
-    "name" : "HIVEpisodeOfCare"
   },
   {
     "id" : "hiv-lab-task",
@@ -202,6 +202,13 @@
     "name" : "PerformingOrganizationProvinceIndex"
   },
   {
+    "id" : "reason-for-hiv-testing",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing",
+    "version" : "0.1.0",
+    "name" : "ReasonForHIVTesting"
+  },
+  {
     "id" : "receive-sms-messages",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
@@ -279,6 +286,13 @@
     "name" : "TestedByIndex"
   },
   {
+    "id" : "transport-location",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+    "version" : "0.1.0",
+    "name" : "TransportLocation"
+  },
+  {
     "id" : "viral-load-log",
     "type" : "StructureDefinition",
     "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log",
@@ -335,6 +349,13 @@
     "name" : "VSARVRegimen"
   },
   {
+    "id" : "vs-arv-regimen-change",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change",
+    "version" : "0.1.0",
+    "name" : "VSARVRegimenChange"
+  },
+  {
     "id" : "vs-arvtreatment-activity-type",
     "type" : "ValueSet",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type",
@@ -374,7 +395,7 @@
     "type" : "ValueSet",
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change",
     "version" : "0.1.0",
-    "name" : "VSReasonSForARVRegimenChange"
+    "name" : "VSReasonsForARVRegimenChange"
   },
   {
     "id" : "vs-reason-for-assessment",
@@ -382,6 +403,13 @@
     "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
     "version" : "0.1.0",
     "name" : "VSReasonForAssessment"
+  },
+  {
+    "id" : "vs-reason-for-hiv-testing",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing",
+    "version" : "0.1.0",
+    "name" : "ReasonForHIVTestingCode"
   },
   {
     "id" : "vs-reason-sample-cancelled-or-rejected",

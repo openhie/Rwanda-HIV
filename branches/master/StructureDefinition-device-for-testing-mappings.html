@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.RWANDA.HIV\Testing Platform - Mappings - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.RWANDA.HIV\Testing Platform - Mappings - FHIR v5.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -46,8 +46,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.25"}
-    h3,h4,h5,h6{--heading-prefix:"3.25"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.32"}
+    h3,h4,h5,h6{--heading-prefix:"3.32"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -74,9 +74,9 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Rwanda HIV</span>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Rwanda HIV</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - CI Build
+            <span style="display:inline-block;">0.1.0 - STU1
 
 
 
@@ -102,7 +102,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul
 	xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
@@ -158,7 +158,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 5" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Rwanda HIV, published by Jembi Health Systems. This is not an authorized publication; it is the continuous build for version 0.1.0). This version is based on the current content of <a href="https://github.com/openhie/Rwanda-HIV">https://github.com/openhie/Rwanda-HIV</a> and changes regularly. See the <a href="http://openhie.org/fhir/rwanda-hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">HL7 FHIR Implementation Guide: Rwanda HIV, published by Jembi Health Systems. This is not an authorized publication; it is the continuous build for version 0.1.0). This version is based on the current content of <a href="https://github.com/openhie/Rwanda-HIV">https://github.com/openhie/Rwanda-HIV</a> and changes regularly. See the <a href="http://openhie.org/fhir/rwanda-hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -240,7 +240,7 @@
         
           Active
           
-            as of 2023-05-08
+            as of 2023-05-11
           
         
       </td>
@@ -256,9 +256,36 @@
 
 
 
-  <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+  <a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
  <tr><td colspan="3"><b>TestingPlatform</b></td></tr>
- <tr><td>Device</td><td>Entity. Role, or Act, Device</td> </tr>
+ <tr><td>Device</td><td>administrative.device</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;udiCarrier</td><td>FiveWs.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deviceIdentifier</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>FiveWs.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;availabilityStatus</td><td>FiveWs.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;biologicalSourceEvent</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;manufacturer</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;manufactureDate</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;expirationDate</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;lotNumber</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;serialNumber</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>FiveWs.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modelNumber</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;partNumber</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;version</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;component</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;installDate</td><td>FiveWs.what[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;owner</td><td>FiveWs.source</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>FiveWs.source</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>FiveWs.where[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>FiveWs.where[x]</td> </tr>
+</table>
+<a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>TestingPlatform</b></td></tr>
+ <tr><td>Device</td><td>Entity, Role, or Act,Device</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
@@ -275,24 +302,24 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carrierHRF</td><td>Role.id.extension</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entryType</td><td>NA</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>.statusCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;distinctIdentifier</td><td>.lotNumberText</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;manufacturer</td><td>.playedRole[typeCode=MANU].scoper.name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;manufactureDate</td><td>.existenceTime.low</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;expirationDate</td><td>.expirationTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;lotNumber</td><td>.lotNumberText</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;serialNumber</td><td>.playedRole[typeCode=MANU].id</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;deviceName</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>.playedRole[typeCode=MANU].code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>statusCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modelNumber</td><td>.softwareName (included as part)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partNumber</td><td>.playedRole[typeCode=MANU].id</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;specialization</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;version</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;version</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;conformsTo</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
@@ -300,41 +327,20 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;patient</td><td>.playedRole[typeCode=USED].scoper.playedRole[typeCode=PAT]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;owner</td><td>.playedRole[typeCode=OWN].scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>.scopedRole[typeCode=CON].player</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>.playedRole[typeCode=LOCE].scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>.telecom</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;endpoint</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>.text</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;safety</td><td>NA</td> </tr>
 </table>
-<a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
+<a name="interface"> </a><h3>Mappings for Interface Pattern (<a href="http://hl7.org/fhir/patterns.html">http://hl7.org/fhir/interface</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>TestingPlatform</b></td></tr>
- <tr><td>Device</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;udiCarrier</td><td>FiveWs.identifier</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deviceIdentifier</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>FiveWs.status</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;statusReason</td><td>FiveWs.status</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;distinctIdentifier</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;manufacturer</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;manufactureDate</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;expirationDate</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;lotNumber</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;serialNumber</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;deviceName</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;modelNumber</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;partNumber</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;specialization</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;version</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;version</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;component</td><td>FiveWs.what[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;patient</td><td>FiveWs.subject[x], FiveWs.subject</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;owner</td><td>FiveWs.source</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>FiveWs.source</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>FiveWs.where[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>FiveWs.where[x]</td> </tr>
+ <tr><td>Device</td><td>Participant</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Participant.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>Participant.active</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>Participant.name</td> </tr>
 </table>
 <a name="udi"> </a><h3>Mappings for UDI Mapping (http://fda.gov/UDI)</h3><table class="grid">
  <tr><td colspan="3"><b>TestingPlatform</b></td></tr>
@@ -353,7 +359,6 @@ ICCBA DIs for other devices:
  http://hl7.org/fhir/NamingSystem/iccbba-other</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carrierAIDC</td><td>A unique device identifier (UDI) on a device label a form that uses automatic identification and data capture (AIDC) technology.</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carrierHRF</td><td>A unique device identifier (UDI) on a device label in plain text</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;distinctIdentifier</td><td>The lot or batch number within which a device was manufactured - which is a component of the production identifier (PI), a conditional, variable portion of a UDI.</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;manufacturer</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;manufactureDate</td><td>The date a specific device was manufactured - which is a component of the production identifier (PI), a conditional, variable portion of a UDI.  For FHIR, The datetime syntax must converted to YYYY-MM-DD[THH:MM:SS].  If hour is present, the minutes and seconds should both be set to “00”.</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;expirationDate</td><td>the expiration date of a specific device -  which is a component of the production identifier (PI), a conditional, variable portion of a UDI.  For FHIR, The datetime syntax must converted to YYYY-MM-DD[THH:MM:SS].  If hour is present, the minutes and seconds should both be set to “00”.</td> </tr>
@@ -413,14 +418,14 @@ ICCBA DIs for other devices:
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 8, 2023 21:08+0000">2023-05-08</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, May 11, 2023 19:02+0000">2023-05-11</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
                  <a style="color: #81BEF7" target="_blank" href="http://openhie.org/fhir/rwanda-hiv/history.html">Version History</a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 
 

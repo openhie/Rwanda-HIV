@@ -1,6 +1,6 @@
 {
   "version" : "0.1.0",
-  "fhirVersion" : ["4.0.1"],
-  "date" : "20230508210706",
+  "fhirVersion" : ["5.0.0"],
+  "date" : "20230511190120",
   "name" : "openhie.fhir.rwanda.hiv"
 }

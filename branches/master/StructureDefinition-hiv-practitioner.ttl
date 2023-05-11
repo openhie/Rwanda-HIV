@@ -10,16 +10,17 @@
   fhir:id [ fhir:v "hiv-practitioner"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner\">Practitioner</a><a name=\"Practitioner\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/practitioner.html\">Practitioner</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A person with a  formal responsibility in the provisioning of healthcare or related services</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.extension\">Slices for extension</a><a name=\"Practitioner.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span><br/><span style=\"font-weight:bold\">Slice: </span>Unordered, Open by value:url</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.extension:ClinicianUserIndex\" title=\"Extension URL = http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index\">ClinicianUserIndex</a><a name=\"Practitioner.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Clinician User Index</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-clinician-user-index.html\">http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.name\">name</a><a name=\"Practitioner.name\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span>..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The name(s) associated with the practitioner</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.name.family\">family</a><a name=\"Practitioner.name.family\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Family name (often called 'Surname')</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.name.given\">given</a><a name=\"Practitioner.name.given\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Given names (not always 'first'). Includes middle names</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.telecom\">telecom</a><a name=\"Practitioner.telecom\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.telecom.system\">system</a><a name=\"Practitioner.telecom.system\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.telecom.system.value\">value</a><a name=\"Practitioner.telecom.system.value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Primitive value for code</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">phone</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner\">Practitioner</a><a name=\"Practitioner\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R5/practitioner.html\">Practitioner</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A person with a  formal responsibility in the provisioning of healthcare or related services</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.extension\">Slices for extension</a><a name=\"Practitioner.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span><br/><span style=\"font-weight:bold\">Slice: </span>Unordered, Open by value:url</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.extension:ClinicianUserIndex\" title=\"Extension URL = http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index\">ClinicianUserIndex</a><a name=\"Practitioner.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R5/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Clinician User Index</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R5/StructureDefinition-clinician-user-index.html\">http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.name\">name</a><a name=\"Practitioner.name\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span>..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The name(s) associated with the practitioner</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.name.family\">family</a><a name=\"Practitioner.name.family\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Family name (often called 'Surname')</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.name.given\">given</a><a name=\"Practitioner.name.given\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Given names (not always 'first'). Includes middle names</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.telecom\">telecom</a><a name=\"Practitioner.telecom\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.telecom.system\">system</a><a name=\"Practitioner.telecom.system\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-hiv-practitioner-definitions.html#Practitioner.telecom.system.value\">value</a><a name=\"Practitioner.telecom.system.value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Primitive value for code</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">phone</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "HIVPractitioner"] ; # 
   fhir:title [ fhir:v "Practitioner"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-08T21:08:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T19:02:34+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "Jembi Health Systems" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "https://www.jembi.org" ]
@@ -27,31 +28,43 @@
        fhir:system [ fhir:v "email" ] ;
        fhir:value [ fhir:v "info@jembi.org" ]
      ] )
+  ] [
+     fhir:name [ fhir:v "Richard Langford" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "richard.langford@jembi.org" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
   ] ) ; # 
   fhir:description [ fhir:v "The healthcare professional who has been assigned to a given lab task."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "001" ]
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
+  fhir:fhirVersion [ fhir:v "5.0.0"] ; # 
   fhir:mapping ( [
+     fhir:identity [ fhir:v "w5" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/fivews"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "FiveWs Pattern Mapping" ]
+  ] [
      fhir:identity [ fhir:v "v2" ] ;
      fhir:uri [ fhir:v "http://hl7.org/v2"^^xsd:anyURI ] ;
-     fhir:name [ fhir:v "HL7 v2 Mapping" ]
+     fhir:name [ fhir:v "HL7 V2 Mapping" ]
   ] [
      fhir:identity [ fhir:v "rim" ] ;
      fhir:uri [ fhir:v "http://hl7.org/v3"^^xsd:anyURI ] ;
      fhir:name [ fhir:v "RIM Mapping" ]
   ] [
+     fhir:identity [ fhir:v "interface" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/interface"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "Interface Pattern" ]
+  ] [
      fhir:identity [ fhir:v "servd" ] ;
      fhir:uri [ fhir:v "http://www.omg.org/spec/ServD/1.0/"^^xsd:anyURI ] ;
      fhir:name [ fhir:v "ServD" ]
-  ] [
-     fhir:identity [ fhir:v "w5" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/fivews"^^xsd:anyURI ] ;
-     fhir:name [ fhir:v "FiveWs Pattern Mapping" ]
   ] ) ; # 
   fhir:kind [ fhir:v "resource"] ; # 
   fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
@@ -66,7 +79,7 @@
        fhir:id [ fhir:v "Practitioner" ] ;
        fhir:path [ fhir:v "Practitioner" ] ;
        fhir:short [ fhir:v "A person with a  formal responsibility in the provisioning of healthcare or related services" ] ;
-       fhir:definition [ fhir:v "A person who is directly or indirectly involved in the provisioning of healthcare." ] ;
+       fhir:definition [ fhir:v "A person who is directly or indirectly involved in the provisioning of healthcare or related services." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -79,7 +92,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If the resource is contained in another resource, it SHALL NOT contain nested Resources" ] ;
          fhir:expression [ fhir:v "contained.contained.empty()" ] ;
-         fhir:xpath [ fhir:v "not(parent::f:contained and f:contained)" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -88,8 +100,7 @@
          fhir:key [ fhir:v "dom-3" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource" ] ;
-         fhir:expression [ fhir:v "contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()" ] ;
-         fhir:xpath [ fhir:v "not(exists(for $id in f:contained/*/f:id/@value return $contained[not(parent::*/descendant::f:reference/@value=concat('#', $contained/*/id/@value) or descendant::f:reference[@value='#'])]))" ] ;
+         fhir:expression [ fhir:v "contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().ofType(canonical) | %resource.descendants().ofType(uri) | %resource.descendants().ofType(url))) or descendants().where(reference = '#').exists() or descendants().where(ofType(canonical) = '#').exists() or descendants().where(ofType(canonical) = '#').exists()).not()).trace('unmatched', id).empty()" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -99,7 +110,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated" ] ;
          fhir:expression [ fhir:v "contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()" ] ;
-         fhir:xpath [ fhir:v "not(exists(f:contained/*/f:meta/f:versionId)) and not(exists(f:contained/*/f:meta/f:lastUpdated))" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -109,7 +119,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If a resource is contained in another resource, it SHALL NOT have a security label" ] ;
          fhir:expression [ fhir:v "contained.meta.security.empty()" ] ;
-         fhir:xpath [ fhir:v "not(exists(f:contained/*/f:meta/f:security))" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -126,23 +135,26 @@
          fhir:severity [ fhir:v "warning" ] ;
          fhir:human [ fhir:v "A resource should have narrative for robust management" ] ;
          fhir:expression [ fhir:v "text.`div`.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:text/h:div)" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "Entity. Role, or Act" ]
+         fhir:map [ fhir:v "Entity, Role, or Act,Role" ]
+       ] [
+         fhir:identity [ fhir:v "w5" ] ;
+         fhir:map [ fhir:v "administrative.individual" ]
        ] [
          fhir:identity [ fhir:v "v2" ] ;
          fhir:map [ fhir:v "PRD (as one example)" ]
        ] [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "Role" ]
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "ParticipantLiving" ]
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "Provider" ]
@@ -152,7 +164,7 @@
        fhir:path [ fhir:v "Practitioner.id" ] ;
        fhir:short [ fhir:v "Logical id of this artifact" ] ;
        fhir:definition [ fhir:v "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes." ] ;
-       fhir:comment [ fhir:v "The only time that a resource does not have an id is when it is being submitted to the server using a create operation." ] ;
+       fhir:comment [ fhir:v "Within the context of the FHIR RESTful interactions, the resource has an id except for cases like the create and conditional update. Otherwise, the use of the resouce id depends on the given use case." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -167,6 +179,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
@@ -189,12 +202,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
@@ -202,7 +215,7 @@
        fhir:path [ fhir:v "Practitioner.implicitRules" ] ;
        fhir:short [ fhir:v "A set of rules under which this content was created" ] ;
        fhir:definition [ fhir:v "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc." ] ;
-       fhir:comment [ fhir:v "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc." ] ;
+       fhir:comment [ fhir:v "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -218,14 +231,14 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:isModifierReason [ fhir:v "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation" ] ;
+       fhir:isModifierReason [ fhir:v "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies its meaning or interpretation" ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Practitioner.language" ] ;
@@ -248,41 +261,42 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet"^^xsd:anyURI ] ;
-           fhir:value [
-             fhir:v "http://hl7.org/fhir/ValueSet/all-languages"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/ValueSet/all-languages>
-           ]
-         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
-         fhir:strength [ fhir:v "preferred" ] ;
-         fhir:description [ fhir:v "A human language." ] ;
+         fhir:strength [ fhir:v "required" ] ;
+         fhir:description [ fhir:v "IETF language tag for a human language" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/languages>
-         ]
+           fhir:v "http://hl7.org/fhir/ValueSet/all-languages|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/all-languages|5.0.0>
+         ] ;
+         fhir:additional ( [
+           fhir:purpose [ fhir:v "starter" ] ;
+           fhir:valueSet [
+             fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/ValueSet/languages>
+           ]
+         ] )
        ]
      ] [
        fhir:id [ fhir:v "Practitioner.text" ] ;
        fhir:path [ fhir:v "Practitioner.text" ] ;
        fhir:short [ fhir:v "Text summary of the resource, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:comment [ fhir:v "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ] ;
+       fhir:comment [ fhir:v "Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ] ;
        fhir:alias ( [ fhir:v "narrative" ] [ fhir:v "html" ] [ fhir:v "xhtml" ] [ fhir:v "display" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -294,17 +308,18 @@
        fhir:type ( [
          fhir:code [ fhir:v "Narrative"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "dom-6" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -315,8 +330,8 @@
        fhir:id [ fhir:v "Practitioner.contained" ] ;
        fhir:path [ fhir:v "Practitioner.contained" ] ;
        fhir:short [ fhir:v "Contained, inline Resources" ] ;
-       fhir:definition [ fhir:v "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope." ] ;
-       fhir:comment [ fhir:v "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels." ] ;
+       fhir:definition [ fhir:v "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, nor can they have their own independent transaction scope. This is allowed to be a Parameters resource if and only if it is referenced by a resource that provides context/meaning." ] ;
+       fhir:comment [ fhir:v "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ] ;
        fhir:alias ( [ fhir:v "inline resources" ] [ fhir:v "anonymous resources" ] [ fhir:v "contained resources" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -328,6 +343,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Resource"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "dom-2" ] [ fhir:v "dom-4" ] [ fhir:v "dom-3" ] [ fhir:v "dom-5" ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -362,7 +379,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -372,12 +388,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -400,13 +416,11 @@
            fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -416,20 +430,20 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Practitioner.modifierExtension" ] ;
        fhir:path [ fhir:v "Practitioner.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -446,7 +460,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -456,15 +469,15 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them" ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "N/A" ]
@@ -490,12 +503,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -507,6 +520,9 @@
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./id" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant.identifier" ]
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "./Identifiers" ]
@@ -534,13 +550,14 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifierReason [ fhir:v "This element is labelled as a modifier because it is a status element that can indicate that a record should not be treated as valid" ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "w5" ] ;
@@ -548,6 +565,9 @@
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./statusCode" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant.active" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.name" ] ;
@@ -571,7 +591,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -586,6 +605,9 @@
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./name" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant.name" ]
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "./PreferredName (GivenNames, FamilyName, TitleCode)" ]
@@ -606,10 +628,11 @@
        fhir:type ( [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+           fhir:value [ fhir:v "id"^^xsd:anyURI ]
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -628,7 +651,7 @@
          fhir:rules [ fhir:v "open" ]
        ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -646,7 +669,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -656,7 +678,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -690,7 +711,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -701,14 +721,17 @@
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/binding-definition"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "The use of a human name." ]
+         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "NameUse" ]
          ] ) ;
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "The use of a human name." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/name-use|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/name-use|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/name-use|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/name-use|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -743,7 +766,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -780,7 +802,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -821,7 +842,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -860,7 +880,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -899,7 +918,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -935,7 +953,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -975,12 +992,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -989,6 +1006,9 @@
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./telecom" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "ParticipantContactable.telecom" ]
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "./ContactPoints" ]
@@ -1009,10 +1029,11 @@
        fhir:type ( [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+           fhir:value [ fhir:v "id"^^xsd:anyURI ]
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1031,7 +1052,7 @@
          fhir:rules [ fhir:v "open" ]
        ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -1049,7 +1070,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1059,7 +1079,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1092,7 +1111,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1102,14 +1120,17 @@
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/binding-definition"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "Telecommunications form for contact point." ]
+         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "ContactPointSystem" ]
          ] ) ;
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "Telecommunications form for contact point." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/contact-point-system|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/contact-point-system|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -1148,7 +1169,7 @@
        fhir:id [ fhir:v "Practitioner.telecom.system.extension" ] ;
        fhir:path [ fhir:v "Practitioner.telecom.system.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -1166,7 +1187,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1176,7 +1196,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1200,10 +1219,10 @@
        fhir:type ( [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+           fhir:value [ fhir:v "code"^^xsd:anyURI ]
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/regex"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "[^\\s]+(\\s[^\\s]+)*" ]
+           fhir:value [ fhir:v "[^\\s]+( [^\\s]+)*" ]
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
@@ -1227,12 +1246,12 @@
        fhir:type ( [
          fhir:code [ fhir:v "string"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "cpt-2" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1272,7 +1291,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1283,14 +1301,17 @@
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/binding-definition"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "Use of contact point." ]
+         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "ContactPointUse" ]
          ] ) ;
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "Use of contact point." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/contact-point-use|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/contact-point-use|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -1308,7 +1329,7 @@
        fhir:path [ fhir:v "Practitioner.telecom.rank" ] ;
        fhir:short [ fhir:v "Specify preferred order of use (1 = highest)" ] ;
        fhir:definition [ fhir:v "Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than those with higher rank values." ] ;
-       fhir:comment [ fhir:v "Note that rank does not necessarily follow the order in which the contacts are represented in the instance." ] ;
+       fhir:comment [ fhir:v "Note that rank does not necessarily follow the order in which the contacts are represented in the instance.\n\nRanks need not be unique.  E.g. it's possible to have multiple contacts with rank=1.  If the ranks have different systems or uses, this would be interpreted to mean \"X is my most preferred phone number, Y is my most preferred email address\" or \"X is my preferred home email and Y is my preferred work email\".  If the system and use for equally-ranked contacts are the same, then the level of preference is equivalent for both repetitions. \n\nRanks need not be sequential and not all repetitions must have a rank.  For example, it's possible to have 4 contacts with ranks of 2, 5 and two with no rank specified.  That would be interpreted to mean the first is preferred over the second and no preference stated for the remaining contacts." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1324,7 +1345,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1359,7 +1379,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1376,46 +1395,6 @@
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "./StartDate and ./EndDate" ]
-       ] )
-     ] [
-       fhir:id [ fhir:v "Practitioner.address" ] ;
-       fhir:path [ fhir:v "Practitioner.address" ] ;
-       fhir:short [ fhir:v "Address(es) of the practitioner that are not role specific (typically home address)" ] ;
-       fhir:definition [ fhir:v "Address(es) of the practitioner that are not role specific (typically home address). \rWork addresses are not typically entered in this property as they are usually role dependent." ] ;
-       fhir:comment [ fhir:v "The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address)." ] ;
-       fhir:requirements [ fhir:v "The home/mailing address of the practitioner is often required for employee administration purposes, and also for some rostering services where the start point (practitioners home) can be used in calculations." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "Practitioner.address" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
-       ] ;
-       fhir:type ( [
-         fhir:code [ fhir:v "Address"^^xsd:anyURI ]
-       ] ) ;
-       fhir:constraint ( [
-         fhir:key [ fhir:v "ele-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
-         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "v2" ] ;
-         fhir:map [ fhir:v "ORC-24, STF-11, ROL-11, PRT-14" ]
-       ] [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "./addr" ]
-       ] [
-         fhir:identity [ fhir:v "servd" ] ;
-         fhir:map [ fhir:v "./Addresses" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.gender" ] ;
@@ -1438,12 +1417,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:binding [
@@ -1457,8 +1436,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "The gender of a person used for administrative purposes." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/administrative-gender|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/administrative-gender|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -1467,6 +1446,9 @@
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./administrativeGender" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "ParticipantLiving.gender" ]
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "./GenderCode" ]
@@ -1492,12 +1474,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1507,8 +1489,89 @@
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./birthTime" ]
        ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "ParticipantLiving.birthDate" ]
+       ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "(not represented in ServD)" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.deceased[x]" ] ;
+       fhir:path [ fhir:v "Practitioner.deceased[x]" ] ;
+       fhir:short [ fhir:v "Indicates if the practitioner is deceased or not" ] ;
+       fhir:definition [ fhir:v "Indicates if the practitioner is deceased or not." ] ;
+       fhir:comment [ fhir:v "If there's no value in the instance, it means there is no statement on whether or not the practitioner is deceased. Most systems will interpret the absence of a value as a sign of the person being alive." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Practitioner.deceased[x]" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "dateTime"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedInd, player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedTime" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.address" ] ;
+       fhir:path [ fhir:v "Practitioner.address" ] ;
+       fhir:short [ fhir:v "Address(es) of the practitioner that are not role specific (typically home address)" ] ;
+       fhir:definition [ fhir:v "Address(es) of the practitioner that are not role specific (typically home address). \rWork addresses are not typically entered in this property as they are usually role dependent." ] ;
+       fhir:comment [ fhir:v "The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address)." ] ;
+       fhir:requirements [ fhir:v "The home/mailing address of the practitioner is often required for employee administration purposes, and also for some rostering services where the start point (practitioners home) can be used in calculations." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Practitioner.address" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Address"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "v2" ] ;
+         fhir:map [ fhir:v "ORC-24, STF-11, ROL-11, PRT-14" ]
+       ] [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "./addr" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "ParticipantContactable.address" ]
+       ] [
+         fhir:identity [ fhir:v "servd" ] ;
+         fhir:map [ fhir:v "./Addresses" ]
        ] )
      ] [
        fhir:id [ fhir:v "Practitioner.photo" ] ;
@@ -1531,17 +1594,20 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "./subjectOf/ObservationEvent[code=\"photo\"]/value" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "ParticipantLiving.photo" ]
        ] [
          fhir:identity [ fhir:v "servd" ] ;
          fhir:map [ fhir:v "./ImageURI (only supports the URI reference)" ]
@@ -1549,8 +1615,9 @@
      ] [
        fhir:id [ fhir:v "Practitioner.qualification" ] ;
        fhir:path [ fhir:v "Practitioner.qualification" ] ;
-       fhir:short [ fhir:v "Certification, licenses, or training pertaining to the provision of care" ] ;
-       fhir:definition [ fhir:v "The official certifications, training, and licenses that authorize or otherwise pertain to the provision of care by the practitioner.  For example, a medical license issued by a medical board authorizing the practitioner to practice medicine within a certian locality." ] ;
+       fhir:short [ fhir:v "Qualifications, certifications, accreditations, licenses, training, etc. pertaining to the provision of care" ] ;
+       fhir:definition [ fhir:v "The official qualifications, certifications, accreditations, training, licenses (and other types of educations/skills/capabilities) that authorize or otherwise pertain to the provision of care by the practitioner.\r\rFor example, a medical license issued by a medical board of licensure authorizing the practitioner to practice medicine within a certain locality." ] ;
+       fhir:comment [ fhir:v "The PractitionerRole.specialty defines the functional role that they are practicing at a given organization or location.  Those specialties may or might not require a qualification, and are not defined on the practitioner." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1566,12 +1633,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1604,6 +1671,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1614,7 +1682,7 @@
        fhir:id [ fhir:v "Practitioner.qualification.extension" ] ;
        fhir:path [ fhir:v "Practitioner.qualification.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -1632,7 +1700,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1642,7 +1709,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1658,9 +1724,9 @@
        fhir:id [ fhir:v "Practitioner.qualification.modifierExtension" ] ;
        fhir:path [ fhir:v "Practitioner.qualification.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -1677,7 +1743,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1687,7 +1752,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1704,7 +1768,7 @@
        fhir:id [ fhir:v "Practitioner.qualification.identifier" ] ;
        fhir:path [ fhir:v "Practitioner.qualification.identifier" ] ;
        fhir:short [ fhir:v "An identifier for this qualification for the practitioner" ] ;
-       fhir:definition [ fhir:v "An identifier that applies to this person's qualification in this role." ] ;
+       fhir:definition [ fhir:v "An identifier that applies to this person's qualification." ] ;
        fhir:requirements [ fhir:v "Often, specific identities are assigned for the qualification." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -1721,12 +1785,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1753,12 +1817,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
@@ -1769,8 +1833,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "Specific qualification the practitioner has to provide a service." ] ;
          fhir:valueSet [
-           fhir:v "http://terminology.hl7.org/ValueSet/v2-2.7-0360"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/ValueSet/v2-2.7-0360>
+           fhir:v "http://terminology.hl7.org/ValueSet/v2-0360"^^xsd:anyURI ;
+           fhir:link <http://terminology.hl7.org/ValueSet/v2-0360>
          ]
        ] ;
        fhir:mapping ( [
@@ -1801,12 +1865,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1840,12 +1904,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1855,16 +1919,162 @@
      ] [
        fhir:id [ fhir:v "Practitioner.communication" ] ;
        fhir:path [ fhir:v "Practitioner.communication" ] ;
-       fhir:short [ fhir:v "A language the practitioner can use in patient communication" ] ;
-       fhir:definition [ fhir:v "A language the practitioner can use in patient communication." ] ;
-       fhir:comment [ fhir:v "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems code this but instead have it as free text. Hence CodeableConcept instead of code as the data type." ] ;
-       fhir:requirements [ fhir:v "Knowing which language a practitioner speaks can help in facilitating communication with patients." ] ;
+       fhir:short [ fhir:v "A language which may be used to communicate with the practitioner" ] ;
+       fhir:definition [ fhir:v "A language which may be used to communicate with the practitioner, often for correspondence/administrative purposes.\r\rThe `PractitionerRole.communication` property should be used for publishing the languages that a practitioner is able to communicate with patients (on a per Organization/Role basis)." ] ;
+       fhir:comment [ fhir:v "If no language is specified, this *implies* that the default local language is spoken.  If you need to convey proficiency for multiple modes, then you need multiple Practitioner.Communication associations.\r\rFor animals, language is not a relevant field, and should be absent from the instance." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Practitioner.communication" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "LanguageCommunication" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.communication.id" ] ;
+       fhir:path [ fhir:v "Practitioner.communication.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.communication.extension" ] ;
+       fhir:path [ fhir:v "Practitioner.communication.extension" ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.communication.modifierExtension" ] ;
+       fhir:path [ fhir:v "Practitioner.communication.modifierExtension" ] ;
+       fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "BackboneElement.modifierExtension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them" ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.communication.language" ] ;
+       fhir:path [ fhir:v "Practitioner.communication.language" ] ;
+       fhir:short [ fhir:v "The language code used to communicate with the practitioner" ] ;
+       fhir:definition [ fhir:v "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-AU\" for Australian English." ] ;
+       fhir:comment [ fhir:v "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type." ] ;
+       fhir:requirements [ fhir:v "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Practitioner.communication.language" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
          fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
@@ -1874,44 +2084,76 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet"^^xsd:anyURI ] ;
-           fhir:value [
-             fhir:v "http://hl7.org/fhir/ValueSet/all-languages"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/ValueSet/all-languages>
-           ]
-         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
-         fhir:strength [ fhir:v "preferred" ] ;
-         fhir:description [ fhir:v "A human language." ] ;
+         fhir:strength [ fhir:v "required" ] ;
+         fhir:description [ fhir:v "IETF language tag for a human language" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/languages>
-         ]
+           fhir:v "http://hl7.org/fhir/ValueSet/all-languages|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/all-languages|5.0.0>
+         ] ;
+         fhir:additional ( [
+           fhir:purpose [ fhir:v "starter" ] ;
+           fhir:valueSet [
+             fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/ValueSet/languages>
+           ]
+         ] )
        ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "v2" ] ;
-         fhir:map [ fhir:v "PID-15, NK1-20, LAN-2" ]
+         fhir:map [ fhir:v "PID-15, LAN-2" ]
        ] [
          fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "./languageCommunication" ]
-       ] [
-         fhir:identity [ fhir:v "servd" ] ;
-         fhir:map [ fhir:v "./Languages.LanguageSpokenCode" ]
+         fhir:map [ fhir:v "player[classCode=PSN|ANM and determinerCode=INSTANCE]/languageCommunication/code" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Practitioner.communication.preferred" ] ;
+       fhir:path [ fhir:v "Practitioner.communication.preferred" ] ;
+       fhir:short [ fhir:v "Language preference indicator" ] ;
+       fhir:definition [ fhir:v "Indicates whether or not the person prefers this language (over other languages he masters up a certain level)." ] ;
+       fhir:comment [ fhir:v "This language is specifically identified for communicating directly with the practitioner (typically un-related to patient communications)." ] ;
+       fhir:requirements [ fhir:v "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Practitioner.communication.preferred" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "preferenceInd" ]
        ] )
      ] )
   ] ; # 

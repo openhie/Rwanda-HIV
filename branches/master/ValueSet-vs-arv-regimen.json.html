@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.RWANDA.HIV\A list of ARV regimen - JSON Representation - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.RWANDA.HIV\A list of ARV regimen - JSON Representation - FHIR v5.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.55"}
-    h3,h4,h5,h6{--heading-prefix:"3.55"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.50"}
+    h3,h4,h5,h6{--heading-prefix:"3.50"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -72,9 +72,9 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Rwanda HIV</span>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Rwanda HIV</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - CI Build
+            <span style="display:inline-block;">0.1.0 - STU1
 
 
 
@@ -100,7 +100,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul
 	xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
@@ -156,7 +156,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Rwanda HIV, published by Jembi Health Systems. This is not an authorized publication; it is the continuous build for version 0.1.0). This version is based on the current content of <a href="https://github.com/openhie/Rwanda-HIV">https://github.com/openhie/Rwanda-HIV</a> and changes regularly. See the <a href="http://openhie.org/fhir/rwanda-hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">HL7 FHIR Implementation Guide: Rwanda HIV, published by Jembi Health Systems. This is not an authorized publication; it is the continuous build for version 0.1.0). This version is based on the current content of <a href="https://github.com/openhie/Rwanda-HIV">https://github.com/openhie/Rwanda-HIV</a> and changes regularly. See the <a href="http://openhie.org/fhir/rwanda-hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -210,7 +210,7 @@
         
           Active
           
-            as of 2023-05-08
+            as of 2023-05-11
           
         
       </td>
@@ -228,133 +228,145 @@
 
   <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
 {
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a>" : "vs-arv-regimen",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387105006\&quot;&gt;387105006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didanosine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387005008\&quot;&gt;387005008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abacavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/772188001\&quot;&gt;772188001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only abacavir and lamivudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/427314002\&quot;&gt;427314002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Antiviral therapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/878898002\&quot;&gt;878898002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only atazanavir and ritonavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/713464000\&quot;&gt;713464000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dolutegravir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387001004\&quot;&gt;387001004&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Efavirenz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/404856006\&quot;&gt;404856006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Emtricitabine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/432121008\&quot;&gt;432121008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Etravirine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386897000\&quot;&gt;386897000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lamivudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/776569000\&quot;&gt;776569000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only lopinavir and ritonavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386898005\&quot;&gt;386898005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nevirapine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/429707008\&quot;&gt;429707008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Raltegravir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/703123005\&quot;&gt;703123005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rilpivirine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386896009\&quot;&gt;386896009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ritonavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386895008\&quot;&gt;386895008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stavudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/422091007\&quot;&gt;422091007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tenofovir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/421203005\&quot;&gt;421203005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tenofovir disoproxil&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/414090006\&quot;&gt;414090006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing emtricitabine and tenofovir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387151007\&quot;&gt;387151007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Zidovudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/776469003\&quot;&gt;776469003&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only lamivudine and zidovudine&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.id">id</a>" : "vs-arv-regimen",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387105006\&quot;&gt;387105006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didanosine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387005008\&quot;&gt;387005008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abacavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/772188001\&quot;&gt;772188001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only abacavir and lamivudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/427314002\&quot;&gt;427314002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Antiviral therapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/878898002\&quot;&gt;878898002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only atazanavir and ritonavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/713464000\&quot;&gt;713464000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dolutegravir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387001004\&quot;&gt;387001004&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Efavirenz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/404856006\&quot;&gt;404856006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Emtricitabine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/432121008\&quot;&gt;432121008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Etravirine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386897000\&quot;&gt;386897000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lamivudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/776569000\&quot;&gt;776569000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only lopinavir and ritonavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386898005\&quot;&gt;386898005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nevirapine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/429707008\&quot;&gt;429707008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Raltegravir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/703123005\&quot;&gt;703123005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rilpivirine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386896009\&quot;&gt;386896009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ritonavir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/386895008\&quot;&gt;386895008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stavudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/422091007\&quot;&gt;422091007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tenofovir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/421203005\&quot;&gt;421203005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tenofovir disoproxil&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/414090006\&quot;&gt;414090006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing emtricitabine and tenofovir&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/387151007\&quot;&gt;387151007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Zidovudine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/776469003\&quot;&gt;776469003&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Product containing only lamivudine and zidovudine&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "VSARVRegimen",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "A list of ARV regimen",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2023-05-08T21:08:01+00:00",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "Jembi Health Systems",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">url</a>" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.name">name</a>" : "VSARVRegimen",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a>" : "A list of ARV regimen",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2023-05-11T19:02:34+00:00",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.publisher">publisher</a>" : "Jembi Health Systems",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.contact">contact</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Jembi Health Systems",
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://www.jembi.org"
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://www.jembi.org"
         },
         {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "info@jembi.org"
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "info@jembi.org"
         }
       ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "A list of ARV regimen.",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
+    },
     {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Richard Langford",
+      "<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001"
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "richard.langford@jembi.org",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
         }
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.description">description</a>" : "A list of ARV regimen.",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">include</a>" : [
       {
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "http://snomed.info/sct",
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
+        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387105006",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Didanosine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387105006",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Didanosine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387005008",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Abacavir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387005008",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Abacavir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "772188001",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only abacavir and lamivudine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "772188001",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only abacavir and lamivudine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "427314002",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Antiviral therapy"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "427314002",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Antiviral therapy"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "878898002",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only atazanavir and ritonavir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "878898002",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only atazanavir and ritonavir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "713464000",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Dolutegravir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "713464000",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Dolutegravir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387001004",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Efavirenz"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387001004",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Efavirenz"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "404856006",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Emtricitabine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "404856006",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Emtricitabine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "432121008",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Etravirine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "432121008",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Etravirine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386897000",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Lamivudine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386897000",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Lamivudine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "776569000",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only lopinavir and ritonavir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "776569000",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only lopinavir and ritonavir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386898005",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Nevirapine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386898005",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Nevirapine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "429707008",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Raltegravir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "429707008",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Raltegravir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "703123005",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Rilpivirine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "703123005",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Rilpivirine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386896009",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Ritonavir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386896009",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Ritonavir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386895008",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Stavudine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "386895008",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Stavudine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "422091007",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tenofovir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "422091007",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tenofovir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "421203005",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tenofovir disoproxil"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "421203005",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tenofovir disoproxil"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "414090006",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing emtricitabine and tenofovir"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "414090006",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing emtricitabine and tenofovir"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387151007",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Zidovudine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "387151007",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Zidovudine"
           },
           {
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "776469003",
-            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only lamivudine and zidovudine"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "776469003",
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Product containing only lamivudine and zidovudine"
           }
         ]
       }
@@ -391,14 +403,14 @@
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 8, 2023 21:08+0000">2023-05-08</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.jembi.org">Jembi Health Systems</a>.  Package openhie.fhir.rwanda.hiv#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, May 11, 2023 19:02+0000">2023-05-11</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
                  <a style="color: #81BEF7" target="_blank" href="http://openhie.org/fhir/rwanda-hiv/history.html">Version History</a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 
 

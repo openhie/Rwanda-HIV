@@ -10,16 +10,17 @@
   fhir:id [ fhir:v "device-for-testing"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-device-for-testing-definitions.html#Device\">Device</a><a name=\"Device\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/device.html\">Device</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Item used in healthcare</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-device-for-testing-definitions.html#Device.deviceName\">deviceName</a><a name=\"Device.deviceName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The name of the device as given by the manufacturer</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-device-for-testing-definitions.html#Device.note\">note</a><a name=\"Device.note\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Device notes and comments</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-device-for-testing-definitions.html#Device\">Device</a><a name=\"Device\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R5/device.html\">Device</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Item used in healthcare</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-device-for-testing-definitions.html#Device.manufacturer\">manufacturer</a><a name=\"Device.manufacturer\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Name of device manufacturer</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-device-for-testing-definitions.html#Device.note\">note</a><a name=\"Device.note\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R5/datatypes.html#Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Device notes and comments</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "TestingPlatform"] ; # 
   fhir:title [ fhir:v "Testing Platform"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-08T21:08:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T19:02:34+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "Jembi Health Systems" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "https://www.jembi.org" ]
@@ -27,23 +28,35 @@
        fhir:system [ fhir:v "email" ] ;
        fhir:value [ fhir:v "info@jembi.org" ]
      ] )
+  ] [
+     fhir:name [ fhir:v "Richard Langford" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "richard.langford@jembi.org" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
   ] ) ; # 
   fhir:description [ fhir:v "The device platform used for testing."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "001" ]
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
+  fhir:fhirVersion [ fhir:v "5.0.0"] ; # 
   fhir:mapping ( [
+     fhir:identity [ fhir:v "w5" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/fivews"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "FiveWs Pattern Mapping" ]
+  ] [
      fhir:identity [ fhir:v "rim" ] ;
      fhir:uri [ fhir:v "http://hl7.org/v3"^^xsd:anyURI ] ;
      fhir:name [ fhir:v "RIM Mapping" ]
   ] [
-     fhir:identity [ fhir:v "w5" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/fivews"^^xsd:anyURI ] ;
-     fhir:name [ fhir:v "FiveWs Pattern Mapping" ]
+     fhir:identity [ fhir:v "interface" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/interface"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "Interface Pattern" ]
   ] [
      fhir:identity [ fhir:v "udi" ] ;
      fhir:uri [ fhir:v "http://fda.gov/UDI"^^xsd:anyURI ] ;
@@ -71,11 +84,19 @@
          fhir:max [ fhir:v "*" ]
        ] ;
        fhir:constraint ( [
+         fhir:key [ fhir:v "dev-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "only one Device.name.display SHALL be true when there is more than one Device.name" ] ;
+         fhir:expression [ fhir:v "name.where(display=true).count() <= 1" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Device>
+         ]
+       ] [
          fhir:key [ fhir:v "dom-2" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If the resource is contained in another resource, it SHALL NOT contain nested Resources" ] ;
          fhir:expression [ fhir:v "contained.contained.empty()" ] ;
-         fhir:xpath [ fhir:v "not(parent::f:contained and f:contained)" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -84,8 +105,7 @@
          fhir:key [ fhir:v "dom-3" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource" ] ;
-         fhir:expression [ fhir:v "contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()" ] ;
-         fhir:xpath [ fhir:v "not(exists(for $id in f:contained/*/f:id/@value return $contained[not(parent::*/descendant::f:reference/@value=concat('#', $contained/*/id/@value) or descendant::f:reference[@value='#'])]))" ] ;
+         fhir:expression [ fhir:v "contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().ofType(canonical) | %resource.descendants().ofType(uri) | %resource.descendants().ofType(url))) or descendants().where(reference = '#').exists() or descendants().where(ofType(canonical) = '#').exists() or descendants().where(ofType(canonical) = '#').exists()).not()).trace('unmatched', id).empty()" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -95,7 +115,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated" ] ;
          fhir:expression [ fhir:v "contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()" ] ;
-         fhir:xpath [ fhir:v "not(exists(f:contained/*/f:meta/f:versionId)) and not(exists(f:contained/*/f:meta/f:lastUpdated))" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -105,7 +124,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If a resource is contained in another resource, it SHALL NOT have a security label" ] ;
          fhir:expression [ fhir:v "contained.meta.security.empty()" ] ;
-         fhir:xpath [ fhir:v "not(exists(f:contained/*/f:meta/f:security))" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -122,27 +140,30 @@
          fhir:severity [ fhir:v "warning" ] ;
          fhir:human [ fhir:v "A resource should have narrative for robust management" ] ;
          fhir:expression [ fhir:v "text.`div`.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:text/h:div)" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DomainResource"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "Entity. Role, or Act" ]
+         fhir:map [ fhir:v "Entity, Role, or Act,Device" ]
        ] [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "Device" ]
+         fhir:identity [ fhir:v "w5" ] ;
+         fhir:map [ fhir:v "administrative.device" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant" ]
        ] )
      ] [
        fhir:id [ fhir:v "Device.id" ] ;
        fhir:path [ fhir:v "Device.id" ] ;
        fhir:short [ fhir:v "Logical id of this artifact" ] ;
        fhir:definition [ fhir:v "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes." ] ;
-       fhir:comment [ fhir:v "The only time that a resource does not have an id is when it is being submitted to the server using a create operation." ] ;
+       fhir:comment [ fhir:v "Within the context of the FHIR RESTful interactions, the resource has an id except for cases like the create and conditional update. Otherwise, the use of the resouce id depends on the given use case." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -157,6 +178,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
@@ -179,12 +201,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
@@ -192,7 +214,7 @@
        fhir:path [ fhir:v "Device.implicitRules" ] ;
        fhir:short [ fhir:v "A set of rules under which this content was created" ] ;
        fhir:definition [ fhir:v "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc." ] ;
-       fhir:comment [ fhir:v "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc." ] ;
+       fhir:comment [ fhir:v "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -208,14 +230,14 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:isModifierReason [ fhir:v "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation" ] ;
+       fhir:isModifierReason [ fhir:v "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies its meaning or interpretation" ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Device.language" ] ;
@@ -238,41 +260,42 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet"^^xsd:anyURI ] ;
-           fhir:value [
-             fhir:v "http://hl7.org/fhir/ValueSet/all-languages"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/ValueSet/all-languages>
-           ]
-         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
-         fhir:strength [ fhir:v "preferred" ] ;
-         fhir:description [ fhir:v "A human language." ] ;
+         fhir:strength [ fhir:v "required" ] ;
+         fhir:description [ fhir:v "IETF language tag for a human language" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/languages>
-         ]
+           fhir:v "http://hl7.org/fhir/ValueSet/all-languages|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/all-languages|5.0.0>
+         ] ;
+         fhir:additional ( [
+           fhir:purpose [ fhir:v "starter" ] ;
+           fhir:valueSet [
+             fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/ValueSet/languages>
+           ]
+         ] )
        ]
      ] [
        fhir:id [ fhir:v "Device.text" ] ;
        fhir:path [ fhir:v "Device.text" ] ;
        fhir:short [ fhir:v "Text summary of the resource, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:comment [ fhir:v "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ] ;
+       fhir:comment [ fhir:v "Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ] ;
        fhir:alias ( [ fhir:v "narrative" ] [ fhir:v "html" ] [ fhir:v "xhtml" ] [ fhir:v "display" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -284,17 +307,18 @@
        fhir:type ( [
          fhir:code [ fhir:v "Narrative"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "dom-6" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -305,8 +329,8 @@
        fhir:id [ fhir:v "Device.contained" ] ;
        fhir:path [ fhir:v "Device.contained" ] ;
        fhir:short [ fhir:v "Contained, inline Resources" ] ;
-       fhir:definition [ fhir:v "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope." ] ;
-       fhir:comment [ fhir:v "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels." ] ;
+       fhir:definition [ fhir:v "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, nor can they have their own independent transaction scope. This is allowed to be a Parameters resource if and only if it is referenced by a resource that provides context/meaning." ] ;
+       fhir:comment [ fhir:v "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ] ;
        fhir:alias ( [ fhir:v "inline resources" ] [ fhir:v "anonymous resources" ] [ fhir:v "contained resources" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -318,6 +342,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Resource"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "dom-2" ] [ fhir:v "dom-4" ] [ fhir:v "dom-3" ] [ fhir:v "dom-5" ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -328,7 +354,7 @@
        fhir:id [ fhir:v "Device.extension" ] ;
        fhir:path [ fhir:v "Device.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -346,7 +372,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -356,12 +381,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -372,9 +397,9 @@
        fhir:id [ fhir:v "Device.modifierExtension" ] ;
        fhir:path [ fhir:v "Device.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -391,7 +416,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -401,15 +425,15 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them" ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "N/A" ]
@@ -419,7 +443,7 @@
        fhir:path [ fhir:v "Device.identifier" ] ;
        fhir:short [ fhir:v "Instance identifier" ] ;
        fhir:definition [ fhir:v "Unique instance identifiers assigned to a device by manufacturers other organizations or owners." ] ;
-       fhir:comment [ fhir:v "The barcode string from a barcode present on a device label or package may identify the instance, include names given to the device in local usage, or may identify the type of device. If the identifier identifies the type of device, Device.type element should be used." ] ;
+       fhir:comment [ fhir:v "Certain attributes, like serial number and UDI Carrier (the HRF or AIDC barcode string) are not device instance identifiers as they are not consistently able to uniquely identify the instance of a device, thus are not appropriate to be used to value Device.identifier. The barcode string from a barcode present on a device label or package may identify the instance, include names given to the device in local usage, or may identify the type of device. If the identifier identifies the type of device, Device.type element should be used. The identifier is typically valued if the serialNumber or lotNumber is not valued and represents a different type of identifier.  However, it is permissible to still include those identifiers in DeviceDefinition.identifier with the appropriate identifier.type." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -435,12 +459,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -450,9 +474,40 @@
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v ".id" ]
        ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant.identifier" ]
+       ] [
          fhir:identity [ fhir:v "udi" ] ;
          fhir:map [ fhir:v "The serial number which is a component of the production identifier (PI), a conditional, variable portion of a UDI.   The identifier.type code should be set to “SNO”(Serial Number) and the system left empty." ]
        ] )
+     ] [
+       fhir:id [ fhir:v "Device.displayName" ] ;
+       fhir:path [ fhir:v "Device.displayName" ] ;
+       fhir:short [ fhir:v "The name used to display by default when the device is referenced" ] ;
+       fhir:definition [ fhir:v "The name used to display by default when the device is referenced. Based on intent of use by the resource creator, this may reflect one of the names in Device.name, or may be another simple name." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.displayName" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Device.definition" ] ;
        fhir:path [ fhir:v "Device.definition" ] ;
@@ -466,7 +521,7 @@
          fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
-         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "CodeableReference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
@@ -477,12 +532,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -506,12 +561,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -541,6 +596,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -551,7 +607,7 @@
        fhir:id [ fhir:v "Device.udiCarrier.extension" ] ;
        fhir:path [ fhir:v "Device.udiCarrier.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -569,7 +625,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -579,7 +634,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -595,9 +649,9 @@
        fhir:id [ fhir:v "Device.udiCarrier.modifierExtension" ] ;
        fhir:path [ fhir:v "Device.udiCarrier.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -614,7 +668,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -624,7 +677,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -643,11 +695,11 @@
        fhir:short [ fhir:v "Mandatory fixed portion of UDI" ] ;
        fhir:definition [ fhir:v "The device identifier (DI) is a mandatory, fixed portion of a UDI that identifies the labeler and the specific version or model of a device." ] ;
        fhir:alias ( [ fhir:v "DI" ] ) ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Device.udiCarrier.deviceIdentifier" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
@@ -658,12 +710,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -680,13 +732,13 @@
        fhir:id [ fhir:v "Device.udiCarrier.issuer" ] ;
        fhir:path [ fhir:v "Device.udiCarrier.issuer" ] ;
        fhir:short [ fhir:v "UDI Issuing Organization" ] ;
-       fhir:definition [ fhir:v "Organization that is charged with issuing UDIs for devices.  For example, the US FDA issuers include :\n1) GS1: \nhttp://hl7.org/fhir/NamingSystem/gs1-di, \n2) HIBCC:\nhttp://hl7.org/fhir/NamingSystem/hibcc-dI, \n3) ICCBBA for blood containers:\nhttp://hl7.org/fhir/NamingSystem/iccbba-blood-di, \n4) ICCBA for other devices:\nhttp://hl7.org/fhir/NamingSystem/iccbba-other-di." ] ;
+       fhir:definition [ fhir:v "Organization that is charged with issuing UDIs for devices. For example, the US FDA issuers include: \n1) GS1: http://hl7.org/fhir/NamingSystem/gs1-di, \n2) HIBCC: http://hl7.org/fhir/NamingSystem/hibcc-diI, \n3) ICCBBA for blood containers: http://hl7.org/fhir/NamingSystem/iccbba-blood-di, \n4) ICCBA for other devices: http://hl7.org/fhir/NamingSystem/iccbba-other-di # Informationsstelle für Arzneispezialitäten (IFA GmbH) (EU only): http://hl7.org/fhir/NamingSystem/ifa-gmbh-di." ] ;
        fhir:alias ( [ fhir:v "Barcode System" ] ) ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Device.udiCarrier.issuer" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
@@ -697,14 +749,14 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "Role.id.root" ]
@@ -716,7 +768,7 @@
        fhir:id [ fhir:v "Device.udiCarrier.jurisdiction" ] ;
        fhir:path [ fhir:v "Device.udiCarrier.jurisdiction" ] ;
        fhir:short [ fhir:v "Regional UDI authority" ] ;
-       fhir:definition [ fhir:v "The identity of the authoritative source for UDI generation within a  jurisdiction.  All UDIs are globally unique within a single namespace with the appropriate repository uri as the system.  For example,  UDIs of devices managed in the U.S. by the FDA, the value is  http://hl7.org/fhir/NamingSystem/fda-udi." ] ;
+       fhir:definition [ fhir:v "The identity of the authoritative source for UDI generation within a jurisdiction. All UDIs are globally unique within a single namespace with the appropriate repository uri as the system. For example, UDIs of devices managed in the U.S. by the FDA, the value is http://hl7.org/fhir/NamingSystem/us-fda-udi or in the European Union by the European Commission http://hl7.org/fhir/NamingSystem/eu-ec-udi." ] ;
        fhir:requirements [ fhir:v "Allows a recipient of a UDI to know which database will contain the UDI-associated metadata." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -733,12 +785,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -767,12 +819,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -804,12 +856,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -822,7 +874,7 @@
      ] [
        fhir:id [ fhir:v "Device.udiCarrier.entryType" ] ;
        fhir:path [ fhir:v "Device.udiCarrier.entryType" ] ;
-       fhir:short [ fhir:v "barcode | rfid | manual +" ] ;
+       fhir:short [ fhir:v "barcode | rfid | manual | card | self-reported | electronic-transmission | unknown" ] ;
        fhir:definition [ fhir:v "A coded entry to indicate how the data was entered." ] ;
        fhir:requirements [ fhir:v "Supports a way to distinguish hand entered from machine read data." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -840,12 +892,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
@@ -856,8 +908,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "Codes to identify how UDI data was entered." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -867,9 +919,8 @@
      ] [
        fhir:id [ fhir:v "Device.status" ] ;
        fhir:path [ fhir:v "Device.status" ] ;
-       fhir:short [ fhir:v "active | inactive | entered-in-error | unknown" ] ;
-       fhir:definition [ fhir:v "Status of the Device availability." ] ;
-       fhir:comment [ fhir:v "This element is labeled as a modifier because the status contains the codes inactive and entered-in-error that mark the device (record)as not currently valid." ] ;
+       fhir:short [ fhir:v "active | inactive | entered-in-error" ] ;
+       fhir:definition [ fhir:v "The Device record status. This is not the status of the device like availability." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -885,14 +936,14 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:isModifierReason [ fhir:v "This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid" ] ;
+       fhir:isModifierReason [ fhir:v "This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid" ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
@@ -900,10 +951,10 @@
            fhir:value [ fhir:v "FHIRDeviceStatus" ]
          ] ) ;
          fhir:strength [ fhir:v "required" ] ;
-         fhir:description [ fhir:v "The availability status of the device." ] ;
+         fhir:description [ fhir:v "The record status of the device." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/device-status|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/device-status|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/device-status|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-status|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -912,18 +963,21 @@
        ] [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v ".statusCode" ]
+       ] [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant.active" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.statusReason" ] ;
-       fhir:path [ fhir:v "Device.statusReason" ] ;
-       fhir:short [ fhir:v "online | paused | standby | offline | not-ready | transduc-discon | hw-discon | off" ] ;
-       fhir:definition [ fhir:v "Reason for the dtatus of the Device availability." ] ;
+       fhir:id [ fhir:v "Device.availabilityStatus" ] ;
+       fhir:path [ fhir:v "Device.availabilityStatus" ] ;
+       fhir:short [ fhir:v "lost | damaged | destroyed | available" ] ;
+       fhir:definition [ fhir:v "The availability of the device." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
+       fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.statusReason" ] ;
+         fhir:path [ fhir:v "Device.availabilityStatus" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
+         fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
          fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
@@ -933,24 +987,24 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "FHIRDeviceStatusReason" ]
+           fhir:value [ fhir:v "FHIRDeviceAvailabilityStatus" ]
          ] ) ;
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "The availability status reason of the device." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/device-status-reason"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/device-status-reason>
+           fhir:v "http://hl7.org/fhir/ValueSet/device-availability-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-availability-status>
          ]
        ] ;
        fhir:mapping ( [
@@ -958,51 +1012,45 @@
          fhir:map [ fhir:v "FiveWs.status" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.distinctIdentifier" ] ;
-       fhir:path [ fhir:v "Device.distinctIdentifier" ] ;
-       fhir:short [ fhir:v "The distinct identification string" ] ;
-       fhir:definition [ fhir:v "The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product." ] ;
-       fhir:comment [ fhir:v "For example, this applies to devices in the United States regulated under *Code of Federal Regulation 21CFR§1271.290(c)*." ] ;
+       fhir:id [ fhir:v "Device.biologicalSourceEvent" ] ;
+       fhir:path [ fhir:v "Device.biologicalSourceEvent" ] ;
+       fhir:short [ fhir:v "An identifier that supports traceability to the event during which material in this product from one or more biological entities was obtained or pooled" ] ;
+       fhir:definition [ fhir:v "An identifier that supports traceability to the event during which material in this product from one or more biological entities was obtained or pooled." ] ;
+       fhir:comment [ fhir:v "Necessary to support mandatory requirements for traceability from donor/source to recipient and vice versa, while also satisfying donor anonymity requirements. The element is defined consistently across BiologicallyDerivedProduct, NutritionProduct, and Device.  The identifier references an event that links to a single biological entity such as a blood donor, or to multiple biological entities (e.g. when the product is an embryo or a pooled platelet product).  A single biologicalSourceEvent identifier may appear on multiple products of many types derived from a single donation event or source extraction.  As an example, a single donation event may provide 2 kidneys and a liver for organ transplantation, 2 corneas for eye surgery, heart valves and arterial tissue for cardiovascular surgery, multiple skin grafts, tendons, multiple shaped bone grafts and a large number of bone putty/paste products; and each of them may be assigned to the same biological source event identifier." ] ;
        fhir:alias ( [ fhir:v "Distinct Identification Code (DIC)" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.distinctIdentifier" ] ;
+         fhir:path [ fhir:v "Device.biologicalSourceEvent" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
-         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+         fhir:code [ fhir:v "Identifier"^^xsd:anyURI ]
        ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "w5" ] ;
          fhir:map [ fhir:v "FiveWs.what[x]" ]
-       ] [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v ".lotNumberText" ]
-       ] [
-         fhir:identity [ fhir:v "udi" ] ;
-         fhir:map [ fhir:v "The lot or batch number within which a device was manufactured - which is a component of the production identifier (PI), a conditional, variable portion of a UDI." ]
        ] )
      ] [
        fhir:id [ fhir:v "Device.manufacturer" ] ;
        fhir:path [ fhir:v "Device.manufacturer" ] ;
        fhir:short [ fhir:v "Name of device manufacturer" ] ;
-       fhir:definition [ fhir:v "A name of the manufacturer." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:definition [ fhir:v "A name of the manufacturer or entity legally responsible for the device." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Device.manufacturer" ] ;
@@ -1017,12 +1065,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1055,12 +1103,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1093,12 +1141,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1131,12 +1179,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1154,7 +1202,7 @@
        fhir:path [ fhir:v "Device.serialNumber" ] ;
        fhir:short [ fhir:v "Serial number assigned by the manufacturer" ] ;
        fhir:definition [ fhir:v "The serial number assigned by the organization when the device was manufactured." ] ;
-       fhir:comment [ fhir:v "Alphanumeric Maximum 20." ] ;
+       fhir:comment [ fhir:v "Alphanumeric Maximum 20. While a serial number is a type of identifier, in the context of devices for which a UDI is required, thus a serial number may be part of the production identifier, it is more informative to have the serial number as a dedicated attribute together with the other UDI production identifier.  When the device is not subject to including the UDI (e.g., its presence and exchange is not mandated by local regulatory requirements or specific use case at hand), thus the concept of production identifiers is not relevant as a set, it remains helpful for consistency to still use Device.serialNumber rather than using Device.identifier with an appropriate type.  Systems that do not realize an identifier is a serial number may place it in Device.identifier or if the identifier.system is known for the serial number, it may also be populated in the Device.identifier as a globally unique id_." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1170,12 +1218,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1186,36 +1234,41 @@
          fhir:map [ fhir:v ".playedRole[typeCode=MANU].id" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.deviceName" ] ;
-       fhir:path [ fhir:v "Device.deviceName" ] ;
-       fhir:short [ fhir:v "The name of the device as given by the manufacturer" ] ;
+       fhir:id [ fhir:v "Device.name" ] ;
+       fhir:path [ fhir:v "Device.name" ] ;
+       fhir:short [ fhir:v "The name or names of the device as known to the manufacturer and/or patient" ] ;
        fhir:definition [ fhir:v "This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.deviceName" ] ;
+         fhir:path [ fhir:v "Device.name" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "*" ]
        ] ;
        fhir:type ( [
          fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "dev-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "interface" ] ;
+         fhir:map [ fhir:v "Participant.name" ]
+       ] )
      ] [
-       fhir:id [ fhir:v "Device.deviceName.id" ] ;
-       fhir:path [ fhir:v "Device.deviceName.id" ] ;
+       fhir:id [ fhir:v "Device.name.id" ] ;
+       fhir:path [ fhir:v "Device.name.id" ] ;
        fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
        fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
        fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
@@ -1233,6 +1286,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1240,10 +1294,10 @@
          fhir:map [ fhir:v "n/a" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.deviceName.extension" ] ;
-       fhir:path [ fhir:v "Device.deviceName.extension" ] ;
+       fhir:id [ fhir:v "Device.name.extension" ] ;
+       fhir:path [ fhir:v "Device.name.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -1261,7 +1315,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1271,7 +1324,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1284,12 +1336,12 @@
          fhir:map [ fhir:v "n/a" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.deviceName.modifierExtension" ] ;
-       fhir:path [ fhir:v "Device.deviceName.modifierExtension" ] ;
+       fhir:id [ fhir:v "Device.name.modifierExtension" ] ;
+       fhir:path [ fhir:v "Device.name.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -1306,7 +1358,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1316,7 +1367,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1330,15 +1380,15 @@
          fhir:map [ fhir:v "N/A" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.deviceName.name" ] ;
-       fhir:path [ fhir:v "Device.deviceName.name" ] ;
-       fhir:short [ fhir:v "The name of the device" ] ;
-       fhir:definition [ fhir:v "The name of the device." ] ;
+       fhir:id [ fhir:v "Device.name.value" ] ;
+       fhir:path [ fhir:v "Device.name.value" ] ;
+       fhir:short [ fhir:v "The term that names the device" ] ;
+       fhir:definition [ fhir:v "The actual name that identifies the device." ] ;
        fhir:alias ( [ fhir:v "Σ" ] ) ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.deviceName.name" ] ;
+         fhir:path [ fhir:v "Device.name.value" ] ;
          fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "1" ]
        ] ;
@@ -1350,23 +1400,23 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ]
      ] [
-       fhir:id [ fhir:v "Device.deviceName.type" ] ;
-       fhir:path [ fhir:v "Device.deviceName.type" ] ;
-       fhir:short [ fhir:v "udi-label-name | user-friendly-name | patient-reported-name | manufacturer-name | model-name | other" ] ;
-       fhir:definition [ fhir:v "The type of deviceName.\nUDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName." ] ;
+       fhir:id [ fhir:v "Device.name.type" ] ;
+       fhir:path [ fhir:v "Device.name.type" ] ;
+       fhir:short [ fhir:v "registered-name | user-friendly-name | patient-reported-name" ] ;
+       fhir:definition [ fhir:v "Indicates the kind of name. RegisteredName | UserFriendlyName | PatientReportedName." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.deviceName.type" ] ;
+         fhir:path [ fhir:v "Device.name.type" ] ;
          fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "1" ]
        ] ;
@@ -1378,14 +1428,14 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:binding [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
@@ -1394,8 +1444,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "The type of name the device is referred by." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/device-nametype|4.0.1"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/device-nametype|4.0.1>
+           fhir:v "http://hl7.org/fhir/ValueSet/device-nametype|5.0.0"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-nametype|5.0.0>
          ]
        ] ;
        fhir:mapping ( [
@@ -1406,10 +1456,47 @@
          fhir:map [ fhir:v ".playedRole[typeCode=MANU].code" ]
        ] )
      ] [
+       fhir:id [ fhir:v "Device.name.display" ] ;
+       fhir:path [ fhir:v "Device.name.display" ] ;
+       fhir:short [ fhir:v "The preferred device name" ] ;
+       fhir:definition [ fhir:v "Indicates the default or preferred name to be displayed." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.name.display" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] ) ;
+       fhir:condition ( [ fhir:v "dev-1" ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifierReason [ fhir:v "This element is labelled as a modifier because it is a status element that can indicate that that a name is preferred." ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "w5" ] ;
+         fhir:map [ fhir:v "FiveWs.status" ]
+       ] [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "statusCode" ]
+       ] )
+     ] [
        fhir:id [ fhir:v "Device.modelNumber" ] ;
        fhir:path [ fhir:v "Device.modelNumber" ] ;
-       fhir:short [ fhir:v "The model number for the device" ] ;
-       fhir:definition [ fhir:v "The model number for the device." ] ;
+       fhir:short [ fhir:v "The manufacturer's model number for the device" ] ;
+       fhir:definition [ fhir:v "The manufacturer's model number for the device." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1425,12 +1512,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1443,8 +1530,8 @@
      ] [
        fhir:id [ fhir:v "Device.partNumber" ] ;
        fhir:path [ fhir:v "Device.partNumber" ] ;
-       fhir:short [ fhir:v "The part number of the device" ] ;
-       fhir:definition [ fhir:v "The part number of the device." ] ;
+       fhir:short [ fhir:v "The part number or catalog number of the device" ] ;
+       fhir:definition [ fhir:v "The part number or catalog number of the device." ] ;
        fhir:comment [ fhir:v "Alphanumeric Maximum 20." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -1461,12 +1548,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1477,16 +1564,16 @@
          fhir:map [ fhir:v ".playedRole[typeCode=MANU].id" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Device.type" ] ;
-       fhir:path [ fhir:v "Device.type" ] ;
-       fhir:short [ fhir:v "The kind or type of device" ] ;
-       fhir:definition [ fhir:v "The kind or type of device." ] ;
+       fhir:id [ fhir:v "Device.category" ] ;
+       fhir:path [ fhir:v "Device.category" ] ;
+       fhir:short [ fhir:v "Indicates a high-level grouping of the device" ] ;
+       fhir:definition [ fhir:v "Devices may be associated with one or more categories." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.type" ] ;
+         fhir:path [ fhir:v "Device.category" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "1" ]
+         fhir:max [ fhir:v "*" ]
        ] ;
        fhir:type ( [
          fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
@@ -1496,12 +1583,53 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "DeviceCategory" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:description [ fhir:v "Categories of medical devices." ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-category"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-category>
+         ]
+       ]
+     ] [
+       fhir:id [ fhir:v "Device.type" ] ;
+       fhir:path [ fhir:v "Device.type" ] ;
+       fhir:short [ fhir:v "The kind or type of device" ] ;
+       fhir:definition [ fhir:v "The kind or type of device. A device instance may have more than one type - in which case those are the types that apply to the specific instance of the device." ] ;
+       fhir:comment [ fhir:v "Multiple device types are use when a device is categorized in more than one context – for example, hybrid devices in which the device is both of type gateway and sensor." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.type" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:binding [
@@ -1516,211 +1644,6 @@
            fhir:link <http://hl7.org/fhir/ValueSet/device-type>
          ]
        ]
-     ] [
-       fhir:id [ fhir:v "Device.specialization" ] ;
-       fhir:path [ fhir:v "Device.specialization" ] ;
-       fhir:short [ fhir:v "The capabilities supported on a  device, the standards to which the device conforms for a particular purpose, and used for the communication" ] ;
-       fhir:definition [ fhir:v "The capabilities supported on a  device, the standards to which the device conforms for a particular purpose, and used for the communication." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "Device.specialization" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
-       ] ;
-       fhir:type ( [
-         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
-       ] ) ;
-       fhir:constraint ( [
-         fhir:key [ fhir:v "ele-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
-         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:id [ fhir:v "Device.specialization.id" ] ;
-       fhir:path [ fhir:v "Device.specialization.id" ] ;
-       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
-       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
-       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "Element.id" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "1" ]
-       ] ;
-       fhir:type ( [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "string"^^xsd:anyURI ]
-         ] ) ;
-         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "n/a" ]
-       ] )
-     ] [
-       fhir:id [ fhir:v "Device.specialization.extension" ] ;
-       fhir:path [ fhir:v "Device.specialization.extension" ] ;
-       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
-       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "Element.extension" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
-       ] ;
-       fhir:type ( [
-         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
-       ] ) ;
-       fhir:constraint ( [
-         fhir:key [ fhir:v "ele-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
-         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ] [
-         fhir:key [ fhir:v "ext-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
-         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "n/a" ]
-       ] )
-     ] [
-       fhir:id [ fhir:v "Device.specialization.modifierExtension" ] ;
-       fhir:path [ fhir:v "Device.specialization.modifierExtension" ] ;
-       fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
-       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
-       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "BackboneElement.modifierExtension" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
-       ] ;
-       fhir:type ( [
-         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
-       ] ) ;
-       fhir:constraint ( [
-         fhir:key [ fhir:v "ele-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
-         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ] [
-         fhir:key [ fhir:v "ext-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
-         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them" ] ;
-       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v "N/A" ]
-       ] )
-     ] [
-       fhir:id [ fhir:v "Device.specialization.systemType" ] ;
-       fhir:path [ fhir:v "Device.specialization.systemType" ] ;
-       fhir:short [ fhir:v "The standard that is used to operate and communicate" ] ;
-       fhir:definition [ fhir:v "The standard that is used to operate and communicate." ] ;
-       fhir:alias ( [ fhir:v "Σ" ] ) ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "Device.specialization.systemType" ] ;
-         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "1" ]
-       ] ;
-       fhir:type ( [
-         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
-       ] ) ;
-       fhir:constraint ( [
-         fhir:key [ fhir:v "ele-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
-         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:id [ fhir:v "Device.specialization.version" ] ;
-       fhir:path [ fhir:v "Device.specialization.version" ] ;
-       fhir:short [ fhir:v "The version of the standard that is used to operate and communicate" ] ;
-       fhir:definition [ fhir:v "The version of the standard that is used to operate and communicate." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
-       fhir:base [
-         fhir:path [ fhir:v "Device.specialization.version" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "1" ]
-       ] ;
-       fhir:type ( [
-         fhir:code [ fhir:v "string"^^xsd:anyURI ]
-       ] ) ;
-       fhir:constraint ( [
-         fhir:key [ fhir:v "ele-1" ] ;
-         fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
-         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
-         fhir:source [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ] ) ;
-       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "w5" ] ;
-         fhir:map [ fhir:v "FiveWs.what[x]" ]
-       ] )
      ] [
        fhir:id [ fhir:v "Device.version" ] ;
        fhir:path [ fhir:v "Device.version" ] ;
@@ -1741,12 +1664,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -1769,6 +1692,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1779,7 +1703,7 @@
        fhir:id [ fhir:v "Device.version.extension" ] ;
        fhir:path [ fhir:v "Device.version.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -1797,7 +1721,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1807,7 +1730,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1823,9 +1745,9 @@
        fhir:id [ fhir:v "Device.version.modifierExtension" ] ;
        fhir:path [ fhir:v "Device.version.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -1842,7 +1764,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1852,7 +1773,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1868,8 +1788,8 @@
      ] [
        fhir:id [ fhir:v "Device.version.type" ] ;
        fhir:path [ fhir:v "Device.version.type" ] ;
-       fhir:short [ fhir:v "The type of the device version" ] ;
-       fhir:definition [ fhir:v "The type of the device version." ] ;
+       fhir:short [ fhir:v "The type of the device version, e.g. manufacturer, approved, internal" ] ;
+       fhir:definition [ fhir:v "The type of the device version, e.g. manufacturer, approved, internal." ] ;
        fhir:alias ( [ fhir:v "Σ" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -1886,19 +1806,32 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "FHIRDeviceVersionType" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:description [ fhir:v "The type of version indicated for the device." ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-versiontype"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-versiontype>
+         ]
+       ]
      ] [
        fhir:id [ fhir:v "Device.version.component" ] ;
        fhir:path [ fhir:v "Device.version.component" ] ;
-       fhir:short [ fhir:v "A single component of the device version" ] ;
-       fhir:definition [ fhir:v "A single component of the device version." ] ;
+       fhir:short [ fhir:v "The hardware or software module of the device to which the version applies" ] ;
+       fhir:definition [ fhir:v "The hardware or software module of the device to which the version applies." ] ;
+       fhir:comment [ fhir:v "Note that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1914,12 +1847,44 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "w5" ] ;
+         fhir:map [ fhir:v "FiveWs.what[x]" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Device.version.installDate" ] ;
+       fhir:path [ fhir:v "Device.version.installDate" ] ;
+       fhir:short [ fhir:v "The date the version was installed on the device" ] ;
+       fhir:definition [ fhir:v "The date the version was installed on the device." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.version.installDate" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "dateTime"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1946,19 +1911,269 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo" ] ;
+       fhir:path [ fhir:v "Device.conformsTo" ] ;
+       fhir:short [ fhir:v "Identifies the standards, specifications, or formal guidances for the capabilities supported by the device" ] ;
+       fhir:definition [ fhir:v "Identifies the standards, specifications, or formal guidances for the capabilities supported by the device. The device may be certified as conformant to these specifications e.g., communication, performance, process, measurement, or specialization standards." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.conformsTo" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo.id" ] ;
+       fhir:path [ fhir:v "Device.conformsTo.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo.extension" ] ;
+       fhir:path [ fhir:v "Device.conformsTo.extension" ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo.modifierExtension" ] ;
+       fhir:path [ fhir:v "Device.conformsTo.modifierExtension" ] ;
+       fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "BackboneElement.modifierExtension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them" ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo.category" ] ;
+       fhir:path [ fhir:v "Device.conformsTo.category" ] ;
+       fhir:short [ fhir:v "Describes the common type of the standard, specification, or formal guidance.  communication | performance | measurement" ] ;
+       fhir:definition [ fhir:v "Describes the type of the standard, specification, or formal guidance." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.conformsTo.category" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "DeviceSpecificationCategory" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:description [ fhir:v "The kind of standards used by the device." ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-specification-category"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-specification-category>
+         ]
+       ]
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo.specification" ] ;
+       fhir:path [ fhir:v "Device.conformsTo.specification" ] ;
+       fhir:short [ fhir:v "Identifies the standard, specification, or formal guidance that the device adheres to" ] ;
+       fhir:definition [ fhir:v "Code that identifies the specific standard, specification, protocol, formal guidance, regulation, legislation, or certification scheme to which the device adheres." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.conformsTo.specification" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "DeviceSpecification-type" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:description [ fhir:v "The type of version indicated for the device." ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-specification-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-specification-type>
+         ]
+       ]
+     ] [
+       fhir:id [ fhir:v "Device.conformsTo.version" ] ;
+       fhir:path [ fhir:v "Device.conformsTo.version" ] ;
+       fhir:short [ fhir:v "Specific form or variant of the standard" ] ;
+       fhir:definition [ fhir:v "Identifies the specific form or variant of the standard, specification, or formal guidance. This may be a 'version number', release, document edition, publication year, or other label." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.conformsTo.version" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Device.property" ] ;
        fhir:path [ fhir:v "Device.property" ] ;
-       fhir:short [ fhir:v "The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties" ] ;
-       fhir:definition [ fhir:v "The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties." ] ;
+       fhir:short [ fhir:v "Inherent, essentially fixed, characteristics of the device.  e.g., time properties, size, material, etc." ] ;
+       fhir:definition [ fhir:v "Static or essentially fixed characteristics or features of the device (e.g., time or timing attributes, resolution, accuracy, intended use or instructions for use, and physical attributes) that are not otherwise captured in more specific attributes." ] ;
+       fhir:comment [ fhir:v "Dynamic or current properties, such as settings, of an individual device are described using a Device instance-specific [DeviceMetric] and recorded using [Observation].  Static characteristics of a device could also be documented in an associated [DeviceDefinition] instance. The Device instance's properties, and their values, could be, but need not be, the same as those described in an associated DeviceDefinition." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1974,12 +2189,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -2002,6 +2217,7 @@
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -2012,7 +2228,7 @@
        fhir:id [ fhir:v "Device.property.extension" ] ;
        fhir:path [ fhir:v "Device.property.extension" ] ;
        fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -2030,7 +2246,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -2040,7 +2255,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -2056,9 +2270,9 @@
        fhir:id [ fhir:v "Device.property.modifierExtension" ] ;
        fhir:path [ fhir:v "Device.property.modifierExtension" ] ;
        fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
-       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R5/extensibility.html#modifierExtension)." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -2075,7 +2289,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -2085,7 +2298,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -2101,8 +2313,8 @@
      ] [
        fhir:id [ fhir:v "Device.property.type" ] ;
        fhir:path [ fhir:v "Device.property.type" ] ;
-       fhir:short [ fhir:v "Code that specifies the property DeviceDefinitionPropetyCode (Extensible)" ] ;
-       fhir:definition [ fhir:v "Code that specifies the property DeviceDefinitionPropetyCode (Extensible)." ] ;
+       fhir:short [ fhir:v "Code that specifies the property being represented" ] ;
+       fhir:definition [ fhir:v "Code that specifies the property, such as resolution, color, size, being represented." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2118,53 +2330,78 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "DevicePropertyType" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:description [ fhir:v "Device property type." ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-property-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-property-type>
+         ]
+       ]
      ] [
-       fhir:id [ fhir:v "Device.property.valueQuantity" ] ;
-       fhir:path [ fhir:v "Device.property.valueQuantity" ] ;
-       fhir:short [ fhir:v "Property value as a quantity" ] ;
-       fhir:definition [ fhir:v "Property value as a quantity." ] ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
+       fhir:id [ fhir:v "Device.property.value[x]" ] ;
+       fhir:path [ fhir:v "Device.property.value[x]" ] ;
+       fhir:short [ fhir:v "Value of the property" ] ;
+       fhir:definition [ fhir:v "The value of the property specified by the associated property.type code." ] ;
+       fhir:comment [ fhir:v "The text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.property.valueQuantity" ] ;
-         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
+         fhir:path [ fhir:v "Device.property.value[x]" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
          fhir:code [ fhir:v "Quantity"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Range"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Attachment"^^xsd:anyURI ]
        ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
-       fhir:id [ fhir:v "Device.property.valueCode" ] ;
-       fhir:path [ fhir:v "Device.property.valueCode" ] ;
-       fhir:short [ fhir:v "Property value as a code, e.g., NTP4 (synced to NTP)" ] ;
-       fhir:definition [ fhir:v "Property value as a code, e.g., NTP4 (synced to NTP)." ] ;
+       fhir:id [ fhir:v "Device.mode" ] ;
+       fhir:path [ fhir:v "Device.mode" ] ;
+       fhir:short [ fhir:v "The designated condition for performing a task" ] ;
+       fhir:definition [ fhir:v "The designated condition for performing a task with the device." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "*" ] ;
+       fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.property.valueCode" ] ;
+         fhir:path [ fhir:v "Device.mode" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
-         fhir:max [ fhir:v "*" ]
+         fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
          fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
@@ -2174,57 +2411,82 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "DeviceOperationMode" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:description [ fhir:v "Operational mode of a device." ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-operation-mode"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-operation-mode>
+         ]
+       ]
      ] [
-       fhir:id [ fhir:v "Device.patient" ] ;
-       fhir:path [ fhir:v "Device.patient" ] ;
-       fhir:short [ fhir:v "Patient to whom Device is affixed" ] ;
-       fhir:definition [ fhir:v "Patient information, If the device is affixed to a person." ] ;
-       fhir:requirements [ fhir:v "If the device is implanted in a patient, then need to associate the device to the patient." ] ;
+       fhir:id [ fhir:v "Device.cycle" ] ;
+       fhir:path [ fhir:v "Device.cycle" ] ;
+       fhir:short [ fhir:v "The series of occurrences that repeats during the operation of the device" ] ;
+       fhir:definition [ fhir:v "The series of occurrences that repeats during the operation of the device." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
-         fhir:path [ fhir:v "Device.patient" ] ;
+         fhir:path [ fhir:v "Device.cycle" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
          fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
-         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
-         fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
-         ] )
+         fhir:code [ fhir:v "Count"^^xsd:anyURI ]
        ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
-       fhir:mapping ( [
-         fhir:identity [ fhir:v "w5" ] ;
-         fhir:map [ fhir:v "FiveWs.subject[x]" ]
-       ] [
-         fhir:identity [ fhir:v "rim" ] ;
-         fhir:map [ fhir:v ".playedRole[typeCode=USED].scoper.playedRole[typeCode=PAT]" ]
-       ] [
-         fhir:identity [ fhir:v "w5" ] ;
-         fhir:map [ fhir:v "FiveWs.subject" ]
-       ] )
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Device.duration" ] ;
+       fhir:path [ fhir:v "Device.duration" ] ;
+       fhir:short [ fhir:v "A measurement of time during the device's operation (e.g., days, hours, mins, etc.)" ] ;
+       fhir:definition [ fhir:v "A measurement of time during the device's operation (e.g., days, hours, mins, etc.)." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.duration" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Duration"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Device.owner" ] ;
        fhir:path [ fhir:v "Device.owner" ] ;
@@ -2249,12 +2511,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -2285,12 +2547,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -2325,12 +2587,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -2361,12 +2623,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -2376,6 +2638,75 @@
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v ".telecom" ]
        ] )
+     ] [
+       fhir:id [ fhir:v "Device.endpoint" ] ;
+       fhir:path [ fhir:v "Device.endpoint" ] ;
+       fhir:short [ fhir:v "Technical endpoints providing access to electronic services provided by the device" ] ;
+       fhir:definition [ fhir:v "Technical endpoints providing access to services provided by the device defined at this resource." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.endpoint" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
+         fhir:targetProfile ( [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Endpoint>
+         ] )
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Device.gateway" ] ;
+       fhir:path [ fhir:v "Device.gateway" ] ;
+       fhir:short [ fhir:v "Linked device acting as a communication/data collector, translator or controller" ] ;
+       fhir:definition [ fhir:v "The linked device acting as a communication controller, data collector, translator, or concentrator for the current device (e.g., mobile phone application that relays a blood pressure device's data)." ] ;
+       fhir:comment [ fhir:v "The Device.gateway may be used when the Device being referenced has a gateway and/or to capture one or more gateways associated with the device. If the Gateway is included in the Observation resource, the Observation.gatewayDevice should be used instead." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Device.gateway" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableReference"^^xsd:anyURI ] ;
+         fhir:targetProfile ( [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Device>
+         ] )
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Device.note" ] ;
        fhir:path [ fhir:v "Device.note" ] ;
@@ -2396,7 +2727,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -2429,14 +2759,25 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "Safety" ]
+         ] ) ;
+         fhir:strength [ fhir:v "example" ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.org/fhir/ValueSet/device-safety"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/device-safety>
+         ]
+       ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "NA" ]
@@ -2444,8 +2785,9 @@
      ] [
        fhir:id [ fhir:v "Device.parent" ] ;
        fhir:path [ fhir:v "Device.parent" ] ;
-       fhir:short [ fhir:v "The parent device" ] ;
-       fhir:definition [ fhir:v "The parent device." ] ;
+       fhir:short [ fhir:v "The higher level or encompassing device that this device is a logical part of" ] ;
+       fhir:definition [ fhir:v "The higher level or encompassing device that this device is a logical part of." ] ;
+       fhir:comment [ fhir:v "For example a vital signs monitor (parent) where three separate modules can be plugged into such as interchangeable blood pressure, oximeter, temperature modules.  These modules are represented as devices with the .parent valued to the vital signs monitor when plugged in." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2454,6 +2796,10 @@
          fhir:max [ fhir:v "1" ]
        ] ;
        fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "true"^^xsd:boolean ]
+         ] ) ;
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
@@ -2465,12 +2811,12 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] )
@@ -2480,10 +2826,9 @@
        fhir:id [ fhir:v "Device" ] ;
        fhir:path [ fhir:v "Device" ]
      ] [
-       fhir:id [ fhir:v "Device.deviceName" ] ;
-       fhir:path [ fhir:v "Device.deviceName" ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ]
+       fhir:id [ fhir:v "Device.manufacturer" ] ;
+       fhir:path [ fhir:v "Device.manufacturer" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ]
      ] [
        fhir:id [ fhir:v "Device.note" ] ;
        fhir:path [ fhir:v "Device.note" ] ;
