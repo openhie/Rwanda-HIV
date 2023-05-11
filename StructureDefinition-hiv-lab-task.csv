@@ -36,7 +36,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "Task.identifier","Task.identifier","","","",1,*,"","","","Identifier {[]} {[]}
 ","Task Instance Identifier","The business identifier for this task.","","","","","","","","","",,,,,"","value:system}
-","Slice based on the type of identifier.",,"openAtEnd","Task.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Slice based on the type of identifier.",,"open","Task.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.identifier, Event.identifier","FiveWs.identifier",".id"
 "Task.identifier:FILL","Task.identifier","FILL","","",1,1,"","","","Identifier {[]} {[]}
 ","Task Instance Identifier","The business identifier for this task.","","","","","","","","","",,,,,"",,,,"Task.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
