@@ -1,9 +1,9 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 0
+err = 73, warn = 0, info = 0
 IG Publisher Version: 1.3.9
-Generated Thu May 11 19:45:15 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+Generated Thu May 11 20:25:44 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Bundle-EMR : 0 / 0 / 49
@@ -18,7 +18,7 @@ Generated Thu May 11 19:45:15 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwan
  /github/workspace/fsh-generated/resources/Device-TestingPlatformExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-TargetFacilityEncounterExample : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv : 73 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-TransportCurrentLocationExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-TransportRequestedLocationExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestInitiatedARTExample : 0 / 0 / 1
@@ -132,6 +132,79 @@ Generated Thu May 11 19:45:15 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwan
 == fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample.json ==
 == fsh-generated/resources/Encounter-TargetFacilityEncounterExample.json ==
 == fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json ==
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[1].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[2].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[3].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[4].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[5].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[6].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[7].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[8].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[9].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[10].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[11].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[12].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[13].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[14].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[15].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[16].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[17].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[18].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[19].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[20].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[21].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[22].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[23].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.extension[24].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[15].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[15].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[16].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[16].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[17].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[17].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[18].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[18].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[19].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[19].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[20].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[20].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[21].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[21].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[22].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[22].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[23].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[23].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[24].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[24].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[25].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[25].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[26].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[26].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[27].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[27].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[28].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[28].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[29].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[29].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[30].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[30].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[31].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[31].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[32].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[32].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[33].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[33].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[34].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[34].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[35].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[35].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[36].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[36].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[37].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[37].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[38].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
+ERROR: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.definition.parameter[38].code.system: URL value 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters' does not resolve
 == fsh-generated/resources/Location-TransportCurrentLocationExample.json ==
 == fsh-generated/resources/Location-TransportRequestedLocationExample.json ==
 == fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestInitiatedARTExample.json ==
