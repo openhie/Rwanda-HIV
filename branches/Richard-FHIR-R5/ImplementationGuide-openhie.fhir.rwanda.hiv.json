@@ -3,9 +3,9 @@
   "id" : "openhie.fhir.rwanda.hiv",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv</pre><div><p>A FHIR Implementation Guide - Rwanda HIV</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv</pre><div><p>A FHIR Implementation Guide - Rwanda HIV</p>\n</div></div>"
   },
-  "url" : "http://openhie.org/fhir/rwanda-hiv",
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv",
   "version" : "0.1.0",
   "name" : "RwandaHIV",
   "title" : "HL7 FHIR Implementation Guide: Rwanda HIV",
@@ -169,7 +169,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "history.html"
+        "valueString" : "http://openhie.org/fhir/rwanda-hiv/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1873,7 +1873,7 @@
         "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
         "code" : "path-history"
       },
-      "value" : "history.html"
+      "value" : "http://openhie.org/fhir/rwanda-hiv/history.html"
     },
     {
       "code" : {

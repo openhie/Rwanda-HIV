@@ -3,10 +3,10 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="openhie.fhir.rwanda.hiv"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv</pre><div><p>A FHIR Implementation Guide - Rwanda HIV</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>RwandaHIV</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv</pre><div><p>A FHIR Implementation Guide - Rwanda HIV</p>
 </div></div>
   </text>
-  <url value="http://openhie.org/fhir/rwanda-hiv"/>
+  <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv"/>
   <version value="0.1.0"/>
   <name value="RwandaHIV"/>
   <title value="HL7 FHIR Implementation Guide: Rwanda HIV"/>
@@ -137,7 +137,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="http://openhie.org/fhir/rwanda-hiv/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1688,7 +1688,7 @@
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="path-history"/>
       </code>
-      <value value="history.html"/>
+      <value value="http://openhie.org/fhir/rwanda-hiv/history.html"/>
     </parameter>
     <parameter>
       <code>
