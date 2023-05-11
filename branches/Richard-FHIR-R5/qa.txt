@@ -1,13 +1,13 @@
 ﻿RwandaHIV : Validation Results
 =========================================
 
-err = 5, warn = 1, info = 0
+err = 3, warn = 1, info = 0
 IG Publisher Version: 1.3.9
-Generated Thu May 11 16:46:47 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+Generated Thu May 11 17:00:06 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Bundle-LabCancellation : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Bundle-LabOrder : 2 / 0 / 66
+ /github/workspace/fsh-generated/resources/Bundle-LabOrder : 0 / 0 / 67
  /github/workspace/fsh-generated/resources/Bundle-LabRejection : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Bundle-LabResult : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentInitiatedExample : 0 / 0 / 1
@@ -121,8 +121,6 @@ WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide 
 == fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample.json ==
 == fsh-generated/resources/Bundle-LabCancellation.json ==
 == fsh-generated/resources/Bundle-LabOrder.json ==
-ERROR: Bundle/LabOrder: Bundle.entry[0].resource/*StructureDefinition/hiv-patient*/.mapping[2].uri: URL value 'http://hl7.org/fhir/interface' does not resolve
-ERROR: Bundle/LabOrder: Bundle.entry[0].resource/*StructureDefinition/hiv-patient*/.snapshot.element[16].binding.extension[0]: The Extension 'http://hl7.org/fhir/tools/StructureDefinition/binding-definition' definition allows for the types [markdown] but found type string
 == fsh-generated/resources/Bundle-LabRejection.json ==
 == fsh-generated/resources/Bundle-LabResult.json ==
 == fsh-generated/resources/CarePlan-ARVTreatmentInitiatedExample.json ==

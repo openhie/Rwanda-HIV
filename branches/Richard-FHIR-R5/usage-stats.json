@@ -207,19 +207,15 @@
   },
   "usage": {
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
-      "Bundle.entry.resource.snapshot.element.constraint",
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
-      "Bundle.entry.resource.snapshot.element.constraint",
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
-      "Bundle.entry.resource.snapshot.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
-      "Bundle.entry.resource.snapshot.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
@@ -232,15 +228,12 @@
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
-      "Bundle.entry.resource.snapshot.element",
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
-      "Bundle.entry.resource.snapshot.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
-      "Bundle.entry.resource.snapshot.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements": [
@@ -253,7 +246,6 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/binding-definition": [
-      "Bundle.entry.resource.snapshot.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
@@ -284,9 +276,11 @@
       "Organization"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months": [
+      "Bundle.entry.resource",
       "Patient"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years": [
+      "Bundle.entry.resource",
       "Patient"
     ],
     "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index": [
