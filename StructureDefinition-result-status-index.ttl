@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "ResultStatusIndex"] ; # 
   fhir:title [ fhir:v "Result Status Index"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-11T19:57:24+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-11T20:23:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Jembi Health Systems" ] ;
