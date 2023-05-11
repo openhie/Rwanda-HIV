@@ -46,6 +46,13 @@
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/HIVTestResultExample"^^xsd:anyURI ]
      ]
+  ] [
+     fhir:fullUrl [ fhir:v "ActivityDefinition/LabOrderTaskActivityExample"^^xsd:anyURI ] ;
+     fhir:resource ( <ActivityDefinition/LabOrderTaskActivityExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "ActivityDefinition/LabOrderTaskActivityExample"^^xsd:anyURI ]
+     ]
   ] ) . # 
 
 <Task/HIVLabResultTaskExample> a fhir:Task ;
@@ -339,6 +346,40 @@
      ] ;
      fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
      fhir:text [ fhir:v "Viral load not suppressed" ]
+  ] ) . # 
+
+<ActivityDefinition/LabOrderTaskActivityExample> a fhir:ActivityDefinition ;
+  fhir:id [ fhir:v "LabOrderTaskActivityExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"LabOrderTaskActivityExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition &quot;LabOrderTaskActivityExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-lab-task-activity.html\">HIV Lab Order Task Activity</a></p></div><p><b>HIV Viral Load Result Revised By</b>: 2</p><p><b>status</b>: active</p><p><b>date</b>: 2023-01-01</p><p><b>approvalDate</b>: 2023-01-01</p><p><b>lastReviewDate</b>: 2023-01-01</p><p><b>editor</b>: Someone: </p><p><b>reviewer</b>: Someone: </p><p><b>endorser</b>: Someone: </p><p><b>specimenRequirement</b>: <a href=\"http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample\">http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample</a></p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/revised-by-user-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2"^^xsd:integer ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-01-01"^^xsd:date] ; # 
+  fhir:approvalDate [ fhir:v "2023-01-01"^^xsd:date] ; # 
+  fhir:lastReviewDate [ fhir:v "2023-01-01"^^xsd:date] ; # 
+  fhir:editor ( [
+     fhir:name [ fhir:v "Someone" ]
+  ] ) ; # 
+  fhir:reviewer ( [
+     fhir:name [ fhir:v "Someone" ]
+  ] ) ; # 
+  fhir:endorser ( [
+     fhir:name [ fhir:v "Someone" ]
+  ] ) ; # 
+  fhir:specimenRequirement ( [
+     fhir:v "http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample"^^xsd:anyURI ;
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample>
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

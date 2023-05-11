@@ -19,46 +19,165 @@
        fhir:url [ fhir:v "Patient/HIVPatientExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "Encounter/TargetFacilityEncounterExample"^^xsd:anyURI ] ;
-     fhir:resource ( <Encounter/TargetFacilityEncounterExample> ) ;
+     fhir:fullUrl [ fhir:v "Organization/RequestingOrganizationExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/RequestingOrganizationExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Encounter/TargetFacilityEncounterExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "Organization/RequestingOrganizationExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "Condition/HIVDiagnosisExample"^^xsd:anyURI ] ;
-     fhir:resource ( <Condition/HIVDiagnosisExample> ) ;
+     fhir:fullUrl [ fhir:v "Organization/PerformingOrganizationExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/PerformingOrganizationExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Condition/HIVDiagnosisExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "Organization/PerformingOrganizationExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "Observation/DateHIVTestDoneExample"^^xsd:anyURI ] ;
-     fhir:resource ( <Observation/DateHIVTestDoneExample> ) ;
+     fhir:fullUrl [ fhir:v "Observation/PatientPregnantExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/PatientPregnantExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Observation/DateHIVTestDoneExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "Observation/PatientPregnantExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "EpisodeOfCare/HIVEpisodeOfCareExample"^^xsd:anyURI ] ;
-     fhir:resource ( <EpisodeOfCare/HIVEpisodeOfCareExample> ) ;
+     fhir:fullUrl [ fhir:v "Observation/HIVPatientIsNewExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/HIVPatientIsNewExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "EpisodeOfCare/HIVEpisodeOfCareExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "Observation/HIVPatientIsNewExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "Observation/HIVTestResultExample"^^xsd:anyURI ] ;
-     fhir:resource ( <Observation/HIVTestResultExample> ) ;
+     fhir:fullUrl [ fhir:v "Observation/BreastfeedingExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/BreastfeedingExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Observation/HIVTestResultExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "Observation/BreastfeedingExample"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "CarePlan/ARVTreatmentExample"^^xsd:anyURI ] ;
-     fhir:resource ( <CarePlan/ARVTreatmentExample> ) ;
+     fhir:fullUrl [ fhir:v "CarePlan/ARVTreatmentRegimenChangedExample"^^xsd:anyURI ] ;
+     fhir:resource ( <CarePlan/ARVTreatmentRegimenChangedExample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "CarePlan/ARVTreatmentExample"^^xsd:anyURI ]
+       fhir:url [ fhir:v "CarePlan/ARVTreatmentRegimenChangedExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/ReasonForHIVTestingExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/ReasonForHIVTestingExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/ReasonForHIVTestingExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"^^xsd:anyURI ] ;
+     fhir:resource ( <MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/ARTRegimenSwitchedOrSubstitutedExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/ARTRegimenSwitchedOrSubstitutedExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/ARTRegimenSwitchedOrSubstitutedExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Consent/ReceiveSMSMessagesExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Consent/ReceiveSMSMessagesExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Consent/ReceiveSMSMessagesExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/ARVAdherenceExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/ARVAdherenceExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/ARVAdherenceExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/RepeatHIVTestResultExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/RepeatHIVTestResultExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/RepeatHIVTestResultExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/SuspendTreatmentHIVTestResultExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/SuspendTreatmentHIVTestResultExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/SuspendTreatmentHIVTestResultExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Practitioner/ResultsInterpreterExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Practitioner/ResultsInterpreterExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Practitioner/ResultsInterpreterExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Device/TestingPlatformExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Device/TestingPlatformExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Device/TestingPlatformExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Transport/SampleDisptachedToLabTaskExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Transport/SampleDisptachedToLabTaskExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Transport/SampleDisptachedToLabTaskExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Transport/ResultDisptachedTaskExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Transport/ResultDisptachedTaskExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Transport/ResultDisptachedTaskExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/HIVTestResultAbsoluteDecimalExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/HIVTestResultAbsoluteDecimalExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/HIVTestResultAbsoluteDecimalExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Observation/HIVTestResultViralLoadLogExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Observation/HIVTestResultViralLoadLogExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Observation/HIVTestResultViralLoadLogExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/FundingOrganizationExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/FundingOrganizationExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Organization/FundingOrganizationExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/ImplementingPartnerOrganizationExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/ImplementingPartnerOrganizationExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Organization/ImplementingPartnerOrganizationExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Location/TransportRequestedLocationExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Location/TransportRequestedLocationExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Location/TransportRequestedLocationExample"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:fullUrl [ fhir:v "Location/TransportCurrentLocationExample"^^xsd:anyURI ] ;
+     fhir:resource ( <Location/TransportCurrentLocationExample> ) ;
+     fhir:request [
+       fhir:method [ fhir:v "PUT" ] ;
+       fhir:url [ fhir:v "Location/TransportCurrentLocationExample"^^xsd:anyURI ]
      ]
   ] ) . # 
 
@@ -100,198 +219,91 @@
      fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
   ] . # 
 
-<Encounter/TargetFacilityEncounterExample> a fhir:Encounter ;
-  fhir:id [ fhir:v "TargetFacilityEncounterExample"] ; # 
+<Organization/RequestingOrganizationExample> a fhir:Organization ;
+  fhir:id [ fhir:v "RequestingOrganizationExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b><a name=\"TargetFacilityEncounterExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter &quot;TargetFacilityEncounterExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-target-facility-encounter.html\">Target Facility Encounter</a></p></div><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'null')</p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>episodeOfCare</b>: <a href=\"#EpisodeOfCare_HIVEpisodeOfCareExample\">See above (EpisodeOfCare/HIVEpisodeOfCareExample)</a></p><p><b>period</b>: 2022-12-01 --&gt; 2023-01-20</p></div>"
-  ] ; # 
-  fhir:status [ fhir:v "finished"] ; # 
-  fhir:class [
-     fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
-     fhir:code [ fhir:v "AMB" ]
-  ] ; # 
-  fhir:subject [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
-     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
-  ] ; # 
-  fhir:episodeOfCare ( [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/EpisodeOfCare/HIVEpisodeOfCareExample> ;
-     fhir:reference [ fhir:v "EpisodeOfCare/HIVEpisodeOfCareExample" ]
-  ] ) ; # 
-  fhir:period [
-     fhir:start [ fhir:v "2022-12-01"^^xsd:date ] ;
-     fhir:end [ fhir:v "2023-01-20"^^xsd:date ]
-  ] . # 
-
-<Condition/HIVDiagnosisExample> a fhir:Condition ;
-  fhir:id [ fhir:v "HIVDiagnosisExample"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnosis>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"HIVDiagnosisExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;HIVDiagnosisExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-diagnosis.html\">Diagnosis</a></p></div><p><b>identifier</b>: HIV positive testing identifier: abc123</p><p><b>code</b>: Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#86406008 &quot;Human immunodeficiency virus infection&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"#Encounter_TargetFacilityEncounterExample\">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>recordedDate</b>: 2021-05-18</p><p><b>note</b>: Additional information regarding the HIV diagnosis (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"RequestingOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;RequestingOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-requesting-organization.html\">Requesting Organization</a></p></div><p><b>identifier</b>: Requesting Organization identifier: facility5</p><p><b>name</b>: A facility name</p></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:type [
        fhir:coding ( [
          fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "PI" ] ;
-         fhir:display [ fhir:v "Patient internal identifier" ]
+         fhir:code [ fhir:v "XX" ] ;
+         fhir:display [ fhir:v "Organization identifier" ]
        ] ) ;
-       fhir:text [ fhir:v "HIV positive testing identifier" ]
+       fhir:text [ fhir:v "Requesting Organization identifier" ]
      ] ;
-     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/hiv-diagnosis"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "abc123" ]
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/organization-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "facility5" ]
   ] ) ; # 
-  fhir:code [
-     fhir:coding ( [
-       a sct:86406008 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "86406008" ] ;
-       fhir:display [ fhir:v "Human immunodeficiency virus infection" ]
-     ] ) ;
-     fhir:text [ fhir:v "Diagnosis" ]
-  ] ; # 
-  fhir:subject [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
-     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
-  ] ; # 
-  fhir:encounter [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
-     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
-  ] ; # 
-  fhir:recordedDate [ fhir:v "2021-05-18"^^xsd:date] ; # 
-  fhir:note ( [
-     fhir:author [
-       a fhir:Reference ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
-       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
-     ] ;
-     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
-     fhir:text [ fhir:v "Additional information regarding the HIV diagnosis" ]
-  ] ) . # 
+  fhir:name [ fhir:v "A facility name"] . # 
 
-<Observation/DateHIVTestDoneExample> a fhir:Observation ;
-  fhir:id [ fhir:v "DateHIVTestDoneExample"] ; # 
+<Organization/PerformingOrganizationExample> a fhir:Organization ;
+  fhir:id [ fhir:v "PerformingOrganizationExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"DateHIVTestDoneExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;DateHIVTestDoneExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-date-hiv-test-done.html\">Date HIV Test Done</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Viral Load Examination <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#315124004 &quot;Human immunodeficiency virus viral load&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"#Encounter_TargetFacilityEncounterExample\">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>effective</b>: 2022-12-10</p><p><b>note</b>: Additional information regarding the HIV test (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
-  ] ; # 
-  fhir:status [ fhir:v "final"] ; # 
-  fhir:code [
-     fhir:coding ( [
-       a sct:315124004 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "315124004" ] ;
-       fhir:display [ fhir:v "Human immunodeficiency virus viral load" ]
-     ] ) ;
-     fhir:text [ fhir:v "Viral Load Examination" ]
-  ] ; # 
-  fhir:subject [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
-     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
-  ] ; # 
-  fhir:encounter [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
-     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
-  ] ; # 
-  fhir:effective [ fhir:v "2022-12-10"^^xsd:date] ; # 
-  fhir:note ( [
-     fhir:author [
-       a fhir:Reference ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
-       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
-     ] ;
-     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
-     fhir:text [ fhir:v "Additional information regarding the HIV test" ]
-  ] ) . # 
-
-<EpisodeOfCare/HIVEpisodeOfCareExample> a fhir:EpisodeOfCare ;
-  fhir:id [ fhir:v "HIVEpisodeOfCareExample"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-episode-of-care>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: EpisodeOfCare</b><a name=\"HIVEpisodeOfCareExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource EpisodeOfCare &quot;HIVEpisodeOfCareExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-episode-of-care.html\">Patient Enrollment Type</a></p></div><p><b>identifier</b>: Enrollment identifier: abc123</p><p><b>status</b>: active</p><h3>Diagnoses</h3><table class=\"grid\"><tr><td>-</td><td><b>Condition</b></td></tr><tr><td>*</td><td><a href=\"#Condition_HIVDiagnosisExample\">See above (Condition/HIVDiagnosisExample)</a></td></tr></table><p><b>patient</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>managingOrganization</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>period</b>: 2021-05-18 --&gt; 2021-05-18</p></div>"
-  ] ; # 
-  fhir:identifier ( [
-     fhir:type [
-       fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "PI" ] ;
-         fhir:display [ fhir:v "Patient internal identifier" ]
-       ] ) ;
-       fhir:text [ fhir:v "Enrollment identifier" ]
-     ] ;
-     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/enrollment-unique-id"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "abc123" ]
-  ] ) ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:diagnosis ( [
-     fhir:condition [
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/Condition/HIVDiagnosisExample> ;
-       fhir:reference [ fhir:v "Condition/HIVDiagnosisExample" ]
-     ]
-  ] ) ; # 
-  fhir:patient [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
-     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
-  ] ; # 
-  fhir:managingOrganization [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
-     fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
-  ] ; # 
-  fhir:period [
-     fhir:start [ fhir:v "2021-05-18"^^xsd:date ] ;
-     fhir:end [ fhir:v "2021-05-18"^^xsd:date ]
-  ] . # 
-
-<Observation/HIVTestResultExample> a fhir:Observation ;
-  fhir:id [ fhir:v "HIVTestResultExample"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"^^xsd:anyURI ;
-       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result>
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVTestResultExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVTestResultExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-test-result.html\">Lab Results</a></p></div><p><b>Test Result Entered Manually</b>: false</p><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"#Encounter_TargetFacilityEncounterExample\">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 1001</p><p><b>interpretation</b>: Viral Load Suppression Status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#19032002 &quot;Uncontrolled&quot;)</span></p><p><b>note</b>: Viral load not suppressed (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"PerformingOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;PerformingOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-performing-organization.html\">Performing Organization</a></p></div><p><b>Performing Organization Province</b>: 4</p><p><b>Performing Organization District</b>: 9</p><p><b>identifier</b>: Performing Organization identifier: laboratory1</p><p><b>name</b>: A Laboratory name</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>A province name </td></tr></table></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "false"^^xsd:boolean ]
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "4"^^xsd:integer ]
+  ] [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "9"^^xsd:integer ]
   ] ) ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "XX" ] ;
+         fhir:display [ fhir:v "Organization identifier" ]
+       ] ) ;
+       fhir:text [ fhir:v "Performing Organization identifier" ]
+     ] ;
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/organization-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "laboratory1" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "A Laboratory name"] ; # 
+  fhir:contact ( [
+     fhir:address [
+       fhir:district [ fhir:v "A district name" ] ;
+       fhir:state [ fhir:v "A province name" ]
+     ]
+  ] ) . # 
+
+<Observation/PatientPregnantExample> a fhir:Observation ;
+  fhir:id [ fhir:v "PatientPregnantExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PatientPregnantExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PatientPregnantExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-patient-pregnant.html\">Patient Pregnancy Status</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancy status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#250421003)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>value</b>: Pregnancy test result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#250423000 &quot;Pregnancy test positive&quot;)</span></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
      fhir:coding ( [
-       a sct:398579006 ;
+       a sct:250421003 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "398579006" ] ;
-       fhir:display [ fhir:v "Human immunodeficiency virus-1 nucleic acid assay" ]
+       fhir:code [ fhir:v "250421003" ]
      ] ) ;
-     fhir:text [ fhir:v "Viral Load Result" ]
+     fhir:text [ fhir:v "Pregnancy status" ]
   ] ; # 
   fhir:subject [
      fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
@@ -302,20 +314,16 @@
      fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
   ] ; # 
   fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
-  fhir:performer ( [
-     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
-     fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
-  ] ) ; # 
-  fhir:value [ fhir:v "1001"^^xsd:integer] ; # 
-  fhir:interpretation ( [
+  fhir:value [
+     a fhir:CodeableConcept ;
      fhir:coding ( [
-       a sct:19032002 ;
+       a sct:250423000 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "19032002" ] ;
-       fhir:display [ fhir:v "Uncontrolled" ]
+       fhir:code [ fhir:v "250423000" ] ;
+       fhir:display [ fhir:v "Pregnancy test positive" ]
      ] ) ;
-     fhir:text [ fhir:v "Viral Load Suppression Status" ]
-  ] ) ; # 
+     fhir:text [ fhir:v "Pregnancy test result" ]
+  ] ; # 
   fhir:note ( [
      fhir:author [
        a fhir:Reference ;
@@ -323,11 +331,91 @@
        fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
      ] ;
      fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
-     fhir:text [ fhir:v "Viral load not suppressed" ]
+     fhir:text [ fhir:v "additional notes here" ]
   ] ) . # 
 
-<CarePlan/ARVTreatmentExample> a fhir:CarePlan ;
-  fhir:id [ fhir:v "ARVTreatmentExample"] ; # 
+<Observation/HIVPatientIsNewExample> a fhir:Observation ;
+  fhir:id [ fhir:v "HIVPatientIsNewExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVPatientIsNewExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVPatientIsNewExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-patient-is-new.html\">HIV Patient Is New</a></p></div><p><b>status</b>: final</p><p><b>code</b>: New Patient Indication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#769681006)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>value</b>: true</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:769681006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "769681006" ]
+     ] ) ;
+     fhir:text [ fhir:v "New Patient Indication" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:value [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "additional notes here" ]
+  ] ) . # 
+
+<Observation/BreastfeedingExample> a fhir:Observation ;
+  fhir:id [ fhir:v "BreastfeedingExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BreastfeedingExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BreastfeedingExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-patient-breastfeeding.html\">Breastfeeding Patient</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Breastfeeding <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#413712001)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>value</b>: true</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:413712001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "413712001" ]
+     ] ) ;
+     fhir:text [ fhir:v "Breastfeeding" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:value [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "additional notes here" ]
+  ] ) . # 
+
+<CarePlan/ARVTreatmentRegimenChangedExample> a fhir:CarePlan ;
+  fhir:id [ fhir:v "ARVTreatmentRegimenChangedExample"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"^^xsd:anyURI ;
@@ -336,7 +424,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: CarePlan</b><a name=\"ARVTreatmentExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource CarePlan &quot;ARVTreatmentExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-arv-treatment.html\">ARV Treatment</a></p></div><p><b>identifier</b>: Unique ART number: UAN000123</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"#Encounter_TargetFacilityEncounterExample\">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>period</b>: 2022-12-01 --&gt; 2022-12-01</p><blockquote><p><b>activity</b></p><h3>Details</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>Kind</b></td><td><b>Code</b></td><td><b>ReasonCode</b></td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Product[x]</b></td></tr><tr><td>*</td><td/><td>MedicationRequest</td><td>HIV medication request <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#45260-7 &quot;HIV ART medication&quot;)</span></td><td>Regimen change reason <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#76018003 &quot;Virologic&quot;)</span></td><td>in-progress</td><td>2023-01-01 --&gt; 2023-01-01</td><td>ARV regimen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#427314002 &quot;Antiviral therapy&quot;)</span></td></tr></table></blockquote><p><b>note</b>: ABC + 3TC + LPV/r (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: CarePlan</b><a name=\"ARVTreatmentRegimenChangedExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource CarePlan &quot;ARVTreatmentRegimenChangedExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-arv-treatment.html\">ARV Treatment</a></p></div><p><b>identifier</b>: Unique ART number: UAN000123</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>period</b>: 2022-12-01 --&gt; 2022-12-01</p><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>PlannedActivityReference</b></td></tr><tr><td>*</td><td><a href=\"#MedicationRequest_ARVRegimenMedicationRequestRegimenChangedExample\">See above (MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample)</a></td></tr></table><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:type [
@@ -365,46 +453,9 @@
      fhir:end [ fhir:v "2022-12-01"^^xsd:date ]
   ] ; # 
   fhir:activity ( [
-     fhir:detail [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "false"^^xsd:boolean ]
-       ] ) ;
-       fhir:kind [ fhir:v "MedicationRequest" ] ;
-       fhir:code [
-         fhir:coding ( [
-           a loinc:45260-7 ;
-           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-           fhir:code [ fhir:v "45260-7" ] ;
-           fhir:display [ fhir:v "HIV ART medication" ]
-         ] ) ;
-         fhir:text [ fhir:v "HIV medication request" ]
-       ] ;
-       fhir:reasonCode ( [
-         fhir:coding ( [
-           a sct:76018003 ;
-           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-           fhir:code [ fhir:v "76018003" ] ;
-           fhir:display [ fhir:v "Virologic" ]
-         ] ) ;
-         fhir:text [ fhir:v "Regimen change reason" ]
-       ] ) ;
-       fhir:status [ fhir:v "in-progress" ] ;
-       fhir:scheduled [
-         a fhir:Period ;
-         fhir:start [ fhir:v "2023-01-01"^^xsd:date ] ;
-         fhir:end [ fhir:v "2023-01-01"^^xsd:date ]
-       ] ;
-       fhir:product [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           a sct:427314002 ;
-           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-           fhir:code [ fhir:v "427314002" ] ;
-           fhir:display [ fhir:v "Antiviral therapy" ]
-         ] ) ;
-         fhir:text [ fhir:v "ARV regimen" ]
-       ]
+     fhir:plannedActivityReference [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample> ;
+       fhir:reference [ fhir:v "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample" ]
      ]
   ] ) ; # 
   fhir:note ( [
@@ -414,8 +465,628 @@
        fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
      ] ;
      fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
-     fhir:text [ fhir:v "ABC + 3TC + LPV/r" ]
+     fhir:text [ fhir:v "Some comments" ]
   ] ) . # 
+
+<Observation/ReasonForHIVTestingExample> a fhir:Observation ;
+  fhir:id [ fhir:v "ReasonForHIVTestingExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"ReasonForHIVTestingExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;ReasonForHIVTestingExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-reason-for-hiv-testing.html\">Reason for HIV testing</a></p></div><p><b>status</b>: final</p><p><b>code</b>: HIV Test <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#165813002 &quot;Human immunodeficiency virus antibody test&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>value</b>: Reason for testing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#2528003 &quot;Viremia&quot;)</span></p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:165813002 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "165813002" ] ;
+       fhir:display [ fhir:v "Human immunodeficiency virus antibody test" ]
+     ] ) ;
+     fhir:text [ fhir:v "HIV Test" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a sct:2528003 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "2528003" ] ;
+       fhir:display [ fhir:v "Viremia" ]
+     ] ) ;
+     fhir:text [ fhir:v "Reason for testing" ]
+  ] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Some comments" ]
+  ] ) . # 
+
+<MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample> a fhir:MedicationRequest ;
+  fhir:id [ fhir:v "ARVRegimenMedicationRequestRegimenChangedExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationRequest</b><a name=\"ARVRegimenMedicationRequestRegimenChangedExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationRequest &quot;ARVRegimenMedicationRequestRegimenChangedExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-arv-regimen-medication-request.html\">ARV Regimen Medication Request</a></p></div><p><b>status</b>: completed</p><p><b>intent</b>: order</p><h3>Medications</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>ARV regimen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#427314002 &quot;Antiviral therapy&quot;)</span></td></tr></table><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><h3>Reasons</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a href=\"#Observation_ARTRegimenSwitchedOrSubstitutedExample\">See above (Observation/ARTRegimenSwitchedOrSubstitutedExample)</a></td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:medication [
+     fhir:concept [
+       fhir:coding ( [
+         a sct:427314002 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "427314002" ] ;
+         fhir:display [ fhir:v "Antiviral therapy" ]
+       ] ) ;
+       fhir:text [ fhir:v "ARV regimen" ]
+     ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:reason ( [
+     fhir:reference [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ARTRegimenSwitchedOrSubstitutedExample> ;
+       fhir:reference [ fhir:v "Observation/ARTRegimenSwitchedOrSubstitutedExample" ]
+     ]
+  ] ) . # 
+
+<Observation/ARTRegimenSwitchedOrSubstitutedExample> a fhir:Observation ;
+  fhir:id [ fhir:v "ARTRegimenSwitchedOrSubstitutedExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"ARTRegimenSwitchedOrSubstitutedExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;ARTRegimenSwitchedOrSubstitutedExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-art-regimen-switched-or-substituted.html\">ART Regimen Switched Or Substituted</a></p></div><p><b>status</b>: final</p><p><b>code</b>: ARV Regimen Change <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#182838006 &quot;Change of medication&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>value</b>: true</p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:182838006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "182838006" ] ;
+       fhir:display [ fhir:v "Change of medication" ]
+     ] ) ;
+     fhir:text [ fhir:v "ARV Regimen Change" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:value [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Some comments" ]
+  ] ) . # 
+
+<Consent/ReceiveSMSMessagesExample> a fhir:Consent ;
+  fhir:id [ fhir:v "ReceiveSMSMessagesExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"ReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;ReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: active</p><p><b>category</b>: Consent Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#59284-0)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>regulatoryBasis</b>: Consent policy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#699237001 &quot;Consent given for communication by short message service text messaging&quot;)</span></p><p><b>decision</b>: permit</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a loinc:59284-0 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "59284-0" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:regulatoryBasis ( [
+     fhir:coding ( [
+       a sct:699237001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "699237001" ] ;
+       fhir:display [ fhir:v "Consent given for communication by short message service text messaging" ]
+     ] ) ;
+     fhir:text [ fhir:v "Consent policy" ]
+  ] ) ; # 
+  fhir:decision [ fhir:v "permit"] . # 
+
+<Observation/ARVAdherenceExample> a fhir:Observation ;
+  fhir:id [ fhir:v "ARVAdherenceExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"ARVAdherenceExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;ARVAdherenceExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-arv-adherence.html\">Patient's Adherence to ARV Treatment</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Treatment compliance <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#386091000)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>value</b>: ARV adherence <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA6763-2 &quot;Good = 95% adherence&quot;)</span></p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:386091000 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "386091000" ]
+     ] ) ;
+     fhir:text [ fhir:v "Treatment compliance" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a loinc:LA6763-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "LA6763-2" ] ;
+       fhir:display [ fhir:v "Good = 95% adherence" ]
+     ] ) ;
+     fhir:text [ fhir:v "ARV adherence" ]
+  ] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "additional notes here" ]
+  ] ) . # 
+
+<Observation/RepeatHIVTestResultExample> a fhir:Observation ;
+  fhir:id [ fhir:v "RepeatHIVTestResultExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"RepeatHIVTestResultExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;RepeatHIVTestResultExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-repeat-test-result.html\">Repeat Lab Results</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 1001</p><p><b>note</b>: Viral load not suppressed (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:398579006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "398579006" ] ;
+       fhir:display [ fhir:v "Human immunodeficiency virus-1 nucleic acid assay" ]
+     ] ) ;
+     fhir:text [ fhir:v "Viral Load Result" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+  ] ) ; # 
+  fhir:value [ fhir:v "1001"^^xsd:integer] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Viral load not suppressed" ]
+  ] ) . # 
+
+<Observation/SuspendTreatmentHIVTestResultExample> a fhir:Observation ;
+  fhir:id [ fhir:v "SuspendTreatmentHIVTestResultExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"SuspendTreatmentHIVTestResultExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;SuspendTreatmentHIVTestResultExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-suspend-treatment-test-result.html\">Suspend Treatment Lab Results</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 1001</p><p><b>note</b>: Viral load not suppressed (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:398579006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "398579006" ] ;
+       fhir:display [ fhir:v "Human immunodeficiency virus-1 nucleic acid assay" ]
+     ] ) ;
+     fhir:text [ fhir:v "Viral Load Result" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+  ] ) ; # 
+  fhir:value [ fhir:v "1001"^^xsd:integer] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Viral load not suppressed" ]
+  ] ) . # 
+
+<Practitioner/ResultsInterpreterExample> a fhir:Practitioner ;
+  fhir:id [ fhir:v "ResultsInterpreterExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"ResultsInterpreterExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;ResultsInterpreterExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-practitioner.html\">Practitioner</a></p></div><p><b>Clinician User Index</b>: 11</p><p><b>name</b>: Jhon Smith </p><p><b>telecom</b>: ph: 27539887534</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/clinician-user-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "11"^^xsd:integer ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Smith" ] ;
+     fhir:given ( [ fhir:v "Jhon" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "27539887534" ]
+  ] ) . # 
+
+<Device/TestingPlatformExample> a fhir:Device ;
+  fhir:id [ fhir:v "TestingPlatformExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Device</b><a name=\"TestingPlatformExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Device &quot;TestingPlatformExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-device-for-testing.html\">Testing Platform</a></p></div><p><b>manufacturer</b>: My testing platform</p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>"
+  ] ; # 
+  fhir:manufacturer [ fhir:v "My testing platform"] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Some comments" ]
+  ] ) . # 
+
+<Transport/SampleDisptachedToLabTaskExample> a fhir:Transport ;
+  fhir:id [ fhir:v "SampleDisptachedToLabTaskExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Transport</b><a name=\"SampleDisptachedToLabTaskExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Transport &quot;SampleDisptachedToLabTaskExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-sample-dispatched-to-lab.html\">Sample Dispatched to Lab Task</a></p></div><p><b>status</b>: in-progress</p><p><b>intent</b>: order</p><p><b>completionTime</b>: 2022-07-28</p><p><b>authoredOn</b>: 2022-07-28</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><p><b>requestedLocation</b>: <a href=\"#Location_TransportRequestedLocationExample\">See above (Location/TransportRequestedLocationExample)</a></p><p><b>currentLocation</b>: <a href=\"#Location_TransportCurrentLocationExample\">See above (Location/TransportCurrentLocationExample)</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "in-progress"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:completionTime [ fhir:v "2022-07-28"^^xsd:date] ; # 
+  fhir:authoredOn [ fhir:v "2022-07-28"^^xsd:date] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "additional notes here" ]
+  ] ) ; # 
+  fhir:requestedLocation [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Location/TransportRequestedLocationExample> ;
+     fhir:reference [ fhir:v "Location/TransportRequestedLocationExample" ]
+  ] ; # 
+  fhir:currentLocation [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Location/TransportCurrentLocationExample> ;
+     fhir:reference [ fhir:v "Location/TransportCurrentLocationExample" ]
+  ] . # 
+
+<Transport/ResultDisptachedTaskExample> a fhir:Transport ;
+  fhir:id [ fhir:v "ResultDisptachedTaskExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Transport</b><a name=\"ResultDisptachedTaskExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Transport &quot;ResultDisptachedTaskExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-result-dispatched-to-facility.html\">Result Dispatched</a></p></div><p><b>status</b>: in-progress</p><p><b>intent</b>: order</p><p><b>authoredOn</b>: 2022-07-28</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><p><b>requestedLocation</b>: <a href=\"#Location_TransportRequestedLocationExample\">See above (Location/TransportRequestedLocationExample)</a></p><p><b>currentLocation</b>: <a href=\"#Location_TransportCurrentLocationExample\">See above (Location/TransportCurrentLocationExample)</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "in-progress"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:authoredOn [ fhir:v "2022-07-28"^^xsd:date] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "additional notes here" ]
+  ] ) ; # 
+  fhir:requestedLocation [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Location/TransportRequestedLocationExample> ;
+     fhir:reference [ fhir:v "Location/TransportRequestedLocationExample" ]
+  ] ; # 
+  fhir:currentLocation [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Location/TransportCurrentLocationExample> ;
+     fhir:reference [ fhir:v "Location/TransportCurrentLocationExample" ]
+  ] . # 
+
+<Observation/HIVTestResultAbsoluteDecimalExample> a fhir:Observation ;
+  fhir:id [ fhir:v "HIVTestResultAbsoluteDecimalExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVTestResultAbsoluteDecimalExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVTestResultAbsoluteDecimalExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-test-result-absolute-decimal.html\">Viral Load Result Absolute Decimal</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 2.55</p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><p><b>derivedFrom</b>: <a href=\"Observation-HIVTestResultExample.html\">Observation/HIVTestResultExample</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:398579006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "398579006" ] ;
+       fhir:display [ fhir:v "Human immunodeficiency virus-1 nucleic acid assay" ]
+     ] ) ;
+     fhir:text [ fhir:v "Viral Load Result" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "2.55"^^xsd:decimal ]
+  ] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Some comments" ]
+  ] ) ; # 
+  fhir:derivedFrom ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultExample> ;
+     fhir:reference [ fhir:v "Observation/HIVTestResultExample" ]
+  ] ) . # 
+
+<Observation/HIVTestResultViralLoadLogExample> a fhir:Observation ;
+  fhir:id [ fhir:v "HIVTestResultViralLoadLogExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVTestResultViralLoadLogExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVTestResultViralLoadLogExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-viral-load-log.html\">Viral Load Log</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_HIVPatientExample\">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href=\"Organization-HIVOrganizationExample.html\">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 2.55</p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><p><b>derivedFrom</b>: <a href=\"Observation-HIVTestResultExample.html\">Observation/HIVTestResultExample</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:398579006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "398579006" ] ;
+       fhir:display [ fhir:v "Human immunodeficiency virus-1 nucleic acid assay" ]
+     ] ) ;
+     fhir:text [ fhir:v "Viral Load Result" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "2.55"^^xsd:decimal ]
+  ] ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:Reference ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/HIVOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/HIVOrganizationExample" ]
+     ] ;
+     fhir:time [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "Some comments" ]
+  ] ) ; # 
+  fhir:derivedFrom ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultExample> ;
+     fhir:reference [ fhir:v "Observation/HIVTestResultExample" ]
+  ] ) . # 
+
+<Organization/FundingOrganizationExample> a fhir:Organization ;
+  fhir:id [ fhir:v "FundingOrganizationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"FundingOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;FundingOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-funding-source.html\">Funding Organization</a></p></div><p><b>Funding Organization</b>: 1</p><p><b>identifier</b>: Funding Organization identifier: funder1</p><p><b>name</b>: A funding organization name</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1"^^xsd:integer ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "XX" ] ;
+         fhir:display [ fhir:v "Organization identifier" ]
+       ] ) ;
+       fhir:text [ fhir:v "Funding Organization identifier" ]
+     ] ;
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/organization-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "funder1" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "A funding organization name"] . # 
+
+<Organization/ImplementingPartnerOrganizationExample> a fhir:Organization ;
+  fhir:id [ fhir:v "ImplementingPartnerOrganizationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"ImplementingPartnerOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;ImplementingPartnerOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-implementing-partner.html\">Implementing Partner Organization</a></p></div><p><b>Implementing Partner Organization</b>: 14</p><p><b>identifier</b>: Implementing Partner Organization identifier: implementing-partner-org1</p><p><b>name</b>: An implementing partner organization name</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner-index"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "14"^^xsd:integer ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "XX" ] ;
+         fhir:display [ fhir:v "Organization identifier" ]
+       ] ) ;
+       fhir:text [ fhir:v "Implementing Partner Organization identifier" ]
+     ] ;
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/organization-id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "implementing-partner-org1" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "An implementing partner organization name"] . # 
+
+<Location/TransportRequestedLocationExample> a fhir:Location ;
+  fhir:id [ fhir:v "TransportRequestedLocationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Location</b><a name=\"TransportRequestedLocationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Location &quot;TransportRequestedLocationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-transport-location.html\">Transport Location</a></p></div><p><b>status</b>: active</p><p><b>name</b>: Requested location name</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:name [ fhir:v "Requested location name"] . # 
+
+<Location/TransportCurrentLocationExample> a fhir:Location ;
+  fhir:id [ fhir:v "TransportCurrentLocationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Location</b><a name=\"TransportCurrentLocationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Location &quot;TransportCurrentLocationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-transport-location.html\">Transport Location</a></p></div><p><b>status</b>: active</p><p><b>name</b>: Current location name</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:name [ fhir:v "Current location name"] . # 
 
 # -------------------------------------------------------------------------------------
 
