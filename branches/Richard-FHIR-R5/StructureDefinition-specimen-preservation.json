@@ -9,12 +9,12 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-implements",
     "valueUri" : "http://hl7.org/fhir/StructureDefinition/MetadataResource"
   }],
-  "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/specimen-preservation",
+  "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
   "version" : "0.1.0",
   "name" : "SpecimenConservation",
   "title" : "Specimen Conservation",
   "status" : "active",
-  "date" : "2023-05-11T18:16:31+00:00",
+  "date" : "2023-05-11T18:27:59+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "name" : "Jembi Health Systems",
@@ -1431,7 +1431,7 @@
       "isSummary" : false,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-specimen-type"
+        "valueSet" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -2622,7 +2622,7 @@
       "min" : 1,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/ValueSet/vs-specimen-type"
+        "valueSet" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"
       }
     },
     {

@@ -2,7 +2,7 @@
   "resourceType" : "ServiceRequest",
   "id" : "HIVServiceRequestExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/HIV-lab-order"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"]
   },
   "text" : {
     "status" : "generated",

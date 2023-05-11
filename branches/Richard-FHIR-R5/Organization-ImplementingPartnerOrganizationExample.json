@@ -2,14 +2,14 @@
   "resourceType" : "Organization",
   "id" : "ImplementingPartnerOrganizationExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/implementing-partner"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"]
   },
   "text" : {
     "status" : "extensions",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"ImplementingPartnerOrganizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;ImplementingPartnerOrganizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-implementing-partner.html\">Implementing Partner Organization</a></p></div><p><b>Implementing Partner Organization</b>: 14</p><p><b>identifier</b>: Implementing Partner Organization identifier:\u00a0implementing-partner-org1</p><p><b>name</b>: An implementing partner organization name</p></div>"
   },
   "extension" : [{
-    "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/implementing-partner-index",
+    "url" : "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner-index",
     "valueInteger" : 14
   }],
   "identifier" : [{

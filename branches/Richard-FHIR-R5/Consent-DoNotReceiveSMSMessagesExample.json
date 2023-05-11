@@ -2,7 +2,7 @@
   "resourceType" : "Consent",
   "id" : "DoNotReceiveSMSMessagesExample",
   "meta" : {
-    "profile" : ["http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv/StructureDefinition/receive-sms-messages"]
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
   },
   "text" : {
     "status" : "generated",
