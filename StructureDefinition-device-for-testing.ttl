@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "TestingPlatform"] ; # 
   fhir:title [ fhir:v "Testing Platform"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-23T09:20:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-05T16:42:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Jembi Health Systems" ] ;
@@ -545,7 +545,7 @@
        fhir:path [ fhir:v "Device.udiCarrier" ] ;
        fhir:short [ fhir:v "Unique Device Identifier (UDI) Barcode string" ] ;
        fhir:definition [ fhir:v "Unique device identifier (UDI) assigned to device label or package.  Note that the Device may include multiple udiCarriers as it either may include just the udiCarrier for the jurisdiction it is sold, or for multiple jurisdictions it could have been sold." ] ;
-       fhir:comment [ fhir:v "UDI may identify an unique instance of a device, or it may only identify the type of the device.  See [UDI mappings](device-mappings.html#udi) for a complete mapping of UDI parts to Device." ] ;
+       fhir:comment [ fhir:v "UDI may identify an unique instance of a device, or it may only identify the type of the device.  See [UDI mappings](http://hl7.org/fhir/R5/device-mappings.html#udi) for a complete mapping of UDI parts to Device." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

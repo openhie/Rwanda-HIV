@@ -22,7 +22,7 @@
   <name value="HIVOrganization"/>
   <title value="HIV Organization"/>
   <status value="active"/>
-  <date value="2023-05-23T09:20:07+00:00"/>
+  <date value="2023-07-05T16:42:44+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <name value="Jembi Health Systems"/>
@@ -1000,9 +1000,6 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true"/>
-      </extension>
       <path value="Organization.identifier.type.coding.display"/>
       <short value="Representation defined by the system"/>
       <definition value="A representation of the meaning of the code in the system, following the rules of the system."/>
@@ -1080,9 +1077,6 @@
       </mapping>
     </element>
     <element id="Organization.identifier:XX.type.text">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true"/>
-      </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>

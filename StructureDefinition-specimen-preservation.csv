@@ -56,7 +56,7 @@ Coding {[]} {[]}","How to compare versions","Indicates the mechanism used to com
 ","Based on external definition","The URL pointing to an externally-defined type of specimen, guideline or other definition that is adhered to in whole or in part by this definition.","","Specimen definitions may be refinements of other definitions.","","","","","","","",,,,,"",,,,"SpecimenDefinition.derivedFromUri",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "SpecimenDefinition.status","SpecimenDefinition.status","","","",1,1,"","Y","Y","code {[]} {[]}
-","draft | active | retired | unknown","The current state of theSpecimenDefinition.","A nominal state-transition diagram can be found in the [Definition pattern](definition.html#statemachine) documentation
+","draft | active | retired | unknown","The current state of theSpecimenDefinition.","A nominal state-transition diagram can be found in the [Definition pattern](http://hl7.org/fhir/R5/definition.html#statemachine) documentation
 Unknown does not represent ""other"" - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.
 
 See guidance around (not) making local changes to elements [here](http://hl7.org/fhir/R5/canonicalresource.html#localization).","","","","","","","","",,"required","Codes identifying the status of a SpecimenDefinition resource.","http://hl7.org/fhir/ValueSet/publication-status|5.0.0","",,,,"SpecimenDefinition.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

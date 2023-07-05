@@ -14,7 +14,7 @@
   "name" : "SpecimenConservation",
   "title" : "Specimen Conservation",
   "status" : "active",
-  "date" : "2023-05-23T09:20:07+00:00",
+  "date" : "2023-07-05T16:42:44+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "name" : "Jembi Health Systems",
@@ -600,7 +600,7 @@
       "path" : "SpecimenDefinition.status",
       "short" : "draft | active | retired | unknown",
       "definition" : "The current state of theSpecimenDefinition.",
-      "comment" : "A nominal state-transition diagram can be found in the [Definition pattern](definition.html#statemachine) documentation\nUnknown does not represent \"other\" - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](http://hl7.org/fhir/R5/canonicalresource.html#localization).",
+      "comment" : "A nominal state-transition diagram can be found in the [Definition pattern](http://hl7.org/fhir/R5/definition.html#statemachine) documentation\nUnknown does not represent \"other\" - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](http://hl7.org/fhir/R5/canonicalresource.html#localization).",
       "min" : 1,
       "max" : "1",
       "base" : {

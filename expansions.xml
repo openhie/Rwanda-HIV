@@ -1,244 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="611cf35e-7151-42d9-8fb7-ec9297f1d98d"/>
+  <id value="0918a4dc-4080-4e2b-9c46-cb8188ac5515"/>
   <meta>
-    <lastUpdated value="2023-05-23T09:20:07.983+00:00"/>
+    <lastUpdated value="2023-07-05T16:42:44.334+00:00"/>
   </meta>
   <type value="collection"/>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 8 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-77386006"> </a>  
-                  <a href="http://snomed.info/id/77386006">77386006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Pregnancy</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-428450006"> </a>  
-                  <a href="http://snomed.info/id/428450006">428450006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Repeat laboratory specimen sent</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-171111007"> </a>  
-                  <a href="http://snomed.info/id/171111007">171111007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Screened - no result yet</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-266721009"> </a>  
-                  <a href="http://snomed.info/id/266721009">266721009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Absent response to treatment</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-170564007"> </a>  
-                  <a href="http://snomed.info/id/170564007">170564007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Chronic disease - treatment changed</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-413712001"> </a>  
-                  <a href="http://snomed.info/id/413712001">413712001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Breastfeeding (mother)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-315124004"> </a>  
-                  <a href="http://snomed.info/id/315124004">315124004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Human immunodeficiency virus viral load</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-2528003"> </a>  
-                  <a href="http://snomed.info/id/2528003">2528003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Viremia</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
-        <version value="0.1.0"/>
-        <name value="VSReasonForAssessment"/>
-        <title value="Reason for Assessment or Test Not Performed"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:bc2b3dd7-16e8-4b1e-a730-e0c9a217ddb9"/>
-          <timestamp value="2023-05-23T09:21:31+00:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="77386006"/>
-            <display value="Pregnancy"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="428450006"/>
-            <display value="Repeat laboratory specimen sent"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="171111007"/>
-            <display value="Screened - no result yet"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="266721009"/>
-            <display value="Absent response to treatment"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="170564007"/>
-            <display value="Chronic disease - treatment changed"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="413712001"/>
-            <display value="Breastfeeding (mother)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="315124004"/>
-            <display value="Human immunodeficiency virus viral load"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="2528003"/>
-            <display value="Viremia"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-398579006"> </a>  
-                  <a href="http://snomed.info/id/398579006">398579006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Human immunodeficiency virus-1 nucleic acid assay</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code"/>
-        <version value="0.1.0"/>
-        <name value="VSVLResultCode"/>
-        <title value="Viral Load Result Code"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:306cf42c-8106-4d1c-84ff-2ab9beb73798"/>
-          <timestamp value="2023-05-23T09:21:35+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="398579006"/>
-            <display value="Human immunodeficiency virus-1 nucleic acid assay"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
   <entry>
     <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected"/>
     <resource>
@@ -325,7 +92,7 @@
         <title value="Reasons why a lab order was cancelled or rejected"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -334,8 +101,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:05087cd7-7f7a-42f2-9d96-c71ef6d93d9c"/>
-          <timestamp value="2023-05-23T09:21:46+00:00"/>
+          <identifier value="urn:uuid:0b65ab01-c3ce-4ef8-b292-10181dc7f7d1"/>
+          <timestamp value="2023-07-05T16:44:12+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -389,13 +156,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
             <table class="codes">
               <tr>
@@ -411,38 +178,70 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-250426008"> </a>  
-                  <a href="http://snomed.info/id/250426008">250426008</a>
+                  <a name="http---snomed.info-sct-119361006"> </a>  
+                  <a href="http://snomed.info/id/119361006">119361006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Pregnancy test equivocal</td>
+                <td>Plasma specimen</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-250425007"> </a>  
-                  <a href="http://snomed.info/id/250425007">250425007</a>
+                  <a name="http---snomed.info-sct-440500007"> </a>  
+                  <a href="http://snomed.info/id/440500007">440500007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Pregnancy test negative</td>
+                <td>Dried blood spot specimen</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-250423000"> </a>  
-                  <a href="http://snomed.info/id/250423000">250423000</a>
+                  <a name="http---snomed.info-sct-441620008"> </a>  
+                  <a href="http://snomed.info/id/441620008">441620008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Pregnancy test positive</td>
+                <td>Oral fluid specimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-258580003"> </a>  
+                  <a href="http://snomed.info/id/258580003">258580003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Whole blood specimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-119364003"> </a>  
+                  <a href="http://snomed.info/id/119364003">119364003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Serum specimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-122555007"> </a>  
+                  <a href="http://snomed.info/id/122555007">122555007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Venous blood specimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-122554006"> </a>  
+                  <a href="http://snomed.info/id/122554006">122554006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Capillary blood specimen</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
         <version value="0.1.0"/>
-        <name value="VSPatientPregnant"/>
-        <title value="Patient Pregnant"/>
+        <name value="VSSpecimenType"/>
+        <title value="Specimen Type Used In Viral Load testing"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -451,9 +250,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:379cec20-8a32-42f4-896d-41a62f18e118"/>
-          <timestamp value="2023-05-23T09:21:48+00:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:88c7bf64-3199-4392-a099-1db01a7bf3d1"/>
+          <timestamp value="2023-07-05T16:44:14+00:00"/>
+          <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -468,31 +267,122 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="250426008"/>
-            <display value="Pregnancy test equivocal"/>
+            <code value="119361006"/>
+            <display value="Plasma specimen"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="250425007"/>
-            <display value="Pregnancy test negative"/>
+            <code value="440500007"/>
+            <display value="Dried blood spot specimen"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="250423000"/>
-            <display value="Pregnancy test positive"/>
+            <code value="441620008"/>
+            <display value="Oral fluid specimen"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="258580003"/>
+            <display value="Whole blood specimen"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="119364003"/>
+            <display value="Serum specimen"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="122555007"/>
+            <display value="Venous blood specimen"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="122554006"/>
+            <display value="Capillary blood specimen"/>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-45260-7"> </a>  
+                  <a href="https://loinc.org/45260-7/">45260-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>HIV ART medication</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type"/>
+        <version value="0.1.0"/>
+        <name value="VSARVMedicationRequest"/>
+        <title value="ARV Treatment Medication Request"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:14e7f18a-1ceb-4a69-87c6-b5864b1aba8b"/>
+          <timestamp value="2023-07-05T16:44:14+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.74"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="45260-7"/>
+            <display value="HIV ART medication"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
             <table class="codes">
               <tr>
@@ -508,30 +398,22 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-699237001"> </a>  
-                  <a href="http://snomed.info/id/699237001">699237001</a>
+                  <a name="http---snomed.info-sct-398579006"> </a>  
+                  <a href="http://snomed.info/id/398579006">398579006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Consent given for communication by short message service text messaging</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-398227009"> </a>  
-                  <a href="http://snomed.info/id/398227009">398227009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Inadequate consent</td>
+                <td>Human immunodeficiency virus-1 nucleic acid assay</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-result-code"/>
         <version value="0.1.0"/>
-        <name value="VSPatientConsentForSMSNotifications"/>
-        <title value="Patient Consent for SMS Notifications"/>
+        <name value="VSVLResultCode"/>
+        <title value="Viral Load Result Code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -540,9 +422,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b76335ee-3e20-4924-bf9d-cac9c310b152"/>
-          <timestamp value="2023-05-23T09:21:49+00:00"/>
-          <total value="2"/>
+          <identifier value="urn:uuid:0600f97d-e333-4418-915b-a6692956eb23"/>
+          <timestamp value="2023-07-05T16:44:16+00:00"/>
+          <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -557,13 +439,8 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="699237001"/>
-            <display value="Consent given for communication by short message service text messaging"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="398227009"/>
-            <display value="Inadequate consent"/>
+            <code value="398579006"/>
+            <display value="Human immunodeficiency virus-1 nucleic acid assay"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -623,7 +500,7 @@
         <title value="Viral Load Suppressions Status"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -632,8 +509,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:95babadb-61cf-4e62-95d3-81a03d4bfd46"/>
-          <timestamp value="2023-05-23T09:21:49+00:00"/>
+          <identifier value="urn:uuid:2257c619-0970-4ef5-8306-4b22687ba951"/>
+          <timestamp value="2023-07-05T16:44:16+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -661,504 +538,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="261665006"/>
             <display value="Unknown"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 10 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-7895008"> </a>  
-                  <a href="http://snomed.info/id/7895008">7895008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Poisoning caused by drug AND/OR medicinal substance</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-77386006"> </a>  
-                  <a href="http://snomed.info/id/77386006">77386006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Pregnancy</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-59037007"> </a>  
-                  <a href="http://snomed.info/id/59037007">59037007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Intolerance to drug</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-271737000"> </a>  
-                  <a href="http://snomed.info/id/271737000">271737000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Anemia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-76018003"> </a>  
-                  <a href="http://snomed.info/id/76018003">76018003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Virologic</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-275934008"> </a>  
-                  <a href="http://snomed.info/id/275934008">275934008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Very poor response treatment</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-182856006"> </a>  
-                  <a href="http://snomed.info/id/182856006">182856006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Drug not available - out of stock</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-56717001"> </a>  
-                  <a href="http://snomed.info/id/56717001">56717001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Tuberculosis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-408351004"> </a>  
-                  <a href="http://snomed.info/id/408351004">408351004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Drug interactions considered as new drugs added</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-52651000119105"> </a>  
-                  <a href="http://snomed.info/id/52651000119105">52651000119105</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Finding related to risk factor in pregnancy</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
-        <version value="0.1.0"/>
-        <name value="VSReasonsForARVRegimenChange"/>
-        <title value="Reasons for ARV Regimen Change"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:7cc58027-e5fe-4836-b5e1-45911501b4d0"/>
-          <timestamp value="2023-05-23T09:21:49+00:00"/>
-          <total value="10"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="7895008"/>
-            <display value="Poisoning caused by drug AND/OR medicinal substance"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="77386006"/>
-            <display value="Pregnancy"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="59037007"/>
-            <display value="Intolerance to drug"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="271737000"/>
-            <display value="Anemia"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="76018003"/>
-            <display value="Virologic"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="275934008"/>
-            <display value="Very poor response treatment"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="182856006"/>
-            <display value="Drug not available - out of stock"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="56717001"/>
-            <display value="Tuberculosis"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="408351004"/>
-            <display value="Drug interactions considered as new drugs added"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="52651000119105"/>
-            <display value="Finding related to risk factor in pregnancy"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-182838006"> </a>  
-                  <a href="http://snomed.info/id/182838006">182838006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Change of medication</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
-        <version value="0.1.0"/>
-        <name value="VSARVRegimenChange"/>
-        <title value="ARV Regimen Change"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:b49aa1a6-6221-4ee6-b422-3057652627bf"/>
-          <timestamp value="2023-05-23T09:21:53+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="182838006"/>
-            <display value="Change of medication"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA6763-2"> </a>  
-                  <a href="https://loinc.org/LA6763-2/">LA6763-2</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Good = 95% adherence</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA6764-0"> </a>  
-                  <a href="https://loinc.org/LA6764-0/">LA6764-0</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Fair 85-94% adherence</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA6765-7"> </a>  
-                  <a href="https://loinc.org/LA6765-7/">LA6765-7</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Poor &lt;85% adherence</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence"/>
-        <version value="0.1.0"/>
-        <name value="VSARVAdherence"/>
-        <title value="ARV Adherence"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:ed4af4b9-9ff6-4807-8352-c19ac657d58b"/>
-          <timestamp value="2023-05-23T09:21:53+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
-          </parameter>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="LA6763-2"/>
-            <display value="Good = 95% adherence"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="LA6764-0"/>
-            <display value="Fair 85-94% adherence"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="LA6765-7"/>
-            <display value="Poor &lt;85% adherence"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-315124004"> </a>  
-                  <a href="http://snomed.info/id/315124004">315124004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Human immunodeficiency virus viral load</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done"/>
-        <version value="0.1.0"/>
-        <name value="VSHIVTestDone"/>
-        <title value="HIV Test Done"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:542dee6c-d2d5-448d-a646-7fd78174f2f8"/>
-          <timestamp value="2023-05-23T09:22:05+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="315124004"/>
-            <display value="Human immunodeficiency virus viral load"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-45260-7"> </a>  
-                  <a href="https://loinc.org/45260-7/">45260-7</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>HIV ART medication</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arvtreatment-activity-type"/>
-        <version value="0.1.0"/>
-        <name value="VSARVMedicationRequest"/>
-        <title value="ARV Treatment Medication Request"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:82634145-97f5-4c9d-9565-b2b0e6457838"/>
-          <timestamp value="2023-05-23T09:22:05+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
-          </parameter>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="45260-7"/>
-            <display value="HIV ART medication"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1362,7 +741,7 @@
         <title value="A list of ARV regimen"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1371,8 +750,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5bd54408-4603-4397-b0b8-d8b9612eddc3"/>
-          <timestamp value="2023-05-23T09:22:10+00:00"/>
+          <identifier value="urn:uuid:32ac1a78-6461-42bb-951a-de1b1fe45519"/>
+          <timestamp value="2023-07-05T16:44:32+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1496,6 +875,77 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-165813002"> </a>  
+                  <a href="http://snomed.info/id/165813002">165813002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Human immunodeficiency virus antibody test</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
+        <version value="0.1.0"/>
+        <name value="ReasonForHIVTestingCode"/>
+        <title value="Reason for HIV Testing Code"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9b8e8826-d46f-408b-bd4f-fae4280fd17a"/>
+          <timestamp value="2023-07-05T16:44:38+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="165813002"/>
+            <display value="Human immunodeficiency virus antibody test"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-condition"/>
     <resource>
       <ValueSet>
@@ -1533,7 +983,7 @@
         <title value="Conditions"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1542,8 +992,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9af49bac-fadd-4080-b7f0-53134af69443"/>
-          <timestamp value="2023-05-23T09:22:10+00:00"/>
+          <identifier value="urn:uuid:ef70d234-0133-4105-87ac-c37bd1cfe226"/>
+          <timestamp value="2023-07-05T16:44:42+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1612,7 +1062,7 @@
         <title value="Test Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1621,8 +1071,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:59a3c514-5fd3-4f61-9ae4-6b0b0fd9ac4c"/>
-          <timestamp value="2023-05-23T09:22:19+00:00"/>
+          <identifier value="urn:uuid:27278c35-83ba-49df-ba53-f85fcbb57691"/>
+          <timestamp value="2023-07-05T16:44:42+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1651,156 +1101,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-119361006"> </a>  
-                  <a href="http://snomed.info/id/119361006">119361006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Plasma specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-440500007"> </a>  
-                  <a href="http://snomed.info/id/440500007">440500007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Dried blood spot specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-441620008"> </a>  
-                  <a href="http://snomed.info/id/441620008">441620008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Oral fluid specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-258580003"> </a>  
-                  <a href="http://snomed.info/id/258580003">258580003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Whole blood specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-119364003"> </a>  
-                  <a href="http://snomed.info/id/119364003">119364003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Serum specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-122555007"> </a>  
-                  <a href="http://snomed.info/id/122555007">122555007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Venous blood specimen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-122554006"> </a>  
-                  <a href="http://snomed.info/id/122554006">122554006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Capillary blood specimen</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
-        <version value="0.1.0"/>
-        <name value="VSSpecimenType"/>
-        <title value="Specimen Type Used In Viral Load testing"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:2a20d6ab-4dc6-4ba9-88d4-46b7daa48b22"/>
-          <timestamp value="2023-05-23T09:22:24+00:00"/>
-          <total value="7"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="119361006"/>
-            <display value="Plasma specimen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="440500007"/>
-            <display value="Dried blood spot specimen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="441620008"/>
-            <display value="Oral fluid specimen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="258580003"/>
-            <display value="Whole blood specimen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="119364003"/>
-            <display value="Serum specimen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="122555007"/>
-            <display value="Venous blood specimen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="122554006"/>
-            <display value="Capillary blood specimen"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
     <resource>
       <ValueSet>
         <text>
@@ -1822,22 +1123,22 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-165813002"> </a>  
-                  <a href="http://snomed.info/id/165813002">165813002</a>
+                  <a name="http---snomed.info-sct-182838006"> </a>  
+                  <a href="http://snomed.info/id/182838006">182838006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Human immunodeficiency virus antibody test</td>
+                <td>Change of medication</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-hiv-testing"/>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen-change"/>
         <version value="0.1.0"/>
-        <name value="ReasonForHIVTestingCode"/>
-        <title value="Reason for HIV Testing Code"/>
+        <name value="VSARVRegimenChange"/>
+        <title value="ARV Regimen Change"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-05-23T09:20:07+00:00"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1846,8 +1147,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3ab683df-6165-41ef-9662-430f343a790b"/>
-          <timestamp value="2023-05-23T09:22:26+00:00"/>
+          <identifier value="urn:uuid:489fe1f1-3e05-411a-8632-1c466394113e"/>
+          <timestamp value="2023-07-05T16:44:45+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1863,8 +1164,707 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="165813002"/>
-            <display value="Human immunodeficiency virus antibody test"/>
+            <code value="182838006"/>
+            <display value="Change of medication"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-315124004"> </a>  
+                  <a href="http://snomed.info/id/315124004">315124004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Human immunodeficiency virus viral load</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-hiv-test-done"/>
+        <version value="0.1.0"/>
+        <name value="VSHIVTestDone"/>
+        <title value="HIV Test Done"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8806e579-2c84-4dcc-8423-857c5bbab931"/>
+          <timestamp value="2023-07-05T16:44:46+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="315124004"/>
+            <display value="Human immunodeficiency virus viral load"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7895008"> </a>  
+                  <a href="http://snomed.info/id/7895008">7895008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Poisoning caused by drug AND/OR medicinal substance</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-77386006"> </a>  
+                  <a href="http://snomed.info/id/77386006">77386006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-59037007"> </a>  
+                  <a href="http://snomed.info/id/59037007">59037007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intolerance to drug</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-271737000"> </a>  
+                  <a href="http://snomed.info/id/271737000">271737000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Anemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-76018003"> </a>  
+                  <a href="http://snomed.info/id/76018003">76018003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Virologic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-275934008"> </a>  
+                  <a href="http://snomed.info/id/275934008">275934008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Very poor response treatment</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-182856006"> </a>  
+                  <a href="http://snomed.info/id/182856006">182856006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Drug not available - out of stock</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-56717001"> </a>  
+                  <a href="http://snomed.info/id/56717001">56717001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tuberculosis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-408351004"> </a>  
+                  <a href="http://snomed.info/id/408351004">408351004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Drug interactions considered as new drugs added</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-52651000119105"> </a>  
+                  <a href="http://snomed.info/id/52651000119105">52651000119105</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finding related to risk factor in pregnancy</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-arv-regimen-change"/>
+        <version value="0.1.0"/>
+        <name value="VSReasonsForARVRegimenChange"/>
+        <title value="Reasons for ARV Regimen Change"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:62246bbd-2a3b-4f00-9430-4e108576b8a8"/>
+          <timestamp value="2023-07-05T16:44:49+00:00"/>
+          <total value="10"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7895008"/>
+            <display value="Poisoning caused by drug AND/OR medicinal substance"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="77386006"/>
+            <display value="Pregnancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="59037007"/>
+            <display value="Intolerance to drug"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271737000"/>
+            <display value="Anemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="76018003"/>
+            <display value="Virologic"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="275934008"/>
+            <display value="Very poor response treatment"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="182856006"/>
+            <display value="Drug not available - out of stock"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="56717001"/>
+            <display value="Tuberculosis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="408351004"/>
+            <display value="Drug interactions considered as new drugs added"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="52651000119105"/>
+            <display value="Finding related to risk factor in pregnancy"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA6763-2"> </a>  
+                  <a href="https://loinc.org/LA6763-2/">LA6763-2</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Good = 95% adherence</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA6764-0"> </a>  
+                  <a href="https://loinc.org/LA6764-0/">LA6764-0</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Fair 85-94% adherence</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA6765-7"> </a>  
+                  <a href="https://loinc.org/LA6765-7/">LA6765-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Poor &lt;85% adherence</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence"/>
+        <version value="0.1.0"/>
+        <name value="VSARVAdherence"/>
+        <title value="ARV Adherence"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:31bd219c-1476-4fea-a8bc-871cfed2da9b"/>
+          <timestamp value="2023-07-05T16:44:49+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.74"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA6763-2"/>
+            <display value="Good = 95% adherence"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA6764-0"/>
+            <display value="Fair 85-94% adherence"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA6765-7"/>
+            <display value="Poor &lt;85% adherence"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-699237001"> </a>  
+                  <a href="http://snomed.info/id/699237001">699237001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Consent given for communication by short message service text messaging</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-398227009"> </a>  
+                  <a href="http://snomed.info/id/398227009">398227009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Inadequate consent</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-consent-for-sms-notifications"/>
+        <version value="0.1.0"/>
+        <name value="VSPatientConsentForSMSNotifications"/>
+        <title value="Patient Consent for SMS Notifications"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:34fd61a9-1015-456e-886b-b1ddf5ee2058"/>
+          <timestamp value="2023-07-05T16:44:58+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="699237001"/>
+            <display value="Consent given for communication by short message service text messaging"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="398227009"/>
+            <display value="Inadequate consent"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-77386006"> </a>  
+                  <a href="http://snomed.info/id/77386006">77386006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-428450006"> </a>  
+                  <a href="http://snomed.info/id/428450006">428450006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Repeat laboratory specimen sent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-171111007"> </a>  
+                  <a href="http://snomed.info/id/171111007">171111007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Screened - no result yet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-266721009"> </a>  
+                  <a href="http://snomed.info/id/266721009">266721009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Absent response to treatment</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-170564007"> </a>  
+                  <a href="http://snomed.info/id/170564007">170564007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic disease - treatment changed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-413712001"> </a>  
+                  <a href="http://snomed.info/id/413712001">413712001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Breastfeeding (mother)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-315124004"> </a>  
+                  <a href="http://snomed.info/id/315124004">315124004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Human immunodeficiency virus viral load</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-2528003"> </a>  
+                  <a href="http://snomed.info/id/2528003">2528003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Viremia</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
+        <version value="0.1.0"/>
+        <name value="VSReasonForAssessment"/>
+        <title value="Reason for Assessment or Test Not Performed"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:50b2d462-943a-43c8-899a-61cddb00cea3"/>
+          <timestamp value="2023-07-05T16:45:01+00:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="77386006"/>
+            <display value="Pregnancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="428450006"/>
+            <display value="Repeat laboratory specimen sent"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="171111007"/>
+            <display value="Screened - no result yet"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="266721009"/>
+            <display value="Absent response to treatment"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="170564007"/>
+            <display value="Chronic disease - treatment changed"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="413712001"/>
+            <display value="Breastfeeding (mother)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="315124004"/>
+            <display value="Human immunodeficiency virus viral load"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2528003"/>
+            <display value="Viremia"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250426008"> </a>  
+                  <a href="http://snomed.info/id/250426008">250426008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy test equivocal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250425007"> </a>  
+                  <a href="http://snomed.info/id/250425007">250425007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy test negative</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250423000"> </a>  
+                  <a href="http://snomed.info/id/250423000">250423000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy test positive</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-patient-pregnant"/>
+        <version value="0.1.0"/>
+        <name value="VSPatientPregnant"/>
+        <title value="Patient Pregnant"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-07-05T16:42:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:99825134-d314-4520-a221-09120360fa7a"/>
+          <timestamp value="2023-07-05T16:45:04+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250426008"/>
+            <display value="Pregnancy test equivocal"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250425007"/>
+            <display value="Pregnancy test negative"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250423000"/>
+            <display value="Pregnancy test positive"/>
           </contains>
         </expansion>
       </ValueSet>

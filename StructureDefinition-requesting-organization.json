@@ -10,7 +10,7 @@
   "name" : "RequestingOrganization",
   "title" : "Requesting Organization",
   "status" : "active",
-  "date" : "2023-05-23T09:20:07+00:00",
+  "date" : "2023-07-05T16:42:44+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "name" : "Jembi Health Systems",
@@ -1026,10 +1026,6 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
       }],
       "path" : "Organization.identifier.type.coding.display",
       "short" : "Representation defined by the system",
@@ -1111,10 +1107,6 @@
     {
       "id" : "Organization.identifier:OrgID.type.text",
       "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
-      },
-      {
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
       }],

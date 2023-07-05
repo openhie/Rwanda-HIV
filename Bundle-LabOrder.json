@@ -325,7 +325,7 @@
         "handling" : [{
           "temperatureRange" : {
             "low" : {
-              "value" : 4.50000000
+              "value" : 5
             },
             "high" : {
               "value" : 10

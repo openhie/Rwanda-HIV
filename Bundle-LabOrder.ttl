@@ -376,7 +376,7 @@
      fhir:handling ( [
        fhir:temperatureRange [
          fhir:low [
-           fhir:value [ fhir:v "4.50000000"^^xsd:decimal ]
+           fhir:value [ fhir:v "5"^^xsd:decimal ]
          ] ;
          fhir:high [
            fhir:value [ fhir:v "10"^^xsd:decimal ]

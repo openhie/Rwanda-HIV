@@ -10,7 +10,7 @@
   "name" : "HIVDiagnosticReport",
   "title" : "Diagnostic Report",
   "status" : "active",
-  "date" : "2023-05-23T09:20:07+00:00",
+  "date" : "2023-07-05T16:42:44+00:00",
   "publisher" : "Jembi Health Systems",
   "contact" : [{
     "name" : "Jembi Health Systems",
@@ -823,10 +823,6 @@
     {
       "id" : "DiagnosticReport.code.text",
       "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
-      },
-      {
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
       }],

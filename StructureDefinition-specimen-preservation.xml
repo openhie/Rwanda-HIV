@@ -22,7 +22,7 @@
   <name value="SpecimenConservation"/>
   <title value="Specimen Conservation"/>
   <status value="active"/>
-  <date value="2023-05-23T09:20:07+00:00"/>
+  <date value="2023-07-05T16:42:44+00:00"/>
   <publisher value="Jembi Health Systems"/>
   <contact>
     <name value="Jembi Health Systems"/>
@@ -585,7 +585,7 @@
       <path value="SpecimenDefinition.status"/>
       <short value="draft | active | retired | unknown"/>
       <definition value="The current state of theSpecimenDefinition."/>
-      <comment value="A nominal state-transition diagram can be found in the [Definition pattern](definition.html#statemachine) documentation&#xA;Unknown does not represent &quot;other&quot; - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.&#xA;&#xA;See guidance around (not) making local changes to elements [here](http://hl7.org/fhir/R5/canonicalresource.html#localization)."/>
+      <comment value="A nominal state-transition diagram can be found in the [Definition pattern](http://hl7.org/fhir/R5/definition.html#statemachine) documentation&#xA;Unknown does not represent &quot;other&quot; - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.&#xA;&#xA;See guidance around (not) making local changes to elements [here](http://hl7.org/fhir/R5/canonicalresource.html#localization)."/>
       <min value="1"/>
       <max value="1"/>
       <base>

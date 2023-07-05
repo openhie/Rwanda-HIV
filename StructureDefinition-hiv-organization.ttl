@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HIVOrganization"] ; # 
   fhir:title [ fhir:v "HIV Organization"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-05-23T09:20:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-05T16:42:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Jembi Health Systems" ] ;
@@ -1053,9 +1053,6 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "true"^^xsd:boolean ]
-       ] [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true"^^xsd:boolean ]
        ] ) ;
        fhir:path [ fhir:v "Organization.identifier.type.coding.display" ] ;
        fhir:short [ fhir:v "Representation defined by the system" ] ;
@@ -1137,9 +1134,6 @@
      ] [
        fhir:id [ fhir:v "Organization.identifier:XX.type.text" ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true"^^xsd:boolean ]
-       ] [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "true"^^xsd:boolean ]
        ] ) ;
