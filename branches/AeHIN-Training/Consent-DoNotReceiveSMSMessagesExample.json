@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Consent",
+  "id" : "DoNotReceiveSMSMessagesExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"DoNotReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;DoNotReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: inactive</p><p><b>category</b>: Patient consent for SMS messages <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89057-4 &quot;Permission to receive text messages&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>decision</b>: deny</p></div>"
+  },
+  "status" : "inactive",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "89057-4",
+      "display" : "Permission to receive text messages"
+    }],
+    "text" : "Patient consent for SMS messages"
+  }],
+  "subject" : {
+    "reference" : "Patient/HIVPatientExample"
+  },
+  "decision" : "deny"
+}

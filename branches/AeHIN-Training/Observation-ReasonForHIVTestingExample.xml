@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ReasonForHIVTestingExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="ReasonForHIVTestingExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;ReasonForHIVTestingExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-reason-for-hiv-testing.html">Reason for HIV testing</a></p></div><p><b>status</b>: final</p><p><b>code</b>: HIV Test <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#165813002 &quot;Human immunodeficiency virus antibody test&quot;)</span></p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>value</b>: Reason for testing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#2528003 &quot;Viremia&quot;)</span></p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="165813002"/>
+      <display value="Human immunodeficiency virus antibody test"/>
+    </coding>
+    <text value="HIV Test"/>
+  </code>
+  <subject>
+    <reference value="Patient/HIVPatientExample"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/TargetFacilityEncounterExample"/>
+  </encounter>
+  <effectiveDateTime value="2022-11-30"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="2528003"/>
+      <display value="Viremia"/>
+    </coding>
+    <text value="Reason for testing"/>
+  </valueCodeableConcept>
+  <note>
+    <authorReference>
+      <reference value="Organization/HIVOrganizationExample"/>
+    </authorReference>
+    <time value="2015-02-07T13:28:17-05:00"/>
+    <text value="Some comments"/>
+  </note>
+</Observation>

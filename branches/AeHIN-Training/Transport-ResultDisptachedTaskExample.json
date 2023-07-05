@@ -1,0 +1,27 @@
+{
+  "resourceType" : "Transport",
+  "id" : "ResultDisptachedTaskExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Transport</b><a name=\"ResultDisptachedTaskExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Transport &quot;ResultDisptachedTaskExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-result-dispatched-to-facility.html\">Result Dispatched</a></p></div><p><b>status</b>: in-progress</p><p><b>intent</b>: order</p><p><b>authoredOn</b>: 2022-07-28</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17\u202fPM)</p><p><b>requestedLocation</b>: <a href=\"Location-TransportRequestedLocationExample.html\">Location/TransportRequestedLocationExample</a> &quot;Requested location name&quot;</p><p><b>currentLocation</b>: <a href=\"Location-TransportCurrentLocationExample.html\">Location/TransportCurrentLocationExample</a> &quot;Current location name&quot;</p></div>"
+  },
+  "status" : "in-progress",
+  "intent" : "order",
+  "authoredOn" : "2022-07-28",
+  "note" : [{
+    "authorReference" : {
+      "reference" : "Organization/HIVOrganizationExample"
+    },
+    "time" : "2015-02-07T13:28:17-05:00",
+    "text" : "additional notes here"
+  }],
+  "requestedLocation" : {
+    "reference" : "Location/TransportRequestedLocationExample"
+  },
+  "currentLocation" : {
+    "reference" : "Location/TransportCurrentLocationExample"
+  }
+}
