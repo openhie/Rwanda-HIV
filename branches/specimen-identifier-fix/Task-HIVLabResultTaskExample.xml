@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Task xmlns="http://hl7.org/fhir">
+  <id value="HIVLabResultTaskExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Task</b><a name="HIVLabResultTaskExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Task &quot;HIVLabResultTaskExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-lab-task.html">HIV VL Lab Order Task</a></p></div><p><b>Result Status Index</b>: 4</p><p><b>identifier</b>: Lab order number: ORDER12345</p><p><b>instantiatesCanonical</b>: <a href="ActivityDefinition-LabOrderTaskActivityExample.html">ActivityDefinition[http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample|0.1.0]</a></p><p><b>basedOn</b>: </p><ul><li><a href="ServiceRequest-HIVServiceRequestExample.html">ServiceRequest/HIVServiceRequestExample</a></li><li><a href="Transport-SampleDispatchedToLabExample.html">Transport/SampleDispatchedToLabExample</a></li><li><a href="Transport-ResultDispatchedToRequestingFacilityExample.html">Transport/ResultDispatchedToRequestingFacilityExample</a></li></ul><p><b>status</b>: completed</p><p><b>intent</b>: order</p><p><b>for</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>executionPeriod</b>: ?? --&gt; 2022-07-30</p><p><b>lastModified</b>: 2022-07-30</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><h3>Outputs</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td style="display: none">*</td><td>Viral Load Result <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></td><td><a href="DiagnosticReport-HIVLabResultsDiagnosticReportExample.html">DiagnosticReport/HIVLabResultsDiagnosticReportExample</a></td></tr></table></div>
+  </text>
+  <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-status-index">
+    <valueInteger value="4"/>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="FILL"/>
+        <display value="Filler Identifier"/>
+      </coding>
+      <text value="Lab order number"/>
+    </type>
+    <system value="http://openhie.org/fhir/rwanda-hiv/lab-integration/order-number"/>
+    <value value="ORDER12345"/>
+  </identifier>
+  <instantiatesCanonical value="http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample"/>
+  <basedOn>
+    <reference value="ServiceRequest/HIVServiceRequestExample"/>
+  </basedOn>
+  <basedOn>
+    <reference value="Transport/SampleDispatchedToLabExample"/>
+  </basedOn>
+  <basedOn>
+    <reference value="Transport/ResultDispatchedToRequestingFacilityExample"/>
+  </basedOn>
+  <status value="completed"/>
+  <intent value="order"/>
+  <for>
+    <reference value="Patient/HIVPatientExample"/>
+  </for>
+  <encounter>
+    <reference value="Encounter/TargetFacilityEncounterExample"/>
+  </encounter>
+  <executionPeriod>
+    <end value="2022-07-30"/>
+  </executionPeriod>
+  <lastModified value="2022-07-30"/>
+  <note>
+    <authorReference>
+      <reference value="Organization/HIVOrganizationExample"/>
+    </authorReference>
+    <time value="2015-02-07T13:28:17-05:00"/>
+    <text value="additional notes here"/>
+  </note>
+  <output>
+    <type>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="398579006"/>
+        <display value="Human immunodeficiency virus-1 nucleic acid assay"/>
+      </coding>
+      <text value="Viral Load Result"/>
+    </type>
+    <valueReference>
+      <reference value="DiagnosticReport/HIVLabResultsDiagnosticReportExample"/>
+    </valueReference>
+  </output>
+</Task>

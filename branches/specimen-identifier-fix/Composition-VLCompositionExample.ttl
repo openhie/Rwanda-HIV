@@ -1,0 +1,305 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/rwanda-hiv/Composition/VLCompositionExample> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "VLCompositionExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"VLCompositionExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;VLCompositionExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vl-composition.html\">Laboratory Report For Viral Load Testing</a></p></div><p><b>identifier</b>: id: PAT0001-v1</p><p><b>status</b>: final</p><p><b>type</b>: 11502-2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11502-2)</span></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>date</b>: 2023-08-22</p><p><b>author</b>: </p><ul><li><a href=\"Practitioner-RequestingPractitionerExample.html\">Practitioner/RequestingPractitionerExample</a> &quot; SMITH&quot;</li><li><a href=\"Practitioner-PerformingPractitionerExample.html\">Practitioner/PerformingPractitionerExample</a> &quot; WHITE&quot;</li><li><a href=\"Practitioner-ResultsInterpreterExample.html\">Practitioner/ResultsInterpreterExample</a> &quot; SMITH&quot;</li></ul><p><b>title</b>: Laboratory Report For Viral Load Testing</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/identifier/vl-lab-report"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "PAT0001-v1" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:11502-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "11502-2" ]
+     ] )
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ) ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:date [ fhir:v "2023-08-22"^^xsd:date] ; # 
+  fhir:author ( [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/RequestingPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/RequestingPractitionerExample" ]
+  ] [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PerformingPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/PerformingPractitionerExample" ]
+  ] [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/ResultsInterpreterExample> ;
+     fhir:reference [ fhir:v "Practitioner/ResultsInterpreterExample" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Laboratory Report For Viral Load Testing"] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Funding Organization Information" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Funding-Organization-Information" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/FundingOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/FundingOrganizationExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Implementing Partner Information" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Implementing-Partner-Information" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/ImplementingPartnerOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/ImplementingPartnerOrganizationExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Pregnancy Status" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:82810-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "82810-3" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/PatientPregnantExample> ;
+       fhir:reference [ fhir:v "Observation/PatientPregnantExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "New Patient Consultation" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a sct:185387006 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "185387006" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVPatientIsNewExample> ;
+       fhir:reference [ fhir:v "Observation/HIVPatientIsNewExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Breastfeeding Status" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:63895-7 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "63895-7" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/BreastfeedingExample> ;
+       fhir:reference [ fhir:v "Observation/BreastfeedingExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Consent Status" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a sct:309370004 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "309370004" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Consent/ReceiveSMSMessagesExample> ;
+       fhir:reference [ fhir:v "Consent/ReceiveSMSMessagesExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Viral Load Specimen" ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Specimen Information" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:LP7846-1 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "LP7846-1" ]
+         ] )
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Specimen/VLSpecimenExample> ;
+         fhir:reference [ fhir:v "Specimen/VLSpecimenExample" ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "Specimen Temperature" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-information"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "Specimen-Conservation-Temperature" ]
+         ] )
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample> ;
+         fhir:reference [ fhir:v "SpecimenDefinition/SpecimenConservationExample" ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "Specimen Transportation" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-transportation"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "Specimen-Transportation" ]
+         ] )
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Location/TransportRequestedLocationExample> ;
+         fhir:reference [ fhir:v "Location/TransportRequestedLocationExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Location/TransportCurrentLocationExample> ;
+         fhir:reference [ fhir:v "Location/TransportCurrentLocationExample" ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "Laboratory Services" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a sct:46159000 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "46159000" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ReasonForHIVTestingExample> ;
+       fhir:reference [ fhir:v "Observation/ReasonForHIVTestingExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ServiceRequest/HIVServiceRequestExample> ;
+       fhir:reference [ fhir:v "ServiceRequest/HIVServiceRequestExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/ActivityDefinition/LabOrderTaskActivityExample> ;
+       fhir:reference [ fhir:v "ActivityDefinition/LabOrderTaskActivityExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Task/HIVLabResultTaskExample> ;
+       fhir:reference [ fhir:v "Task/HIVLabResultTaskExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Device/TestingPlatformExample> ;
+       fhir:reference [ fhir:v "Device/TestingPlatformExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/RequestingOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/RequestingOrganizationExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/RequestingPractitionerExample> ;
+       fhir:reference [ fhir:v "Practitioner/RequestingPractitionerExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Organization/PerformingOrganizationExample> ;
+       fhir:reference [ fhir:v "Organization/PerformingOrganizationExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/PerformingPractitionerExample> ;
+       fhir:reference [ fhir:v "Practitioner/PerformingPractitionerExample" ]
+     ] ) ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Result Information" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a sct:118246004 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "118246004" ]
+         ] )
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/DiagnosticReport/HIVLabResultsDiagnosticReportExample> ;
+         fhir:reference [ fhir:v "DiagnosticReport/HIVLabResultsDiagnosticReportExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Transport/ResultDispatchedToRequestingFacilityExample> ;
+         fhir:reference [ fhir:v "Transport/ResultDispatchedToRequestingFacilityExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultExample> ;
+         fhir:reference [ fhir:v "Observation/HIVTestResultExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultViralLoadLogExample> ;
+         fhir:reference [ fhir:v "Observation/HIVTestResultViralLoadLogExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/HIVTestResultAbsoluteDecimalExample> ;
+         fhir:reference [ fhir:v "Observation/HIVTestResultAbsoluteDecimalExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/RepeatHIVTestResultExample> ;
+         fhir:reference [ fhir:v "Observation/RepeatHIVTestResultExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/SuspendTreatmentHIVTestResultExample> ;
+         fhir:reference [ fhir:v "Observation/SuspendTreatmentHIVTestResultExample" ]
+       ] ) ;
+       fhir:section ( [
+         fhir:title [ fhir:v "Results Interpreter Details" ] ;
+         fhir:code [
+           fhir:coding ( [
+             a sct:726736004 ;
+             fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "726736004" ]
+           ] )
+         ] ;
+         fhir:entry ( [
+           fhir:link <http://openhie.org/fhir/rwanda-hiv/Practitioner/ResultsInterpreterExample> ;
+           fhir:reference [ fhir:v "Practitioner/ResultsInterpreterExample" ]
+         ] )
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "ART Status" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a sct:410684002 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "410684002" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ARTInitiatedExample> ;
+       fhir:reference [ fhir:v "Observation/ARTInitiatedExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ARVRegimenChangeExample> ;
+       fhir:reference [ fhir:v "Observation/ARVRegimenChangeExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ARTRegimenSwitchedOrSubstitutedExample> ;
+       fhir:reference [ fhir:v "Observation/ARTRegimenSwitchedOrSubstitutedExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ARVAdherenceExample> ;
+       fhir:reference [ fhir:v "Observation/ARVAdherenceExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/CarePlan/ARVTreatmentRegimenChangedExample> ;
+       fhir:reference [ fhir:v "CarePlan/ARVTreatmentRegimenChangedExample" ]
+     ] [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/CarePlan/ARVTreatmentInitiatedExample> ;
+       fhir:reference [ fhir:v "CarePlan/ARVTreatmentInitiatedExample" ]
+     ] ) ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Prescribed ARV Medication" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:45260-7 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "45260-7" ]
+         ] )
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample> ;
+         fhir:reference [ fhir:v "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample" ]
+       ] [
+         fhir:link <http://openhie.org/fhir/rwanda-hiv/MedicationRequest/ARVRegimenMedicationRequestARVExample> ;
+         fhir:reference [ fhir:v "MedicationRequest/ARVRegimenMedicationRequestARVExample" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

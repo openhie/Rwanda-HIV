@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="laboratory-report-specimen-information"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-information"/>
+  <version value="0.1.0"/>
+  <name value="LaboratoryReportSpecimenInformation"/>
+  <title value="Laboratory Report Specimen Information Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-09-15T07:34:16+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Used by the relevant section defintions in the Composition resource."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="Specimen-Conservation-Temperature"/>
+    <display value="Specimen Conservation Temperature"/>
+  </concept>
+</CodeSystem>

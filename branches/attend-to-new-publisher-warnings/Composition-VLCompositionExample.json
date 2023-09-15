@@ -1,0 +1,333 @@
+{
+  "resourceType" : "Composition",
+  "id" : "VLCompositionExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"VLCompositionExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;VLCompositionExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vl-composition.html\">Laboratory Report For Viral Load Testing</a></p></div><p><b>identifier</b>: id:\u00a0PAT0001-v1</p><p><b>status</b>: final</p><p><b>type</b>: 11502-2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11502-2)</span></p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>date</b>: 2023-08-22</p><p><b>author</b>: </p><ul><li><a href=\"Practitioner-RequestingPractitionerExample.html\">Practitioner/RequestingPractitionerExample</a> &quot; SMITH&quot;</li><li><a href=\"Practitioner-PerformingPractitionerExample.html\">Practitioner/PerformingPractitionerExample</a> &quot; WHITE&quot;</li><li><a href=\"Practitioner-ResultsInterpreterExample.html\">Practitioner/ResultsInterpreterExample</a> &quot; SMITH&quot;</li></ul><p><b>title</b>: Laboratory Report For Viral Load Testing</p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://openhie.org/fhir/rwanda-hiv/identifier/vl-lab-report",
+    "value" : "PAT0001-v1"
+  }],
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "11502-2"
+    }]
+  },
+  "subject" : [{
+    "reference" : "Patient/HIVPatientExample"
+  }],
+  "encounter" : {
+    "reference" : "Encounter/TargetFacilityEncounterExample"
+  },
+  "date" : "2023-08-22",
+  "author" : [{
+    "reference" : "Practitioner/RequestingPractitionerExample"
+  },
+  {
+    "reference" : "Practitioner/PerformingPractitionerExample"
+  },
+  {
+    "reference" : "Practitioner/ResultsInterpreterExample"
+  }],
+  "title" : "Laboratory Report For Viral Load Testing",
+  "section" : [{
+    "title" : "Funding Organization Information",
+    "code" : {
+      "coding" : [{
+        "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information",
+        "code" : "Funding-Organization-Information"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Organization/FundingOrganizationExample"
+    }]
+  },
+  {
+    "title" : "Implementing Partner Information",
+    "code" : {
+      "coding" : [{
+        "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information",
+        "code" : "Implementing-Partner-Information"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Organization/ImplementingPartnerOrganizationExample"
+    }]
+  },
+  {
+    "title" : "Pregnancy Status",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "82810-3"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/PatientPregnantExample"
+    }]
+  },
+  {
+    "title" : "New Patient Consultation",
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "185387006"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/HIVPatientIsNewExample"
+    }]
+  },
+  {
+    "title" : "Breastfeeding Status",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "63895-7"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/BreastfeedingExample"
+    }]
+  },
+  {
+    "title" : "Consent Status",
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "309370004"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Consent/ReceiveSMSMessagesExample"
+    }]
+  },
+  {
+    "title" : "Viral Load Specimen",
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "section" : [{
+      "title" : "Specimen Information",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LP7846-1"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+      },
+      "entry" : [{
+        "reference" : "Specimen/VLSpecimenExample"
+      }]
+    },
+    {
+      "title" : "Specimen Temperature",
+      "code" : {
+        "coding" : [{
+          "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-information",
+          "code" : "Specimen-Conservation-Temperature"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+      },
+      "entry" : [{
+        "reference" : "SpecimenDefinition/SpecimenConservationExample"
+      }]
+    },
+    {
+      "title" : "Specimen Transportation",
+      "code" : {
+        "coding" : [{
+          "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-transportation",
+          "code" : "Specimen-Transportation"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+      },
+      "entry" : [{
+        "reference" : "Location/TransportRequestedLocationExample"
+      },
+      {
+        "reference" : "Location/TransportCurrentLocationExample"
+      }]
+    }]
+  },
+  {
+    "title" : "Laboratory Services",
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "46159000"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/ReasonForHIVTestingExample"
+    },
+    {
+      "reference" : "ServiceRequest/HIVServiceRequestExample"
+    },
+    {
+      "reference" : "ActivityDefinition/LabOrderTaskActivityExample"
+    },
+    {
+      "reference" : "Task/HIVLabResultTaskExample"
+    },
+    {
+      "reference" : "Device/TestingPlatformExample"
+    },
+    {
+      "reference" : "Organization/RequestingOrganizationExample"
+    },
+    {
+      "reference" : "Practitioner/RequestingPractitionerExample"
+    },
+    {
+      "reference" : "Organization/PerformingOrganizationExample"
+    },
+    {
+      "reference" : "Practitioner/PerformingPractitionerExample"
+    }],
+    "section" : [{
+      "title" : "Result Information",
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "118246004"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+      },
+      "entry" : [{
+        "reference" : "DiagnosticReport/HIVLabResultsDiagnosticReportExample"
+      },
+      {
+        "reference" : "Transport/ResultDispatchedToRequestingFacilityExample"
+      },
+      {
+        "reference" : "Observation/HIVTestResultExample"
+      },
+      {
+        "reference" : "Observation/HIVTestResultViralLoadLogExample"
+      },
+      {
+        "reference" : "Observation/HIVTestResultAbsoluteDecimalExample"
+      },
+      {
+        "reference" : "Observation/RepeatHIVTestResultExample"
+      },
+      {
+        "reference" : "Observation/SuspendTreatmentHIVTestResultExample"
+      }],
+      "section" : [{
+        "title" : "Results Interpreter Details",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "726736004"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+        },
+        "entry" : [{
+          "reference" : "Practitioner/ResultsInterpreterExample"
+        }]
+      }]
+    }]
+  },
+  {
+    "title" : "ART Status",
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "410684002"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/ARTInitiatedExample"
+    },
+    {
+      "reference" : "Observation/ARVRegimenChangeExample"
+    },
+    {
+      "reference" : "Observation/ARTRegimenSwitchedOrSubstitutedExample"
+    },
+    {
+      "reference" : "Observation/ARVAdherenceExample"
+    },
+    {
+      "reference" : "CarePlan/ARVTreatmentRegimenChangedExample"
+    },
+    {
+      "reference" : "CarePlan/ARVTreatmentInitiatedExample"
+    }],
+    "section" : [{
+      "title" : "Prescribed ARV Medication",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "45260-7"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>To be added</p></div>"
+      },
+      "entry" : [{
+        "reference" : "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"
+      },
+      {
+        "reference" : "MedicationRequest/ARVRegimenMedicationRequestARVExample"
+      }]
+    }]
+  }]
+}

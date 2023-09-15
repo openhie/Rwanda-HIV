@@ -1,0 +1,132 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-arv-regimen",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-regimen",
+  "version" : "0.1.0",
+  "name" : "VSARVRegimen",
+  "title" : "ARV Regimen",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-15T07:22:29+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A list of ARV regimen.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "387105006",
+        "display" : "Didanosine"
+      },
+      {
+        "code" : "387005008",
+        "display" : "Abacavir"
+      },
+      {
+        "code" : "772188001",
+        "display" : "Product containing only abacavir and lamivudine"
+      },
+      {
+        "code" : "427314002",
+        "display" : "Antiviral therapy"
+      },
+      {
+        "code" : "878898002",
+        "display" : "Product containing only atazanavir and ritonavir"
+      },
+      {
+        "code" : "713464000",
+        "display" : "Dolutegravir"
+      },
+      {
+        "code" : "387001004",
+        "display" : "Efavirenz"
+      },
+      {
+        "code" : "404856006",
+        "display" : "Emtricitabine"
+      },
+      {
+        "code" : "432121008",
+        "display" : "Etravirine"
+      },
+      {
+        "code" : "386897000",
+        "display" : "Lamivudine"
+      },
+      {
+        "code" : "776569000",
+        "display" : "Product containing only lopinavir and ritonavir"
+      },
+      {
+        "code" : "386898005",
+        "display" : "Nevirapine"
+      },
+      {
+        "code" : "429707008",
+        "display" : "Raltegravir"
+      },
+      {
+        "code" : "703123005",
+        "display" : "Rilpivirine"
+      },
+      {
+        "code" : "386896009",
+        "display" : "Ritonavir"
+      },
+      {
+        "code" : "386895008",
+        "display" : "Stavudine"
+      },
+      {
+        "code" : "422091007",
+        "display" : "Tenofovir"
+      },
+      {
+        "code" : "421203005",
+        "display" : "Tenofovir disoproxil"
+      },
+      {
+        "code" : "414090006",
+        "display" : "Product containing emtricitabine and tenofovir"
+      },
+      {
+        "code" : "387151007",
+        "display" : "Zidovudine"
+      },
+      {
+        "code" : "776469003",
+        "display" : "Product containing only lamivudine and zidovudine"
+      }]
+    }]
+  }
+}

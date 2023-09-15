@@ -1,0 +1,93 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-for-assessment> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cs-reason-for-assessment"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-for-assessment"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSReasonForAssessment"] ; # 
+  fhir:title [ fhir:v "VLSMS Provided Reasons For Testing"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-09-15T07:34:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Jembi Health Systems" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.jembi.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "info@jembi.org" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Richard Langford" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "richard.langford@jembi.org" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Reasons why a sample will be tested."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "13"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Baseline-VL" ] ;
+     fhir:display [ fhir:v "Baseline VL" ]
+  ] [
+     fhir:code [ fhir:v "Confirmation-Of-Treatment-Failure" ] ;
+     fhir:display [ fhir:v "Confirmation Of Treatment Failure(repeat VL at 3M)" ]
+  ] [
+     fhir:code [ fhir:v "Excol" ] ;
+     fhir:display [ fhir:v "Excol" ]
+  ] [
+     fhir:code [ fhir:v "Failure" ] ;
+     fhir:display [ fhir:v "failure" ]
+  ] [
+     fhir:code [ fhir:v "Immunological-Failure" ] ;
+     fhir:display [ fhir:v "immunological failure" ]
+  ] [
+     fhir:code [ fhir:v "Lactating-Mother" ] ;
+     fhir:display [ fhir:v "Lactating Mother" ]
+  ] [
+     fhir:code [ fhir:v "Pregnant-Mother" ] ;
+     fhir:display [ fhir:v "Pregnant Mother" ]
+  ] [
+     fhir:code [ fhir:v "Recency" ] ;
+     fhir:display [ fhir:v "recency" ]
+  ] [
+     fhir:code [ fhir:v "Result-Missing" ] ;
+     fhir:display [ fhir:v "result missing" ]
+  ] [
+     fhir:code [ fhir:v "Routine" ] ;
+     fhir:display [ fhir:v "routine" ]
+  ] [
+     fhir:code [ fhir:v "Single-Drug-Substitution" ] ;
+     fhir:display [ fhir:v "single drug substitution" ]
+  ] [
+     fhir:code [ fhir:v "Suspect" ] ;
+     fhir:display [ fhir:v "suspect" ]
+  ] [
+     fhir:code [ fhir:v "Value-Missed" ] ;
+     fhir:display [ fhir:v "value missed" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

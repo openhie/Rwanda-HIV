@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="PerformingOrganizationExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="PerformingOrganizationExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;PerformingOrganizationExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-performing-organization.html">Performing Organization</a></p></div><p><b>Performing Organization Province</b>: 4</p><p><b>Performing Organization District</b>: 9</p><p><b>identifier</b>: Performing Organization identifier: laboratory1</p><p><b>name</b>: A Laboratory name</p><h3>Contacts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Address</b></td></tr><tr><td style="display: none">*</td><td>A province name </td></tr></table></div>
+  </text>
+  <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-province-index">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization-district-index">
+    <valueInteger value="9"/>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="XX"/>
+        <display value="Organization identifier"/>
+      </coding>
+      <text value="Performing Organization identifier"/>
+    </type>
+    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/organization-id"/>
+    <value value="laboratory1"/>
+  </identifier>
+  <name value="A Laboratory name"/>
+  <contact>
+    <address>
+      <district value="A district name"/>
+      <state value="A province name"/>
+    </address>
+  </contact>
+</Organization>

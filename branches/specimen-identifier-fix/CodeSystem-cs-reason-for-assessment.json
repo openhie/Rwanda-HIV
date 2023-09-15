@@ -1,0 +1,98 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-reason-for-assessment",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-for-assessment",
+  "version" : "0.1.0",
+  "name" : "CSReasonForAssessment",
+  "title" : "VLSMS Provided Reasons For Testing",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-14T08:07:37+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Reasons why a sample will be tested.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 13,
+  "concept" : [{
+    "code" : "Baseline-VL",
+    "display" : "Baseline VL"
+  },
+  {
+    "code" : "Confirmation-Of-Treatment-Failure",
+    "display" : "Confirmation Of Treatment Failure(repeat VL at 3M)"
+  },
+  {
+    "code" : "Excol",
+    "display" : "Excol"
+  },
+  {
+    "code" : "Failure",
+    "display" : "failure"
+  },
+  {
+    "code" : "Immunological-Failure",
+    "display" : "immunological failure"
+  },
+  {
+    "code" : "Lactating-Mother",
+    "display" : "Lactating Mother"
+  },
+  {
+    "code" : "Pregnant-Mother",
+    "display" : "Pregnant Mother"
+  },
+  {
+    "code" : "Recency",
+    "display" : "recency"
+  },
+  {
+    "code" : "Result-Missing",
+    "display" : "result missing"
+  },
+  {
+    "code" : "Routine",
+    "display" : "routine"
+  },
+  {
+    "code" : "Single-Drug-Substitution",
+    "display" : "single drug substitution"
+  },
+  {
+    "code" : "Suspect",
+    "display" : "suspect"
+  },
+  {
+    "code" : "Value-Missed",
+    "display" : "value missed"
+  }]
+}

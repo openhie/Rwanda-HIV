@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-reason-for-assessment"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-for-assessment"/>
+  <version value="0.1.0"/>
+  <name value="CSReasonForAssessment"/>
+  <title value="VLSMS Provided Reasons For Testing"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-09-15T07:34:16+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Reasons why a sample will be tested."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="13"/>
+  <concept>
+    <code value="Baseline-VL"/>
+    <display value="Baseline VL"/>
+  </concept>
+  <concept>
+    <code value="Confirmation-Of-Treatment-Failure"/>
+    <display value="Confirmation Of Treatment Failure(repeat VL at 3M)"/>
+  </concept>
+  <concept>
+    <code value="Excol"/>
+    <display value="Excol"/>
+  </concept>
+  <concept>
+    <code value="Failure"/>
+    <display value="failure"/>
+  </concept>
+  <concept>
+    <code value="Immunological-Failure"/>
+    <display value="immunological failure"/>
+  </concept>
+  <concept>
+    <code value="Lactating-Mother"/>
+    <display value="Lactating Mother"/>
+  </concept>
+  <concept>
+    <code value="Pregnant-Mother"/>
+    <display value="Pregnant Mother"/>
+  </concept>
+  <concept>
+    <code value="Recency"/>
+    <display value="recency"/>
+  </concept>
+  <concept>
+    <code value="Result-Missing"/>
+    <display value="result missing"/>
+  </concept>
+  <concept>
+    <code value="Routine"/>
+    <display value="routine"/>
+  </concept>
+  <concept>
+    <code value="Single-Drug-Substitution"/>
+    <display value="single drug substitution"/>
+  </concept>
+  <concept>
+    <code value="Suspect"/>
+    <display value="suspect"/>
+  </concept>
+  <concept>
+    <code value="Value-Missed"/>
+    <display value="value missed"/>
+  </concept>
+</CodeSystem>

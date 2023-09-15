@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="EMR"/>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="Patient/HIVPatientExample"/>
+    <resource>
+      <Patient>
+        <id value="HIVPatientExample"/>
+        <meta>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="HIVPatientExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;HIVPatientExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-patient.html">Patient</a></p></div><p><b>Patient Age In Months</b>: 388</p><p><b>Patient Age In Years</b>: 32</p><p><b>name</b>: Jane Maria Smith (OFFICIAL)</p><p><b>telecom</b>: <a href="tel:+27821234567">+27821234567</a>, <a href="mailto:someone@example.com">someone@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1990-12-12</p><p><b>managingOrganization</b>: <a href="Organization-HIVOrganizationExample.html">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p></div>
+        </text>
+        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-months">
+          <valueInteger value="388"/>
+        </extension>
+        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/patient-age-years">
+          <valueInteger value="32"/>
+        </extension>
+        <name>
+          <use value="official"/>
+          <family value="Smith"/>
+          <given value="Jane"/>
+          <given value="Maria"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="+27821234567"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="someone@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1990-12-12"/>
+        <managingOrganization>
+          <reference value="Organization/HIVOrganizationExample"/>
+        </managingOrganization>
+      </Patient>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/HIVPatientExample"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="Encounter/TargetFacilityEncounterExample"/>
+    <resource>
+      <Encounter>
+        <id value="TargetFacilityEncounterExample"/>
+        <meta>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Encounter</b><a name="TargetFacilityEncounterExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Encounter &quot;TargetFacilityEncounterExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-target-facility-encounter.html">Target Facility Encounter</a></p></div><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'null')</p><p><b>subject</b>: <a href="#Patient_HIVPatientExample">See above (Patient/HIVPatientExample)</a></p><p><b>period</b>: 2022-12-01 --&gt; 2023-01-20</p></div>
+        </text>
+        <status value="finished"/>
+        <class>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+          <code value="AMB"/>
+        </class>
+        <subject>
+          <reference value="Patient/HIVPatientExample"/>
+        </subject>
+        <period>
+          <start value="2022-12-01"/>
+          <end value="2023-01-20"/>
+        </period>
+      </Encounter>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Encounter/TargetFacilityEncounterExample"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="Observation/DateHIVTestDoneExample"/>
+    <resource>
+      <Observation>
+        <id value="DateHIVTestDoneExample"/>
+        <meta>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/date-hiv-test-done"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="DateHIVTestDoneExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;DateHIVTestDoneExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-date-hiv-test-done.html">Date HIV Test Done</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Viral Load Examination <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#315124004 &quot;Human immunodeficiency virus viral load&quot;)</span></p><p><b>subject</b>: <a href="#Patient_HIVPatientExample">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href="#Encounter_TargetFacilityEncounterExample">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>effective</b>: 2022-12-10</p><p><b>note</b>: Additional information regarding the HIV test (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="315124004"/>
+            <display value="Human immunodeficiency virus viral load"/>
+          </coding>
+          <text value="Viral Load Examination"/>
+        </code>
+        <subject>
+          <reference value="Patient/HIVPatientExample"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/TargetFacilityEncounterExample"/>
+        </encounter>
+        <effectiveDateTime value="2022-12-10"/>
+        <note>
+          <authorReference>
+            <reference value="Organization/HIVOrganizationExample"/>
+          </authorReference>
+          <time value="2015-02-07T13:28:17-05:00"/>
+          <text value="Additional information regarding the HIV test"/>
+        </note>
+      </Observation>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Observation/DateHIVTestDoneExample"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="Observation/HIVTestResultExample"/>
+    <resource>
+      <Observation>
+        <id value="HIVTestResultExample"/>
+        <meta>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="HIVTestResultExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;HIVTestResultExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-viral-load-test-result.html">Lab Results</a></p></div><p><b>Test Result Entered Manually</b>: false</p><p><b>status</b>: final</p><p><b>code</b>: Viral Load Result <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#398579006 &quot;Human immunodeficiency virus-1 nucleic acid assay&quot;)</span></p><p><b>subject</b>: <a href="#Patient_HIVPatientExample">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href="#Encounter_TargetFacilityEncounterExample">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href="Organization-HIVOrganizationExample.html">Organization/HIVOrganizationExample</a> &quot;HIV Test Services Health Facility&quot;</p><p><b>value</b>: 1001</p><p><b>interpretation</b>: Viral Load Suppression Status <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#19032002 &quot;Uncontrolled&quot;)</span></p><p><b>note</b>: Viral load not suppressed (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+        </text>
+        <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-entered-manually">
+          <valueBoolean value="false"/>
+        </extension>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="398579006"/>
+            <display value="Human immunodeficiency virus-1 nucleic acid assay"/>
+          </coding>
+          <text value="Viral Load Result"/>
+        </code>
+        <subject>
+          <reference value="Patient/HIVPatientExample"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/TargetFacilityEncounterExample"/>
+        </encounter>
+        <effectiveDateTime value="2022-11-30"/>
+        <performer>
+          <reference value="Organization/HIVOrganizationExample"/>
+        </performer>
+        <valueInteger value="1001"/>
+        <interpretation>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="19032002"/>
+            <display value="Uncontrolled"/>
+          </coding>
+          <text value="Viral Load Suppression Status"/>
+        </interpretation>
+        <note>
+          <authorReference>
+            <reference value="Organization/HIVOrganizationExample"/>
+          </authorReference>
+          <time value="2015-02-07T13:28:17-05:00"/>
+          <text value="Viral load not suppressed"/>
+        </note>
+      </Observation>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Observation/HIVTestResultExample"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="CarePlan/ARVTreatmentExample"/>
+    <resource>
+      <CarePlan>
+        <id value="ARVTreatmentExample"/>
+        <meta>
+          <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="ARVTreatmentExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource CarePlan &quot;ARVTreatmentExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-arv-treatment.html">ARV Treatment</a></p></div><p><b>identifier</b>: Unique ART number: UAN000123</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href="#Patient_HIVPatientExample">See above (Patient/HIVPatientExample)</a></p><p><b>encounter</b>: <a href="#Encounter_TargetFacilityEncounterExample">See above (Encounter/TargetFacilityEncounterExample)</a></p><p><b>period</b>: 2022-12-01 --&gt; 2022-12-01</p><blockquote><p><b>activity</b></p><h3>Details</h3><table class="grid"><tr><td>-</td><td><b>Extension</b></td><td><b>Kind</b></td><td><b>Code</b></td><td><b>ReasonCode</b></td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Product[x]</b></td></tr><tr><td>*</td><td/><td>MedicationRequest</td><td>HIV medication request <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#45260-7 &quot;HIV ART medication&quot;)</span></td><td>Regimen change reason <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#76018003 &quot;Virologic&quot;)</span></td><td>in-progress</td><td>2023-01-01 --&gt; 2023-01-01</td><td>ARV regimen <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#427314002 &quot;Antiviral therapy&quot;)</span></td></tr></table></blockquote><p><b>note</b>: ABC + 3TC + LPV/r (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+        </text>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="PLAC"/>
+              <display value="Placer identifier"/>
+            </coding>
+            <text value="Unique ART number"/>
+          </type>
+          <system value="http://openhie.org/fhir/rwanda-hiv/identifier/uan"/>
+          <value value="UAN000123"/>
+        </identifier>
+        <status value="active"/>
+        <intent value="plan"/>
+        <subject>
+          <reference value="Patient/HIVPatientExample"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/TargetFacilityEncounterExample"/>
+        </encounter>
+        <period>
+          <start value="2022-12-01"/>
+          <end value="2022-12-01"/>
+        </period>
+        <activity>
+          <detail>
+            <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted">
+              <valueBoolean value="false"/>
+            </extension>
+            <kind value="MedicationRequest"/>
+            <code>
+              <coding>
+                <system value="http://loinc.org"/>
+                <code value="45260-7"/>
+                <display value="HIV ART medication"/>
+              </coding>
+              <text value="HIV medication request"/>
+            </code>
+            <reasonCode>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="76018003"/>
+                <display value="Virologic"/>
+              </coding>
+              <text value="Regimen change reason"/>
+            </reasonCode>
+            <status value="in-progress"/>
+            <scheduledPeriod>
+              <start value="2023-01-01"/>
+              <end value="2023-01-01"/>
+            </scheduledPeriod>
+            <productCodeableConcept>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="427314002"/>
+                <display value="Antiviral therapy"/>
+              </coding>
+              <text value="ARV regimen"/>
+            </productCodeableConcept>
+          </detail>
+        </activity>
+        <note>
+          <authorReference>
+            <reference value="Organization/HIVOrganizationExample"/>
+          </authorReference>
+          <time value="2015-02-07T13:28:17-05:00"/>
+          <text value="ABC + 3TC + LPV/r"/>
+        </note>
+      </CarePlan>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="CarePlan/ARVTreatmentExample"/>
+    </request>
+  </entry>
+</Bundle>

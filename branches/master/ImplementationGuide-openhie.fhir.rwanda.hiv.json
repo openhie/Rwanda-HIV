@@ -1,0 +1,1788 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "openhie.fhir.rwanda.hiv",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv",
+  "version" : "0.1.0",
+  "name" : "RwandaHIV",
+  "title" : "HL7 FHIR Implementation Guide: Rwanda HIV",
+  "status" : "active",
+  "date" : "2022-04-27",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A FHIR Implementation Guide - Rwanda HIV",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "packageId" : "openhie.fhir.rwanda.hiv",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["5.0.0"],
+  "dependsOn" : [{
+    "id" : "hl7tx",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+    }],
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r5",
+    "version" : "5.3.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r5",
+    "version" : "1.0.0"
+  }],
+  "definition" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools#current"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-arv-adherence"
+      },
+      "name" : "Adherence to ARV Treatment",
+      "description" : "Adherence to ARV Treatment.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-arv-adherence"
+      },
+      "name" : "Adherence to ARV Treatment Observation",
+      "description" : "Represents a patient’s adherence to ARV treatment.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ARVAdherenceExample"
+      },
+      "name" : "Adherence to ARV Treatment Observation",
+      "description" : "Represents a patient’s adherence to ARV treatment.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/art-initiated"
+      },
+      "name" : "ART Initiated Observation",
+      "description" : "Represents a patient who is initiated on ART.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ARTInitiatedExample"
+      },
+      "name" : "ART Initiated Observation",
+      "description" : "Represents a patient who is initiated on ART.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/art-regimen-switched-or-substituted"
+      },
+      "name" : "ART Regimen Switched Or Substituted Observation",
+      "description" : "Represents a patient whose ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ARTRegimenSwitchedOrSubstitutedExample"
+      },
+      "name" : "ART Regimen Switched Or Substituted Observation",
+      "description" : "Represents a patient whose ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-arv-regimen"
+      },
+      "name" : "ARV Regimen",
+      "description" : "A list of ARV regimen.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/arv-regimen-change"
+      },
+      "name" : "ARV Regimen Change Observation",
+      "description" : "Represents a patient whose ARV regimen was changed.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ARVRegimenChangeExample"
+      },
+      "name" : "ARV Regimen Change Observation",
+      "description" : "Represents a patient whose ARV regimen was changed.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/arv-regimen-medication-request"
+      },
+      "name" : "ARV Regimen Medication Request",
+      "description" : "Represents a prescription request for an ARV regimen for a patient.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationRequest"
+      }],
+      "reference" : {
+        "reference" : "MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"
+      },
+      "name" : "ARV Regimen Medication Request",
+      "description" : "Represents a prescription request for a patient whose ARV regimen was changed.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationRequest"
+      }],
+      "reference" : {
+        "reference" : "MedicationRequest/ARVRegimenMedicationRequestARVExample"
+      },
+      "name" : "ARV Regimen Medication Request",
+      "description" : "Represents a prescription request for a patient's ARV. \n    This resource will be used for ART initiated patient's as well as for routine ARV prescriptions.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-arv-treatment"
+      },
+      "name" : "ARV Treatment CarePlan",
+      "description" : "Represents a patient’s Antiretroviral Therapy (ART) treatment record, starting from ART initiation.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CarePlan"
+      }],
+      "reference" : {
+        "reference" : "CarePlan/ARVTreatmentRegimenChangedExample"
+      },
+      "name" : "ARV Treatment CarePlan",
+      "description" : "Represents an ARV CarePlan for a patient whose regimen was changed.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CarePlan"
+      }],
+      "reference" : {
+        "reference" : "CarePlan/ARVTreatmentInitiatedExample"
+      },
+      "name" : "ARV Treatment CarePlan",
+      "description" : "Represents an ARV CarePlan for a patient on ART. \n    This resource will be used for ART initiated patient's as well as for routine ARV prescriptions.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-patient-breastfeeding"
+      },
+      "name" : "Breastfeeding Patient Observation",
+      "description" : "Represents a breastfeeding patient.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BreastfeedingExample"
+      },
+      "name" : "Breastfeeding Patient Observation",
+      "description" : "Represents a breastfeeding patient.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/clinician-user-index"
+      },
+      "name" : "Clinician User Index",
+      "description" : "The user index for the person who is requesting or performing the service request.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/funding-source"
+      },
+      "name" : "Funding Organization",
+      "description" : "Funding organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/funding-source-index"
+      },
+      "name" : "Funding Organization",
+      "description" : "The index for the funding organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/FundingOrganizationExample"
+      },
+      "name" : "Funding Organization",
+      "description" : "Funding organization.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-lab-task-activity"
+      },
+      "name" : "HIV Lab Order Activity Definition",
+      "description" : "Represents more specific information regarding the task’s lab order request.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ActivityDefinition"
+      }],
+      "reference" : {
+        "reference" : "ActivityDefinition/LabOrderTaskActivityExample"
+      },
+      "name" : "HIV Lab Order Activity Definition",
+      "description" : "Represents more specific information regarding the task’s lab order request INCLUDING specimenRequirement Reference.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ActivityDefinition"
+      }],
+      "reference" : {
+        "reference" : "ActivityDefinition/LabOrderResultTaskActivityExample"
+      },
+      "name" : "HIV Lab Order Activity Definition",
+      "description" : "Represents more specific information regarding the task’s lab order request EXCLUDING specimenRequirement Reference.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/task-approved-by-user-index"
+      },
+      "name" : "HIV Lab Task Approved By",
+      "description" : "The user index for the person who approved the HIV lab task.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/task-reviewed-by-user-index"
+      },
+      "name" : "HIV Lab Task Reviewed By",
+      "description" : "The user index for the person who reviewed the HIV lab task.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-organization"
+      },
+      "name" : "HIV Organization",
+      "description" : "Organization providing HIV Testing Services.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-patient"
+      },
+      "name" : "HIV Patient",
+      "description" : "Is used to document demographics and other administrative information about a HIV individual receiving care or other health-related services.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/HIVPatientExample"
+      },
+      "name" : "HIV Patient",
+      "description" : "Is used to document demographics and other administrative information about a HIV individual receiving care or other health-related services.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-patient-is-new"
+      },
+      "name" : "HIV Patient Is New Observation",
+      "description" : "Represents whether this is a new patient.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HIVPatientIsNewExample"
+      },
+      "name" : "HIV Patient Is New Observation",
+      "description" : "Represents whether this is a new patient.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-test-types"
+      },
+      "name" : "HIV Test Types",
+      "description" : "A list of HIV test types.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-diagnostic-report"
+      },
+      "name" : "HIV Viral Load Diagnostic Report",
+      "description" : "Represents the findings and interpretations for a VL test.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DiagnosticReport"
+      }],
+      "reference" : {
+        "reference" : "DiagnosticReport/HIVLabResultsDiagnosticReportExample"
+      },
+      "name" : "HIV Viral Load Diagnostic Report",
+      "description" : "Represents the findings and interpretations for a VL test.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/revised-by-user-index"
+      },
+      "name" : "HIV Viral Load Result Revised By",
+      "description" : "The user index for the person who reviewed the viral load result.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tested-by-user-index"
+      },
+      "name" : "HIV Viral Load Result Tested By",
+      "description" : "The user index for the person who tested the viral load specimen.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-lab-task"
+      },
+      "name" : "HIV VL Lab Order Task",
+      "description" : "Is primarily used to track the progress of a HIV VL lab order. More specifically, the lab order ID for the \n        service request is documented in this profile and is also used to document other key data such as the reason(s) for sample cancellation or \n        rejection and the type of output that, when applicable, will be produced by the task.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Task"
+      }],
+      "reference" : {
+        "reference" : "Task/HIVLabOrderTaskExample"
+      },
+      "name" : "HIV VL Lab Order Task",
+      "description" : "Represents a New Lab Order.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Task"
+      }],
+      "reference" : {
+        "reference" : "Task/HIVLabResultTaskExample"
+      },
+      "name" : "HIV VL Lab Order Task",
+      "description" : "Represents a Lab Result.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Task"
+      }],
+      "reference" : {
+        "reference" : "Task/HIVLabOrderCancellationTaskExample"
+      },
+      "name" : "HIV VL Lab Order Task",
+      "description" : "Represents HIV Lab Order Cancellation.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Task"
+      }],
+      "reference" : {
+        "reference" : "Task/HIVLabOrderRejectionTaskExample"
+      },
+      "name" : "HIV VL Lab Order Task",
+      "description" : "Represents HIV Lab Order Rejection",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-test-result"
+      },
+      "name" : "HIV VL Lab Result Observation",
+      "description" : "Represents the result of the VL test.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HIVTestResultExample"
+      },
+      "name" : "HIV VL Lab Result Observation",
+      "description" : "Represents the result of the VL test.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/HIV-lab-order"
+      },
+      "name" : "HIV VL Service Request",
+      "description" : "Represents the record of request for the HIV VL lab order.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/HIVServiceRequestExample"
+      },
+      "name" : "HIV VL Service Request",
+      "description" : "Represents the record of request for the HIV VL lab order.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/implementing-partner"
+      },
+      "name" : "Implementing Partner Organization",
+      "description" : "Implementing partner organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/implementing-partner-index"
+      },
+      "name" : "Implementing Partner Organization",
+      "description" : "The index for the implementing partner organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/ImplementingPartnerOrganizationExample"
+      },
+      "name" : "Implementing Partner Organization",
+      "description" : "Implementing partner organization.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-reason-sample-cancelled-or-rejected"
+      },
+      "name" : "Lab Order Reasons For Cancelling/Rejecting Lab Order",
+      "description" : "Reasons why a lab order was cancelled or rejected.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/LabResult"
+      },
+      "name" : "Lab Result Bundle",
+      "description" : "Represents a Lab Result Bundle.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/vl-composition"
+      },
+      "name" : "Laboratory Report For Viral Load Testing",
+      "description" : "Logically groups all resources into a single document structure.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/VLCompositionExample"
+      },
+      "name" : "Laboratory Report For Viral Load Testing",
+      "description" : "Logically groups all resources into a single document structure.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/laboratory-report-organization-information"
+      },
+      "name" : "Laboratory Report Organization Information Codes",
+      "description" : "Used by the relevant section defintions in the Composition resource.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/laboratory-report-specimen-information"
+      },
+      "name" : "Laboratory Report Specimen Information Codes",
+      "description" : "Used by the relevant section defintions in the Composition resource.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/laboratory-report-specimen-transportation"
+      },
+      "name" : "Laboratory Report Specimen Transportation Codes",
+      "description" : "Used by the relevant section defintions in the Composition resource.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/HIVOrganizationExample"
+      },
+      "name" : "Organization",
+      "description" : "Represents an organization associated with health services.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-age-months"
+      },
+      "name" : "Patient Age In Months",
+      "description" : "Age of the patient calculated in months.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient-age-years"
+      },
+      "name" : "Patient Age In Years",
+      "description" : "Age of the patient calculated in years.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-patient-consent-for-sms-notifications"
+      },
+      "name" : "Patient Consent for SMS Notifications",
+      "description" : "Patient Consent for SMS Notifications",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-patient-pregnant"
+      },
+      "name" : "Patient Pregnancy Status Observation",
+      "description" : "Represents the pregnancy status of a patient.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PatientPregnantExample"
+      },
+      "name" : "Patient Pregnancy Status Observation",
+      "description" : "Represents the pregnancy status of a patient.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-patient-pregnant"
+      },
+      "name" : "Patient Pregnant",
+      "description" : "Used by the observation to indicate whether a patient is pregnant.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/performing-organization"
+      },
+      "name" : "Performing Organization",
+      "description" : "Organization responsible for carrying out the HIV testing services.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/PerformingOrganizationExample"
+      },
+      "name" : "Performing Organization",
+      "description" : "Organization responsible for carrying out the HIV testing services.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/performing-organization-district-index"
+      },
+      "name" : "Performing Organization District",
+      "description" : "The district index for the performing organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/performing-organization-province-index"
+      },
+      "name" : "Performing Organization Province",
+      "description" : "The province index for the performing organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hiv-practitioner"
+      },
+      "name" : "Practitioner",
+      "description" : "Represents the practitioners: (1) who requested the VL lab order, (2) who must perform the VL examination \n    and (3) who is responsible for interpreting the results.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/RequestingPractitionerExample"
+      },
+      "name" : "Practitioner",
+      "description" : "Represents the practitioner who requested the VL lab order.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/PerformingPractitionerExample"
+      },
+      "name" : "Practitioner",
+      "description" : "Represents the practitioner who must perform the VL examination.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/ObservationPerformingPractitionerExample"
+      },
+      "name" : "Practitioner",
+      "description" : "Represents the practitioner who is responsible for the observation.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/ResultsInterpreterExample"
+      },
+      "name" : "Practitioner",
+      "description" : "Represents the practitioner who is responsible for interpreting the results.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-reason-for-assessment"
+      },
+      "name" : "Reason for Assessment or Test Not Performed",
+      "description" : "A list of reasons associated with the service request for the lab order.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/reason-for-hiv-testing"
+      },
+      "name" : "Reason for HIV testing Observation",
+      "description" : "Represents the reason for HIV VL testing services.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ReasonForHIVTestingExample"
+      },
+      "name" : "Reason for HIV testing Observation",
+      "description" : "Represents the reason for HIV VL testing services.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-reason-arv-regimen-change"
+      },
+      "name" : "Reasons for ARV Regimen Change",
+      "description" : "Used by the ARV treatment careplan to indicate the reason why a patient had their ARV regimen changed.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/receive-sms-messages"
+      },
+      "name" : "Receive SMS Messages Consent",
+      "description" : "Represents a patient’s consent to receive Short Message Service (SMS) messages.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/DoNotReceiveSMSMessagesExample"
+      },
+      "name" : "Receive SMS Messages Consent",
+      "description" : "Represents an indication that a patient does not consent to receiving SMS messages.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/ReceiveSMSMessagesExample"
+      },
+      "name" : "Receive SMS Messages Consent",
+      "description" : "Represents an indication that a patient does consent to receiving SMS messages.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-repeat-test-result"
+      },
+      "name" : "Repeat HIV VL Lab Result Observation",
+      "description" : "Represents the result of the repeat VL test.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/RepeatHIVTestResultExample"
+      },
+      "name" : "Repeat HIV VL Lab Result Observation",
+      "description" : "Represents the result of the repeat VL test.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/requesting-organization"
+      },
+      "name" : "Requesting Organization",
+      "description" : "Organization requesting for HIV testing services.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/RequestingOrganizationExample"
+      },
+      "name" : "Requesting Organization",
+      "description" : "Organization requesting for HIV testing services.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/result-dispatched-to-facility"
+      },
+      "name" : "Result Dispatched",
+      "description" : "Represents the transport request for the VL examination result to be returned to the requesting facility.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Transport"
+      }],
+      "reference" : {
+        "reference" : "Transport/ResultDispatchedToRequestingFacilityExample"
+      },
+      "name" : "Result Dispatched",
+      "description" : "Represents the transport request for the VL examination result to be returned to the requesting facility.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/result-status-index"
+      },
+      "name" : "Result Status Index",
+      "description" : "The result status index.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/sample-dispatched-to-lab"
+      },
+      "name" : "Sample Dispatched",
+      "description" : "Represents the transport request for the VL specimen to be sent to the lab.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Transport"
+      }],
+      "reference" : {
+        "reference" : "Transport/SampleDispatchedToLabExample"
+      },
+      "name" : "Sample Dispatched",
+      "description" : "Represents the transport request for the VL specimen to be sent to the lab.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/sample-rejected-index"
+      },
+      "name" : "Sample Rejected Index",
+      "description" : "The sample rejection index.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/sample-reordered"
+      },
+      "name" : "Sample reordered",
+      "description" : "An indication whether the sample was reordered.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/specimen-preservation"
+      },
+      "name" : "Specimen Conservation",
+      "description" : "Is used to store specimen conservation data for the VL lab order. In other words, this profile is useful for documenting the ideal \n    preservation and/or transportation temperatures (low/high) of the specimen before it gets tested. In addition, this resource is used \n    to document the maximum preservation time for these temperatures and also includes preservation instructions.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SpecimenDefinition"
+      }],
+      "reference" : {
+        "reference" : "SpecimenDefinition/SpecimenConservationExample"
+      },
+      "name" : "Specimen Conservation",
+      "description" : "Is used to store specimen conservation data for the VL lab order. In other words, this profile is useful for documenting the ideal \n    preservation and/or transportation temperatures (low/high) of the specimen before it gets tested. In addition, this resource is used \n    to document the maximum preservation time for these temperatures and also includes preservation instructions.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-specimen-type"
+      },
+      "name" : "Specimen Type Used In Viral Load testing",
+      "description" : "A list of specimen types.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-suspend-treatment-test-result"
+      },
+      "name" : "Suspended Treatment HIV VL Lab Result Observation",
+      "description" : "Represents the result of the VL test for patient's who suspended treatment.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/SuspendTreatmentHIVTestResultExample"
+      },
+      "name" : "Suspended Treatment HIV VL Lab Result Observation",
+      "description" : "Represents the result of the VL test for patient's who suspended treatment.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/target-facility-encounter"
+      },
+      "name" : "Target Facility Encounter",
+      "description" : "Represents the current facility at which the patient is receiving health services.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/TargetFacilityEncounterExample"
+      },
+      "name" : "Target Facility Encounter",
+      "description" : "Represents the current facility at which the patient is receiving health services.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/result-entered-manually"
+      },
+      "name" : "Test Result Entered Manually",
+      "description" : "An indication whether the test result was entered manually.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/device-for-testing"
+      },
+      "name" : "Testing Platform",
+      "description" : "The device platform used for testing.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Device"
+      }],
+      "reference" : {
+        "reference" : "Device/TestingPlatformExample"
+      },
+      "name" : "Testing Platform",
+      "description" : "The device platform used for testing.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/transport-location"
+      },
+      "name" : "Transport Location",
+      "description" : "Represents the names of the requested and current locations associated with the transport activity (VL specimen sent to lab, VL result returned to facility).",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/TransportRequestedLocationExample"
+      },
+      "name" : "Transport Location",
+      "description" : "Represents the name of the requested location associated with the transport activity.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/TransportCurrentLocationExample"
+      },
+      "name" : "Transport Location",
+      "description" : "Represents the name of the current location associated with the transport activity.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-log"
+      },
+      "name" : "Viral Load Log Observation",
+      "description" : "Represents the log value for the routine VL test result.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HIVTestResultViralLoadLogExample"
+      },
+      "name" : "Viral Load Log Observation",
+      "description" : "Represents the log value for the routine VL test result.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-test-result-absolute-decimal"
+      },
+      "name" : "Viral Load Result Absolute Decimal Observation",
+      "description" : "Represents the absolute decimal value for the routine VL test result",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HIVTestResultAbsoluteDecimalExample"
+      },
+      "name" : "Viral Load Result Absolute Decimal Observation",
+      "description" : "Represents the absolute decimal value for the routine VL test result",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/viral-load-specimen"
+      },
+      "name" : "Viral Load Specimen",
+      "description" : "Represents the VL test sample that was collected for the service request.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Specimen"
+      }],
+      "reference" : {
+        "reference" : "Specimen/VLSpecimenExample"
+      },
+      "name" : "Viral Load Specimen",
+      "description" : "Represents the VL test sample that was collected for the service request.",
+      "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen",
+      "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-vl-suppression"
+      },
+      "name" : "Viral Load Suppressions Status",
+      "description" : "Describes a patient's current viral load status.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/cs-reason-sample-cancelled-or-rejected"
+      },
+      "name" : "VLSMS Provided Reasons For Cancelling/Rejecting Lab Order",
+      "description" : "Reasons why a lab order was cancelled or rejected.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/cs-reason-for-assessment"
+      },
+      "name" : "VLSMS Provided Reasons For Testing",
+      "description" : "Reasons why a sample will be tested.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/VLSMS-VL-Request-Transactional"
+      },
+      "name" : "VLSMS VL Request Bundle",
+      "description" : "Represents the VLSMS VL Request Bundle (Transactional Type).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/VLSMS-VL-Request-Document"
+      },
+      "name" : "VLSMS VL Request Bundle",
+      "description" : "Represents the VLSMS VL Request Bundle (Document Type).",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/VLSMSVLResult"
+      },
+      "name" : "VLSMS VL Result Bundle",
+      "description" : "Represents the VLSMS VL Result Bundle.",
+      "isExample" : true
+    }],
+    "page" : {
+      "sourceUrl" : "toc.html",
+      "name" : "toc.html",
+      "title" : "Table of Contents",
+      "generation" : "html",
+      "page" : [{
+        "sourceUrl" : "index.html",
+        "name" : "index.html",
+        "title" : "Home",
+        "generation" : "html"
+      },
+      {
+        "sourceUrl" : "changes.html",
+        "name" : "changes.html",
+        "title" : "Changes",
+        "generation" : "html"
+      }]
+    },
+    "parameter" : [{
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "copyrightyear"
+      },
+      "value" : "2021+"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "releaselabel"
+      },
+      "value" : "STU1"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "autoload-resources"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/capabilities"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/examples"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/extensions"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/models"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/operations"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/profiles"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/resources"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/vocabulary"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/maps"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/testing"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/history"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "fsh-generated/resources"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
+      "value" : "template/config"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
+      "value" : "input/images"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-liquid"
+      },
+      "value" : "template/liquid"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-liquid"
+      },
+      "value" : "input/liquid"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-qa"
+      },
+      "value" : "temp/qa"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-temp"
+      },
+      "value" : "temp/pages"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-output"
+      },
+      "value" : "output"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-tx-cache"
+      },
+      "value" : "input-cache/txcache"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-suppressed-warnings"
+      },
+      "value" : "input/ignoreWarnings.txt"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-history"
+      },
+      "value" : "http://openhie.org/fhir/rwanda-hiv/history.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "template-html"
+      },
+      "value" : "template-page.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "template-md"
+      },
+      "value" : "template-page-md.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-contact"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-context"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-copyright"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-jurisdiction"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-license"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-publisher"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-version"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "active-tables"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "fmm-definition"
+      },
+      "value" : "http://hl7.org/fhir/versions.html#maturity"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "propagate-status"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "excludelogbinaryformat"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "tabbed-snapshots"
+      },
+      "value" : "true"
+    }]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "laboratory-report-organization-information",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information",
+  "version" : "0.1.0",
+  "name" : "LaboratoryReportOrganizationInformation",
+  "title" : "Laboratory Report Organization Information Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-15T07:34:16+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Used by the relevant section defintions in the Composition resource.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "Funding-Organization-Information",
+    "display" : "Funding Organization Information"
+  },
+  {
+    "code" : "Implementing-Partner-Information",
+    "display" : "Implementing Partner Information"
+  }]
+}

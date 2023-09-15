@@ -1,0 +1,214 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-reason-sample-cancelled-or-rejected",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected",
+  "version" : "0.1.0",
+  "name" : "CSReasonForSampleCancellationOrRejection",
+  "title" : "VLSMS Provided Reasons For Cancelling/Rejecting Lab Order",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-08-23T12:02:38+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Reasons why a lab order was cancelled or rejected.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 42,
+  "concept" : [{
+    "code" : "DBS_SRIC",
+    "display" : "DBS cards that have serum rings indicating contamination around spots"
+  },
+  {
+    "code" : "DBS_CPIS",
+    "display" : "DBS card with clotting present in spots"
+  },
+  {
+    "code" : "DBS_IFBS",
+    "display" : "DBS cards with insufficient blood spots"
+  },
+  {
+    "code" : "Gen_MMSP",
+    "display" : "Mismatched sample and form labeling"
+  },
+  {
+    "code" : "Gen_NoSample",
+    "display" : "Form received without Sample"
+  },
+  {
+    "code" : "Gen_ISTR",
+    "display" : "Inappropriate specimen for test request"
+  },
+  {
+    "code" : "Gen_ISPK",
+    "display" : "Inappropriate specimen packing"
+  },
+  {
+    "code" : "Gen_MIAN",
+    "display" : "Missing information on request form - ART No"
+  },
+  {
+    "code" : "Gen_MIRS",
+    "display" : "Missing information on request form - Sex"
+  },
+  {
+    "code" : "Gen_PLSP",
+    "display" : "Poorly labelled specimen"
+  },
+  {
+    "code" : "Gen_MLTS",
+    "display" : "Missing labels on container or tracking form"
+  },
+  {
+    "code" : "Gen_SMRT",
+    "display" : "Sample without request forms/Tracking forms"
+  },
+  {
+    "code" : "Gen_NIRM",
+    "display" : "Name/Information of requester is missing"
+  },
+  {
+    "code" : "Gen_MIRD",
+    "display" : "Missing information on request form - Sample Collection Date"
+  },
+  {
+    "code" : "Gen_MIRA",
+    "display" : "Missing information on request form - Age"
+  },
+  {
+    "code" : "PLS_AATA",
+    "display" : "Plasma that arrives at a temperature above 8 C"
+  },
+  {
+    "code" : "PSL_TCLT",
+    "display" : "Plasma tube contain less than 1.5 mL"
+  },
+  {
+    "code" : "FLG_TM26",
+    "display" : "MPCINVALID"
+  },
+  {
+    "code" : "FLG_AP25",
+    "display" : "SAMPLECLOT"
+  },
+  {
+    "code" : "FLG_AP24",
+    "display" : "PREP_ABORT"
+  },
+  {
+    "code" : "FLG_AP19",
+    "display" : "TEMP_RANGE"
+  },
+  {
+    "code" : "FLG_AP13",
+    "display" : "DISP_ERROR"
+  },
+  {
+    "code" : "FLG_AP12",
+    "display" : "NO_SAMPLE"
+  },
+  {
+    "code" : "FLG_AP02",
+    "display" : "REAG_ERROR"
+  },
+  {
+    "code" : "FLG_TM51",
+    "display" : "POSTCHECK"
+  },
+  {
+    "code" : "FLG_TM50",
+    "display" : "QS_INVALID"
+  },
+  {
+    "code" : "FLG_TM44",
+    "display" : "PRECHECK"
+  },
+  {
+    "code" : "FLG_TM31",
+    "display" : "MATH_ERROR"
+  },
+  {
+    "code" : "FLG_TM29",
+    "display" : "S_INVALID"
+  },
+  {
+    "code" : "FLG_TM27",
+    "display" : "HPCINVALID"
+  },
+  {
+    "code" : "FLG_TM25",
+    "display" : "LPCINVALID"
+  },
+  {
+    "code" : "FLG_TM24",
+    "display" : "NC_INVALID"
+  },
+  {
+    "code" : "FLG_TM20",
+    "display" : "DATA_ERROR"
+  },
+  {
+    "code" : "FLG_TM19",
+    "display" : "RUN_EXPIRY"
+  },
+  {
+    "code" : "FLG_TMAP",
+    "display" : "KIT_EXPIRY"
+  },
+  {
+    "code" : "FLG_TM17",
+    "display" : "A/D_ABORT"
+  },
+  {
+    "code" : "FLG_TM00",
+    "display" : "SYS_ERROR"
+  },
+  {
+    "code" : "FLG_AL00",
+    "display" : "CNTRL_FAIL"
+  },
+  {
+    "code" : "FLG_",
+    "display" : "VL Machine Flag"
+  },
+  {
+    "code" : "BLD_AASC",
+    "display" : "ETDA tube that arrives more than 24 hours after specimen collection"
+  },
+  {
+    "code" : "BLD_HMLY",
+    "display" : "EDTA tube specimens that arrived hemolyzed"
+  },
+  {
+    "code" : "BLD_WCAU",
+    "display" : "Wrong container/anticoagulant used"
+  }]
+}

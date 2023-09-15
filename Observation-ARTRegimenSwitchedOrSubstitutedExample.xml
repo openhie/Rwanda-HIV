@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ARTRegimenSwitchedOrSubstitutedExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="ARTRegimenSwitchedOrSubstitutedExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;ARTRegimenSwitchedOrSubstitutedExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-art-regimen-switched-or-substituted.html">ART Regimen Switched Or Substituted Observation</a></p></div><p><b>status</b>: final</p><p><b>code</b>: ARV Regimen Change <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#182838006 &quot;Change of medication&quot;)</span></p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>effective</b>: 2022-11-30</p><p><b>performer</b>: <a href="Practitioner-ObservationPerformingPractitionerExample.html">Practitioner/ObservationPerformingPractitionerExample</a> &quot; WHITE&quot;</p><p><b>value</b>: true</p><p><b>note</b>: Some comments (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="182838006"/>
+      <display value="Change of medication"/>
+    </coding>
+    <text value="ARV Regimen Change"/>
+  </code>
+  <subject>
+    <reference value="Patient/HIVPatientExample"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/TargetFacilityEncounterExample"/>
+  </encounter>
+  <effectiveDateTime value="2022-11-30"/>
+  <performer>
+    <reference value="Practitioner/ObservationPerformingPractitionerExample"/>
+  </performer>
+  <valueBoolean value="true"/>
+  <note>
+    <authorReference>
+      <reference value="Organization/HIVOrganizationExample"/>
+    </authorReference>
+    <time value="2015-02-07T13:28:17-05:00"/>
+    <text value="Some comments"/>
+  </note>
+</Observation>

@@ -1,0 +1,404 @@
+﻿RwandaHIV : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 167
+IG Publisher Version: 1.4.0
+Generated Wed Aug 23 12:07:37 UTC 2023. FHIR version 5.0.0 for openhie.fhir.rwanda.hiv#0.1.0 (canonical = http://openhie.org/fhir/rwanda-hiv)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderResultTaskActivityExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Bundle-VLSMS-VL-Request-Document : 0 / 0 / 82
+ /github/workspace/fsh-generated/resources/Bundle-VLSMS-VL-Request-Transactional : 0 / 0 / 80
+ /github/workspace/fsh-generated/resources/Bundle-VLSMSVLResult : 0 / 0 / 72
+ /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentInitiatedExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CarePlan-ARVTreatmentRegimenChangedExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-reason-for-assessment : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-reason-sample-cancelled-or-rejected : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-laboratory-report-organization-information : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-laboratory-report-specimen-information : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-laboratory-report-specimen-transportation : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Composition-VLCompositionExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Consent-DoNotReceiveSMSMessagesExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Consent-ReceiveSMSMessagesExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Device-TestingPlatformExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Encounter-TargetFacilityEncounterExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Location-TransportCurrentLocationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-TransportRequestedLocationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestARVExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestRegimenChangedExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARTInitiatedExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARTRegimenSwitchedOrSubstitutedExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARVAdherenceExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ARVRegimenChangeExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-BreastfeedingExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-HIVPatientIsNewExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-HIVTestResultAbsoluteDecimalExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-HIVTestResultExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-HIVTestResultViralLoadLogExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-PatientPregnantExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ReasonForHIVTestingExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-RepeatHIVTestResultExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-SuspendTreatmentHIVTestResultExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-FundingOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-HIVOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-ImplementingPartnerOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-PerformingOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-RequestingOrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-HIVPatientExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Practitioner-PerformingPractitionerExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Practitioner-RequestingPractitionerExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Practitioner-ResultsInterpreterExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ServiceRequest-HIVServiceRequestExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Specimen-VLSpecimenExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIV-lab-order : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-art-initiated : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-arv-regimen-change : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-arv-regimen-medication-request : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-clinician-user-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-device-for-testing : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-funding-source : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-funding-source-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-adherence : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-arv-treatment : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnostic-report : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-task-activity : 0 / 0 / 4
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-organization : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-is-new : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient-pregnant : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-practitioner : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-implementing-partner-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-months : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-patient-age-years : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-district-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-performing-organization-province-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-reason-for-hiv-testing : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-receive-sms-messages : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-requesting-organization : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-result-dispatched-to-facility : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-result-entered-manually : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-result-status-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-revised-by-user-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-sample-dispatched-to-lab : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-sample-rejected-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-sample-reordered : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-specimen-preservation : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-target-facility-encounter : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-task-approved-by-user-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-task-reviewed-by-user-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-tested-by-user-index : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-transport-location : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-log : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-specimen : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-suspend-treatment-test-result : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal : 0 / 0 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-vl-composition : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Task-HIVLabOrderTaskExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Task-HIVLabResultTaskExample : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Transport-ResultDispatchedToRequestingFacilityExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Transport-SampleDispatchedToLabExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-arv-adherence : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-arv-regimen : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-patient-consent-for-sms-notifications : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-patient-pregnant : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-for-assessment : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-specimen-type : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-test-types : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression : 0 / 0 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/ActivityDefinition-LabOrderResultTaskActivityExample.json ==
+INFORMATION: ActivityDefinition/LabOrderResultTaskActivityExample: ActivityDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ActivityDefinition-LabOrderTaskActivityExample.json ==
+INFORMATION: ActivityDefinition/LabOrderTaskActivityExample: ActivityDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Bundle-VLSMS-VL-Request-Document.json ==
+INFORMATION: Bundle/VLSMS-VL-Request-Document: Bundle.entry[12].resource/*CarePlan/ARVTreatmentRegimenChangedExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+INFORMATION: Bundle/VLSMS-VL-Request-Document: Bundle.entry[13].resource/*CarePlan/ARVTreatmentInitiatedExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+INFORMATION: Bundle/VLSMS-VL-Request-Document: Bundle.entry[19].resource/*Task/HIVLabResultTaskExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/Bundle-VLSMS-VL-Request-Transactional.json ==
+INFORMATION: Bundle/VLSMS-VL-Request-Transactional: Bundle.entry[11].resource/*CarePlan/ARVTreatmentRegimenChangedExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+INFORMATION: Bundle/VLSMS-VL-Request-Transactional: Bundle.entry[12].resource/*CarePlan/ARVTreatmentInitiatedExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+INFORMATION: Bundle/VLSMS-VL-Request-Transactional: Bundle.entry[18].resource/*Task/HIVLabResultTaskExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/Bundle-VLSMSVLResult.json ==
+INFORMATION: Bundle/VLSMSVLResult: Bundle.entry[11].resource/*CarePlan/ARVTreatmentRegimenChangedExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+INFORMATION: Bundle/VLSMSVLResult: Bundle.entry[12].resource/*CarePlan/ARVTreatmentInitiatedExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+INFORMATION: Bundle/VLSMSVLResult: Bundle.entry[17].resource/*Task/HIVLabResultTaskExample*/.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/CarePlan-ARVTreatmentInitiatedExample.json ==
+INFORMATION: CarePlan/ARVTreatmentInitiatedExample: CarePlan.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/CarePlan-ARVTreatmentRegimenChangedExample.json ==
+INFORMATION: CarePlan/ARVTreatmentRegimenChangedExample: CarePlan.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/CodeSystem-cs-reason-for-assessment.json ==
+INFORMATION: CodeSystem/cs-reason-for-assessment: CodeSystem.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/CodeSystem-cs-reason-sample-cancelled-or-rejected.json ==
+INFORMATION: CodeSystem/cs-reason-sample-cancelled-or-rejected: CodeSystem.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/CodeSystem-laboratory-report-organization-information.json ==
+INFORMATION: CodeSystem/laboratory-report-organization-information: CodeSystem.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/CodeSystem-laboratory-report-specimen-information.json ==
+INFORMATION: CodeSystem/laboratory-report-specimen-information: CodeSystem.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/CodeSystem-laboratory-report-specimen-transportation.json ==
+INFORMATION: CodeSystem/laboratory-report-specimen-transportation: CodeSystem.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Composition-VLCompositionExample.json ==
+== fsh-generated/resources/Consent-DoNotReceiveSMSMessagesExample.json ==
+== fsh-generated/resources/Consent-ReceiveSMSMessagesExample.json ==
+== fsh-generated/resources/Device-TestingPlatformExample.json ==
+== fsh-generated/resources/DiagnosticReport-HIVLabResultsDiagnosticReportExample.json ==
+== fsh-generated/resources/Encounter-TargetFacilityEncounterExample.json ==
+== fsh-generated/resources/ImplementationGuide-openhie.fhir.rwanda.hiv.json ==
+INFORMATION: ImplementationGuide/openhie.fhir.rwanda.hiv: ImplementationGuide.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Location-TransportCurrentLocationExample.json ==
+== fsh-generated/resources/Location-TransportRequestedLocationExample.json ==
+== fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestARVExample.json ==
+== fsh-generated/resources/MedicationRequest-ARVRegimenMedicationRequestRegimenChangedExample.json ==
+== fsh-generated/resources/Observation-ARTInitiatedExample.json ==
+== fsh-generated/resources/Observation-ARTRegimenSwitchedOrSubstitutedExample.json ==
+== fsh-generated/resources/Observation-ARVAdherenceExample.json ==
+== fsh-generated/resources/Observation-ARVRegimenChangeExample.json ==
+== fsh-generated/resources/Observation-BreastfeedingExample.json ==
+== fsh-generated/resources/Observation-HIVPatientIsNewExample.json ==
+== fsh-generated/resources/Observation-HIVTestResultAbsoluteDecimalExample.json ==
+== fsh-generated/resources/Observation-HIVTestResultExample.json ==
+== fsh-generated/resources/Observation-HIVTestResultViralLoadLogExample.json ==
+== fsh-generated/resources/Observation-PatientPregnantExample.json ==
+== fsh-generated/resources/Observation-ReasonForHIVTestingExample.json ==
+== fsh-generated/resources/Observation-RepeatHIVTestResultExample.json ==
+== fsh-generated/resources/Observation-SuspendTreatmentHIVTestResultExample.json ==
+== fsh-generated/resources/Organization-FundingOrganizationExample.json ==
+== fsh-generated/resources/Organization-HIVOrganizationExample.json ==
+== fsh-generated/resources/Organization-ImplementingPartnerOrganizationExample.json ==
+== fsh-generated/resources/Organization-PerformingOrganizationExample.json ==
+== fsh-generated/resources/Organization-RequestingOrganizationExample.json ==
+== fsh-generated/resources/Patient-HIVPatientExample.json ==
+== fsh-generated/resources/Practitioner-PerformingPractitionerExample.json ==
+== fsh-generated/resources/Practitioner-RequestingPractitionerExample.json ==
+== fsh-generated/resources/Practitioner-ResultsInterpreterExample.json ==
+== fsh-generated/resources/ServiceRequest-HIVServiceRequestExample.json ==
+== fsh-generated/resources/Specimen-VLSpecimenExample.json ==
+== fsh-generated/resources/SpecimenDefinition-SpecimenConservationExample.json ==
+== fsh-generated/resources/StructureDefinition-HIV-lab-order.json ==
+INFORMATION: StructureDefinition/HIV-lab-order: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-art-initiated.json ==
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.snapshot.element[46].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.snapshot.element[56].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-initiated: StructureDefinition.snapshot.element[57].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-art-regimen-switched-or-substituted.json ==
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.snapshot.element[47].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.snapshot.element[57].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/art-regimen-switched-or-substituted: StructureDefinition.snapshot.element[58].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-arv-regimen-change.json ==
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.snapshot.element[51].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.snapshot.element[61].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/arv-regimen-change: StructureDefinition.snapshot.element[62].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-arv-regimen-medication-request.json ==
+INFORMATION: StructureDefinition/arv-regimen-medication-request: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/arv-regimen-medication-request: StructureDefinition.snapshot.element[71].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-clinician-user-index.json ==
+INFORMATION: StructureDefinition/clinician-user-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-device-for-testing.json ==
+INFORMATION: StructureDefinition/device-for-testing: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-funding-source.json ==
+INFORMATION: StructureDefinition/funding-source: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-funding-source-index.json ==
+INFORMATION: StructureDefinition/funding-source-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-arv-adherence.json ==
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.snapshot.element[28].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.snapshot.element[43].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.snapshot.element[53].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-arv-adherence: StructureDefinition.snapshot.element[54].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-hiv-arv-treatment.json ==
+INFORMATION: StructureDefinition/hiv-arv-treatment: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-diagnostic-report.json ==
+INFORMATION: StructureDefinition/hiv-diagnostic-report: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-lab-task.json ==
+INFORMATION: StructureDefinition/hiv-lab-task: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-lab-task-activity.json ==
+INFORMATION: StructureDefinition/hiv-lab-task-activity: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/hiv-lab-task-activity: StructureDefinition.snapshot.element[25].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-lab-task-activity: StructureDefinition.snapshot.element[33].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-hiv-organization.json ==
+INFORMATION: StructureDefinition/hiv-organization: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-patient.json ==
+INFORMATION: StructureDefinition/hiv-patient: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-patient-breastfeeding.json ==
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.snapshot.element[28].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.snapshot.element[39].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.snapshot.element[49].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-breastfeeding: StructureDefinition.snapshot.element[50].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-hiv-patient-is-new.json ==
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.snapshot.element[28].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.snapshot.element[39].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.snapshot.element[49].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-is-new: StructureDefinition.snapshot.element[50].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-hiv-patient-pregnant.json ==
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.snapshot.element[28].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.snapshot.element[44].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.snapshot.element[54].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/hiv-patient-pregnant: StructureDefinition.snapshot.element[55].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-hiv-practitioner.json ==
+INFORMATION: StructureDefinition/hiv-practitioner: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-implementing-partner.json ==
+INFORMATION: StructureDefinition/implementing-partner: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-implementing-partner-index.json ==
+INFORMATION: StructureDefinition/implementing-partner-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-patient-age-months.json ==
+INFORMATION: StructureDefinition/patient-age-months: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-patient-age-years.json ==
+INFORMATION: StructureDefinition/patient-age-years: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-performing-organization.json ==
+INFORMATION: StructureDefinition/performing-organization: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-performing-organization-district-index.json ==
+INFORMATION: StructureDefinition/performing-organization-district-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-performing-organization-province-index.json ==
+INFORMATION: StructureDefinition/performing-organization-province-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-reason-for-hiv-testing.json ==
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.snapshot.element[51].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.snapshot.element[61].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/reason-for-hiv-testing: StructureDefinition.snapshot.element[62].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-receive-sms-messages.json ==
+INFORMATION: StructureDefinition/receive-sms-messages: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/receive-sms-messages: StructureDefinition.snapshot.element[11].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+== fsh-generated/resources/StructureDefinition-requesting-organization.json ==
+INFORMATION: StructureDefinition/requesting-organization: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-result-dispatched-to-facility.json ==
+INFORMATION: StructureDefinition/result-dispatched-to-facility: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-result-entered-manually.json ==
+INFORMATION: StructureDefinition/result-entered-manually: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-result-status-index.json ==
+INFORMATION: StructureDefinition/result-status-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-revised-by-user-index.json ==
+INFORMATION: StructureDefinition/revised-by-user-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-sample-dispatched-to-lab.json ==
+INFORMATION: StructureDefinition/sample-dispatched-to-lab: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-sample-rejected-index.json ==
+INFORMATION: StructureDefinition/sample-rejected-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-sample-reordered.json ==
+INFORMATION: StructureDefinition/sample-reordered: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-specimen-preservation.json ==
+INFORMATION: StructureDefinition/specimen-preservation: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/specimen-preservation: StructureDefinition.snapshot.element[25].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-target-facility-encounter.json ==
+INFORMATION: StructureDefinition/target-facility-encounter: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-task-approved-by-user-index.json ==
+INFORMATION: StructureDefinition/task-approved-by-user-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-task-reviewed-by-user-index.json ==
+INFORMATION: StructureDefinition/task-reviewed-by-user-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-tested-by-user-index.json ==
+INFORMATION: StructureDefinition/tested-by-user-index: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-transport-location.json ==
+INFORMATION: StructureDefinition/transport-location: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-viral-load-log.json ==
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[54].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[64].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-log: StructureDefinition.snapshot.element[65].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-viral-load-repeat-test-result.json ==
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.snapshot.element[47].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.snapshot.element[57].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-repeat-test-result: StructureDefinition.snapshot.element[58].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-viral-load-specimen.json ==
+INFORMATION: StructureDefinition/viral-load-specimen: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-viral-load-suspend-treatment-test-result.json ==
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.snapshot.element[47].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.snapshot.element[57].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-suspend-treatment-test-result: StructureDefinition.snapshot.element[58].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-viral-load-test-result.json ==
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.snapshot.element[11].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.snapshot.element[13].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.snapshot.element[36].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.snapshot.element[52].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.snapshot.element[62].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result: StructureDefinition.snapshot.element[63].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-viral-load-test-result-absolute-decimal.json ==
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[10].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[12].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[35].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[54].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[64].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/viral-load-test-result-absolute-decimal: StructureDefinition.snapshot.element[65].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+== fsh-generated/resources/StructureDefinition-vl-composition.json ==
+INFORMATION: StructureDefinition/vl-composition: StructureDefinition.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Task-HIVLabOrderCancellationTaskExample.json ==
+INFORMATION: Task/HIVLabOrderCancellationTaskExample: Task.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/Task-HIVLabOrderRejectionTaskExample.json ==
+INFORMATION: Task/HIVLabOrderRejectionTaskExample: Task.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/Task-HIVLabOrderTaskExample.json ==
+INFORMATION: Task/HIVLabOrderTaskExample: Task.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/Task-HIVLabResultTaskExample.json ==
+INFORMATION: Task/HIVLabResultTaskExample: Task.intent: Reference to experimental item http://hl7.org/fhir/request-intent|5.0.0
+== fsh-generated/resources/Transport-ResultDispatchedToRequestingFacilityExample.json ==
+== fsh-generated/resources/Transport-SampleDispatchedToLabExample.json ==
+== fsh-generated/resources/ValueSet-vs-arv-adherence.json ==
+INFORMATION: ValueSet/vs-arv-adherence: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-arv-regimen.json ==
+INFORMATION: ValueSet/vs-arv-regimen: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-patient-consent-for-sms-notifications.json ==
+INFORMATION: ValueSet/vs-patient-consent-for-sms-notifications: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-patient-pregnant.json ==
+INFORMATION: ValueSet/vs-patient-pregnant: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-reason-arv-regimen-change.json ==
+INFORMATION: ValueSet/vs-reason-arv-regimen-change: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-reason-for-assessment.json ==
+INFORMATION: ValueSet/vs-reason-for-assessment: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/vs-reason-for-assessment: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended
+== fsh-generated/resources/ValueSet-vs-reason-sample-cancelled-or-rejected.json ==
+INFORMATION: ValueSet/vs-reason-sample-cancelled-or-rejected: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-specimen-type.json ==
+INFORMATION: ValueSet/vs-specimen-type: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-test-types.json ==
+INFORMATION: ValueSet/vs-test-types: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-vl-suppression.json ==
+INFORMATION: ValueSet/vs-vl-suppression: ValueSet.jurisdiction[0]: Reference to deprecated item http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-specimen-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-specimen-type"/>
+  <version value="0.1.0"/>
+  <name value="VSSpecimenType"/>
+  <title value="Specimen Type Used In Viral Load testing"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-09-14T08:07:37+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A list of specimen types."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="119361006"/>
+        <display value="Plasma specimen"/>
+      </concept>
+      <concept>
+        <code value="440500007"/>
+        <display value="Dried blood spot specimen"/>
+      </concept>
+      <concept>
+        <code value="441620008"/>
+        <display value="Oral fluid specimen"/>
+      </concept>
+      <concept>
+        <code value="258580003"/>
+        <display value="Whole blood specimen"/>
+      </concept>
+      <concept>
+        <code value="119364003"/>
+        <display value="Serum specimen"/>
+      </concept>
+      <concept>
+        <code value="122555007"/>
+        <display value="Venous blood specimen"/>
+      </concept>
+      <concept>
+        <code value="122554006"/>
+        <display value="Capillary blood specimen"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

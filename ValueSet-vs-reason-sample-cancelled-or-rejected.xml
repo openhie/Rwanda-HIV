@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-reason-sample-cancelled-or-rejected"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-sample-cancelled-or-rejected"/>
+  <version value="0.1.0"/>
+  <name value="VSReasonForSampleCancellationOrRejection"/>
+  <title value="Lab Order Reasons For Cancelling/Rejecting Lab Order"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-09-15T07:34:16+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Reasons why a lab order was cancelled or rejected."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="441510007"/>
+        <display value="Blood specimen with anticoagulant"/>
+      </concept>
+      <concept>
+        <code value="123840003"/>
+        <display value="Sample contaminated"/>
+      </concept>
+      <concept>
+        <code value="397933008"/>
+        <display value="Equipment error/failure"/>
+      </concept>
+      <concept>
+        <code value="281264009"/>
+        <display value="Inappropriate bottle or container for sample"/>
+      </concept>
+      <concept>
+        <code value="281268007"/>
+        <display value="Insufficient sample"/>
+      </concept>
+      <concept>
+        <code value="281265005"/>
+        <display value="Sample incorrectly labeled"/>
+      </concept>
+      <concept>
+        <code value="419182006"/>
+        <display value="Supplies not available"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected"/>
+    </include>
+  </compose>
+</ValueSet>

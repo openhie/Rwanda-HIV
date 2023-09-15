@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="VLCompositionExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="VLCompositionExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;VLCompositionExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-vl-composition.html">Laboratory Report For Viral Load Testing</a></p></div><p><b>identifier</b>: id: PAT0001-v1</p><p><b>status</b>: final</p><p><b>type</b>: 11502-2 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#11502-2)</span></p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>date</b>: 2023-08-22</p><p><b>author</b>: </p><ul><li><a href="Practitioner-RequestingPractitionerExample.html">Practitioner/RequestingPractitionerExample</a> &quot; SMITH&quot;</li><li><a href="Practitioner-PerformingPractitionerExample.html">Practitioner/PerformingPractitionerExample</a> &quot; WHITE&quot;</li><li><a href="Practitioner-ResultsInterpreterExample.html">Practitioner/ResultsInterpreterExample</a> &quot; SMITH&quot;</li></ul><p><b>title</b>: Laboratory Report For Viral Load Testing</p></div>
+  </text>
+  <identifier>
+    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/vl-lab-report"/>
+    <value value="PAT0001-v1"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="11502-2"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/HIVPatientExample"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/TargetFacilityEncounterExample"/>
+  </encounter>
+  <date value="2023-08-22"/>
+  <author>
+    <reference value="Practitioner/RequestingPractitionerExample"/>
+  </author>
+  <author>
+    <reference value="Practitioner/PerformingPractitionerExample"/>
+  </author>
+  <author>
+    <reference value="Practitioner/ResultsInterpreterExample"/>
+  </author>
+  <title value="Laboratory Report For Viral Load Testing"/>
+  <section>
+    <title value="Funding Organization Information"/>
+    <code>
+      <coding>
+        <system value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information"/>
+        <code value="Funding-Organization-Information"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Organization/FundingOrganizationExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Implementing Partner Information"/>
+    <code>
+      <coding>
+        <system value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-organization-information"/>
+        <code value="Implementing-Partner-Information"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Organization/ImplementingPartnerOrganizationExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Pregnancy Status"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="82810-3"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Observation/PatientPregnantExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="New Patient Consultation"/>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="185387006"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Observation/HIVPatientIsNewExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Breastfeeding Status"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="63895-7"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Observation/BreastfeedingExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Consent Status"/>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="309370004"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Consent/ReceiveSMSMessagesExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Viral Load Specimen"/>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <section>
+      <title value="Specimen Information"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LP7846-1"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+      </text>
+      <entry>
+        <reference value="Specimen/VLSpecimenExample"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Specimen Temperature"/>
+      <code>
+        <coding>
+          <system value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-information"/>
+          <code value="Specimen-Conservation-Temperature"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+      </text>
+      <entry>
+        <reference value="SpecimenDefinition/SpecimenConservationExample"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Specimen Transportation"/>
+      <code>
+        <coding>
+          <system value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-transportation"/>
+          <code value="Specimen-Transportation"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+      </text>
+      <entry>
+        <reference value="Location/TransportRequestedLocationExample"/>
+      </entry>
+      <entry>
+        <reference value="Location/TransportCurrentLocationExample"/>
+      </entry>
+    </section>
+  </section>
+  <section>
+    <title value="Laboratory Services"/>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="46159000"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Observation/ReasonForHIVTestingExample"/>
+    </entry>
+    <entry>
+      <reference value="ServiceRequest/HIVServiceRequestExample"/>
+    </entry>
+    <entry>
+      <reference value="ActivityDefinition/LabOrderTaskActivityExample"/>
+    </entry>
+    <entry>
+      <reference value="Task/HIVLabResultTaskExample"/>
+    </entry>
+    <entry>
+      <reference value="Device/TestingPlatformExample"/>
+    </entry>
+    <entry>
+      <reference value="Organization/RequestingOrganizationExample"/>
+    </entry>
+    <entry>
+      <reference value="Practitioner/RequestingPractitionerExample"/>
+    </entry>
+    <entry>
+      <reference value="Organization/PerformingOrganizationExample"/>
+    </entry>
+    <entry>
+      <reference value="Practitioner/PerformingPractitionerExample"/>
+    </entry>
+    <section>
+      <title value="Result Information"/>
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="118246004"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+      </text>
+      <entry>
+        <reference value="DiagnosticReport/HIVLabResultsDiagnosticReportExample"/>
+      </entry>
+      <entry>
+        <reference value="Transport/ResultDispatchedToRequestingFacilityExample"/>
+      </entry>
+      <entry>
+        <reference value="Observation/HIVTestResultExample"/>
+      </entry>
+      <entry>
+        <reference value="Observation/HIVTestResultViralLoadLogExample"/>
+      </entry>
+      <entry>
+        <reference value="Observation/HIVTestResultAbsoluteDecimalExample"/>
+      </entry>
+      <entry>
+        <reference value="Observation/RepeatHIVTestResultExample"/>
+      </entry>
+      <entry>
+        <reference value="Observation/SuspendTreatmentHIVTestResultExample"/>
+      </entry>
+      <section>
+        <title value="Results Interpreter Details"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="726736004"/>
+          </coding>
+        </code>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+        </text>
+        <entry>
+          <reference value="Practitioner/ResultsInterpreterExample"/>
+        </entry>
+      </section>
+    </section>
+  </section>
+  <section>
+    <title value="ART Status"/>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="410684002"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+    </text>
+    <entry>
+      <reference value="Observation/ARTInitiatedExample"/>
+    </entry>
+    <entry>
+      <reference value="Observation/ARVRegimenChangeExample"/>
+    </entry>
+    <entry>
+      <reference value="Observation/ARTRegimenSwitchedOrSubstitutedExample"/>
+    </entry>
+    <entry>
+      <reference value="Observation/ARVAdherenceExample"/>
+    </entry>
+    <entry>
+      <reference value="CarePlan/ARVTreatmentRegimenChangedExample"/>
+    </entry>
+    <entry>
+      <reference value="CarePlan/ARVTreatmentInitiatedExample"/>
+    </entry>
+    <section>
+      <title value="Prescribed ARV Medication"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="45260-7"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>To be added</p></div>
+      </text>
+      <entry>
+        <reference value="MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"/>
+      </entry>
+      <entry>
+        <reference value="MedicationRequest/ARVRegimenMedicationRequestARVExample"/>
+      </entry>
+    </section>
+  </section>
+</Composition>

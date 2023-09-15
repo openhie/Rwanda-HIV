@@ -1,0 +1,180 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cs-reason-sample-cancelled-or-rejected"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSReasonForSampleCancellationOrRejection"] ; # 
+  fhir:title [ fhir:v "VLSMS Provided Reasons For Cancelling/Rejecting Lab Order"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-08-23T12:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Jembi Health Systems"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Jembi Health Systems" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.jembi.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "info@jembi.org" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Richard Langford" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "richard.langford@jembi.org" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Reasons why a lab order was cancelled or rejected."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "42"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DBS_SRIC" ] ;
+     fhir:display [ fhir:v "DBS cards that have serum rings indicating contamination around spots" ]
+  ] [
+     fhir:code [ fhir:v "DBS_CPIS" ] ;
+     fhir:display [ fhir:v "DBS card with clotting present in spots" ]
+  ] [
+     fhir:code [ fhir:v "DBS_IFBS" ] ;
+     fhir:display [ fhir:v "DBS cards with insufficient blood spots" ]
+  ] [
+     fhir:code [ fhir:v "Gen_MMSP" ] ;
+     fhir:display [ fhir:v "Mismatched sample and form labeling" ]
+  ] [
+     fhir:code [ fhir:v "Gen_NoSample" ] ;
+     fhir:display [ fhir:v "Form received without Sample" ]
+  ] [
+     fhir:code [ fhir:v "Gen_ISTR" ] ;
+     fhir:display [ fhir:v "Inappropriate specimen for test request" ]
+  ] [
+     fhir:code [ fhir:v "Gen_ISPK" ] ;
+     fhir:display [ fhir:v "Inappropriate specimen packing" ]
+  ] [
+     fhir:code [ fhir:v "Gen_MIAN" ] ;
+     fhir:display [ fhir:v "Missing information on request form - ART No" ]
+  ] [
+     fhir:code [ fhir:v "Gen_MIRS" ] ;
+     fhir:display [ fhir:v "Missing information on request form - Sex" ]
+  ] [
+     fhir:code [ fhir:v "Gen_PLSP" ] ;
+     fhir:display [ fhir:v "Poorly labelled specimen" ]
+  ] [
+     fhir:code [ fhir:v "Gen_MLTS" ] ;
+     fhir:display [ fhir:v "Missing labels on container or tracking form" ]
+  ] [
+     fhir:code [ fhir:v "Gen_SMRT" ] ;
+     fhir:display [ fhir:v "Sample without request forms/Tracking forms" ]
+  ] [
+     fhir:code [ fhir:v "Gen_NIRM" ] ;
+     fhir:display [ fhir:v "Name/Information of requester is missing" ]
+  ] [
+     fhir:code [ fhir:v "Gen_MIRD" ] ;
+     fhir:display [ fhir:v "Missing information on request form - Sample Collection Date" ]
+  ] [
+     fhir:code [ fhir:v "Gen_MIRA" ] ;
+     fhir:display [ fhir:v "Missing information on request form - Age" ]
+  ] [
+     fhir:code [ fhir:v "PLS_AATA" ] ;
+     fhir:display [ fhir:v "Plasma that arrives at a temperature above 8 C" ]
+  ] [
+     fhir:code [ fhir:v "PSL_TCLT" ] ;
+     fhir:display [ fhir:v "Plasma tube contain less than 1.5 mL" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM26" ] ;
+     fhir:display [ fhir:v "MPCINVALID" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AP25" ] ;
+     fhir:display [ fhir:v "SAMPLECLOT" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AP24" ] ;
+     fhir:display [ fhir:v "PREP_ABORT" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AP19" ] ;
+     fhir:display [ fhir:v "TEMP_RANGE" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AP13" ] ;
+     fhir:display [ fhir:v "DISP_ERROR" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AP12" ] ;
+     fhir:display [ fhir:v "NO_SAMPLE" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AP02" ] ;
+     fhir:display [ fhir:v "REAG_ERROR" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM51" ] ;
+     fhir:display [ fhir:v "POSTCHECK" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM50" ] ;
+     fhir:display [ fhir:v "QS_INVALID" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM44" ] ;
+     fhir:display [ fhir:v "PRECHECK" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM31" ] ;
+     fhir:display [ fhir:v "MATH_ERROR" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM29" ] ;
+     fhir:display [ fhir:v "S_INVALID" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM27" ] ;
+     fhir:display [ fhir:v "HPCINVALID" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM25" ] ;
+     fhir:display [ fhir:v "LPCINVALID" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM24" ] ;
+     fhir:display [ fhir:v "NC_INVALID" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM20" ] ;
+     fhir:display [ fhir:v "DATA_ERROR" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM19" ] ;
+     fhir:display [ fhir:v "RUN_EXPIRY" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TMAP" ] ;
+     fhir:display [ fhir:v "KIT_EXPIRY" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM17" ] ;
+     fhir:display [ fhir:v "A/D_ABORT" ]
+  ] [
+     fhir:code [ fhir:v "FLG_TM00" ] ;
+     fhir:display [ fhir:v "SYS_ERROR" ]
+  ] [
+     fhir:code [ fhir:v "FLG_AL00" ] ;
+     fhir:display [ fhir:v "CNTRL_FAIL" ]
+  ] [
+     fhir:code [ fhir:v "FLG_" ] ;
+     fhir:display [ fhir:v "VL Machine Flag" ]
+  ] [
+     fhir:code [ fhir:v "BLD_AASC" ] ;
+     fhir:display [ fhir:v "ETDA tube that arrives more than 24 hours after specimen collection" ]
+  ] [
+     fhir:code [ fhir:v "BLD_HMLY" ] ;
+     fhir:display [ fhir:v "EDTA tube specimens that arrived hemolyzed" ]
+  ] [
+     fhir:code [ fhir:v "BLD_WCAU" ] ;
+     fhir:display [ fhir:v "Wrong container/anticoagulant used" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

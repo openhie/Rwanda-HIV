@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-reason-for-assessment"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment"/>
+  <version value="0.1.0"/>
+  <name value="VSReasonForAssessment"/>
+  <title value="Reason for Assessment or Test Not Performed"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-09-15T07:22:29+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A list of reasons associated with the service request for the lab order."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="77386006"/>
+        <display value="Pregnancy"/>
+      </concept>
+      <concept>
+        <code value="428450006"/>
+        <display value="Repeat laboratory specimen sent"/>
+      </concept>
+      <concept>
+        <code value="171111007"/>
+        <display value="Screened - no result yet"/>
+      </concept>
+      <concept>
+        <code value="266721009"/>
+        <display value="Absent response to treatment"/>
+      </concept>
+      <concept>
+        <code value="170564007"/>
+        <display value="Chronic disease - treatment changed"/>
+      </concept>
+      <concept>
+        <code value="413712001"/>
+        <display value="Breastfeeding (mother)"/>
+      </concept>
+      <concept>
+        <code value="315124004"/>
+        <display value="Human immunodeficiency virus viral load"/>
+      </concept>
+      <concept>
+        <code value="2528003"/>
+        <display value="Viremia"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-for-assessment"/>
+    </include>
+  </compose>
+</ValueSet>

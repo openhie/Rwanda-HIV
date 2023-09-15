@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-arv-adherence",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA6763-2/\">LA6763-2</a></td><td>Good = 95% adherence</td></tr><tr><td><a href=\"https://loinc.org/LA6764-0/\">LA6764-0</a></td><td>Fair 85-94% adherence</td></tr><tr><td><a href=\"https://loinc.org/LA6765-7/\">LA6765-7</a></td><td>Poor &lt;85% adherence</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-arv-adherence",
+  "version" : "0.1.0",
+  "name" : "VSARVAdherence",
+  "title" : "Adherence to ARV Treatment",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-07-26T18:43:14+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Adherence to ARV Treatment.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6763-2",
+        "display" : "Good = 95% adherence"
+      },
+      {
+        "code" : "LA6764-0",
+        "display" : "Fair 85-94% adherence"
+      },
+      {
+        "code" : "LA6765-7",
+        "display" : "Poor <85% adherence"
+      }]
+    }]
+  }
+}

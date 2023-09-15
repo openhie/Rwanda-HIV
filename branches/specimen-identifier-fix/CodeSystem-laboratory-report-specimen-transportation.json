@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "laboratory-report-specimen-transportation",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/laboratory-report-specimen-transportation",
+  "version" : "0.1.0",
+  "name" : "LaboratoryReportSpecimenTransportation",
+  "title" : "Laboratory Report Specimen Transportation Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-14T08:07:37+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Used by the relevant section defintions in the Composition resource.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "Specimen-Transportation",
+    "display" : "Specimen Transportation"
+  }]
+}

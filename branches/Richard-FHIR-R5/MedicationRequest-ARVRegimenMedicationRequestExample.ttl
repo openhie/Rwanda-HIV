@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/rwanda-hiv/MedicationRequest/ARVRegimenMedicationRequestExample> a fhir:MedicationRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ARVRegimenMedicationRequestExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationRequest</b><a name=\"ARVRegimenMedicationRequestExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationRequest &quot;ARVRegimenMedicationRequestExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-arv-regimen-medication-request.html\">ARV Regimen Medication Request</a></p></div><p><b>status</b>: completed</p><p><b>intent</b>: order</p><h3>Medications</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>ARV regimen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#427314002 &quot;Antiviral therapy&quot;)</span></td></tr></table><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>authoredOn</b>: 2022-11-30</p><h3>Reasons</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a href=\"Observation-ARTRegimenSwitchedOrSubstitutedExample.html\">Observation/ARTRegimenSwitchedOrSubstitutedExample</a></td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:medication [
+     fhir:concept [
+       fhir:coding ( [
+         a sct:427314002 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "427314002" ] ;
+         fhir:display [ fhir:v "Antiviral therapy" ]
+       ] ) ;
+       fhir:text [ fhir:v "ARV regimen" ]
+     ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Encounter/TargetFacilityEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/TargetFacilityEncounterExample" ]
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2022-11-30"^^xsd:date] ; # 
+  fhir:reason ( [
+     fhir:reference [
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/Observation/ARTRegimenSwitchedOrSubstitutedExample> ;
+       fhir:reference [ fhir:v "Observation/ARTRegimenSwitchedOrSubstitutedExample" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

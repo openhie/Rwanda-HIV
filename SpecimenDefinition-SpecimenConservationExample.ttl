@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/rwanda-hiv/SpecimenDefinition/SpecimenConservationExample> a fhir:SpecimenDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SpecimenConservationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SpecimenDefinition</b><a name=\"SpecimenConservationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SpecimenDefinition &quot;SpecimenConservationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-specimen-preservation.html\">Specimen Conservation</a></p></div><p><b>status</b>: active</p><blockquote><p><b>typeTested</b></p><p><b>type</b>: 119361006 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#119361006)</span></p><p><b>preference</b>: preferred</p><blockquote><p><b>handling</b></p><p><b>temperatureRange</b>: 5-10</p><h3>MaxDurations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Value</b></td></tr><tr><td style=\"display: none\">*</td><td>20</td></tr></table><p><b>instruction</b>: Comments regarding the specimen conservation.</p></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:typeTested ( [
+     fhir:type [
+       fhir:coding ( [
+         a sct:119361006 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "119361006" ]
+       ] )
+     ] ;
+     fhir:preference [ fhir:v "preferred" ] ;
+     fhir:handling ( [
+       fhir:temperatureRange [
+         fhir:low [
+           fhir:value [ fhir:v "5"^^xsd:decimal ]
+         ] ;
+         fhir:high [
+           fhir:value [ fhir:v "10"^^xsd:decimal ]
+         ]
+       ] ;
+       fhir:maxDuration [
+         fhir:value [ fhir:v "20"^^xsd:decimal ]
+       ] ;
+       fhir:instruction [ fhir:v "Comments regarding the specimen conservation." ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-reason-sample-cancelled-or-rejected"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DBS_SRIC<a name="cs-reason-sample-cancelled-or-rejected-DBS_SRIC"> </a></td><td>DBS cards that have serum rings indicating contamination around spots</td></tr><tr><td style="white-space:nowrap">DBS_CPIS<a name="cs-reason-sample-cancelled-or-rejected-DBS_CPIS"> </a></td><td>DBS card with clotting present in spots</td></tr><tr><td style="white-space:nowrap">DBS_IFBS<a name="cs-reason-sample-cancelled-or-rejected-DBS_IFBS"> </a></td><td>DBS cards with insufficient blood spots</td></tr><tr><td style="white-space:nowrap">Gen_MMSP<a name="cs-reason-sample-cancelled-or-rejected-Gen_MMSP"> </a></td><td>Mismatched sample and form labeling</td></tr><tr><td style="white-space:nowrap">Gen_NoSample<a name="cs-reason-sample-cancelled-or-rejected-Gen_NoSample"> </a></td><td>Form received without Sample</td></tr><tr><td style="white-space:nowrap">Gen_ISTR<a name="cs-reason-sample-cancelled-or-rejected-Gen_ISTR"> </a></td><td>Inappropriate specimen for test request</td></tr><tr><td style="white-space:nowrap">Gen_ISPK<a name="cs-reason-sample-cancelled-or-rejected-Gen_ISPK"> </a></td><td>Inappropriate specimen packing</td></tr><tr><td style="white-space:nowrap">Gen_MIAN<a name="cs-reason-sample-cancelled-or-rejected-Gen_MIAN"> </a></td><td>Missing information on request form - ART No</td></tr><tr><td style="white-space:nowrap">Gen_MIRS<a name="cs-reason-sample-cancelled-or-rejected-Gen_MIRS"> </a></td><td>Missing information on request form - Sex</td></tr><tr><td style="white-space:nowrap">Gen_PLSP<a name="cs-reason-sample-cancelled-or-rejected-Gen_PLSP"> </a></td><td>Poorly labelled specimen</td></tr><tr><td style="white-space:nowrap">Gen_MLTS<a name="cs-reason-sample-cancelled-or-rejected-Gen_MLTS"> </a></td><td>Missing labels on container or tracking form</td></tr><tr><td style="white-space:nowrap">Gen_SMRT<a name="cs-reason-sample-cancelled-or-rejected-Gen_SMRT"> </a></td><td>Sample without request forms/Tracking forms</td></tr><tr><td style="white-space:nowrap">Gen_NIRM<a name="cs-reason-sample-cancelled-or-rejected-Gen_NIRM"> </a></td><td>Name/Information of requester is missing</td></tr><tr><td style="white-space:nowrap">Gen_MIRD<a name="cs-reason-sample-cancelled-or-rejected-Gen_MIRD"> </a></td><td>Missing information on request form - Sample Collection Date</td></tr><tr><td style="white-space:nowrap">Gen_MIRA<a name="cs-reason-sample-cancelled-or-rejected-Gen_MIRA"> </a></td><td>Missing information on request form - Age</td></tr><tr><td style="white-space:nowrap">PLS_AATA<a name="cs-reason-sample-cancelled-or-rejected-PLS_AATA"> </a></td><td>Plasma that arrives at a temperature above 8 C</td></tr><tr><td style="white-space:nowrap">PSL_TCLT<a name="cs-reason-sample-cancelled-or-rejected-PSL_TCLT"> </a></td><td>Plasma tube contain less than 1.5 mL</td></tr><tr><td style="white-space:nowrap">FLG_TM26<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM26"> </a></td><td>MPCINVALID</td></tr><tr><td style="white-space:nowrap">FLG_AP25<a name="cs-reason-sample-cancelled-or-rejected-FLG_AP25"> </a></td><td>SAMPLECLOT</td></tr><tr><td style="white-space:nowrap">FLG_AP24<a name="cs-reason-sample-cancelled-or-rejected-FLG_AP24"> </a></td><td>PREP_ABORT</td></tr><tr><td style="white-space:nowrap">FLG_AP19<a name="cs-reason-sample-cancelled-or-rejected-FLG_AP19"> </a></td><td>TEMP_RANGE</td></tr><tr><td style="white-space:nowrap">FLG_AP13<a name="cs-reason-sample-cancelled-or-rejected-FLG_AP13"> </a></td><td>DISP_ERROR</td></tr><tr><td style="white-space:nowrap">FLG_AP12<a name="cs-reason-sample-cancelled-or-rejected-FLG_AP12"> </a></td><td>NO_SAMPLE</td></tr><tr><td style="white-space:nowrap">FLG_AP02<a name="cs-reason-sample-cancelled-or-rejected-FLG_AP02"> </a></td><td>REAG_ERROR</td></tr><tr><td style="white-space:nowrap">FLG_TM51<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM51"> </a></td><td>POSTCHECK</td></tr><tr><td style="white-space:nowrap">FLG_TM50<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM50"> </a></td><td>QS_INVALID</td></tr><tr><td style="white-space:nowrap">FLG_TM44<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM44"> </a></td><td>PRECHECK</td></tr><tr><td style="white-space:nowrap">FLG_TM31<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM31"> </a></td><td>MATH_ERROR</td></tr><tr><td style="white-space:nowrap">FLG_TM29<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM29"> </a></td><td>S_INVALID</td></tr><tr><td style="white-space:nowrap">FLG_TM27<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM27"> </a></td><td>HPCINVALID</td></tr><tr><td style="white-space:nowrap">FLG_TM25<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM25"> </a></td><td>LPCINVALID</td></tr><tr><td style="white-space:nowrap">FLG_TM24<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM24"> </a></td><td>NC_INVALID</td></tr><tr><td style="white-space:nowrap">FLG_TM20<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM20"> </a></td><td>DATA_ERROR</td></tr><tr><td style="white-space:nowrap">FLG_TM19<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM19"> </a></td><td>RUN_EXPIRY</td></tr><tr><td style="white-space:nowrap">FLG_TMAP<a name="cs-reason-sample-cancelled-or-rejected-FLG_TMAP"> </a></td><td>KIT_EXPIRY</td></tr><tr><td style="white-space:nowrap">FLG_TM17<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM17"> </a></td><td>A/D_ABORT</td></tr><tr><td style="white-space:nowrap">FLG_TM00<a name="cs-reason-sample-cancelled-or-rejected-FLG_TM00"> </a></td><td>SYS_ERROR</td></tr><tr><td style="white-space:nowrap">FLG_AL00<a name="cs-reason-sample-cancelled-or-rejected-FLG_AL00"> </a></td><td>CNTRL_FAIL</td></tr><tr><td style="white-space:nowrap">FLG_<a name="cs-reason-sample-cancelled-or-rejected-FLG_"> </a></td><td>VL Machine Flag</td></tr><tr><td style="white-space:nowrap">BLD_AASC<a name="cs-reason-sample-cancelled-or-rejected-BLD_AASC"> </a></td><td>ETDA tube that arrives more than 24 hours after specimen collection</td></tr><tr><td style="white-space:nowrap">BLD_HMLY<a name="cs-reason-sample-cancelled-or-rejected-BLD_HMLY"> </a></td><td>EDTA tube specimens that arrived hemolyzed</td></tr><tr><td style="white-space:nowrap">BLD_WCAU<a name="cs-reason-sample-cancelled-or-rejected-BLD_WCAU"> </a></td><td>Wrong container/anticoagulant used</td></tr></table></div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected"/>
+  <version value="0.1.0"/>
+  <name value="CSReasonForSampleCancellationOrRejection"/>
+  <title value="VLSMS Provided Reasons For Cancelling/Rejecting Lab Order"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-08-18T04:27:56+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Reasons why a lab order was cancelled or rejected."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="42"/>
+  <concept>
+    <code value="DBS_SRIC"/>
+    <display value="DBS cards that have serum rings indicating contamination around spots"/>
+  </concept>
+  <concept>
+    <code value="DBS_CPIS"/>
+    <display value="DBS card with clotting present in spots"/>
+  </concept>
+  <concept>
+    <code value="DBS_IFBS"/>
+    <display value="DBS cards with insufficient blood spots"/>
+  </concept>
+  <concept>
+    <code value="Gen_MMSP"/>
+    <display value="Mismatched sample and form labeling"/>
+  </concept>
+  <concept>
+    <code value="Gen_NoSample"/>
+    <display value="Form received without Sample"/>
+  </concept>
+  <concept>
+    <code value="Gen_ISTR"/>
+    <display value="Inappropriate specimen for test request"/>
+  </concept>
+  <concept>
+    <code value="Gen_ISPK"/>
+    <display value="Inappropriate specimen packing"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIAN"/>
+    <display value="Missing information on request form - ART No"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIRS"/>
+    <display value="Missing information on request form - Sex"/>
+  </concept>
+  <concept>
+    <code value="Gen_PLSP"/>
+    <display value="Poorly labelled specimen"/>
+  </concept>
+  <concept>
+    <code value="Gen_MLTS"/>
+    <display value="Missing labels on container or tracking form"/>
+  </concept>
+  <concept>
+    <code value="Gen_SMRT"/>
+    <display value="Sample without request forms/Tracking forms"/>
+  </concept>
+  <concept>
+    <code value="Gen_NIRM"/>
+    <display value="Name/Information of requester is missing"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIRD"/>
+    <display value="Missing information on request form - Sample Collection Date"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIRA"/>
+    <display value="Missing information on request form - Age"/>
+  </concept>
+  <concept>
+    <code value="PLS_AATA"/>
+    <display value="Plasma that arrives at a temperature above 8 C"/>
+  </concept>
+  <concept>
+    <code value="PSL_TCLT"/>
+    <display value="Plasma tube contain less than 1.5 mL"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM26"/>
+    <display value="MPCINVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP25"/>
+    <display value="SAMPLECLOT"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP24"/>
+    <display value="PREP_ABORT"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP19"/>
+    <display value="TEMP_RANGE"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP13"/>
+    <display value="DISP_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP12"/>
+    <display value="NO_SAMPLE"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP02"/>
+    <display value="REAG_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM51"/>
+    <display value="POSTCHECK"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM50"/>
+    <display value="QS_INVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM44"/>
+    <display value="PRECHECK"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM31"/>
+    <display value="MATH_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM29"/>
+    <display value="S_INVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM27"/>
+    <display value="HPCINVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM25"/>
+    <display value="LPCINVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM24"/>
+    <display value="NC_INVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM20"/>
+    <display value="DATA_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM19"/>
+    <display value="RUN_EXPIRY"/>
+  </concept>
+  <concept>
+    <code value="FLG_TMAP"/>
+    <display value="KIT_EXPIRY"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM17"/>
+    <display value="A/D_ABORT"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM00"/>
+    <display value="SYS_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_AL00"/>
+    <display value="CNTRL_FAIL"/>
+  </concept>
+  <concept>
+    <code value="FLG_"/>
+    <display value="VL Machine Flag"/>
+  </concept>
+  <concept>
+    <code value="BLD_AASC"/>
+    <display value="ETDA tube that arrives more than 24 hours after specimen collection"/>
+  </concept>
+  <concept>
+    <code value="BLD_HMLY"/>
+    <display value="EDTA tube specimens that arrived hemolyzed"/>
+  </concept>
+  <concept>
+    <code value="BLD_WCAU"/>
+    <display value="Wrong container/anticoagulant used"/>
+  </concept>
+</CodeSystem>

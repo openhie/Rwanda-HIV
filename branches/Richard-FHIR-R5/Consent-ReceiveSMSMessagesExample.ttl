@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/rwanda-hiv/Consent/ReceiveSMSMessagesExample> a fhir:Consent ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ReceiveSMSMessagesExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"ReceiveSMSMessagesExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;ReceiveSMSMessagesExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-receive-sms-messages.html\">Receive SMS Messages</a></p></div><p><b>status</b>: active</p><p><b>category</b>: Patient consent for SMS messages <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89057-4 &quot;Permission to receive text messages&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>decision</b>: permit</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a loinc:89057-4 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "89057-4" ] ;
+       fhir:display [ fhir:v "Permission to receive text messages" ]
+     ] ) ;
+     fhir:text [ fhir:v "Patient consent for SMS messages" ]
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://openhie.org/fhir/rwanda-hiv/Patient/HIVPatientExample> ;
+     fhir:reference [ fhir:v "Patient/HIVPatientExample" ]
+  ] ; # 
+  fhir:decision [ fhir:v "permit"] . # 
+
+# -------------------------------------------------------------------------------------
+

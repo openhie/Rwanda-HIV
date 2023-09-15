@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-reason-for-assessment",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-reason-for-assessment",
+  "version" : "0.1.0",
+  "name" : "VSReasonForAssessment",
+  "title" : "Reason for Assessment or Test Not Performed",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-15T07:34:16+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A list of reasons associated with the service request for the lab order.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "77386006",
+        "display" : "Pregnancy"
+      },
+      {
+        "code" : "428450006",
+        "display" : "Repeat laboratory specimen sent"
+      },
+      {
+        "code" : "171111007",
+        "display" : "Screened - no result yet"
+      },
+      {
+        "code" : "266721009",
+        "display" : "Absent response to treatment"
+      },
+      {
+        "code" : "170564007",
+        "display" : "Chronic disease - treatment changed"
+      },
+      {
+        "code" : "413712001",
+        "display" : "Breastfeeding (mother)"
+      },
+      {
+        "code" : "315124004",
+        "display" : "Human immunodeficiency virus viral load"
+      },
+      {
+        "code" : "2528003",
+        "display" : "Viremia"
+      }]
+    },
+    {
+      "system" : "http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-for-assessment"
+    }]
+  }
+}

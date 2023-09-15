@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Transport xmlns="http://hl7.org/fhir">
+  <id value="SampleDisptachedToLabTaskExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Transport</b><a name="SampleDisptachedToLabTaskExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Transport &quot;SampleDisptachedToLabTaskExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-sample-dispatched-to-lab.html">Sample Dispatched to Lab Task</a></p></div><p><b>status</b>: in-progress</p><p><b>intent</b>: order</p><p><b>completionTime</b>: 2022-07-28</p><p><b>authoredOn</b>: 2022-07-28</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p><p><b>requestedLocation</b>: <a href="Location-TransportRequestedLocationExample.html">Location/TransportRequestedLocationExample</a> &quot;Requested location name&quot;</p><p><b>currentLocation</b>: <a href="Location-TransportCurrentLocationExample.html">Location/TransportCurrentLocationExample</a> &quot;Current location name&quot;</p></div>
+  </text>
+  <status value="in-progress"/>
+  <intent value="order"/>
+  <completionTime value="2022-07-28"/>
+  <authoredOn value="2022-07-28"/>
+  <note>
+    <authorReference>
+      <reference value="Organization/HIVOrganizationExample"/>
+    </authorReference>
+    <time value="2015-02-07T13:28:17-05:00"/>
+    <text value="additional notes here"/>
+  </note>
+  <requestedLocation>
+    <reference value="Location/TransportRequestedLocationExample"/>
+  </requestedLocation>
+  <currentLocation>
+    <reference value="Location/TransportCurrentLocationExample"/>
+  </currentLocation>
+</Transport>

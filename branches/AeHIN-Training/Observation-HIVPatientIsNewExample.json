@@ -1,0 +1,33 @@
+{
+  "resourceType" : "Observation",
+  "id" : "HIVPatientIsNewExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"HIVPatientIsNewExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;HIVPatientIsNewExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hiv-patient-is-new.html\">HIV Patient Is New</a></p></div><p><b>status</b>: final</p><p><b>code</b>: New Patient Indication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#769681006)</span></p><p><b>subject</b>: <a href=\"Patient-HIVPatientExample.html\">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href=\"Encounter-TargetFacilityEncounterExample.html\">Encounter/TargetFacilityEncounterExample</a></p><p><b>value</b>: true</p><p><b>note</b>: additional notes here (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17\u202fPM)</p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "769681006"
+    }],
+    "text" : "New Patient Indication"
+  },
+  "subject" : {
+    "reference" : "Patient/HIVPatientExample"
+  },
+  "encounter" : {
+    "reference" : "Encounter/TargetFacilityEncounterExample"
+  },
+  "valueBoolean" : true,
+  "note" : [{
+    "authorReference" : {
+      "reference" : "Organization/HIVOrganizationExample"
+    },
+    "time" : "2015-02-07T13:28:17-05:00",
+    "text" : "additional notes here"
+  }]
+}

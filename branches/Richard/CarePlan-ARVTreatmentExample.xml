@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="ARVTreatmentExample"/>
+  <meta>
+    <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="ARVTreatmentExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource CarePlan &quot;ARVTreatmentExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-arv-treatment.html">ARV Treatment</a></p></div><p><b>identifier</b>: Unique ART number: UAN000123</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>encounter</b>: <a href="Encounter-TargetFacilityEncounterExample.html">Encounter/TargetFacilityEncounterExample</a></p><p><b>period</b>: 2022-12-01 --&gt; 2022-12-01</p><blockquote><p><b>activity</b></p><h3>Details</h3><table class="grid"><tr><td>-</td><td><b>Extension</b></td><td><b>Kind</b></td><td><b>Code</b></td><td><b>ReasonCode</b></td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Product[x]</b></td></tr><tr><td>*</td><td/><td>MedicationRequest</td><td>HIV medication request <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#45260-7 &quot;HIV ART medication&quot;)</span></td><td>Regimen change reason <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#76018003 &quot;Virologic&quot;)</span></td><td>in-progress</td><td>2023-01-01 --&gt; 2023-01-01</td><td>ARV regimen <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#427314002 &quot;Antiviral therapy&quot;)</span></td></tr></table></blockquote><p><b>note</b>: ABC + 3TC + LPV/r (By Organization/HIVOrganizationExample @Feb 7, 2015, 6:28:17 PM)</p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="PLAC"/>
+        <display value="Placer identifier"/>
+      </coding>
+      <text value="Unique ART number"/>
+    </type>
+    <system value="http://openhie.org/fhir/rwanda-hiv/identifier/uan"/>
+    <value value="UAN000123"/>
+  </identifier>
+  <status value="active"/>
+  <intent value="plan"/>
+  <subject>
+    <reference value="Patient/HIVPatientExample"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/TargetFacilityEncounterExample"/>
+  </encounter>
+  <period>
+    <start value="2022-12-01"/>
+    <end value="2022-12-01"/>
+  </period>
+  <activity>
+    <detail>
+      <extension url="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted">
+        <valueBoolean value="false"/>
+      </extension>
+      <kind value="MedicationRequest"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="45260-7"/>
+          <display value="HIV ART medication"/>
+        </coding>
+        <text value="HIV medication request"/>
+      </code>
+      <reasonCode>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="76018003"/>
+          <display value="Virologic"/>
+        </coding>
+        <text value="Regimen change reason"/>
+      </reasonCode>
+      <status value="in-progress"/>
+      <scheduledPeriod>
+        <start value="2023-01-01"/>
+        <end value="2023-01-01"/>
+      </scheduledPeriod>
+      <productCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="427314002"/>
+          <display value="Antiviral therapy"/>
+        </coding>
+        <text value="ARV regimen"/>
+      </productCodeableConcept>
+    </detail>
+  </activity>
+  <note>
+    <authorReference>
+      <reference value="Organization/HIVOrganizationExample"/>
+    </authorReference>
+    <time value="2015-02-07T13:28:17-05:00"/>
+    <text value="ABC + 3TC + LPV/r"/>
+  </note>
+</CarePlan>

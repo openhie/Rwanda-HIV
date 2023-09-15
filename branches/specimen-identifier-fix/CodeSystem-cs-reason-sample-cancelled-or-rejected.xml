@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-reason-sample-cancelled-or-rejected"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/CodeSystem/cs-reason-sample-cancelled-or-rejected"/>
+  <version value="0.1.0"/>
+  <name value="CSReasonForSampleCancellationOrRejection"/>
+  <title value="VLSMS Provided Reasons For Cancelling/Rejecting Lab Order"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-09-14T08:07:37+00:00"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Reasons why a lab order was cancelled or rejected."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="42"/>
+  <concept>
+    <code value="DBS_SRIC"/>
+    <display value="DBS cards that have serum rings indicating contamination around spots"/>
+  </concept>
+  <concept>
+    <code value="DBS_CPIS"/>
+    <display value="DBS card with clotting present in spots"/>
+  </concept>
+  <concept>
+    <code value="DBS_IFBS"/>
+    <display value="DBS cards with insufficient blood spots"/>
+  </concept>
+  <concept>
+    <code value="Gen_MMSP"/>
+    <display value="Mismatched sample and form labeling"/>
+  </concept>
+  <concept>
+    <code value="Gen_NoSample"/>
+    <display value="Form received without Sample"/>
+  </concept>
+  <concept>
+    <code value="Gen_ISTR"/>
+    <display value="Inappropriate specimen for test request"/>
+  </concept>
+  <concept>
+    <code value="Gen_ISPK"/>
+    <display value="Inappropriate specimen packing"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIAN"/>
+    <display value="Missing information on request form - ART No"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIRS"/>
+    <display value="Missing information on request form - Sex"/>
+  </concept>
+  <concept>
+    <code value="Gen_PLSP"/>
+    <display value="Poorly labelled specimen"/>
+  </concept>
+  <concept>
+    <code value="Gen_MLTS"/>
+    <display value="Missing labels on container or tracking form"/>
+  </concept>
+  <concept>
+    <code value="Gen_SMRT"/>
+    <display value="Sample without request forms/Tracking forms"/>
+  </concept>
+  <concept>
+    <code value="Gen_NIRM"/>
+    <display value="Name/Information of requester is missing"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIRD"/>
+    <display value="Missing information on request form - Sample Collection Date"/>
+  </concept>
+  <concept>
+    <code value="Gen_MIRA"/>
+    <display value="Missing information on request form - Age"/>
+  </concept>
+  <concept>
+    <code value="PLS_AATA"/>
+    <display value="Plasma that arrives at a temperature above 8 C"/>
+  </concept>
+  <concept>
+    <code value="PSL_TCLT"/>
+    <display value="Plasma tube contain less than 1.5 mL"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM26"/>
+    <display value="MPCINVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP25"/>
+    <display value="SAMPLECLOT"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP24"/>
+    <display value="PREP_ABORT"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP19"/>
+    <display value="TEMP_RANGE"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP13"/>
+    <display value="DISP_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP12"/>
+    <display value="NO_SAMPLE"/>
+  </concept>
+  <concept>
+    <code value="FLG_AP02"/>
+    <display value="REAG_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM51"/>
+    <display value="POSTCHECK"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM50"/>
+    <display value="QS_INVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM44"/>
+    <display value="PRECHECK"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM31"/>
+    <display value="MATH_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM29"/>
+    <display value="S_INVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM27"/>
+    <display value="HPCINVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM25"/>
+    <display value="LPCINVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM24"/>
+    <display value="NC_INVALID"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM20"/>
+    <display value="DATA_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM19"/>
+    <display value="RUN_EXPIRY"/>
+  </concept>
+  <concept>
+    <code value="FLG_TMAP"/>
+    <display value="KIT_EXPIRY"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM17"/>
+    <display value="A/D_ABORT"/>
+  </concept>
+  <concept>
+    <code value="FLG_TM00"/>
+    <display value="SYS_ERROR"/>
+  </concept>
+  <concept>
+    <code value="FLG_AL00"/>
+    <display value="CNTRL_FAIL"/>
+  </concept>
+  <concept>
+    <code value="FLG_"/>
+    <display value="VL Machine Flag"/>
+  </concept>
+  <concept>
+    <code value="BLD_AASC"/>
+    <display value="ETDA tube that arrives more than 24 hours after specimen collection"/>
+  </concept>
+  <concept>
+    <code value="BLD_HMLY"/>
+    <display value="EDTA tube specimens that arrived hemolyzed"/>
+  </concept>
+  <concept>
+    <code value="BLD_WCAU"/>
+    <display value="Wrong container/anticoagulant used"/>
+  </concept>
+</CodeSystem>

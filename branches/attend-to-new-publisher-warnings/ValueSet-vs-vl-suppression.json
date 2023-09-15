@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-vl-suppression",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-vl-suppression",
+  "version" : "0.1.0",
+  "name" : "VSVLSuppression",
+  "title" : "Viral Load Suppressions Status",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-15T07:22:29+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Describes a patient's current viral load status.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "245780008",
+        "display" : "Suppressed"
+      },
+      {
+        "code" : "19032002",
+        "display" : "Uncontrolled"
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}

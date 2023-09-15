@@ -1,0 +1,56 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-test-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://openhie.org/fhir/rwanda-hiv/ValueSet/vs-test-types",
+  "version" : "0.1.0",
+  "name" : "VSTestTypes",
+  "title" : "HIV Test Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-15T07:22:29+00:00",
+  "publisher" : "Jembi Health Systems",
+  "contact" : [{
+    "name" : "Jembi Health Systems",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.jembi.org"
+    },
+    {
+      "system" : "email",
+      "value" : "info@jembi.org"
+    }]
+  },
+  {
+    "name" : "Richard Langford",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "richard.langford@jembi.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A list of HIV test types.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "25842-6",
+        "display" : "HIV 2 proviral DNA [Presence] in Specimen by NAA with probe detection"
+      },
+      {
+        "code" : "25836-8",
+        "display" : "HIV 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+      }]
+    }]
+  }
+}

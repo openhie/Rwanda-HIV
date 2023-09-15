@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="openhie.fhir.rwanda.hiv"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://openhie.org/fhir/rwanda-hiv/ImplementationGuide/openhie.fhir.rwanda.hiv"/>
+  <version value="0.1.0"/>
+  <name value="RwandaHIV"/>
+  <title value="HL7 FHIR Implementation Guide: Rwanda HIV"/>
+  <status value="active"/>
+  <date value="2022-04-27"/>
+  <publisher value="Jembi Health Systems"/>
+  <contact>
+    <name value="Jembi Health Systems"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.jembi.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@jembi.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Richard Langford"/>
+    <telecom>
+      <system value="email"/>
+      <value value="richard.langford@jembi.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A FHIR Implementation Guide - Rwanda HIV"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="openhie.fhir.rwanda.hiv"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="5.0.0"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r5"/>
+    <version value="5.3.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r5"/>
+    <version value="1.0.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools#current"/>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-arv-adherence"/>
+      </reference>
+      <name value="Adherence to ARV Treatment"/>
+      <description value="Adherence to ARV Treatment."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-arv-adherence"/>
+      </reference>
+      <name value="Adherence to ARV Treatment Observation"/>
+      <description value="Represents a patient’s adherence to ARV treatment."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ARVAdherenceExample"/>
+      </reference>
+      <name value="Adherence to ARV Treatment Observation"/>
+      <description value="Represents a patient’s adherence to ARV treatment."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-adherence"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/art-initiated"/>
+      </reference>
+      <name value="ART Initiated Observation"/>
+      <description value="Represents a patient who is initiated on ART."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ARTInitiatedExample"/>
+      </reference>
+      <name value="ART Initiated Observation"/>
+      <description value="Represents a patient who is initiated on ART."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-initiated"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/art-regimen-switched-or-substituted"/>
+      </reference>
+      <name value="ART Regimen Switched Or Substituted Observation"/>
+      <description value="Represents a patient whose ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ARTRegimenSwitchedOrSubstitutedExample"/>
+      </reference>
+      <name value="ART Regimen Switched Or Substituted Observation"/>
+      <description value="Represents a patient whose ARV regimen has been switched to a new ARV regimen or has been substituted by another ARV regimen."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/art-regimen-switched-or-substituted"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-arv-regimen"/>
+      </reference>
+      <name value="ARV Regimen"/>
+      <description value="A list of ARV regimen."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/arv-regimen-change"/>
+      </reference>
+      <name value="ARV Regimen Change Observation"/>
+      <description value="Represents a patient whose ARV regimen was changed."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ARVRegimenChangeExample"/>
+      </reference>
+      <name value="ARV Regimen Change Observation"/>
+      <description value="Represents a patient whose ARV regimen was changed."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-change"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/arv-regimen-medication-request"/>
+      </reference>
+      <name value="ARV Regimen Medication Request"/>
+      <description value="Represents a prescription request for an ARV regimen for a patient."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/ARVRegimenMedicationRequestRegimenChangedExample"/>
+      </reference>
+      <name value="ARV Regimen Medication Request"/>
+      <description value="Represents a prescription request for a patient whose ARV regimen was changed."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/ARVRegimenMedicationRequestARVExample"/>
+      </reference>
+      <name value="ARV Regimen Medication Request"/>
+      <description value="Represents a prescription request for a patient's ARV. &#xA;    This resource will be used for ART initiated patient's as well as for routine ARV prescriptions."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/arv-regimen-medication-request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-arv-treatment"/>
+      </reference>
+      <name value="ARV Treatment CarePlan"/>
+      <description value="Represents a patient’s Antiretroviral Therapy (ART) treatment record, starting from ART initiation."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CarePlan"/>
+      </extension>
+      <reference>
+        <reference value="CarePlan/ARVTreatmentRegimenChangedExample"/>
+      </reference>
+      <name value="ARV Treatment CarePlan"/>
+      <description value="Represents an ARV CarePlan for a patient whose regimen was changed."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CarePlan"/>
+      </extension>
+      <reference>
+        <reference value="CarePlan/ARVTreatmentInitiatedExample"/>
+      </reference>
+      <name value="ARV Treatment CarePlan"/>
+      <description value="Represents an ARV CarePlan for a patient on ART. &#xA;    This resource will be used for ART initiated patient's as well as for routine ARV prescriptions."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-arv-treatment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-patient-breastfeeding"/>
+      </reference>
+      <name value="Breastfeeding Patient Observation"/>
+      <description value="Represents a breastfeeding patient."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BreastfeedingExample"/>
+      </reference>
+      <name value="Breastfeeding Patient Observation"/>
+      <description value="Represents a breastfeeding patient."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-breastfeeding"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/clinician-user-index"/>
+      </reference>
+      <name value="Clinician User Index"/>
+      <description value="The user index for the person who is requesting or performing the service request."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/funding-source"/>
+      </reference>
+      <name value="Funding Organization"/>
+      <description value="Funding organization."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/funding-source-index"/>
+      </reference>
+      <name value="Funding Organization"/>
+      <description value="The index for the funding organization."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/FundingOrganizationExample"/>
+      </reference>
+      <name value="Funding Organization"/>
+      <description value="Funding organization."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/funding-source"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-lab-task-activity"/>
+      </reference>
+      <name value="HIV Lab Order Activity Definition"/>
+      <description value="Represents more specific information regarding the task’s lab order request."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/LabOrderTaskActivityExample"/>
+      </reference>
+      <name value="HIV Lab Order Activity Definition"/>
+      <description value="Represents more specific information regarding the task’s lab order request INCLUDING specimenRequirement Reference."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/LabOrderResultTaskActivityExample"/>
+      </reference>
+      <name value="HIV Lab Order Activity Definition"/>
+      <description value="Represents more specific information regarding the task’s lab order request EXCLUDING specimenRequirement Reference."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task-activity"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/task-approved-by-user-index"/>
+      </reference>
+      <name value="HIV Lab Task Approved By"/>
+      <description value="The user index for the person who approved the HIV lab task."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/task-reviewed-by-user-index"/>
+      </reference>
+      <name value="HIV Lab Task Reviewed By"/>
+      <description value="The user index for the person who reviewed the HIV lab task."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-organization"/>
+      </reference>
+      <name value="HIV Organization"/>
+      <description value="Organization providing HIV Testing Services."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-patient"/>
+      </reference>
+      <name value="HIV Patient"/>
+      <description value="Is used to document demographics and other administrative information about a HIV individual receiving care or other health-related services."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/HIVPatientExample"/>
+      </reference>
+      <name value="HIV Patient"/>
+      <description value="Is used to document demographics and other administrative information about a HIV individual receiving care or other health-related services."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-patient-is-new"/>
+      </reference>
+      <name value="HIV Patient Is New Observation"/>
+      <description value="Represents whether this is a new patient."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HIVPatientIsNewExample"/>
+      </reference>
+      <name value="HIV Patient Is New Observation"/>
+      <description value="Represents whether this is a new patient."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-is-new"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-test-types"/>
+      </reference>
+      <name value="HIV Test Types"/>
+      <description value="A list of HIV test types."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-diagnostic-report"/>
+      </reference>
+      <name value="HIV Viral Load Diagnostic Report"/>
+      <description value="Represents the findings and interpretations for a VL test."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/HIVLabResultsDiagnosticReportExample"/>
+      </reference>
+      <name value="HIV Viral Load Diagnostic Report"/>
+      <description value="Represents the findings and interpretations for a VL test."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-diagnostic-report"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/revised-by-user-index"/>
+      </reference>
+      <name value="HIV Viral Load Result Revised By"/>
+      <description value="The user index for the person who reviewed the viral load result."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tested-by-user-index"/>
+      </reference>
+      <name value="HIV Viral Load Result Tested By"/>
+      <description value="The user index for the person who tested the viral load specimen."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-lab-task"/>
+      </reference>
+      <name value="HIV VL Lab Order Task"/>
+      <description value="Is primarily used to track the progress of a HIV VL lab order. More specifically, the lab order ID for the &#xA;        service request is documented in this profile and is also used to document other key data such as the reason(s) for sample cancellation or &#xA;        rejection and the type of output that, when applicable, will be produced by the task."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/HIVLabOrderTaskExample"/>
+      </reference>
+      <name value="HIV VL Lab Order Task"/>
+      <description value="Represents a New Lab Order."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/HIVLabResultTaskExample"/>
+      </reference>
+      <name value="HIV VL Lab Order Task"/>
+      <description value="Represents a Lab Result."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/HIVLabOrderCancellationTaskExample"/>
+      </reference>
+      <name value="HIV VL Lab Order Task"/>
+      <description value="Represents HIV Lab Order Cancellation."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/HIVLabOrderRejectionTaskExample"/>
+      </reference>
+      <name value="HIV VL Lab Order Task"/>
+      <description value="Represents HIV Lab Order Rejection"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-test-result"/>
+      </reference>
+      <name value="HIV VL Lab Result Observation"/>
+      <description value="Represents the result of the VL test."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HIVTestResultExample"/>
+      </reference>
+      <name value="HIV VL Lab Result Observation"/>
+      <description value="Represents the result of the VL test."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/HIV-lab-order"/>
+      </reference>
+      <name value="HIV VL Service Request"/>
+      <description value="Represents the record of request for the HIV VL lab order."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/HIVServiceRequestExample"/>
+      </reference>
+      <name value="HIV VL Service Request"/>
+      <description value="Represents the record of request for the HIV VL lab order."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/HIV-lab-order"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/implementing-partner"/>
+      </reference>
+      <name value="Implementing Partner Organization"/>
+      <description value="Implementing partner organization."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/implementing-partner-index"/>
+      </reference>
+      <name value="Implementing Partner Organization"/>
+      <description value="The index for the implementing partner organization."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/ImplementingPartnerOrganizationExample"/>
+      </reference>
+      <name value="Implementing Partner Organization"/>
+      <description value="Implementing partner organization."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/implementing-partner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-reason-sample-cancelled-or-rejected"/>
+      </reference>
+      <name value="Lab Order Reasons For Cancelling/Rejecting Lab Order"/>
+      <description value="Reasons why a lab order was cancelled or rejected."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/LabResult"/>
+      </reference>
+      <name value="Lab Result Bundle"/>
+      <description value="Represents a Lab Result Bundle."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vl-composition"/>
+      </reference>
+      <name value="Laboratory Report For Viral Load Testing"/>
+      <description value="Logically groups all resources into a single document structure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/VLCompositionExample"/>
+      </reference>
+      <name value="Laboratory Report For Viral Load Testing"/>
+      <description value="Logically groups all resources into a single document structure."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/vl-composition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/laboratory-report-organization-information"/>
+      </reference>
+      <name value="Laboratory Report Organization Information Codes"/>
+      <description value="Used by the relevant section defintions in the Composition resource."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/laboratory-report-specimen-information"/>
+      </reference>
+      <name value="Laboratory Report Specimen Information Codes"/>
+      <description value="Used by the relevant section defintions in the Composition resource."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/laboratory-report-specimen-transportation"/>
+      </reference>
+      <name value="Laboratory Report Specimen Transportation Codes"/>
+      <description value="Used by the relevant section defintions in the Composition resource."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/HIVOrganizationExample"/>
+      </reference>
+      <name value="Organization"/>
+      <description value="Represents an organization associated with health services."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-organization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-age-months"/>
+      </reference>
+      <name value="Patient Age In Months"/>
+      <description value="Age of the patient calculated in months."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-age-years"/>
+      </reference>
+      <name value="Patient Age In Years"/>
+      <description value="Age of the patient calculated in years."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-patient-consent-for-sms-notifications"/>
+      </reference>
+      <name value="Patient Consent for SMS Notifications"/>
+      <description value="Patient Consent for SMS Notifications"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-patient-pregnant"/>
+      </reference>
+      <name value="Patient Pregnancy Status Observation"/>
+      <description value="Represents the pregnancy status of a patient."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PatientPregnantExample"/>
+      </reference>
+      <name value="Patient Pregnancy Status Observation"/>
+      <description value="Represents the pregnancy status of a patient."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-patient-pregnant"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-patient-pregnant"/>
+      </reference>
+      <name value="Patient Pregnant"/>
+      <description value="Used by the observation to indicate whether a patient is pregnant."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/performing-organization"/>
+      </reference>
+      <name value="Performing Organization"/>
+      <description value="Organization responsible for carrying out the HIV testing services."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/PerformingOrganizationExample"/>
+      </reference>
+      <name value="Performing Organization"/>
+      <description value="Organization responsible for carrying out the HIV testing services."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/performing-organization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/performing-organization-district-index"/>
+      </reference>
+      <name value="Performing Organization District"/>
+      <description value="The district index for the performing organization."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/performing-organization-province-index"/>
+      </reference>
+      <name value="Performing Organization Province"/>
+      <description value="The province index for the performing organization."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-practitioner"/>
+      </reference>
+      <name value="Practitioner"/>
+      <description value="Represents the practitioners: (1) who requested the VL lab order, (2) who must perform the VL examination &#xA;    and (3) who is responsible for interpreting the results."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/RequestingPractitionerExample"/>
+      </reference>
+      <name value="Practitioner"/>
+      <description value="Represents the practitioner who requested the VL lab order."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/PerformingPractitionerExample"/>
+      </reference>
+      <name value="Practitioner"/>
+      <description value="Represents the practitioner who must perform the VL examination."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/ObservationPerformingPractitionerExample"/>
+      </reference>
+      <name value="Practitioner"/>
+      <description value="Represents the practitioner who is responsible for the observation."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/ResultsInterpreterExample"/>
+      </reference>
+      <name value="Practitioner"/>
+      <description value="Represents the practitioner who is responsible for interpreting the results."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/hiv-practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-reason-for-assessment"/>
+      </reference>
+      <name value="Reason for Assessment or Test Not Performed"/>
+      <description value="A list of reasons associated with the service request for the lab order."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/reason-for-hiv-testing"/>
+      </reference>
+      <name value="Reason for HIV testing Observation"/>
+      <description value="Represents the reason for HIV VL testing services."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ReasonForHIVTestingExample"/>
+      </reference>
+      <name value="Reason for HIV testing Observation"/>
+      <description value="Represents the reason for HIV VL testing services."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/reason-for-hiv-testing"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-reason-arv-regimen-change"/>
+      </reference>
+      <name value="Reasons for ARV Regimen Change"/>
+      <description value="Used by the ARV treatment careplan to indicate the reason why a patient had their ARV regimen changed."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/receive-sms-messages"/>
+      </reference>
+      <name value="Receive SMS Messages Consent"/>
+      <description value="Represents a patient’s consent to receive Short Message Service (SMS) messages."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Consent"/>
+      </extension>
+      <reference>
+        <reference value="Consent/DoNotReceiveSMSMessagesExample"/>
+      </reference>
+      <name value="Receive SMS Messages Consent"/>
+      <description value="Represents an indication that a patient does not consent to receiving SMS messages."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Consent"/>
+      </extension>
+      <reference>
+        <reference value="Consent/ReceiveSMSMessagesExample"/>
+      </reference>
+      <name value="Receive SMS Messages Consent"/>
+      <description value="Represents an indication that a patient does consent to receiving SMS messages."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/receive-sms-messages"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-repeat-test-result"/>
+      </reference>
+      <name value="Repeat HIV VL Lab Result Observation"/>
+      <description value="Represents the result of the repeat VL test."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/RepeatHIVTestResultExample"/>
+      </reference>
+      <name value="Repeat HIV VL Lab Result Observation"/>
+      <description value="Represents the result of the repeat VL test."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-repeat-test-result"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/requesting-organization"/>
+      </reference>
+      <name value="Requesting Organization"/>
+      <description value="Organization requesting for HIV testing services."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/RequestingOrganizationExample"/>
+      </reference>
+      <name value="Requesting Organization"/>
+      <description value="Organization requesting for HIV testing services."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/requesting-organization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/result-dispatched-to-facility"/>
+      </reference>
+      <name value="Result Dispatched"/>
+      <description value="Represents the transport request for the VL examination result to be returned to the requesting facility."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Transport"/>
+      </extension>
+      <reference>
+        <reference value="Transport/ResultDispatchedToRequestingFacilityExample"/>
+      </reference>
+      <name value="Result Dispatched"/>
+      <description value="Represents the transport request for the VL examination result to be returned to the requesting facility."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/result-dispatched-to-facility"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/result-status-index"/>
+      </reference>
+      <name value="Result Status Index"/>
+      <description value="The result status index."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sample-dispatched-to-lab"/>
+      </reference>
+      <name value="Sample Dispatched"/>
+      <description value="Represents the transport request for the VL specimen to be sent to the lab."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Transport"/>
+      </extension>
+      <reference>
+        <reference value="Transport/SampleDispatchedToLabExample"/>
+      </reference>
+      <name value="Sample Dispatched"/>
+      <description value="Represents the transport request for the VL specimen to be sent to the lab."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/sample-dispatched-to-lab"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sample-rejected-index"/>
+      </reference>
+      <name value="Sample Rejected Index"/>
+      <description value="The sample rejection index."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sample-reordered"/>
+      </reference>
+      <name value="Sample reordered"/>
+      <description value="An indication whether the sample was reordered."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/specimen-preservation"/>
+      </reference>
+      <name value="Specimen Conservation"/>
+      <description value="Is used to store specimen conservation data for the VL lab order. In other words, this profile is useful for documenting the ideal &#xA;    preservation and/or transportation temperatures (low/high) of the specimen before it gets tested. In addition, this resource is used &#xA;    to document the maximum preservation time for these temperatures and also includes preservation instructions."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SpecimenDefinition"/>
+      </extension>
+      <reference>
+        <reference value="SpecimenDefinition/SpecimenConservationExample"/>
+      </reference>
+      <name value="Specimen Conservation"/>
+      <description value="Is used to store specimen conservation data for the VL lab order. In other words, this profile is useful for documenting the ideal &#xA;    preservation and/or transportation temperatures (low/high) of the specimen before it gets tested. In addition, this resource is used &#xA;    to document the maximum preservation time for these temperatures and also includes preservation instructions."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/specimen-preservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-specimen-type"/>
+      </reference>
+      <name value="Specimen Type Used In Viral Load testing"/>
+      <description value="A list of specimen types."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-suspend-treatment-test-result"/>
+      </reference>
+      <name value="Suspended Treatment HIV VL Lab Result Observation"/>
+      <description value="Represents the result of the VL test for patient's who suspended treatment."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SuspendTreatmentHIVTestResultExample"/>
+      </reference>
+      <name value="Suspended Treatment HIV VL Lab Result Observation"/>
+      <description value="Represents the result of the VL test for patient's who suspended treatment."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-suspend-treatment-test-result"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/target-facility-encounter"/>
+      </reference>
+      <name value="Target Facility Encounter"/>
+      <description value="Represents the current facility at which the patient is receiving health services."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/TargetFacilityEncounterExample"/>
+      </reference>
+      <name value="Target Facility Encounter"/>
+      <description value="Represents the current facility at which the patient is receiving health services."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/target-facility-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/result-entered-manually"/>
+      </reference>
+      <name value="Test Result Entered Manually"/>
+      <description value="An indication whether the test result was entered manually."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-for-testing"/>
+      </reference>
+      <name value="Testing Platform"/>
+      <description value="The device platform used for testing."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/TestingPlatformExample"/>
+      </reference>
+      <name value="Testing Platform"/>
+      <description value="The device platform used for testing."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/device-for-testing"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/transport-location"/>
+      </reference>
+      <name value="Transport Location"/>
+      <description value="Represents the names of the requested and current locations associated with the transport activity (VL specimen sent to lab, VL result returned to facility)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/TransportRequestedLocationExample"/>
+      </reference>
+      <name value="Transport Location"/>
+      <description value="Represents the name of the requested location associated with the transport activity."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/TransportCurrentLocationExample"/>
+      </reference>
+      <name value="Transport Location"/>
+      <description value="Represents the name of the current location associated with the transport activity."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/transport-location"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-log"/>
+      </reference>
+      <name value="Viral Load Log Observation"/>
+      <description value="Represents the log value for the routine VL test result."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HIVTestResultViralLoadLogExample"/>
+      </reference>
+      <name value="Viral Load Log Observation"/>
+      <description value="Represents the log value for the routine VL test result."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-log"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-test-result-absolute-decimal"/>
+      </reference>
+      <name value="Viral Load Result Absolute Decimal Observation"/>
+      <description value="Represents the absolute decimal value for the routine VL test result"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HIVTestResultAbsoluteDecimalExample"/>
+      </reference>
+      <name value="Viral Load Result Absolute Decimal Observation"/>
+      <description value="Represents the absolute decimal value for the routine VL test result"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-test-result-absolute-decimal"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/viral-load-specimen"/>
+      </reference>
+      <name value="Viral Load Specimen"/>
+      <description value="Represents the VL test sample that was collected for the service request."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Specimen"/>
+      </extension>
+      <reference>
+        <reference value="Specimen/VLSpecimenExample"/>
+      </reference>
+      <name value="Viral Load Specimen"/>
+      <description value="Represents the VL test sample that was collected for the service request."/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"/>
+      <profile value="http://openhie.org/fhir/rwanda-hiv/StructureDefinition/viral-load-specimen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-vl-suppression"/>
+      </reference>
+      <name value="Viral Load Suppressions Status"/>
+      <description value="Describes a patient's current viral load status."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-reason-sample-cancelled-or-rejected"/>
+      </reference>
+      <name value="VLSMS Provided Reasons For Cancelling/Rejecting Lab Order"/>
+      <description value="Reasons why a lab order was cancelled or rejected."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-reason-for-assessment"/>
+      </reference>
+      <name value="VLSMS Provided Reasons For Testing"/>
+      <description value="Reasons why a sample will be tested."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/VLSMS-VL-Request-Transactional"/>
+      </reference>
+      <name value="VLSMS VL Request Bundle"/>
+      <description value="Represents the VLSMS VL Request Bundle (Transactional Type)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/VLSMS-VL-Request-Document"/>
+      </reference>
+      <name value="VLSMS VL Request Bundle"/>
+      <description value="Represents the VLSMS VL Request Bundle (Document Type)."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/VLSMSVLResult"/>
+      </reference>
+      <name value="VLSMS VL Result Bundle"/>
+      <description value="Represents the VLSMS VL Result Bundle."/>
+      <isExample value="true"/>
+    </resource>
+    <page>
+      <sourceUrl value="toc.html"/>
+      <name value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <sourceUrl value="index.html"/>
+        <name value="index.html"/>
+        <title value="Home"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <sourceUrl value="changes.html"/>
+        <name value="changes.html"/>
+        <title value="Changes"/>
+        <generation value="html"/>
+      </page>
+    </page>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>
+      <value value="2021+"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="STU1"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-qa"/>
+      </code>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-temp"/>
+      </code>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-output"/>
+      </code>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-tx-cache"/>
+      </code>
+      <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-suppressed-warnings"/>
+      </code>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-history"/>
+      </code>
+      <value value="http://openhie.org/fhir/rwanda-hiv/history.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-html"/>
+      </code>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-md"/>
+      </code>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-contact"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-context"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-copyright"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-jurisdiction"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-license"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-publisher"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-version"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="active-tables"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="fmm-definition"/>
+      </code>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="propagate-status"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludelogbinaryformat"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="tabbed-snapshots"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>
